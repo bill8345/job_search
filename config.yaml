@@ -1,0 +1,44 @@
+# ============================================
+# Job Auto Search 搜尋設定
+# ============================================
+
+search:
+  # 搜尋關鍵字（可多個）
+  keywords:
+    - "data analyst"
+    - "數據分析"
+    - "資料分析"
+    - "商業分析"
+    - "business analyst"
+    
+
+  # 搜尋地區
+  areas:
+    - "台北市"
+    - "新北市"
+
+  # 經驗年資範圍 [最低, 最高]（年）
+  experience_range: [1, 5]
+
+  # 最低薪資（月薪，0 表示不限）
+  salary_min: 0
+
+  # 工作類型: full_time, part_time, contract, all
+  job_type: "full_time"
+
+# 各平台設定
+platforms:
+  104:
+    enabled: true
+    max_pages: 3
+  cakeresume:
+    enabled: true
+    max_pages: 3
+  linkedin:
+    enabled: true
+    max_results: 30
+
+# 輸出設定
+output:
+  csv_path: "results/jobs.csv"
+  dashboard_path: "results/dashboard.html"

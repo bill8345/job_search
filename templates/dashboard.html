@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職缺搜尋結果 Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border-bottom: 1px solid #334155;
+            padding: 24px 32px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #f8fafc;
+        }
+
+        .header .subtitle {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 24px 32px;
+        }
+
+        .stat-card {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #334155;
+        }
+
+        .stat-card .label {
+            font-size: 13px;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-card .value {
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        .stat-card .value.green { color: #4ade80; }
+        .stat-card .value.blue { color: #60a5fa; }
+        .stat-card .value.yellow { color: #facc15; }
+        .stat-card .value.purple { color: #c084fc; }
+
+        .content {
+            padding: 0 32px 32px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 24px 0 16px;
+            color: #f8fafc;
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: #1e293b;
+            border: 1px solid #334155;
+            color: #e2e8f0;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: #3b82f6;
+            border-color: #3b82f6;
+            color: white;
+        }
+
+        .search-input {
+            background: #1e293b;
+            border: 1px solid #334155;
+            color: #e2e8f0;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            width: 250px;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .job-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: #1e293b;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #334155;
+        }
+
+        .job-table thead th {
+            background: #0f172a;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 13px;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            user-select: none;
+            border-bottom: 1px solid #334155;
+        }
+
+        .job-table thead th:hover {
+            color: #e2e8f0;
+        }
+
+        .job-table tbody tr {
+            transition: background 0.15s;
+        }
+
+        .job-table tbody tr:hover {
+            background: #334155;
+        }
+
+        .job-table td {
+            padding: 14px 16px;
+            font-size: 14px;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .score-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 13px;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .score-high { background: #064e3b; color: #4ade80; }
+        .score-mid { background: #422006; color: #facc15; }
+        .score-low { background: #450a0a; color: #f87171; }
+
+        .source-tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .source-104 { background: #1e3a5f; color: #60a5fa; }
+        .source-cake { background: #3b1e5f; color: #c084fc; }
+        .source-linkedin { background: #1e4d3a; color: #4ade80; }
+
+        a { color: #60a5fa; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .chart-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .chart-card {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #334155;
+        }
+
+        .bar-chart {
+            display: flex;
+            align-items: end;
+            gap: 12px;
+            height: 120px;
+            margin-top: 16px;
+        }
+
+        .bar-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .bar {
+            width: 100%;
+            border-radius: 6px 6px 0 0;
+            min-height: 4px;
+            transition: height 0.3s;
+        }
+
+        .bar-label {
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        .bar-value {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .chart-row { grid-template-columns: 1fr; }
+            .header, .content { padding-left: 16px; padding-right: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 職缺搜尋結果</h1>
+        <div class="subtitle">產生時間: {{ generated_at }} · 共 {{ total }} 筆職缺</div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="label">總職缺數</div>
+            <div class="value blue">{{ total }}</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">平均適合度</div>
+            <div class="value purple">{{ "%.1f"|format(avg_score) }}</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">高度適合 (≥60)</div>
+            <div class="value green">{{ score_dist.high }}</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">中度適合 (30-59)</div>
+            <div class="value yellow">{{ score_dist.medium }}</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="chart-row">
+            <div class="chart-card">
+                <div class="section-title">📊 來源分佈</div>
+                <div class="bar-chart">
+                    {% for src, count in sources.items() %}
+                    <div class="bar-item">
+                        <div class="bar-value">{{ count }}</div>
+                        <div class="bar" style="height: {{ (count / total * 100) if total > 0 else 0 }}%; background: {% if src == '104' %}#60a5fa{% elif src == 'CakeResume' %}#c084fc{% else %}#4ade80{% endif %};"></div>
+                        <div class="bar-label">{{ src }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="section-title">📈 適合度分佈</div>
+                <div class="bar-chart">
+                    <div class="bar-item">
+                        <div class="bar-value">{{ score_dist.high }}</div>
+                        <div class="bar" style="height: {{ (score_dist.high / total * 100) if total > 0 else 0 }}%; background: #4ade80;"></div>
+                        <div class="bar-label">高 (≥60)</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-value">{{ score_dist.medium }}</div>
+                        <div class="bar" style="height: {{ (score_dist.medium / total * 100) if total > 0 else 0 }}%; background: #facc15;"></div>
+                        <div class="bar-label">中 (30-59)</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-value">{{ score_dist.low }}</div>
+                        <div class="bar" style="height: {{ (score_dist.low / total * 100) if total > 0 else 0 }}%; background: #f87171;"></div>
+                        <div class="bar-label">低 (<30)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">🏢 職缺列表</div>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterSource('all')">全部</button>
+            {% for src in sources.keys() %}
+            <button class="filter-btn" onclick="filterSource('{{ src }}')">{{ src }}</button>
+            {% endfor %}
+            <input class="search-input" type="text" placeholder="搜尋職缺..." oninput="searchJobs(this.value)">
+        </div>
+
+        <table class="job-table" id="jobTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">適合度 ↕</th>
+                    <th onclick="sortTable(1)">職缺名稱 ↕</th>
+                    <th onclick="sortTable(2)">公司 ↕</th>
+                    <th onclick="sortTable(3)">地點</th>
+                    <th onclick="sortTable(4)">薪資</th>
+                    <th onclick="sortTable(5)">來源</th>
+                    <th>評分原因</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for job in jobs %}
+                <tr data-source="{{ job.source }}">
+                    <td>
+                        <span class="score-badge {% if job.score >= 60 %}score-high{% elif job.score >= 30 %}score-mid{% else %}score-low{% endif %}">
+                            {{ job.score }}
+                        </span>
+                    </td>
+                    <td><a href="{{ job.url }}" target="_blank">{{ job.title }}</a></td>
+                    <td>{{ job.company }}</td>
+                    <td>{{ job.location }}</td>
+                    <td>{{ job.salary }}</td>
+                    <td>
+                        <span class="source-tag {% if job.source == '104' %}source-104{% elif job.source == 'CakeResume' %}source-cake{% else %}source-linkedin{% endif %}">
+                            {{ job.source }}
+                        </span>
+                    </td>
+                    <td>{{ job.score_reason }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        Job Auto Search · 自動產生於 {{ generated_at }}
+    </div>
+
+    <script>
+        function filterSource(source) {
+            const btns = document.querySelectorAll('.filter-btn');
+            btns.forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const rows = document.querySelectorAll('#jobTable tbody tr');
+            rows.forEach(row => {
+                if (source === 'all' || row.dataset.source === source) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        function searchJobs(query) {
+            const rows = document.querySelectorAll('#jobTable tbody tr');
+            const q = query.toLowerCase();
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(q) ? '' : 'none';
+            });
+        }
+
+        let sortDir = {};
+        function sortTable(col) {
+            const table = document.getElementById('jobTable');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            sortDir[col] = !sortDir[col];
+
+            rows.sort((a, b) => {
+                let aVal = a.cells[col].textContent.trim();
+                let bVal = b.cells[col].textContent.trim();
+
+                if (col === 0) {
+                    aVal = parseFloat(aVal) || 0;
+                    bVal = parseFloat(bVal) || 0;
+                    return sortDir[col] ? aVal - bVal : bVal - aVal;
+                }
+                return sortDir[col]
+                    ? aVal.localeCompare(bVal, 'zh-TW')
+                    : bVal.localeCompare(aVal, 'zh-TW');
+            });
+
+            rows.forEach(row => tbody.appendChild(row));
+        }
+    </script>
+</body>
+</html>
