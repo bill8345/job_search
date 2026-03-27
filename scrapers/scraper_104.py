@@ -108,13 +108,17 @@ class Scraper104(BaseScraper):
     def _parse_item(self, item: dict) -> Job | None:
         """Parse a job from the API response."""
         try:
-            job_no = item.get("jobNo", "")
-            if not job_no:
-                link = item.get("link", {})
-                job_url = link.get("job", "")
-                job_no = job_url.rstrip("/").split("/")[-1] if job_url else ""
-
-            full_url = f"https://www.104.com.tw/job/{job_no}" if job_no else ""
+            link_obj = item.get("link", {})
+            job_url = link_obj.get("job", "")
+            
+            if job_url:
+                if job_url.startswith("//"):
+                    full_url = "https:" + job_url
+                else:
+                    full_url = job_url
+            else:
+                job_no = item.get("jobNo", "")
+                full_url = f"https://www.104.com.tw/job/{job_no}" if job_no else ""
 
             # Location
             location = item.get("jobAddrNoDesc", "") or item.get("jobAddress", "")
