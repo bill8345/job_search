@@ -1,0 +1,50 @@
+name: Weekly Job Search & Deploy
+
+on:
+  schedule:
+    # 每週一 UTC 00:00 (台灣時間 08:00) 執行
+    - cron: '0 0 * * 1'
+  # 允許在 GitHub 網頁上手動點擊 "Run workflow" 執行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔍 Run Job Search (104, CakeResume, LinkedIn)
+        run: |
+          python main.py
+
+      - name: 📂 Prepare web directory
+        run: |
+          # 建立 public 資料夾作為網頁根目錄
+          mkdir -p public
+          # 將 dashboard.html 命名為 index.html 以便直接開啟
+          cp results/dashboard.html public/index.html
+          # 將 CSV 也放進去提供下載
+          cp results/jobs.csv public/jobs.csv || true
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          commit_message: "Automated job search update"
