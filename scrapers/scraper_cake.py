@@ -36,6 +36,7 @@ AREA_MAPPING = {
 
 _SALARY_RE = re.compile(r'[\d.]+萬|USD|TWD|\$', re.IGNORECASE)
 _LOCATION_RE = re.compile(r'City|District|Taiwan|市|縣|區', re.IGNORECASE)
+_TAIWAN_RE = re.compile(r'台灣|Taiwan|台北|Taipei|新北|桃園|台中|Taichung|台南|高雄|Kaohsiung|新竹|Hsinchu', re.IGNORECASE)
 
 
 class ScraperCake(BaseScraper):
@@ -55,6 +56,14 @@ class ScraperCake(BaseScraper):
                 break
             jobs.extend(page_jobs)
             time.sleep(1.5)
+
+        # CakeResume is pan-Asian; filter to Taiwan-based jobs when area is specified
+        if area:
+            before = len(jobs)
+            jobs = [j for j in jobs if not j.location or _TAIWAN_RE.search(j.location)]
+            filtered = before - len(jobs)
+            if filtered:
+                print(f"  [CakeResume] 過濾掉 {filtered} 筆非台灣職缺")
 
         return jobs
 
@@ -85,7 +94,7 @@ class ScraperCake(BaseScraper):
 
     def _parse_card(self, title_link) -> Job | None:
         try:
-            title = title_link.get_text(" ", strip=True)
+            title = title_link.get_text(strip=True)
             if not title:
                 return None
 
