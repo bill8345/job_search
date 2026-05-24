@@ -1,42 +1,72 @@
-# Bill Syu — 資深數據分析師
+# Sheng-Lan (Bill) Syu — Senior Data Analyst
 
-## 個人總結
-具備 4 年以上電商（Shopee）與保險（南山人壽）領域經驗的資深數據分析師。擅長端對端數據工作流，包含實驗設計、漏斗歸因、財務 P&L 建模以及預測性分析。擁有顯著的業務影響力實績，例如提升創作者活躍度 89% 及顯著提升預測準確率。
+## Summary
 
-## 技能
-- SQL, Presto, BigQuery
-- Python, 機器學習, XGBoost, LightGBM
-- Tableau, Looker Studio
-- A/B Testing, 行為分析, 歸因建模
-- 生命週期建模, 銷售預測, P&L 財務分析
-- 跨部門溝通, 需求定義, 結構化問題解決
-- Data Pipeline, 自動化, ETL
-- 數據分析, 資料視覺化, 統計分析
+Senior Data Analyst with 4+ years of experience in e-commerce and financial services, specializing in product analytics, A/B testing, funnel attribution, and lifecycle segmentation. Proven ability to translate ambiguous business problems into structured metrics frameworks and actionable recommendations. Experienced in AI-assisted BI workflow design and stakeholder communication at a large-scale marketplace platform.
 
-## 工作經驗
+## 技能 / Skills
 
-### 蝦皮購物 (Shopee) | 資深數據分析師 | 2022.06 – 至今
-- 設計 A/B 測試工作流，包含假設設定、隨機化邏輯、AA 檢定與統計評估
-- 開發多階段歸因模型（曝光 → 點擊 → 查看 → 下單 → 支付），識別轉換瓶頸
-- 建立「新/留存/回流/流失」指標框架，達成活躍度最高提升 89%
-- 設計直播業務損益（P&L）結構，定義營收與成本組件
-- 審核一億列以上數據，優化 KOL 直播品類組合，將高毛利品類佔比從 50% 提至 80%
-- 應用梯度提升模型（GBM）將預測誤差（MAE）從 2.5% 降至 1.2%
-- 處理 1.7 億列以上大規模數據，建立自動化數據管線，減少 50% 手動報表工時
+- SQL, Presto, BigQuery, Databricks SQL
+- Python, pandas, scikit-learn, XGBoost, LightGBM, GBDT, forecasting
+- A/B Testing, A/B 測試, Hypothesis Testing, Statistical Testing, Significance Testing
+- Funnel Analysis, 漏斗分析, Attribution Modeling, 歸因建模, Cohort Analysis
+- Lifecycle Segmentation, 生命週期分析, Retention Analysis, Churn Analysis
+- P&L Analysis, P&L 財務分析, Revenue Analysis, Profitability Analysis
+- KPI Framework Design, Dashboard, BI Automation, 數據自動化
+- Tableau, Looker Studio, Google Sheets
+- Machine Learning, 機器學習, Predictive Modeling, 預測模型
+- Data Pipeline, ETL, 資料工程, 自動化
+- 數據分析, 資料分析, Data Analytics, Business Analytics, Product Analytics
+- 商業分析, Business Analysis, Product Intelligence
+- Experimentation, Experiment Design, 實驗設計
+- Segmentation, 用戶分群, Customer Segmentation
+- GMV Analysis, E-commerce, Marketplace, Livestream Commerce
+- Statistical Analysis, 統計分析, Data-driven Decision Making
+- Cross-functional Communication, 跨部門溝通, Stakeholder Management
 
-### 南山人壽 | 數據分析師 | 2020.09 – 2021.12
-- 建立 Python 用戶分群模型，提升精準行銷投放準確度 10%
-- 利用超過 19 萬筆記錄進行人力產能分析，優化案件處理流程，提升效率 30%
+## 工作經驗 / Experience
 
-## 學歷
-- 國立台灣大學 | 農業經濟學碩士
-- 國立成功大學 | 經濟學學士
+### Senior Data Analyst | Shopee Taiwan | Jun 2022 – Present
 
-## 期望職位
-- 資深數據分析師
+- Designed and analyzed A/B tests for promotional and livestream features, including hypothesis design, AA validation, significance testing, and cannibalization analysis
+- Decomposed livestream GMV growth into key levers (streamer count, ABS, order volume) and identified high-potential product categories for scalable expansion
+- Built category prioritization framework using YoY ABS, growth momentum, and streamer diversity metrics
+- Developed Shopee Live funnel attribution model (impression → click → view → order → payment), managing 170M+ rows of behavioral data
+- Built Shopee Game attribution framework with 24-hour conversion window to quantify traffic source contribution to downstream GMV and orders
+- Designed streamer lifecycle segmentation (New / Retained / Reactivated / Churned) and retention tracking framework; supported active streamer growth of ~89%
+- Built livestream P&L data structure reconciling GMV, NMV, commission, PRM cost, CIR, and take rate at order-level
+- Audited 100M+ rows of session-level data across 200+ KOL livestream sessions; optimized product mix, increasing high-margin category share from 50% to 80%
+- Developed Python-based GBDT/XGBoost/LightGBM forecasting models, reducing forecast MAE from 2.5% to 1.2%
+- Built multi-dimensional KPI framework covering 25+ sub-dimensions; automated dashboards reduced cross-team review cycle time by ~50%
+- Validated BI raw data against backend records to ensure data accuracy; resolved data scope disputes with stakeholders
+- Designed AI-powered Jira intake assistant to convert unstructured business requests into BI-ready tickets; improved ticket first-pass completion rate by ~30%
+- Built dashboard recommendation assistant that guides users to self-serve, reducing low-complexity data inquiries
+
+### Business / Data Analyst | Nanshan Life Insurance | Sep 2020 – Dec 2021
+
+- Built SQL/Python-based data automation pipelines integrating 190,000+ records, reducing manual reporting effort
+- Developed online service usage model and automated lead analysis pipeline; contributed to +6% increase in online service adoption and +10% improvement in lead-to-conversion rate
+- Designed pandemic-period lead segmentation model to prioritize high-potential prospects; case-handling efficiency improved by +30%
+- Built weekly branch monitoring dashboard for management to track sales team performance and operational KPIs
+
+## 學歷 / Education
+
+- M.S., Agricultural Economics | National Taiwan University (NTU)
+- B.S., Economics | National Cheng Kung University (NCKU)
+
+## 期望職位 / Desired Positions
+
 - Senior Data Analyst
+- 資深數據分析師
+- 資深資料分析師
 - Data Analyst
-- 商業分析師
+- 數據分析師
+- 資料分析師
 - Business Analyst
-- 數據科學家
+- 商業分析師
+- Product Analyst
 - Data Scientist
+- 數據科學家
+- Product Intelligence
+- BI Analyst
+- Analytics Engineer

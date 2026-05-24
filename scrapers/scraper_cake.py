@@ -6,6 +6,7 @@ and BeautifulSoup HTML parsing.
 
 from __future__ import annotations
 
+import re
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -22,7 +23,6 @@ HEADERS = {
     "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7",
 }
 
-# CakeResume area mapping
 AREA_MAPPING = {
     "台北市": "Taipei City",
     "新北市": "New Taipei City",
@@ -34,6 +34,9 @@ AREA_MAPPING = {
     "新竹縣": "Hsinchu",
 }
 
+_SALARY_RE = re.compile(r'[\d.]+萬|USD|TWD|\$', re.IGNORECASE)
+_LOCATION_RE = re.compile(r'City|District|Taiwan|市|縣|區', re.IGNORECASE)
+
 
 class ScraperCake(BaseScraper):
     """Scraper for CakeResume (cake.me) job listings."""
@@ -43,7 +46,6 @@ class ScraperCake(BaseScraper):
         return "CakeResume"
 
     def search(self, keyword: str, area: str = "") -> list[Job]:
-        """Search CakeResume for jobs."""
         max_pages = self.config.get("max_pages", 3)
         jobs = []
 
@@ -52,19 +54,14 @@ class ScraperCake(BaseScraper):
             if not page_jobs:
                 break
             jobs.extend(page_jobs)
-            time.sleep(1.5)  # Rate limiting
+            time.sleep(1.5)
 
         return jobs
 
     def _search_page(self, keyword: str, area: str, page: int) -> list[Job]:
-        """Fetch and parse a single page of search results."""
-        params = {
-            "q": keyword,
-            "page": page,
-        }
+        params = {"q": keyword, "page": page}
         if area:
-            mapped = AREA_MAPPING.get(area, area)
-            params["location"] = mapped
+            params["location"] = AREA_MAPPING.get(area, area)
 
         try:
             resp = requests.get(BASE_URL, headers=HEADERS, params=params, timeout=15)
@@ -74,60 +71,62 @@ class ScraperCake(BaseScraper):
             return []
 
         soup = BeautifulSoup(resp.text, "html.parser")
+        title_links = soup.select('a[class*="__jobTitle"]')
+        if not title_links:
+            return []
+
         jobs = []
-
-        # CakeResume job cards - try multiple selectors for robustness
-        job_cards = soup.select('a[class*="JobSearchItem"]')
-        if not job_cards:
-            job_cards = soup.select('div[class*="job-item"]')
-        if not job_cards:
-            job_cards = soup.select('a[href*="/jobs/"]')
-
-        for card in job_cards:
-            job = self._parse_card(card)
+        for title_link in title_links:
+            job = self._parse_card(title_link)
             if job:
                 jobs.append(job)
 
         return jobs
 
-    def _parse_card(self, card) -> Job | None:
-        """Parse a job card element into a Job object."""
+    def _parse_card(self, title_link) -> Job | None:
         try:
-            # Extract URL
-            href = card.get("href", "")
-            if not href:
-                link = card.find("a", href=True)
-                href = link["href"] if link else ""
-            
-            if not href or "/jobs/" not in href:
+            title = title_link.get_text(" ", strip=True)
+            if not title:
                 return None
 
+            href = title_link.get("href", "")
+            if not href:
+                return None
             url = href if href.startswith("http") else f"https://www.cake.me{href}"
 
-            # Extract text content
-            title_el = card.select_one('h2, h3, [class*="title"], [class*="Title"]')
-            title = title_el.get_text(strip=True) if title_el else ""
+            # Navigate up to the card container (ancestor that has InlineMessage)
+            card = title_link
+            for _ in range(10):
+                if card.parent is None:
+                    break
+                card = card.parent
+                if card.select('div[class*="InlineMessage"]'):
+                    break
 
-            company_el = card.select_one('[class*="company"], [class*="Company"]')
+            company_el = card.select_one('a[class*="__companyName"]')
             company = company_el.get_text(strip=True) if company_el else ""
 
-            location_el = card.select_one('[class*="location"], [class*="Location"]')
-            location = location_el.get_text(strip=True) if location_el else ""
+            desc_el = card.select_one('div[class*="__description"]')
+            listing_desc = desc_el.get_text(strip=True) if desc_el else ""
 
-            salary_el = card.select_one('[class*="salary"], [class*="Salary"]')
-            salary = salary_el.get_text(strip=True) if salary_el else "面議"
+            tags = [
+                t.get_text(strip=True)
+                for t in card.select('div[class*="Tags-module"] div[class*="__item"]')
+                if t.get_text(strip=True) not in ("…", "")
+            ]
 
-            if not title:
-                # Fallback: get all text
-                all_text = card.get_text(separator="|", strip=True).split("|")
-                title = all_text[0] if all_text else ""
-                company = all_text[1] if len(all_text) > 1 else ""
+            labels = [
+                m.get_text(" ", strip=True)
+                for m in card.select('div[class*="InlineMessage"] div[class*="__label"]')
+            ]
+            salary = next((l for l in labels if _SALARY_RE.search(l)), "面議")
+            location = next(
+                (l for l in labels if _LOCATION_RE.search(l) and l != salary), ""
+            )
 
-            if not title:
-                return None
-
-            # Get detail page for description
             description, requirements = self._get_detail(url)
+            if not description:
+                description = listing_desc
 
             return Job(
                 title=title,
@@ -138,46 +137,38 @@ class ScraperCake(BaseScraper):
                 requirements=requirements,
                 url=url,
                 source="CakeResume",
+                tags=tags,
             )
         except Exception as e:
-            print(f"  [CakeResume] 解析職缺卡片失敗: {e}")
+            print(f"  [CakeResume] 解析職缺失敗: {e}")
             return None
 
     def _get_detail(self, url: str) -> tuple[str, str]:
-        """Fetch job detail page for description and requirements."""
         try:
             time.sleep(0.8)
             resp = requests.get(url, headers=HEADERS, timeout=15)
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
 
-            # Try to find description sections
-            desc_parts = []
-            req_parts = []
+            left = soup.select_one('div[class*="JobDescriptionLeftColumn"]')
+            if not left:
+                return ("", "")
 
-            # Look for common section containers
-            sections = soup.select('div[class*="ContentSection"], div[class*="content-section"], section')
-            for section in sections:
-                heading = section.find(["h2", "h3", "h4"])
-                text = section.get_text(strip=True)
-                if heading:
-                    heading_text = heading.get_text(strip=True).lower()
-                    if any(k in heading_text for k in ["要求", "條件", "requirement", "qualification"]):
-                        req_parts.append(text)
-                    else:
-                        desc_parts.append(text)
-                elif text:
-                    desc_parts.append(text)
+            # Use full text + regex split — more robust than DOM traversal
+            text = left.get_text(separator="\n", strip=True)
 
-            # Fallback: get main content area
-            if not desc_parts:
-                main = soup.select_one('main, [class*="JobDescription"], [class*="job-description"]')
-                if main:
-                    desc_parts.append(main.get_text(strip=True)[:1000])
-
-            return (
-                "\n".join(desc_parts)[:1000],
-                "\n".join(req_parts)[:500],
+            desc_match = re.search(
+                r'職缺描述\n?(.*?)(?:任職條件|職務需求|面試流程|$)',
+                text, re.DOTALL
             )
+            req_match = re.search(
+                r'(?:任職條件|職務需求)\n?(.*?)(?:面試流程|$)',
+                text, re.DOTALL
+            )
+
+            description = desc_match.group(1).strip() if desc_match else ""
+            requirements = req_match.group(1).strip() if req_match else ""
+
+            return (description[:2000], requirements[:1000])
         except Exception:
             return ("", "")

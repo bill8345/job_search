@@ -48,8 +48,8 @@ def _extract_skills(text: str) -> list[str]:
     skill_section = _extract_section(text, ["技能", "Skills", "專長"])
     
     for line in skill_section:
-        # Split by common delimiters
-        parts = re.split(r"[,，、/|]", line)
+        # Split by comma-like delimiters only; / is preserved (e.g. A/B Testing)
+        parts = re.split(r"[,，、]", line)
         for part in parts:
             clean = part.strip().strip("-").strip("*").strip()
             if clean and len(clean) < 50:  # Reasonable skill length

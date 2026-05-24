@@ -22,6 +22,7 @@ from scrapers.scraper_linkedin import ScraperLinkedIn
 from scoring.resume_parser import parse_resume
 from scoring.scorer import KeywordScorer
 from output.exporter import Exporter
+from storage.dedup import load_seen, save_seen, filter_new, mark_seen
 
 
 console = Console()
@@ -50,7 +51,7 @@ def load_config(config_path: str = "config.yaml") -> dict:
 
 
 def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None,
-               platform: str = None):
+               platform: str = None, no_dedup: bool = False):
     """Execute job search across all enabled platforms."""
     search_config = config.get("search", {})
     platform_config = config.get("platforms", {})
@@ -93,8 +94,8 @@ def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None
         console.print("\n[yellow]未找到任何職缺，請嘗試調整搜尋條件[/yellow]")
         return
 
-    # Deduplicate by URL
-    seen_urls = set()
+    # Step 1: deduplicate within this run by URL
+    seen_urls: set = set()
     unique_jobs = []
     for job in all_jobs:
         if job.url and job.url not in seen_urls:
@@ -103,18 +104,40 @@ def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None
         elif not job.url:
             unique_jobs.append(job)
 
-    console.print(f"\n📋 共找到 {len(unique_jobs)} 筆不重複職缺")
+    # Step 2: filter out jobs already seen in previous runs
+    dedup_store = load_seen()
+    if no_dedup:
+        new_jobs = unique_jobs
+        skipped = 0
+    else:
+        new_jobs, skipped = filter_new(unique_jobs, dedup_store)
+
+    console.print(
+        f"\n📋 本次抓到 {len(unique_jobs)} 筆不重複職缺"
+        + (f"，過濾掉 [yellow]{skipped} 筆已看過[/yellow]" if skipped else "")
+        + f"，[green]{len(new_jobs)} 筆新職缺[/green]"
+    )
+
+    if not new_jobs:
+        console.print("[yellow]本週無新職缺，下週再來！[/yellow]")
+        return
 
     # Score jobs
     console.print("📊 正在評分...")
     resume_data = parse_resume("resume.md")
     scorer = KeywordScorer(resume_data, search_config)
-    scored_jobs = scorer.score_jobs(unique_jobs)
+    scored_jobs = scorer.score_jobs(new_jobs)
 
     # Export results
     console.print("📤 正在輸出結果...")
     exporter = Exporter(scored_jobs, output_config)
     csv_path, html_path = exporter.export_all()
+
+    # Step 3: persist seen URLs so next run knows about them
+    if not no_dedup:
+        updated_store = mark_seen(new_jobs, dedup_store)
+        save_seen(updated_store)
+        console.print(f"   💾 已記錄 {len(new_jobs)} 筆新職缺到去重資料庫（共 {len(updated_store)} 筆）")
 
     console.print(f"\n✨ [bold green]完成！[/bold green]")
     console.print(f"   📄 CSV:       {csv_path}")
@@ -160,6 +183,11 @@ def main():
         default="resume.md",
         help="履歷檔案路徑 (預設: resume.md)",
     )
+    parser.add_argument(
+        "--no-dedup",
+        action="store_true",
+        help="略過跨週去重，顯示所有職缺（測試用）",
+    )
 
     args = parser.parse_args()
 
@@ -171,6 +199,7 @@ def main():
         keywords=args.keyword,
         areas=args.area,
         platform=args.platform,
+        no_dedup=args.no_dedup,
     )
 
 
