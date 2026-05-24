@@ -1,15 +1,20 @@
 """LinkedIn Job Scraper.
 
-Uses LinkedIn's public guest jobs API which doesn't require authentication.
-Endpoint: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search
+Uses LinkedIn's public guest APIs which don't require authentication.
+Search: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search
+Detail: https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}
 """
 
 from __future__ import annotations
 
+import re
 import time
 import requests
 from bs4 import BeautifulSoup
 from scrapers.base import Job, BaseScraper
+
+GUEST_DETAIL_URL = "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job_id}"
+_JOB_ID_RE = re.compile(r'-(\d+)$')
 
 GUEST_JOBS_URL = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
 
@@ -128,12 +133,14 @@ class ScraperLinkedIn(BaseScraper):
             if not title:
                 return None
 
+            description = self._get_detail(url)
+
             return Job(
                 title=title,
                 company=company,
                 location=location,
-                salary="面議",  # LinkedIn rarely shows salary
-                description="",
+                salary="面議",
+                description=description,
                 requirements="",
                 url=url,
                 source="LinkedIn",
@@ -141,3 +148,25 @@ class ScraperLinkedIn(BaseScraper):
             )
         except Exception:
             return None
+
+    def _get_detail(self, url: str) -> str:
+        """Fetch full job description via LinkedIn's public guest jobPosting API."""
+        match = _JOB_ID_RE.search(url.rstrip("/"))
+        if not match:
+            return ""
+        job_id = match.group(1)
+
+        try:
+            time.sleep(0.8)
+            resp = requests.get(
+                GUEST_DETAIL_URL.format(job_id=job_id),
+                headers=HEADERS,
+                timeout=15,
+            )
+            if resp.status_code != 200:
+                return ""
+            soup = BeautifulSoup(resp.text, "html.parser")
+            desc = soup.select_one(".description__text")
+            return desc.get_text(separator=" ", strip=True)[:3000] if desc else ""
+        except Exception:
+            return ""
