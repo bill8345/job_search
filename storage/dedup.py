@@ -7,21 +7,25 @@ so GitHub Actions can filter already-seen jobs on each weekly run.
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 _DEFAULT_PATH = "data/seen_jobs.json"
+TTL_DAYS = 28
 
 
 def load_seen(store_path: str = _DEFAULT_PATH) -> dict:
-    """Load seen job URL store. Returns empty dict if file missing or corrupt."""
+    """Load seen job URL store, dropping entries older than TTL_DAYS."""
     path = Path(store_path)
     if not path.exists():
         return {}
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        raw = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return {}
+
+    cutoff = (date.today() - timedelta(days=TTL_DAYS)).isoformat()
+    return {url: v for url, v in raw.items() if v.get("first_seen", "") >= cutoff}
 
 
 def save_seen(seen: dict, store_path: str = _DEFAULT_PATH) -> None:
