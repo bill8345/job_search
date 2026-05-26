@@ -55,15 +55,38 @@ class Scraper104(BaseScraper):
         return "104"
 
     def search(self, keyword: str, area: str = "") -> list[Job]:
-        """Search 104 for jobs matching keyword and area."""
+        """Search 104 using job_searches config (jobcat+keyword) when available, else keyword only."""
         session = self._get_session()
         if not session:
             return []
 
         area_code = AREA_CODES.get(area, "")
-        max_pages = self.config.get("max_pages", 3)
-        jobs = []
+        max_pages = self.config.get("max_pages", 15)
+        job_searches = self.config.get("job_searches", [])
 
+        # jobcat mode: iterate over configured searches, ignore passed-in keyword
+        if job_searches:
+            seen_urls: set[str] = set()
+            jobs: list[Job] = []
+            for search_cfg in job_searches:
+                for page in range(1, max_pages + 1):
+                    page_jobs = self._search_page(
+                        session,
+                        keyword=search_cfg.get("keyword", ""),
+                        area_code=area_code,
+                        page=page,
+                        jobcat=search_cfg.get("jobcat", ""),
+                    )
+                    if not page_jobs:
+                        break
+                    new = [j for j in page_jobs if j.url not in seen_urls]
+                    seen_urls.update(j.url for j in new)
+                    jobs.extend(new)
+                    time.sleep(0.5)
+            return jobs
+
+        # fallback: original keyword-only search
+        jobs = []
         for page in range(1, max_pages + 1):
             page_jobs = self._search_page(session, keyword, area_code, page)
             if not page_jobs:
@@ -73,14 +96,17 @@ class Scraper104(BaseScraper):
 
         return jobs
 
-    def _search_page(self, session, keyword: str, area_code: str, page: int) -> list[Job]:
+    def _search_page(self, session, keyword: str, area_code: str, page: int, jobcat: str = "") -> list[Job]:
         """Fetch a single page of search results from the API."""
         params = {
-            "keyword": keyword,
-            "order": "15",
+            "order": "1",
             "pagesize": "20",
             "page": str(page),
         }
+        if keyword:
+            params["keyword"] = keyword
+        if jobcat:
+            params["jobcat"] = jobcat
         if area_code:
             params["area"] = area_code
 

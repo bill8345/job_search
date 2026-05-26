@@ -3,14 +3,13 @@
 # ============================================
 
 search:
-  # 搜尋關鍵字（可多個）
+  # 搜尋關鍵字（CakeResume / LinkedIn 用；104 改用 job_categories）
   keywords:
     - "data analyst"
+    - "business analyst"
     - "數據分析"
     - "資料分析"
     - "商業分析"
-    - "business analyst"
-    
 
   # 搜尋地區
   areas:
@@ -30,7 +29,16 @@ search:
 platforms:
   104:
     enabled: true
-    max_pages: 3
+    max_pages: 15
+    # 104 職缺類別碼 + 關鍵字組合（比純 keyword 精準 10x）
+    # jobcat 縮小到相關分類，keyword 再過濾職稱
+    job_searches:
+      - jobcat: "2007001018"   # 數據分析師/資料分析師
+        keyword: "analyst"
+      - jobcat: "2007001018"
+        keyword: "分析師"
+      - jobcat: "2007001018"
+        keyword: "intelligence"
   cakeresume:
     enabled: true
     max_pages: 3
