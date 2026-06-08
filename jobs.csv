@@ -1,2000 +1,473 @@
 ﻿職缺名稱,公司,地點,薪資,來源,發布日期,適合度分數,評分原因,連結,職缺描述,要求條件
-"Senior Data Analyst, Affiliate Marketing",Coupang,台北,面議,LinkedIn,2026-06-01,98.0,"技能匹配(11): sql, python, dashboard, tableau, data pipeline, etl; 職稱完全匹配: senior data analyst; 地點符合: 台北; [技能40+職稱30+關鍵字18+地點10]",https://tw.linkedin.com/jobs/view/senior-data-analyst-affiliate-marketing-at-coupang-4422827057,Company Introduction Coupang is reimagining the shopping experience with the goal of wowing each customer from the instant they open the Coupang app to the moment an order is delivered to their door. ...,
-數據分析師DataAnalyst,WeMo Scooter,"松山區, 台北市, 台灣",面議,CakeResume,,96.3,"技能匹配(9): sql, bigquery, python, xgboost, lightgbm, machine learning; 職稱完全匹配: 數據分析師; 地點符合: 松山區, 台北市, 台灣; [技能40+職稱30+關鍵字16+地點10]",https://www.cake.me/companies/wemoscooter/jobs/data-analyst-97a,"WeMo 結合共享經濟、綠能環保等理念，提供 24 小時隨租隨還共享電動機車平台服務。我們以用戶需求為核心，開發車聯網新價值，帶給消費者與企業用戶最安心的騎乘體驗。用智慧出行串連生活大小事，為城市創建更美好的生活！如果你熱愛數據、喜歡解決真實世界的商業問題，快來加入我們！
-【你的角色與任務】
-作為 Data Team 的成員，你不僅是數據的處理者，更是WeMo核心決策、營運進化與產品迭代的核心引擎...","【我們期待你具備的條件】
--卓越的溝通與問題解決能力： 具備強大的團隊合作精神與邏輯思維。能針對不同受眾（技術 / 非技術）切換溝通語言，並善用「最小可行性產品 (MVP)」概念進行期望值管理與快速迭代。
--架構性思考能力： 習慣運用 MECE 原則或議題樹拆解複雜的業務邏輯，能迅速理解需求並設計系統性的數據解方。
--商業敏感度： 面對開放性問題時，能主動提出多種假設情境並量化評估，而非僅提供單一..."
-Data Analyst,ContactLoop,"臺北市, 台灣",面議,LinkedIn,2026-06-05,88.0,"技能匹配(7): sql, python, dashboard, data pipeline, etl, 數據分析; 職稱完全匹配: senior data analyst; [技能40+職稱30+關鍵字18+地點0]",https://tw.linkedin.com/jobs/view/data-analyst-at-contactloop-4424537139,【Company Overview】 ContactLoop is dedicated to providing cutting-edge solutions for contact management and operational efficiency. Our operations team plays a vital role in ensuring that clients and c...,
-Internship - SS&P - Data Analyst Intern - Linkou,艾司摩爾,林口區,面議,LinkedIn,2026-05-20,77.3,"技能匹配(5): sql, python, dashboard, 數據分析, 資料分析; 職稱完全匹配: data analyst; [技能33+職稱30+關鍵字14+地點0]",https://tw.linkedin.com/jobs/view/internship-ss-p-data-analyst-intern-linkou-at-asml-4417038670,"Role and responsibilities Analyze procurement, inventory, and material availability datasets to improve operational visibility and process efficiency Utilize SAP ERP systems to manage, validate, and t...",
-【行銷業務部】數據分析師-營運及行銷傾向**,旋音電子股份有限公司,台北市中山區,面議,104,20260604,71.0,"技能匹配(3): 預測模型, 數據分析, 統計分析; 職稱完全匹配: 數據分析師; 地點符合: 台北市中山區; [技能20+職稱30+關鍵字11+地點10]",https://www.104.com.tw/job/8xg8m,"數據分析師負責從大量數據中提取有價值的洞察，協助企業制定決策、優化流程或解決業務問題。需具備數據處理、統計分析及數據可視化能力，並能將複雜的數據結果轉化為易懂的商業建議。
+UBEREATS: Sales Operations Data Analyst,Adecco,台北,面議,LinkedIn,2026-05-28,94.3,"技能匹配(7): sql, python, tableau, google sheets, data pipeline, 數據分析; 職稱完全匹配: data analyst; 地點符合: 台北; [技能40+職稱30+關鍵字14+地點10]",https://tw.linkedin.com/jobs/view/ubereats-sales-operations-data-analyst-at-adecco-4420258995,【Client Description】 UberEats in Taiwan is seeking a Sales Operations Data Analyst to join our rapidly growing Delivery Commercial Operations team. Our priority is to help our customer-facing sales te...,
+Data Scientist,TradeBeyond,台北,面議,LinkedIn,2026-06-02,94.0,"技能匹配(10): sql, bigquery, python, xgboost, a/b testing, dashboard; 職稱完全匹配: data scientist; 地點符合: 台北; [技能40+職稱30+關鍵字14+地點10]",https://tw.linkedin.com/jobs/view/data-scientist-at-tradebeyond-4423992130,"For more than 20 years, TradeBeyond has been advancing a more efficient, responsible supply chain. Responding to retail sourcings need for smarter, automated workflows and data transparency, we develo...",
+資深數據分析師,露天市集國際資訊股份有限公司,台北市大安區,面議,104,20260608,83.3,"技能匹配(5): sql, python, a/b 測試, 數據分析, 用戶分群; 職稱完全匹配: 資深數據分析師; 地點符合: 台北市大安區; [技能33+職稱30+關鍵字10+地點10]",https://www.104.com.tw/job/92g2q,"[這個職位的本質]
+分析與執行本身，正逐步由 AI 承擔。因此這個職位不是「來做分析的人」，而是「運用 AI 完成分析、並對結果負責的人」。
+你會大量借助 AI 加速產出，但每一個交付都要先經過你對資料口徑、上游邏輯與真實需求的校驗。產出數字本身 AI 已能勝任，關鍵在於能否判斷 AI 的產出是否偏離真實需求、是否掩蓋了更上游的設計問題。這個校準的角色，是累積實戰經驗、逐步養成判斷力的切入點。
 
-一、主要工作職責
-從本公司現有營運數據及google ADS後台等來源提取原始數據。
-數據分析與建模
-運用統計方法進行分析。
-建立預測模型或業務指標（如客戶流失率、轉化率）。
-
-二、數據可視化與報告
-向非技術部門解釋分析結果，...",
-經營分析專員（Business Analyst）,聖東營造股份有限公司,台北市松山區,面議,104,20260603,60.7,"技能匹配(2): 自動化, 數據分析; 職稱完全匹配: business analyst; 地點符合: 台北市松山區; [技能13+職稱30+關鍵字7+地點10]",https://www.104.com.tw/job/929ga,"職務使命｜Objective
-負責集團經營數據蒐集、分析與管理報表建置，協助經營管理中心掌握各BU營運績效、異常風險與改善機會，提供董事長、經管副總及各事業主管決策所需資訊，建立集團經營分析體系。
-
-工作內容｜Responsibilities
-一、經營數據分析與管理報表
-• 建立週報、月報及經營分析報表
-• KPI追蹤與差異分析
-• 建立董事長經營儀表板
-
-二、集團經營月會支援
-• 月會資料整合與...",
-【產品處】[數據組 Data Team]數據分析師/資料分析師/Data analyst,域動行銷股份有限公司,台北市松山區,面議,104,20260604,60.0,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 台北市松山區; [技能13+職稱30+關鍵字7+地點10]",https://www.104.com.tw/job/8d6um,"，提供前瞻性的觀點，引領數據行銷的未來。
-
-組織介紹：
-域動Data Team是由一群對『數據分析』及『AI應用』具有研究及開發熱誠的成員所組成。在這裡你可以接觸到大量即時的使用者行為資料，並將資料科學模型應用於:
-『網路廣告投放優化』
-『網路用戶",
-BA商業分析師/系統分析師 (3010277),Accurate愛客獵-1111高階獵才中心,"台北市, 台灣",70萬 ~ 120萬 TWD / 年,CakeResume,,60.0,"技能匹配(2): 商業分析, 跨部門溝通; 職稱完全匹配: 商業分析師; 地點符合: 台北市, 台灣; [技能13+職稱30+關鍵字7+地點10]",https://www.cake.me/companies/1111headhunt/jobs/business-analyst-systems-analyst-3010277,"產業類別： 產物保險
-職責要求
-1.與業務單位溝通需求，轉化為清楚可執行的系統規格文件（BRD、FRD、流程圖）。
-2.協助專案需求分析、功能設計與系統驗收（UAT）。
-3.與開發團隊、測試團隊協作，確保系統符合業務與法規需求。
-4.參與系統優化與流程改善專案。","• 具備 BA（Business Analyst）或系統分析相關經驗。
-• 具程式背景佳，能理解系統架構與技術溝通。
-• 熟悉需求分析、文件撰寫與跨部門溝通協調。
-加分條件（優先順序）
-1. 熟悉財務或會計流程者優先（如總帳、應收應付、報表等）。
-2. 具保險業 BA 經驗尤佳，熟悉保單、理賠、再保、帳務等流程者更佳。
-人格特質：
-• 邏輯清楚、善於溝通與協調。
-• 具備責任感、能獨立作業，也能團..."
-【世界T1半導體設備外商(林口)】Data Analyst：歡迎資料分析經驗者、全球化工作環境、薪資具備市場競爭力,新加坡商立福人事顧問有限公司台灣分公司,新北市林口區,面議,104,20260601,59.3,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 新北市林口區; [技能13+職稱30+關鍵字6+地點10]",https://www.104.com.tw/job/9275f," Veldhoven 的利害關係人進行問題排除與需求對齊溝通。
-
-
-工作範圍（SCOPE OF WORK）
-a) 資料處理與報表製作（Data Processing & Reporting）
-將來自多個來源的原始資料轉換為結構化、標準化報表。
-確保",
-商業數據分析師,世銳顧問有限公司,台北市中山區,面議,104,20260514,59.3,"技能匹配(2): 數據分析, 實驗設計; 職稱完全匹配: 數據分析師; 地點符合: 台北市中山區; [技能13+職稱30+關鍵字6+地點10]",https://www.104.com.tw/job/8drp1,"題，為客戶提供具有價值的服務並且協助推動客戶的財務成長。服務內容包括：
-•	打造具有吸引力和說服力的溝通素材
-•	視覺化數據和概念以增強觀眾參與度和理解
-•	進行臨床實驗數據分析和實驗設計
-•	製作具有最新數據與圖表的醫學文獻刊物
-•	研究、理解和",
-Data Analyst 資料分析師 / Business Intelligence,新加坡商蝦皮娛樂電商有限公司台灣分公司,台北市信義區,面議,104,20260604,58.7,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 台北市信義區; [技能13+職稱30+關鍵字5+地點10]",https://www.104.com.tw/job/923cm,"The Business Intelligence Data Analyst plays a pivotal role in ensuring that Shopee makes trustworthy, reliable, and data-",
-【產品板塊】財富管理商業數據分析師,國泰世華商業銀行股份有限公司,台北市信義區,面議,104,20260311,58.7,"技能匹配(2): 預測模型, 數據分析; 職稱完全匹配: 數據分析師; 地點符合: 台北市信義區; [技能13+職稱30+關鍵字5+地點10]",https://www.104.com.tw/job/7lfz7,"(1)客戶行為及消費數據洞察分析，掌握數位理財的潛在客群並發掘業務機會點
-(2)建置預測模型/演算法，預測客戶商機、風險或行為屬性，提供商業決策建議 
-(3)執行團隊日常的例行性與專案性的數據撈取與分析",
-Sr Data Analyst,香港商雅是達電子有限公司台灣分公司,台北市內湖區,面議,104,20260605,58.3,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 台北市內湖區; [技能13+職稱30+關鍵字5+地點10]",https://www.104.com.tw/job/8sna0," for its global customers and is headquartered in Denver, Colorado.
-
-<About the Senior Data Analyst Role>
-
-As a Senior Data",
-數據分析師 Data Analyst,威摩科技股份有限公司,台北市松山區,面議,104,20260602,58.3,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 台北市松山區; [技能13+職稱30+關鍵字5+地點10]",https://www.104.com.tw/job/9294r,"的商業問題，快來加入我們！
-
-【你的角色與任務】
-作為 Data Team 的成員，你不僅是數據的處理者，更是WeMo核心決策、營運進化與產品迭代的核心引擎。你需要透過數據、洞察，發揮你的實質的影響力：
-
--成為業務與技術的雙向橋樑：具備出色的「雙",
-Senior Business Analysis (BA),台灣勤達睿股份有限公司,台北市信義區,面議,104,20260515,58.2,"技能匹配(4): sql, business analysis, cross-functional communication, stakeholder management; 職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能27+職稱12+關鍵字9+地點10]",https://www.104.com.tw/job/8me55,"Who You Are
-
-Job Description
-
-We are looking for a senior-level professional with strong knowledge of banking and credit card business processes, along with hands-on experience in Business Analysis (B...",
-數據工程師,可樂旅遊旅行社股份有限公司,台北市中山區,面議,104,20260602,52.7,"技能匹配(3): python, etl, 自動化; 職稱部分匹配: 數據科學家; 地點符合: 台北市中山區; [技能20+職稱17+關鍵字6+地點10]",https://www.104.com.tw/job/853np,"【我們在尋找這樣的你】
-我們正在尋找能解決複雜問題、對數據價值有敏銳嗅覺的夥伴。如果你熱愛嘗試新技術，並渴望看見自己的產出直接驅動公司商業成長，歡迎加入我們，共同定義旅遊業的數據未來。
-
-【團隊願景】
-數據發展組隸屬於策略發展部，核心任務是推動資料運用並創造商業價值，並積極探索 AI 技術，提升整體營運效率與決策品質。
-
-【工作內容】
-1. 設計、開發與維護數據流程，打造穩定且高效的數據基礎架構
 ...",
-"數據分析工讀生 (實習實質數據專案經驗), adidas (短期: 即日起至2026/12/31, 每周3-5天)",adidas Taiwan Limited_台灣阿迪達斯股份有限公司,台北市中山區,面議,104,20260601,52.3,"技能匹配(3): dashboard, 自動化, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市中山區; [技能20+職稱17+關鍵字6+地點10]",https://www.104.com.tw/job/8zs6n,"""1.	數據驗證與校對 (UAT)： 執行新數據平台與現有資料庫的準確性測試，確保數據一致性並找出潛在異常。
-2.	定期報表監控與維護： 監控日、週、月報表之更新進度，處理數據更新失敗或偏離等例行性維護工作。
-3.	報表自動化與 Dashboard 製作： 使用 Power BI 或 Excel 進行自動化流程設計，並協助建立視覺化看板以供決策參考。
-4.	數據處理與行政協作： 協助各部門進行原始...",
-營建數據分析師(總部),根基營造股份有限公司,台北市松山區,面議,104,20260605,52.0,技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; 地點符合: 台北市松山區; [技能7+職稱30+關鍵字5+地點10],https://www.104.com.tw/job/92e0s,"1. 分析公司個應用系統，包含但不限於ERP、BPM、MS Power platform等系統流程，協作開發或優化前端與後端應用程式。
-2. 訪談及分析公司各部門作業流程與工作痛點，設計改善工作流程或導入應用工具。
-3. 負責公司工務、請採購、成本、進度、財務等大數據的數據清理及統合分析。
-4. 統整管理各部門標準書文件、數據庫，建立知識庫作為AI發展基礎。
-5. 營建機器人於施工現場的工序、成本...",
-數據分析師 D31,永慶房產集團_永慶房屋仲介股份有限公司,台北市大安區,面議,104,20260606,51.7,技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; 地點符合: 台北市大安區; [技能7+職稱30+關鍵字5+地點10],https://www.104.com.tw/job/7e6h4,"1.利用數據分析解決商業問題
-2.跨部門專案溝通合作
-3.營運績效追蹤與評估
-4.日常營運及管理報表製作
-5.其他數據研究分析與簡報報告",
-實習數據分析師 (Intern ),CRIF TAIWAN_中華徵信所企業股份有限公司,台北市松山區,面議,104,20260604,51.7,技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; 地點符合: 台北市松山區; [技能7+職稱30+關鍵字5+地點10],https://www.104.com.tw/job/8nwtc,"1.權威排名調查數據識讀，財金系、會計系、經濟系等商學院優先
-2.蒐集財務報表，掌握「股市公開資訊觀測站」內涵
-3.協助大型企業調查作業，藉由財務數據識別企業價值
-4.中文打字每分鐘50字以上，包括資料列印、key in校對，資料庫修改
-5.加分項目－具產業分析、數據調查、總體經濟分析經驗~
-
-
-
-",
-數據分析師 E31,永慶房產集團_永慶房屋仲介股份有限公司,台北市大安區,面議,104,20260607,51.7,技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; 地點符合: 台北市大安區; [技能7+職稱30+關鍵字5+地點10],https://www.104.com.tw/job/7e6h5,"1.利用數據分析解決商業問題
-2.跨部門專案溝通合作
-3.營運績效追蹤與評估
-4.日常營運及管理報表製作
-5.其他數據研究分析與簡報報告",
-Data Engineer_Taipei,Polymer Capital,台北,面議,LinkedIn,2026-06-02,51.2,"技能匹配(3): sql, python, data pipeline; 職稱部分匹配: data scientist; 地點符合: 台北; [技能20+職稱12+關鍵字9+地點10]",https://tw.linkedin.com/jobs/view/data-engineer-taipei-at-polymer-capital-4413525645,"Company Introduction Polymer Capital Management is a market-neutral, multi-manager investment platform based in and focused on Asia. Polymer combines established institutional support and deep knowled...",
-"數據管理師 - 商業分析 (數數發中心, DDT)_I00016354",國泰金控_國泰金融控股股份有限公司,台北市信義區,面議,104,20260512,51.0,"技能匹配(3): etl, 數據分析, 商業分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市信義區; [技能20+職稱17+關鍵字4+地點10]",https://www.104.com.tw/job/88sby,"1. 規劃與設計金控資料治理框架及流程，包含雲地湖倉數據分層設計、資料品質管理、數據字典(Data Catalog/Data dictionary)維護、資料權限巡檢機制，確保資料使用之可靠性、安全性及合規性
-2. 規劃與推動金控與各子公司間之資料共享協作機制，包含跨公司資料傳輸流程、適法性確認、資料安全等面向跨組織確認與協作，並整合跨業務合作以實務落地
-3. 依據業務需求，規劃及設計完善且有效率...",
-資深資料工程師 Senior Data Engineer,菲律賓商加文創投有限公司(Taiwan Branch),"內湖區, 台北市, 台灣",5萬 ~ 12萬 TWD / 月,CakeResume,,51.0,"技能匹配(3): sql, data pipeline, etl; 職稱部分匹配: 資深資料分析師; 地點符合: 內湖區, 台北市, 台灣; [技能20+職稱15+關鍵字6+地點10]",https://www.cake.me/companies/cakeresume-Gavin/jobs/data-scientist-data-analyst-21d80c,"● 建立與維護 ETL / ELT 資料處理流程
-● 建置 Streaming Data Pipeline，處理高併發事件流與日誌資料
-● 維護 Kafka 與即時資料處理架構
-● 規劃與維護 Data Warehouse / Data Mart 資料模型
-● 負責資料清洗、資料驗證與資料品質監控
-● 協助建立可重複使用的中介資料表與分析資料集
-● 優化資料查詢效能與數據處理流程
-● 與產品、營運...","● 具 3 年以上 Data Engineer、ETL 或資料平台相關經驗佳
-● 熟悉 SQL 與 ETL 開發
-● 具備資料清理、資料驗證與資料建模能力
-● 了解 Kafka、Streaming Pipeline 或事件流架構概念
-● 具 Spark / Flink 任一資料處理框架經驗佳
-● 具 Data Warehouse / Data Mart 概念
-● 熟悉 MongoDB、MySQL、..."
-【Taiwan Mobile 實習計畫】Intern-大哥付你分期數據分析實習生,台灣大哥大,"台北市, 台灣",196 ~ 250 TWD / 小時,CakeResume,,50.3,"技能匹配(4): sql, python, tableau, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市, 台灣; [技能27+職稱8+關鍵字5+地點10]",https://www.cake.me/companies/taiwan-mobile/jobs/d834d741-de06-44d4-9604-2c881fa374dd-taiwan-mobile-internship-progra-c0076511d742f6a080f402d5f768df,"1.分析用戶交易數據，洞察行為模式，提出商務開發與行銷策略優化建議，提升轉換率與GMV
-2.剖析用戶還款行為、分期模式及風險指標，支援風險評估模型建置，協助詐欺偵測與額度模型","1.熟悉Excel、SQL、Python/R基礎；有Tableau或Power BI經驗佳
-2.具邏輯分析力、團隊溝通能力及問題解決能力，毎週可配合3天以上實習
-3.對金融科技、先買後付服務有興趣，細心主動學習新知
-立即應徵
-優化履歷
-查看所有職缺
-立即應徵
-優化履歷
-查看所有職缺"
-數據分析,康和綜合證券股份有限公司,台北市信義區,面議,104,20260602,48.7,技能匹配(1): 數據分析; 職稱完全匹配: 資深數據分析師; 地點符合: 台北市信義區; [技能7+職稱30+關鍵字2+地點10],https://www.104.com.tw/job/919sd,"我們正積極尋找對數據分析、客戶洞察及數據應用有高度興趣的夥伴加入。
-作為數據分析與數位策略團隊的一員，你將參與網站流量、客戶行為、交易資料及行銷數據之整合與分析，協助建立數據追蹤與資料應用機制，透過數據洞察協助平台、內容及行銷策略優化進而幫助公司",
-Product Marketing Manager,Adecco,台北,面議,LinkedIn,2026-06-01,48.2,"技能匹配(3): 自動化, 商業分析, 跨部門溝通; 職稱部分匹配: product analyst; 地點符合: 台北; [技能20+職稱12+關鍵字6+地點10]",https://tw.linkedin.com/jobs/view/product-marketing-manager-at-adecco-4421838392,【Client Profile 】 自動化控制品牌，提供感測器、機器視覺、PLC、機器人等工業自動化解決方案，客戶涵蓋半導體、電子製造及高科技產業 【Candidate profile 】 具備行銷策略基礎（如 3C、4P 等分析工具）。 具備商業分析、策略規劃及專案推動能力。 日文溝通流利，可獨立與日本團隊合作。 具客戶導向思維，善於跨部門溝通協調。 對業績成果有責任感，樂於面對市場與客戶挑戰。...,
-"Analyst, Reporting and Automation Analyst",貝萊德,台北,面議,LinkedIn,2026-06-05,47.8,"技能匹配(2): sql, python; 職稱部分匹配: business analyst; 地點符合: 台北; [技能13+職稱12+關鍵字12+地點10]",https://tw.linkedin.com/jobs/view/analyst-reporting-and-automation-analyst-at-blackrock-4424761636,"About This Role Team Description The APAC COO team is dedicated to ensuring that both regional and country platforms operate commercially, smoothly, and efficiently. As partners with the Head of Asia ...",
-資料科學家_(數據賦能中心),(總公司)南山人壽保險股份有限公司,台北市信義區,面議,104,20260603,47.7,"技能匹配(3): machine learning, 機器學習, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市信義區; [技能20+職稱8+關鍵字9+地點10]",https://www.104.com.tw/job/8ys3w,"職務目的:運用先進資料科技與洞察，優化客戶體驗、重塑核保、理賠、行銷與風險預防的決策管理模式。
-
-工作職責:
-1. 協助 AI／資料驅動分析規劃：依據業務流程與實際痛點，規劃並提出 AI / 資料分析，將商業問題轉化為可執行的分析命題或模型目標，創造實際價值。
-2. 數據處理與特徵工程：進行資料整合、清理、轉換、標準化與品質控管、規劃與實作特徵工程，支援模型訓練、分析與 AI 應用效能提升。
-3....",
-資深後端工程師 Senior Backend Engineer（AI事業發展部）,邦鉑科技股份有限公司,台北市內湖區,面議,104,20260606,47.0,"技能匹配(3): sql, python, 自動化; 職稱部分匹配: senior data analyst; 地點符合: 台北市內湖區; [技能20+職稱8+關鍵字9+地點10]",https://www.104.com.tw/job/92f7a,"【Bombus AI事業發展部】
-我們正在擴建 AI 事業發展部！我們的核心產品線包含兩大版圖：自主研發的 Agentic AI 平台 『Sage』，以及由其深度賦能的企業級應用 『Senzfor』。
-我們致力於將複雜的 Agent 協作架構封裝成流暢的 SaaS 體驗，讓 AI 技術真正落地於企業客戶的日常營運中。
-我們相信 AI 不只是聊天機器人，更是能夠深度整合企業資料與流程的智能引擎。為了...",
-策略發展_ 數據智能科主管,O-Bank_王道商業銀行股份有限公司,台北市內湖區,面議,104,20260528,46.7,"技能匹配(2): machine learning, 機器學習; 職稱部分匹配: 數據科學家; 地點符合: 台北市內湖區; [技能13+職稱17+關鍵字7+地點10]",https://www.104.com.tw/job/901q9,"團隊領導與發展： 帶領數據團隊進行人才發展規劃，建立高效協作的團隊文化，落實部門年度目標。
-數據治理優化： 負責推動企業級數據治理框架，確保數據品質、一致性與合規性（如資料生命週期管理、資料安全等）。
-數據科技建設： 主導數據中台、大數據平台等基礎建設之規劃與導入，提升數據處理與分析效能。
-AI 應用落地： 規劃並執行 AI/機器學習模型之開發與應用（如精準行銷、風險控管、智能客服等），驅動業務增...",
-資料科學/深度學習工程師,富智康國際股份有限公司,新北市土城區,面議,104,20260602,46.3,"技能匹配(3): machine learning, 機器學習, 自動化; 職稱部分匹配: 數據科學家; 地點符合: 新北市土城區; [技能20+職稱8+關鍵字8+地點10]",https://www.104.com.tw/job/8iy9i,"FIH作為全球移動通訊設備領導廠商，持續擴展多元商業機會，跨足通訊產品生產製造、自動化機器設備研發、車載軟硬體整合研發等類別。
-我們相信-創新源於開放的思維和無限的可能性，我們追求的不僅僅是技術的突破，更是一個共同創造的過程，我們歡迎您加入FIH 管理團隊。
-
-【職務內容】
-1.收集機器人工作時運行狀態及各種感測器資料
-2.利用收集資料優化機器人的工作
-3.研究並導入最前沿的電腦視覺技術 
-4.優...",
-團隊擴編中🔥【AI Sports Insights】資料科學家（台中市西區）,緯雲股份有限公司,"臺中市, 台灣",5萬 ~ 8萬 TWD / 月,CakeResume,,46.3,"技能匹配(5): python, machine learning, 機器學習, 自動化, 數據分析; [技能33+職稱0+關鍵字13+地點0]",https://www.cake.me/companies/cloudlatitudesoftware/jobs/data-scientist-cl,"建構與優化機器學習模型：運用多維度運動數據（如賽事數據、球員表現），開發球員薪資計算、表現預測等核心模型，並持續進行優化。
-支援產品與行銷決策：深入分析用戶行為與市場趨勢，提供數據洞察，協助產品團隊優化功能、支援行銷團隊制定精準策略。
-整合生成式 AI 與 Agent 應用：導入並開發生成式 AI 功能與對話式代理應用，例如自動化產出運動新聞、球員動態、賽事摘要，以及可支援用戶查詢、內容推薦與任務...","- 必要條件
-熟悉 Python：具備良好的 Python 程式能力，熟悉數據科學相關套件及框架。
-資料分析與特徵工程能力：擅長從原始數據中萃取有價值的特徵，具備數據清理、轉換、視覺化等實務經驗，能夠將業務問題轉化為可分析的數據科學任務。
-機器學習與統計建模經驗：具備機器學習理論基礎與實作經驗，熟悉監督式學習、非監督式學習等演算法，並能針對實際問題選擇適當的模型與評估指標。
-- 加分條件
-具備 1..."
-資深資料工程師 Senior Data Engineer,宏碁資訊服務股份有限公司,台北市南港區,面議,104,20260604,45.7,"技能匹配(2): 數據分析, 資料分析; 職稱部分匹配: 資深資料分析師; 地點符合: 台北市南港區; [技能13+職稱15+關鍵字7+地點10]",https://www.104.com.tw/job/8y1vy,"
-Customer Solution / Project Collaboration
-•	與客戶進行需求訪談與 Solution Discussion 
-•	與 PM、SA、Developer、Data Analyst 協作 
-•	協助專案導入、測試與",
-數據分析人員,台北富邦商業銀行股份有限公司,台北市大安區,面議,104,20260125,43.7,"技能匹配(2): sql, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能13+職稱17+關鍵字4+地點10]",https://www.104.com.tw/job/8h33j,"職位目的：經營及分析行內數位客群，協助產品經理挖掘客群並分眾規劃活動，提升客戶黏著度。
-
-職位內容：
-1.透過SQL等工具，分析數位行為及經營績效，提供行銷名單及場景應用。
-2.執行客戶分群及貼標，挖掘銀行數位客群需求(包括但不限於網行銀客戶)。",
-資料科學家,鈊象電子股份有限公司,新北市五股區,面議,104,20260602,43.0,職稱完全匹配: 數據科學家; 地點符合: 新北市五股區; [技能0+職稱30+關鍵字3+地點10],https://www.104.com.tw/job/8hao1,"1.測試並評估最新AI進展。
-2.規劃並推進線上AI應用。",
-技術研發中心 - Mid - Sr. Product Manager,浪LIVE_旭瑞文化傳媒股份有限公司,台北,面議,LinkedIn,2026-05-26,42.8,"技能匹配(2): 自動化, 數據分析; 職稱部分匹配: product analyst; 地點符合: 台北; [技能13+職稱12+關鍵字7+地點10]",https://tw.linkedin.com/jobs/view/%E6%8A%80%E8%A1%93%E7%A0%94%E7%99%BC%E4%B8%AD%E5%BF%83-mid-sr-product-manager-at-%E6%B5%AAlive-%E6%97%AD%E7%91%9E%E6%96%87%E5%8C%96%E5%82%B3%E5%AA%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4419147633,【職務說明】 在浪LIVE，產品經理是連結用戶需求、商業目標與技術實踐的關鍵核心。面對高併發、高流量的即時互動場景，你需要具備敏銳的洞察力，負責從直播互動、禮物系統到會員體系等核心功能的規劃與執行。 你將深入數據分析，透過追蹤用戶行為與各項營運指標（如 DAU、留存率），提出具體的優化方案並撰寫 PRD。在我們扁平化的溝通架構中，你需高效協調研發、設計、測試及營運團隊，確保專案準時且高質量上線。我...,
-富邦證券-資料治理暨數據分析人員,富邦綜合證券股份有限公司,台北市大安區,面議,104,20260428,42.7,"技能匹配(3): 數據自動化, 自動化, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能20+職稱8+關鍵字4+地點10]",https://www.104.com.tw/job/6xnq0,"1. 以業務目的規劃數據驅動之數位轉型，拓展數位生態圈
-2. 發展客戶標籤以識別客戶行銷、風險、服務等偏好特徵，提升客群經營效益
-3. 導入數位軌跡應用，以客戶行為迭代進行個人化服務，提供業務精確的客戶意圖與場景應用
-4. 落實資料治理維運，提升數據跨平台共享及使用效率
-5. 協助發展數據平台化，打造數據自動化pipeline與視覺化之UI/UX",
-(歡迎新鮮人!) Product Analyst 產品分析師 / Product Management 產品管理部,新加坡商蝦皮娛樂電商有限公司台灣分公司,台北市信義區,面議,104,20260604,42.3,職稱完全匹配: product analyst; 地點符合: 台北市信義區; [技能0+職稱30+關鍵字2+地點10],https://www.104.com.tw/job/8jnjc,"● As a Product Analyst within our product management team, you will be crucial in driving data-informed decision-making.
-●",
-Python工程師【板橋數據分析可部分遠端】,鈦創軟體資訊有限公司,新北市板橋區,面議,104,20260604,42.3,"技能匹配(3): sql, python, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 新北市板橋區; [技能20+職稱8+關鍵字4+地點10]",https://www.104.com.tw/job/92c9y,"【職務需求】
-1.熟悉 Databricks 資料平台操作
-2.具備 Python 程式開發能力
-3.精通 SQL 資料查詢與處理
-4.能使用 Power BI 建立視覺化報表
-
-【工作內容】
-1.整合與處理公司銷售資料，進行數據分析並提供業務洞",
-【外商全球知名集團】Financial Analyst | Luxury Retail Industry (J),新加坡商艾得克有限公司台灣分公司,台北市中山區,面議,104,20260528,42.2,"技能匹配(2): 商業分析, 跨部門溝通; 職稱部分匹配: business analyst; 地點符合: 台北市中山區; [技能13+職稱12+關鍵字6+地點10]",https://www.104.com.tw/job/922ti,"【徵才條件】
-
-・財務、會計、商業分析相關科系畢業
-・具 6–10 年以上 FP&A、商業分析或財務業務夥伴相關經驗
-・具跨部門溝通與商業分析能力，能協助管理層進行決策支持
-・熟悉預算編列、Forecast、差異分析及管理報表製作
-・具產品獲利分析、銷售分析或定價分析經驗者佳
-・具應收帳款管理與銷售相關財務流程經驗
-・能與高階主管（Founder / CFO）直接溝通，具良好簡報與表達能力
-・細心...",
-"Senior Associate, CEO Office",台北派兒有限公司,台北市大安區,面議,104,20260528,42.0,"技能匹配(2): business analysis, stakeholder management; 職稱部分匹配: senior data analyst; 地點符合: 台北市大安區; [技能13+職稱8+關鍵字10+地點10]",https://www.104.com.tw/job/923dr,"About Partipost
-Partipost is an influencer marketing platform that enables brands to launch impactful word-of-mouth campaigns with everyday people. Backed by Pavilion Capital (Temasek), iGlobe Partner...",
-I3901 資深雲端數據工程師(Senior Cloud Data Engineer),遠傳電信股份有限公司,新北市板橋區,面議,104,20260602,41.8,"技能匹配(2): data pipeline, etl; 職稱部分匹配: senior data analyst; 地點符合: 新北市板橋區; [技能13+職稱12+關鍵字6+地點10]",https://www.104.com.tw/job/91pzc,本職位主要負責建置並最佳化數據管線 (Data Pipeline)架構，為跨部門團隊提供資料收集與處理流程設計。需具備從零開始建立並持續優化資料系統的能力，經驗豐富的數據管線設計師與ETL開發人員的角色。將協助軟體開發人員、資料庫架構師、數據,
-Data Scientist,TradeBeyond_香港商科銳投資控股有限公司台灣分公司,台北市南港區,面議,104,20260604,41.3,職稱完全匹配: data scientist; 地點符合: 台北市南港區; [技能0+職稱30+關鍵字1+地點10],https://www.104.com.tw/job/8v22u," sourcing’s need for smarter, automated workflows and data transparency, we developed the industry’s leading supply chain",
-總公司 IT Business Analyst_台北,康達盛通生活事業股份有限公司,台北市北投區,面議,104,20260603,41.3,職稱完全匹配: business analyst; 地點符合: 台北市北投區; [技能0+職稱30+關鍵字1+地點10],https://www.104.com.tw/job/838vd,•負責在IT專案中負責發掘、分析、傳達和確認 Business User需求；同時瞭解有關業務上的各種問題，搭建 Business User和IT Developer人員之間的溝通橋樑，並推薦問題的解決方案以實現組織的目標，這其中還包括參與系統的,
-Business Development Manager－Strategic Partnership,恩沛科技股份有限公司,台北市中山區,面議,104,20260512,40.2,"技能匹配(2): 商業分析, 跨部門溝通; 職稱部分匹配: business analyst; 地點符合: 台北市中山區; [技能13+職稱12+關鍵字4+地點10]",https://www.104.com.tw/job/8wmlu,"作或新市場拓展專案
-・具高度 ownership 與獨立推動能力
-・具策略思維與商業分析能力
-・擅長跨部門溝通與資源整合
-・能適應高度不確定性與長期合作規劃
-
-
-
-【職缺特色】
-・可直接參與新市場與策略合作方向制定
-・高 ownership 與高影",
-Regional Data Engineer 數據工程師(台北工作),香港商麥迪康亞太有限公司台灣分公司,台北市信義區,面議,104,20260601,40.0,技能匹配(1): etl; 職稱部分匹配: 數據科學家; 地點符合: 台北市信義區; [技能7+職稱17+關鍵字7+地點10],https://www.104.com.tw/job/8m4mk,"1.設計、開發和維護可擴展的數據管道和ETL流程。
-2.與數據科學家、分析師和利益相關者合作，了解數據需求並提供解決方案。
-3.優化和改進現有數據系統，以提高性能和可靠性。
-4.實施數據質量檢查，確保各類數據源的數據完整性。
-5.開發和維護數據工程流程和系統的文檔。
-6.關注行業趨勢和技術，不斷改進我們的數據基礎設施。
-
-",
-Senior Project Manager,Ogilvy Taiwan,台北,面議,LinkedIn,2026-05-26,39.3,"技能匹配(2): 自動化, 數據分析; 職稱部分匹配: senior data analyst; 地點符合: 台北; [技能13+職稱8+關鍵字8+地點10]",https://tw.linkedin.com/jobs/view/senior-project-manager-at-ogilvy-taiwan-4419121674,【關於這個角色：為什麼你會想加入？】 如果你想要在創意與技術的交會點發揮影響力，這裡是你的最佳舞台 在奧美，我們不只做廣告，我們正在重新定義品牌體驗。不同於傳統技術供應商，我們堅持「人是我們最珍貴的資產」。我們尋找的資深專案經理，是一位能將原本冰冷的數據與技術，轉化為帶有溫度的品牌互動體驗的關鍵推手，讓偉大的創意落地實現 【核心任務 Mission】 你將是專案的總指揮，負責帶領團隊打造高品質的數...,
-115233-1-1 Data Engineer (Python and SQL),Mphasis Taiwan_澳大利亞商安復仕有限公司台灣分公司,台北市南港區,面議,104,20260601,37.8,"技能匹配(2): sql, python; 職稱部分匹配: data scientist; 地點符合: 台北市南港區; [技能13+職稱12+關鍵字2+地點10]",https://www.104.com.tw/job/927ax,We are looking for a skilled Data Engineer to build and maintain scalable data platforms and pipelines that support,
-Expression of Interest: Digital Solutions Analyst,英美煙草,台北,面議,LinkedIn,2026-06-04,37.5,技能匹配(1): e-commerce; 職稱部分匹配: business analyst; 地點符合: 台北; [技能7+職稱12+關鍵字8+地點10],https://tw.linkedin.com/jobs/view/expression-of-interest-digital-solutions-analyst-at-bat-4424468396,"BAT is evolving at pace into a global multi-category business. Our purpose is to create A Better Tomorrow™ by Building a Smokeless World. To achieve our ambition, we are looking for colleagues who are...",
-【直效行銷處】MarketingDataAnalyst,安達國際人壽保險股份有限公司,"信義區, 台北市, 台灣",面議,CakeResume,,37.3,"技能匹配(3): sql, 自動化, 數據分析; 地點符合: 信義區, 台北市, 台灣; [技能20+職稱0+關鍵字7+地點10]",https://www.cake.me/companies/chubb/jobs/direct-marketing-department-marketing-data-analyst,"Responsibilities:
-- 管理並優化行銷名單產出流程，定期提供符合業務需求的高品質名單，支援銷售與行銷活動成效提升。
-- 規劃與推動客戶資料平台（CDP）相關專案，包含名單產製流程梳理、資料正確性驗證與功能優化，確保平台能有效支撐實際業務與行銷應用。
-- 運用 CDP 與其他數據資產建置並優化行銷模型，持續提升名單轉換率與整體行銷投放成效。
-- 強化部門資料安全管理與作業流程設計，將...","Qualifications:
-- 相關學歷: 大學（含）以上學歷，科系不限，但需具備統計、資料分析或行銷相關基礎（可由修課、專題或實務經驗證明）。
-- 最低年資／經驗: 具 2 年以上數據分析、CRM、行銷成效分析或相關實務經驗，能獨立完成資料整理與基本成效分析。
-- 必備技能
-1. 具備良好的資料處理與邏輯分析能力，能將業務／行銷需求轉化為具體數據問題。
-2. 具備 SQL 實務操作經驗，能撰..."
-機器學習工程師,維思感創股份有限公司,新北市新莊區,面議,104,20260602,37.0,"技能匹配(3): machine learning, 機器學習, 數據分析; 地點符合: 新北市新莊區; [技能20+職稱0+關鍵字7+地點10]",https://www.104.com.tw/job/8e8yx,"我們正在尋找一位具備生理訊號處理與機器學習能力的工程師，負責生理訊號資料分析、特徵萃取、模型訓練與效能優化。工作內容主要聚焦於時間序列（Time Series）與生理感測資料分析，此職位將參與從資料收集、訊號處理、模型開發到驗證測試的完整流程。
-
-本職位主要聚焦於生理訊號分析，因此以下經驗並非重點需求：
-Large Language Models (LLM)
-RAG Systems
-AI Agen...",
-事業策略發展處_資深市場開發經理 Senior Demand Generation Manager,安華聯網科技股份有限公司,新北市新店區,面議,104,20260603,37.0,技能匹配(1): a/b testing; 職稱部分匹配: senior data analyst; 地點符合: 新北市新店區; [技能7+職稱8+關鍵字12+地點10],https://www.104.com.tw/job/8zpy8,"【負責職務】
-包含 市場開發經理 既有職責及以下進階範疇：
-•	設計整體需求生成框架：漏斗階段、線索評分、資格認定標準和銷售交接協議
-•	與技術主題專家建立可擴展的內容引擎；定義內容支柱、生產節奏和再利用工作流
-•	建構行銷分析框架：歸因模型、管線貢獻追蹤和按區隔及地理的獲客成本基準
-•	定義亞太在地化策略：隨團隊擴展至新市場時，哪些需求生成資產是集中的、哪些是在地化的
-•	持續優化：A/B測試、...",
-軟體開發與資料庫工程師 (Software &amp; Database Engineer),岱妮蠶絲股份有限公司,新北市三重區,面議,104,20260605,35.7,"技能匹配(3): sql, python, 自動化; 地點符合: 新北市三重區; [技能20+職稱0+關鍵字6+地點10]",https://www.104.com.tw/job/8zpux,"【職務定位】 
-負責公司內部系統開發、流程自動化以及核心資料庫的效能與安全。
-
-【工作內容】
-1. 資料庫管理 (DBA)： 負責 MS SQL / MariaDB / MySQL 等關聯式資料庫的建置、架構設計、日常維運與資料備份管理。
-2. 數據處理與優化： 負責 SQL 語法撰寫與效能調校（PerformanceTuning），協助跨部門進行資料撈取與分析。
-3. 專案開發與維護： 運用 A...",
-資料工程師/後端工程師,銓鍇國際股份有限公司,新北市中和區,面議,104,20260605,35.3,"技能匹配(2): python, data pipeline; 職稱部分匹配: 數據科學家; 地點符合: 新北市中和區; [技能13+職稱8+關鍵字4+地點10]",https://www.104.com.tw/job/8e74p,"1. 開發和優化數據處理流程: 使用 Python 和 Apache Spark 進行數據清洗、轉換和建模，提升處理大規模數據集的效率。
-2. 設計和維護與優化data pipelines。
-3. 管理和維護 MongoDB 和 Data",
-Business Development/Account Manager,TBCASOFT (TAIWAN)_拓斯特科技股份有限公司,台北市信義區,面議,104,20260326,35.2,技能匹配(1): e-commerce; 職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能7+職稱12+關鍵字6+地點10],https://www.104.com.tw/job/8vx9q,"HIVEX is building the next-generation global payment and settlement network—programmable, interoperable, and built for a world where wallets, digital assets/RWAs, and real-time stablecoin settlement c...",
-營運與風險經理 (Operations & Risk Manager),千研萬宇科技有限公司,台北市松山區,面議,104,20260604,34.3,"技能匹配(3): sql, python, 自動化; 地點符合: 台北市松山區; [技能20+職稱0+關鍵字4+地點10]",https://www.104.com.tw/job/92bpw,"【職務內容】
-• 帶領並排定營運團隊跨時段之輪班（含 24×5 全天候交易台），負責當班品質與交接紀律
-• 負責各客戶之作業手冊：確保監控門檻、限額架構、上報路徑及預先約定之執行規則皆有書面紀錄、保持最新並獲確實遵循
-• 擔任異常與事件之上報窗口，並協調客戶及內部技術、風險團隊以完成處置
-• 守住本團隊「監控與呈報」角色與客戶決策權之間的界線 —— 確保團隊無人逾越客戶指示行事
-• 建立並管理 L...",
-美商電腦 - 資料工程師 Data Engineer,TechTalent_天合科技顧問有限公司,台北市南港區,面議,104,20260603,33.8,技能匹配(1): 商業分析; 職稱部分匹配: 資料分析師; 地點符合: 台北市南港區; [技能7+職稱12+關鍵字5+地點10],https://www.104.com.tw/job/929qr,"LLM）相關應用。
-● 具備 Knowledge Graph（知識圖譜）相關專案經驗。
-● 具備資料倉儲（Data Warehouse）或商業分析平台建置經驗。
-● 具備雲端資料平台規劃與效能優化經驗。
-
-其他條件
-● 具備良好的邏輯分析與問題解決能力",
-【MKT】品牌行銷BP（Marketing Business Partner）,濰視眼科診所,新北市中和區,面議,104,20260602,32.8,技能匹配(1): 數據分析; 職稱部分匹配: business analyst; 地點符合: 新北市中和區; [技能7+職稱12+關鍵字4+地點10],https://www.104.com.tw/job/8xw29,"【關於我們 | About Wishvision】
-濰視眼科（Wishvision Eye Center）為台灣首家結合「醫療專業 × 美學體驗」的自費眼科品牌。
-核心服務包含近視雷射、老花雷射、醫美等自費療程。 
-我們致力於打造兼具醫療品質與顧客體驗的診所品牌，目前據點涵蓋台北、台中與新竹，並正積極布局海外市場（含上海）。
-隸屬科林集團（Clinico Group），與聽力與睡眠、儀器醫療代理等...",
-【知名投信】 Business Services Manager,優仕得顧問有限公司,台北市信義區,面議,104,20260605,32.5,技能匹配(1): 商業分析; 職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能7+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/92dhs,"1.負責策略專案之規劃、執行與交付，確保專案順利推進。
-2.與投資、通路、營運、科技、風控及法遵等跨部門團隊合作。
-3.分析業務需求並轉化為功能需求，推動流程優化與營運改善。
-4.協助商業分析、管理報表及專案決策支援。
-5.向管理階層彙報專案進度",
-Shopee - B2C 供應鏈專案分析實習生 Sourcing Analyst Intern,新加坡商蝦皮數位電商服務有限公司台灣分公司,台北市信義區,面議,104,20260601,32.2,技能匹配(1): 數據分析; 職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能7+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/8tblg,"● 支援新的採購專案啟動，包括供應商分析、商品選擇、上架操作及賣家溝通。
-● 協助供應商的獲利數據分析。
-● 協助供應商的補貨規劃流程進行。",
-海外市場商務拓展總監 Director of International Business Development,未來巢科技股份有限公司,台北市信義區,面議,104,20260603,32.2,技能匹配(1): 商業分析; 職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能7+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/90o16,"持續學習和瞭解相關的行業知識。
-
-【對你的期許】
-- 具備 8 年以上策略、商業分析或 Pre-sales 經驗。
-- 具備優秀的英文商務溝通能力。
-- 具備管理代理商、經銷商能力。
-- 具備良好的商務溝通能力與談判技巧。
-- 熟悉 B2B 業務開",
-"Strategic Analytics & Insights, Quantitative Senior Analyst/ Analyst",NielsenIQ,新北市,面議,LinkedIn,2026-06-02,32.2,職稱部分匹配: senior data analyst; 地點符合: 新北市; [技能0+職稱12+關鍵字10+地點10],https://tw.linkedin.com/jobs/view/strategic-analytics-insights-quantitative-senior-analyst-analyst-at-nielseniq-4423912300,"Job Description As a part of the team, you will be working with some of Taiwan’s biggest brands to make an impact across a diverse range of industries. In your role, you will manage bespoke research p...",
-《theLOOP集團》商務/業務開發專員 Business Developement,歐銘股份有限公司,台北市大安區,面議,104,20260601,31.8,技能匹配(1): 商業分析; 職稱部分匹配: business analyst; 地點符合: 台北市大安區; [技能7+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/8r35p,"
-◎ 曾參與商業開發、品牌創建、店點擴張或營運改善專案
-◎ 具備消費型產業（餐飲、零售、娛樂、空間設計等）相關經驗
-◎ 熟悉商業分析、簡報撰寫與市場研究技巧
-
-【關於 theLOOP】
-
-引領娛樂服務產業的實力團隊 
-
-自2000年創辦以來，",
-保險系統測試工程師,CIeNET Technologies,台北,面議,LinkedIn,2026-05-25,31.7,"技能匹配(2): 自動化, 商業分析; 地點符合: 台北; [技能13+職稱0+關鍵字8+地點10]",https://tw.linkedin.com/jobs/view/%E4%BF%9D%E9%9A%AA%E7%B3%BB%E7%B5%B1%E6%B8%AC%E8%A9%A6%E5%B7%A5%E7%A8%8B%E5%B8%AB-at-cienet-technologies-4418906772,【工作內容】 測試執行與管理 ：負責保險數位平台（如：行動投保、網路投保）的功能測試，確保系統變更符合業務需求規格。 測試案例設計 ：根據業務需求書（BRD）或系統功能說明書（FSD）撰寫測試計畫（Test Plan）及測試案例（Test Cases）。 品質把關 ：追蹤並管理系統缺陷（Defects），協助開發團隊定位問題，並驗證修復結果，確保不影響現有功能。 合規與風控 ：遵循公司內稽內控規範...,
-[R46] (Sr.) E-Commerce Business Strategy Manager,Yahoo_香港商雅虎資訊股份有限公司,台北市內湖區,面議,104,20260601,31.2,技能匹配(1): e-commerce; 職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能7+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8zxnx,"【About the Job】
-We are seeking a Senior Business Strategy Manager to join Yahoo’s Taiwan ecommerce team. Working directly",
-【實習生專區】Data Engineer Intern,(台泥)臺灣水泥股份有限公司,台北市中山區,面議,104,20260602,30.5,技能匹配(1): data pipeline; 職稱部分匹配: analytics engineer; 地點符合: 台北市中山區; [技能7+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/90g32, database development and data pipeline projects that enable analytics and digital transformation initiatives. The intern will,
-業務分析師 BA (Level 1),加林軟體科技有限公司,台北市信義區,面議,104,20260424,30.3,"技能匹配(2): 數據分析, 商業分析; 地點符合: 台北市信義區; [技能13+職稱0+關鍵字7+地點10]",https://www.104.com.tw/job/903tz,"➢有產壽險保險公司行政作業流程規劃/資料分析或保經代系統相關工作經
-驗。
-➢ 有保險系統需求商業流程及資料分析/規劃經驗。
-➢ 熟悉 MS Office (Word, Excel, Power Point, Visio, Project ) 及 UML (Use Case)。
-➢ 具邏輯思考及商業分析技術，具備溝通技巧及問題解決能力且可獨立作業。
-
-1.  具有保險行政相關 經驗，一項或多項不同領...",
-投資數據分析助理 (長期PT，非寒暑假短期打工實習),大拇哥證券投資顧問股份有限公司,台北市大安區,面議,104,20260603,30.3,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能7+職稱8+關鍵字5+地點10],https://www.104.com.tw/job/6rp4f,"【Key Responsibilities】
-1.Effectively retrieve information from internal/external financial databases such as Bloomberg and Wind.
-2.Perform filtering and deep analysis on fund and other investment-rela...",
-"<Students Only><Internship Program> Group Aftersales Strategy, Planning & Reporting Intern",台灣福斯股份有限公司,台北市南港區,面議,104,20260602,30.3,"技能匹配(2): dashboard, business analysis; 地點符合: 台北市南港區; [技能13+職稱0+關鍵字7+地點10]",https://www.104.com.tw/job/7gnlu,"【Main Goals】  
-• Support Aftersales Marketing, Project Management and Service /Loyalty program planning.
-• Support Field Force in Dealer Management and Business Operation
-• Support Planning & Reportin...",
-資料科學家/工程師,台北富邦商業銀行股份有限公司,台北市大安區,面議,104,20260527,30.0,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能7+職稱8+關鍵字5+地點10],https://www.104.com.tw/job/7pv3l,"習模型、數據特徵庫、產品推薦系統、大型語言模型(LLM)、自主數據分析平台等專案小組(視職能及個人興趣進行安排)。
-
-【Nice to Have】
-1.具分散式資料處理系統(Spark)實務經驗。
-2.曾參加資料科學相關競賽(Kaggle)並獲獎的",
-【第二顧問群】數據架構工程師,石橋有約顧問股份有限公司,台北市大安區,面議,104,20260604,29.7,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能7+職稱8+關鍵字5+地點10],https://www.104.com.tw/job/8wnbg,"1.與數據分析師合作，規劃並建置企業級數據平台架構（Azure Data Platform：Databricks、Data Factory、Fabric），確保系統穩定性、擴展性與長期可持續發展。
-2.規劃跨雲數據與 AI / BI 服務整合，確",
-電商行銷,通達九邦股份有限公司,新北市中和區,面議,104,20260601,29.7,"技能匹配(2): 數據分析, 跨部門溝通; 地點符合: 新北市中和區; [技能13+職稱0+關鍵字6+地點10]",https://www.104.com.tw/job/8zuk1,"★職務定位：
-具備策略思維與執行力的電商營運行銷 Team Lead，能帶領團隊推動品牌成長與營收提升，負責整體電商、行銷策略規劃、跨部門協作與團隊管理，以數據為導向來優化行銷成效。
-
-★工作內容：
--制定並執行整體電商行銷策略，達成營收與成長目標
--帶領行銷團隊（文案、社群、廣告等），提升團隊產出與品質
--規劃品牌行銷與內容策略（包含廣告文案、視覺素材、活動企劃等）
--負責數位廣告投放策略（如 ...",
-資料科學家-AI系統二team【全家便利商店關係企業】,精藤股份有限公司,台北市中山區,面議,104,20260407,29.3,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市中山區; [技能7+職稱8+關鍵字4+地點10],https://www.104.com.tw/job/8q23n,"，更有完善的公司治理與開發標準，可做為所有資訊人員執行專案時的後盾。
-除此之外，精藤近年來亦不斷追求更多新領域的發展，例如：雲端科技應用、大數據資料分析以及行動裝置管理技術等等，誠摯的歡迎所有對於零售流通有興趣的伙伴一同加入精藤的大家庭。
-
-職務內",
-總務行政資深專員,綠藤生物科技股份有限公司,台北市大安區,面議,104,20260605,29.3,"技能匹配(2): google sheets, 跨部門溝通; 地點符合: 台北市大安區; [技能13+職稱0+關鍵字6+地點10]",https://www.104.com.tw/job/92ejs,"Hi，
-
-如果你也相信，總務行政的價值不只是把事情做完，而是讓每位同事在工作日常中感受到有人在背後把一切打理好；如果你想在每一次的流程與制度中，主動找到更有效率的改善方式；如果你期待能在工作中成為讓組織運作更順的那個關鍵人——來跟我們聊聊吧！
-
-
-| 這份工作的核心內容 Responsibilities |
-・統籌辦公室日常庶務，包含設備維護、耗材採購及廠商聯繫管理，確保工作環境順暢運作
-・負責文...",
-汽車租賃營運數據企劃專員,裕隆集團移動服務事業_格上汽車租賃股份有限公司,新北市新店區,面議,104,20260605,29.0,技能匹配(1): 跨部門溝通; 職稱部分匹配: 數據科學家; 地點符合: 新北市新店區; [技能7+職稱8+關鍵字4+地點10],https://www.104.com.tw/job/8y9wx,"1.分析汽車與租賃市場、競品及客戶數據，提出具體洞察，協助制定營運與產品策略。
-2.負責租賃產品成本結構試算與效益評估，並規劃相關產品與專案推動。
-3.參與系統翻新與優化專案，負責需求分析、流程盤點、跨部門溝通及測試驗證，協助推動系統與營運流程。
-4.規劃並建置管理報表與數據儀錶板，提升數據視覺化與決策效率，強化數據導向管理。
-5.依專案需求，協助數位行銷與線上推廣內容規劃，並支援部門相關專案與交...",
-[RD3-QA] 可靠度驗證工程師【新店】,虹堡科技股份有限公司,新北市新店區,面議,104,20260603,29.0,"技能匹配(2): 數據分析, 跨部門溝通; 地點符合: 新北市新店區; [技能13+職稱0+關鍵字6+地點10]",https://www.104.com.tw/job/8y33m,"測試
--產品開發流程管理、專案進度管理
--數據分析與統計應用
--跨部門溝通協調
-
-薪資將依個人學歷、經歷及專業能力做為核薪依據",
-資深品牌行銷 Senior Brand Marketing Specialist,uffy_沐光研創國際有限公司,新北市三重區,面議,104,20260603,29.0,技能匹配(1): 數據分析; 職稱部分匹配: senior data analyst; 地點符合: 新北市三重區; [技能7+職稱8+關鍵字4+地點10],https://www.104.com.tw/job/7hszh,"我們是台灣第一按摩梳品牌「無非研製所」，在2019年首創台灣第一支遠紅外線按摩梳。追求細節的不馬虎，經過147次圖稿設計、11次打樣，我們做出了一支讓老師傅驕傲的按摩梳，傳承台灣四十年製梳工藝，也讓我們在疫情最嚴重的期間，創造了募資千萬的驚人成績！
-
-從2人一路成長至現在的精實小團隊，我們擁有極高的執行力和行動效率！在這裡沒有侷限與框架，歡迎任何好玩有趣的idea！也沒有僵化的管理制度，每一位員工...",
-資料工程師,聯想感行銷科技股份有限公司,台北市松山區,面議,104,20260601,28.7,技能匹配(1): data pipeline; 職稱部分匹配: 數據科學家; 地點符合: 台北市松山區; [技能7+職稱8+關鍵字4+地點10],https://www.104.com.tw/job/8t66i,協作定義與完成團隊/客戶資料流開發，協助梳理與排除運作中的 data pipeline 產生的各種突發程式狀況，並完成記錄與建檔，您應可獨立開發系統串接、大資料清整。在工作過程中，您會與工程團隊、設計團隊、產品團隊溝通協作，完成規劃之項目與習慣自,
-AI 賦能數位轉型專案經理 (AI Transformation PM),神銀建材資訊有限公司,台北市中山區,面議,104,20260605,28.7,"技能匹配(2): 商業分析, 跨部門溝通; 地點符合: 台北市中山區; [技能13+職稱0+關鍵字5+地點10]",https://www.104.com.tw/job/905me," 年以上專案管理經驗，有成功導入 ERP/CRM 或 AI 專案經驗者佳。
-具備商業分析能力，能與技術開發團隊溝通，亦能對高階經理人進行簡報。
-並能跨部門溝通並將業務需求轉化為技術規格。
-若具備 ESG 數據整合經驗或建築資訊模型 (BIM) 概念更",
-【商品營運主管】,荷風國際股份有限公司,台北市信義區,面議,104,20260603,28.3,"技能匹配(2): 數據分析, 跨部門溝通; 地點符合: 台北市信義區; [技能13+職稱0+關鍵字5+地點10]",https://www.104.com.tw/job/8xum1,"相關申報事項
-* 其他主管交辦事項
-
-
-【我們希望你具備】
-* 3 年以上商品管理、採購、庫存管理或供應鏈相關經驗
-* 熟悉 Excel 操作與數據分析
-* 具備良好的數字敏感度與邏輯能力
-* 能獨立處理工作並具責任感
-* 良好的跨部門溝通與協調能",
-系統分析師,AIR SPACE_新地國際股份有限公司,台北市士林區,面議,104,20260602,28.3,"技能匹配(2): sql, 自動化; 地點符合: 台北市士林區; [技能13+職稱0+關鍵字5+地點10]",https://www.104.com.tw/job/8r54b,"AIR SPACE為台灣第一女裝品牌，
-我們提供安心的工作環境、人才培育訓練課程，
-願您能成為永續經營的共同夥伴，歡迎加入AIR SPACE團隊！
-
-【你的工作內容】
-
-1.公司所有原生系統流程理解，並可提出原業務流程可調整處
-2.確保新系統流程/AI 模組與現有 ERP/中台系統的異質平台整合
-3.負責業務流程再造（BPR），分析並設計 新系統流程/AI 自動化工作流，提升營運效率
-4.運用 U...",
-【集團】執行長室策略專案經理,科林儀器股份有限公司,新北市中和區,面議,104,20260604,27.7,技能匹配(1): business analysis; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字11+地點10],https://www.104.com.tw/job/92cqg,"一、關於這個職位
-執行長室專案經理／副理隸屬於 CEO Office，主要負責協助 CEO 推動集團整體關鍵策略落地，並透過跨部門專案管理、經營分析與議題研究，將公司策略轉化為可執行、可追蹤、可產生成果的行動方案。
-
-這個角色將參與集團重大專案，例如新市場拓展研究、產品線發展、營運優化、流程改善與轉型專案等，並在專案中擔任 PM 或核心推動角色，協調各部門資源、追蹤進度、整合資訊，協助 CEO 與...",
-Product Marketing (Sr. Analyst),台灣惠而浦股份有限公司,新北市板橋區,面議,104,20260602,27.5,職稱部分匹配: product analyst; 地點符合: 新北市板橋區; [技能0+職稱12+關鍵字5+地點10],https://www.104.com.tw/job/8d9e0,"產品行銷主管負責產品品類策略和規劃流程，制定並執行本地行銷策略，以實現業務目標 (KPI)。職責包括制定短期/中期產品路線圖、執行市場推廣 (GTM) 並創建行銷溝通成果，以支援 GTM、產品定位和品牌形象。他們也負責監督長期產品策略和新業務拓展，促進品牌成長。與跨職能團隊和研發部門 (TRS/OEM) 的合作對於在適當的時間和價格提供合適的產品至關重要。
-
-市場研究
-1. 監測市場佔有率並依計畫...",
-【Intern-實習生計畫】數據分析實習生,藝康企業股份有限公司,台北市士林區,面議,104,20260605,27.3,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市士林區; [技能7+職稱8+關鍵字2+地點10],https://www.104.com.tw/job/8lpfh,"1.協助進行從簡單到中等複雜度的數據分析項目
-2.分析資料並準備報告以支援決策過程
-3.與其他部門合作，收集分析所需資訊，並識別資料趨勢與差異
-4.完成主管其他交辦任務
-
-
-",
-〔人資〕人資專員(數據分析),台新新光金控_台新國際商業銀行股份有限公司,台北市大安區,面議,104,20260602,27.3,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能7+職稱8+關鍵字2+地點10],https://www.104.com.tw/job/91l2h,"1. 人力數據整理與分析，定期產出人力統計及管理報表。
-2. 進行離職率分析，依人員屬性進行交叉分析，提出洞察與改善建議。
-3. 製作人資分析簡報，支援經營管理決策與專案需求。
-4. 人資專案數據分析與成效追蹤。
-",
-System Analyst 系統分析師,科替科技有限公司,台北市內湖區,面議,104,20260603,27.2,職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能0+職稱12+關鍵字5+地點10],https://www.104.com.tw/job/92a20,"工作內容
-1. 依客戶需求進行系統分析、需求訪談與規劃，協助專案落地執行。
-2. 負責撰寫與維護 SA／SD／功能規格文件，將商業需求轉化為系統規格。
-3. 與客戶端 PM／BA 溝通需求，釐清範圍並合理控管需求變更。
-4. 與系統工程師、開發人員協作，完成系統介面、功能與流程設計。
-5. 參與測試（UAT）、協助測試情境與測試資料準備，並進行問題分析與修正建議。
-6. 視專案需求，參與高流量、高...",
-經營策略研究員丨Business Strategy Analyst,永聯物流開發股份有限公司,台北市內湖區,面議,104,20260604,27.2,職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能0+職稱12+關鍵字5+地點10],https://www.104.com.tw/job/6zfl1,"About the role...
-
-永聯物流開發正處於快速發展階段，經營策略研究員隸屬於公司核心的經營策略團隊。
-
-經營策略研究員須透過進行海內外市場研究、產業研究或其他相關領域之研究，以協助經營團隊決策，並掌握國際市場趨勢與關鍵議題；亦會針對新投資專案與執行中專案，進行商業模式與財務評估的探討，以提供決策的參考與支持。此外，也會成為跨部門專案之溝通橋樑，進行專案的彙整與協助後續事項追蹤。
-
-W...",
-Application Support Engineer (Luxury Retail Brand),香港商領先科技服務有限公司台灣分公司,台北市信義區,面議,104,20260529,27.2,職稱部分匹配: analytics engineer; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字5+地點10],https://www.104.com.tw/job/9248j,"The role is responsible for maintaining solution stability and ensuring that system issues are properly identified, monitored, and escalated to the appropriate support teams.  This is a service delive...",
-N410-EVSE Channel Marketing Senior Specialist,微星科技股份有限公司,新北市中和區,面議,104,20260605,26.7,職稱部分匹配: senior data analyst; 地點符合: 新北市中和區; [技能0+職稱8+關鍵字8+地點10],https://www.104.com.tw/job/924nx,We are seeking an experienced Channel Marketing Senior Specialist to drive marketing growth across Europe for our Electric Vehicle Supply Equipment (EVSE) product portfolio. This role is responsible f...,
-Technical Project Management,雲景科技股份有限公司,新北市板橋區,面議,104,20260528,26.7,"技能匹配(2): dashboard, 數據分析; 地點符合: 新北市板橋區; [技能13+職稱0+關鍵字3+地點10]",https://www.104.com.tw/job/8xsv6,"*不限PM經驗，重視英文能力與溝通表達能力
-
-------------------------------------------------------
-客戶專案支援
-
-協助團隊進行數據整合、資料分析與 Dashboard 建置，透過數據整理與",
-消費金融部_消金信貸產品規劃人員(PM),O-Bank_王道商業銀行股份有限公司,台北市內湖區,面議,104,20260528,26.7,"技能匹配(2): 數據分析, 商業分析; 地點符合: 台北市內湖區; [技能13+職稱0+關鍵字3+地點10]",https://www.104.com.tw/job/8vxxp,"1.貸款產品營運規劃：
-(1)根據策略與預算制定計畫，追蹤績效並達成業務目標
-(2)市場調查與分析競品策略
-(3)進行客戶數據分析、商業分析，提出洞察與改善建議
-(4)關注最新數位金融法規、技術等發展趨勢
-2. 貸款產品行銷規劃：
-(1)廣宣通路",
-資料工程師 / Data Engineer,奕界科技有限公司,台北市中正區,面議,104,20260602,26.5,職稱部分匹配: 資料分析師; 地點符合: 台北市中正區; [技能0+職稱12+關鍵字4+地點10],https://www.104.com.tw/job/928hw," high volumes of transactions and are scaling our data platform to power financial reporting, regulatory needs, and business",
-產品測試分析師(Product QA Analyst / Coordinator),歐凱雲端有限公司,台北市大安區,面議,104,20260601,26.5,職稱部分匹配: business analyst; 地點符合: 台北市大安區; [技能0+職稱12+關鍵字4+地點10],https://www.104.com.tw/job/918aa,"我們正在尋找一位具備「品質驗證」與「流程協調」能力的夥伴。在這裡，你將深入參與自研平台的品質守護，並負責全球各類遊戲供應商的技術整合測試。此職位以產品測試為核心 (70%)，同時負責外部廠商的技術對接與進度控管 (30%)。
-
-【工作內容】
-1. 品質驗證與整合測試 (核心職能 70%):
-• 三方串接測試： 執行第三方遊戲 API 功能與穩定性測試，確保內容與平台正確對接。
-• 測試規劃執行： ...",
-Product Manager,晶訊國際有限公司,新北市汐止區,面議,104,20260514,26.5,職稱部分匹配: product analyst; 地點符合: 新北市汐止區; [技能0+職稱12+關鍵字4+地點10],https://www.104.com.tw/job/8wpiu,"1. 負責產品的規劃、設計、開發和維護等不同階段的管理
-2. 進行市場調查和競爭分析，確定產品定位和價值主張
-3. 與RD和UI團隊溝通協調，確保產品開發進度和品質
-4. 與QA團隊協作，確保產品測試和品質
-5. 協助產品行銷，製作各種行銷文件
-6. 與內外部團隊合作，推動新產品和功能的開發和上線
-
-產品管理師是一個非常重要的職位，負責監督和管理公司產品生命週期的不同階段。這是一個充滿挑戰和發展前...",
-Boutique Operations Assistant (WFJ),香奈兒有限公司,台北市信義區,面議,104,20260602,26.3,技能匹配(1): data analytics; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字10+地點10],https://www.104.com.tw/job/92905,"Job Purpose:
-
-This role will support on retail operations and boutique administration. He/she will be an enabler as well as a change agent to enhance operation efficiency, support operations by perfor...",
-【開發資本】Overseas Investment Business Support,凱基金融控股股份有限公司|凱基證券|凱基銀行|中華開發資本|凱基投信,台北市松山區,面議,104,20260408,26.2,職稱部分匹配: business analyst; 地點符合: 台北市松山區; [技能0+職稱12+關鍵字4+地點10],https://www.104.com.tw/job/90871,1.	Screening of VC funds globally (including but not limited to North America and Europe) and subsequent underwriting of deals which can be in the form of fund commitments or co-investing into direct ...,
-【集團】集團營運稽核,科林儀器股份有限公司,新北市中和區,面議,104,20260602,26.0,技能匹配(1): business analysis; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字9+地點10],https://www.104.com.tw/job/8umup,"【關於這份工作】
-本職位隸屬營運長管理室，主要協助營運長推動集團內部控制優化、營運流程改善、管理制度建置與跨部門專案追蹤。此角色期待具內控、內稽、風險管理或流程改善經驗者，能運用過去在查核、風險辨識、流程盤點與改善追蹤上的專業，協助公司提升營運管理品質與制度化運作。
-
-本職務將參與集團營運管理優化專案，協助盤點現行作業流程、辨識控制缺口、推動改善措施，並支援營運數據彙整、管理報表製作及專案執行追蹤...",
-資料工程師  Data Engineer,數解人意科技股份有限公司,台北市中山區,面議,104,20260602,25.5,職稱部分匹配: 資料分析師; 地點符合: 台北市中山區; [技能0+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/92847,"【 資料工程師 ( Data Engineer) 】
-
-在 QSearch，數據是我們最核心的資產。此角色的核心目標是建構公司大數據生態系的「源頭引擎」。您將負責設計、開發與維運可擴展的高速分散式爬蟲系統，與各平台反爬蟲機制正面對決，並優化高併發",
-【AI Data Center】-消防工程師,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260603,25.5,職稱部分匹配: data scientist; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/8qnnh,"1. 負責數據中心與相關廠房消防系統規劃、設計與建置
-    ─ 執行消防系統配置設計、消防管線規劃及圖面檢討。
-    ─ 依據建置需求進行系統容量、設備選型及設計整合。
-2. 執行消防工程專案管理與跨部門協調
-    ─ 與機電、建築、空調、營運及外部廠商進行介面整合。
-    ─ 協助施工進度追蹤、工程品質管理及問題排除。
-3. 確保消防系統符合相關法規及驗收標準
-    ─ 依據消防法規、...",
-High-Power Front End Engineer 高電前端開發工程師,鴻海集團_英屬開曼群島商鴻騰精密科技股份有限公司台灣分公司,新北市土城區,面議,104,20260604,25.5,職稱部分匹配: analytics engineer; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/922n4,"1. Front end design and analysis: High-power connector concept design, by CAE/FEA simulation to optimize the design			
-2. Support Sales engineers and customers: Provide technical support and solution,...",
-國際業務助理 International Business Assistant,康達生命科學有限公司,台北市中正區,面議,104,20260605,25.5,職稱部分匹配: business analyst; 地點符合: 台北市中正區; [技能0+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/92dex,"Contek Life Science 自2005年起專注於 nattokinase 原料開發與生產，旗下品牌 nattiase® 以高品質、標準化與國際供應能力，服務全球保健食品、功能性食品與營養品市場。本職位協助國際業務團隊推動海外客戶開發、市場研究與專案管理工作，作為客戶端與內部團隊之間的重要協調窗口，並逐步培養對產品、市場與國際商務開發之理解與實務能力。
-
-主要工作內容：
-一、客戶與專案管...",
-MIS工程師 / MIS Engineer,台灣經濟新報文化事業股份有限公司,台北市信義區,面議,104,20260604,25.2,職稱部分匹配: analytics engineer; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/8yxl3,"【工作內容】
-1. 維護機房伺服器、雲端服務與網路設備。
-2. 管理使用者電腦與事務設備，含 WSUS 與防毒更新。
-3. 依 IS27001 要求執行資安規劃、管理與教育訓練。
-4. 維運公司內外部各項系統（如 Mail、AD、DNS 等）。
-5. 提供產品安裝、售後服務與線上／到場技術支援。
-6. 撰寫及維護內部資訊系統技術文件與 SOP。
-7. 撰寫產品操作說明、建置計畫與維護相關技術文件。...",
-"Senior Data Engineer, Virtual Insurance",香港商六度科技有限公司,台北市信義區,面議,104,20260603,25.2,職稱部分匹配: senior data analyst; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字3+地點10],https://www.104.com.tw/job/8yk20,"[Job Overview]
-We are looking for an experienced Senior Data Engineer to join our engineering team and play a key role in",
-資深市場發展專員｜食品品牌通路經營與客戶發展,品元實業股份有限公司,新北市淡水區,面議,104,20260605,25.0,技能匹配(1): 數據分析; 地點符合: 新北市淡水區; [技能7+職稱5+關鍵字3+地點10],https://www.104.com.tw/job/8lrr2," 【銷售數據分析與策略優化】
-     • 定期分析銷售數據、通路表現與市場趨勢
-     • 監控商品動銷、庫存週轉與通路效率
-     • 提出價格、促銷與通路策略優化建議
-     • 產出業績報告與成效分析，支持決策優化
-
-【通路範疇】",
-資深 AI 工程師 | Senior AI Engineer (LLM & Agent),街口電子支付股份有限公司,台北市松山區,面議,104,20260603,24.8,職稱部分匹配: analytics engineer; 地點符合: 台北市松山區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/92awi," Own AI safety & governance: design data boundaries within PCI DSS scope, implement guardrails (PII detection, prompt injection",
-【AI Data Center】冷卻與冷凍空調架構工程師 (HVAC),鴻海精密工業股份有限公司,新北市土城區,面議,104,20260604,24.8,職稱部分匹配: data scientist; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8qnne,"尋求具備尖端液冷技術及 HVAC 系統整合經驗的頂尖人才，共同規劃下一代高效能 AI 資料中心！
-這個職位將負責設計並交付符合AI高密度運算需求、且具備最低 PUE 的創新冷卻解決方案。
- 
-1. 設計與規劃數據中心冷卻系統（CRAC、Chiller、冷通道）。
-2. 優化機房氣流配置與冷卻效率。
-3. 維護空調設備，確保溫濕度穩定。",
-Embedded System Analyst 嵌入式系統分析師,海華科技股份有限公司,新北市新店區,面議,104,20260604,24.8,職稱部分匹配: business analyst; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/6e6mt,"1.負責制定產品的總體設計方案，參與產品軟體設計和測試規劃。
-2.根據產品開發進度和任務分配，制定相應的軟體模組，編寫相應的技術文件。
-3.根據產品所定義之功能，制定測試方法及腳本編寫。
-4.軟體的開發進度控管及規劃。
-",
-AI Data Center 通信弱電系統工程師,鎂洲科技有限公司,新北市蘆洲區,面議,104,20260603,24.5,職稱部分匹配: data scientist; 地點符合: 新北市蘆洲區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/92al8,"▼核心職責概述
-
-◎因應 AI Data Center (AIDC) 與高密度機房的建置需求，我們正在尋找具備紮實通訊線路實作與水電圖面觀念的專業技術人才。本職位將聚焦於資料中心內部的通信網路系統架設、光纖與傳統線路施工、設備測試維修，以及配合法",
-Business Manager 商務經理,新加坡商星沃恪股份有限公司台灣分公司,台北市南港區,面議,104,20260604,24.5,職稱部分匹配: business analyst; 地點符合: 台北市南港區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/92ce1,"管理報告
-•	追蹤關鍵業務指標與績效數據，提供具體分析與改善建議
-•	協調並跟進公司重要策略事項，確保執行進度與成果
-
-New Business & Growth Initiatives｜新業務與成長專案
-•	與業務開發團隊合作，評估並推動新業務機",
-Senior Business Development ( Taiwan HiTech ),奧義智慧科技股份有限公司,新北市板橋區,面議,104,20260603,24.5,職稱部分匹配: business analyst; 地點符合: 新北市板橋區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/88jgr, business success. You will manage and drive the full sales cycle of deals in your specific territory through direct approach,
-Research Scientist,柏瑞克股份有限公司,新北市中和區,面議,104,20260603,24.5,職稱部分匹配: data scientist; 地點符合: 新北市中和區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8ub5q,"The job applicant shall have material science, chemistry or chemical engineering related background or experience. Fluent English speaking and writing are essential. He or she shall have the enthusias...",
-資深品保專員/主任,DR.WU SKINCARE_達爾膚生醫科技股份有限公司,台北市中山區,面議,104,20260604,24.3,技能匹配(1): 數據分析; 地點符合: 台北市中山區; [技能7+職稱5+關鍵字3+地點10],https://www.104.com.tw/job/8xot7,"質管理作業。
-6. 完成主管交辦事項。
-
-這是一個結合品質制度建立、異常分析與供應商管理的關鍵角色。
-你將負責規劃品質流程、制定檢驗規範，並透過數據分析與改善機制，持續提升產品品質與可靠度。如果你希望從執行走向制度與改善，這會是一個具成長性的機會。",
-台灣總部 -Pizza Hut Operation Digital Transformation Executive,必勝客Pizza Hut/肯德基KFC_富利餐飲股份有限公司,台北市中山區,面議,104,20260604,24.3,技能匹配(1): dashboard; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字8+地點10],https://www.104.com.tw/job/92cf5,"Job Overview
-As a member of the Operations Digital Transformation Team, you will support daily operations through data analysis, project coordination, and digital tool adoption. This role works closel...",
-"ASIC Verification Engineer - CAG - Taiwan, Taipei",台灣思科系統股份有限公司,台北市信義區,面議,104,20260603,24.2,職稱部分匹配: analytics engineer; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8ziut," contribute to crafting the ASICs that power the world's data flow every time someone connects online.
-
-**Your Impact**
-•	Develop and",
-LS-美商科技大廠-GCP Data Engineer (8年Data Engineer經驗/熟悉GCP/可以Hybrid),新加坡商立可人事顧問有限公司台灣分公司,台北市信義區,面議,104,20260603,24.2,職稱部分匹配: data scientist; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8zte2,"This role provides highest-tier technical support for complex issues across Cloud data platforms, including data ingestion,",
-Billing Data Engineer,伊雲谷數位科技股份有限公司,新北市三重區,面議,104,20260601,24.2,職稱部分匹配: data scientist; 地點符合: 新北市三重區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8muvr,"洗、分析、計算
-2.	基於 Well-Architected 準則打造現有系統優化，資料流整併，並建置 data warehouse
-3.	參與系統出現異常處理
-4.	跨模組的資料整合處理
-
-
-[Minimum Qualifications]
-1.",
-Senior Analog/Mixed Signal Design Engineer,美商科點半導體有限公司台灣分公司,新北市新店區,面議,104,20260501,24.2,職稱部分匹配: analytics engineer; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8ufxl," ADCs, DACs, Filters, PLLs, DLLs, High-speed customized IPs and I/Os, SerDes, Clock and Data Recovery, line drivers, and",
-業務開發經理 Business Development Manager(品牌包裝 / Brand Packaging Solutions）,美商盛派克股份有限公司台灣分公司,台北市大同區,面議,104,20260605,24.2,職稱部分匹配: business analyst; 地點符合: 台北市大同區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/90tdj,"持續發掘新需求與合作機會。
-
-CRM 與 Pipeline 管理
-透過 CRM 管理商機、客戶狀態與銷售流程。
-
-我們希望你具備
-必要條件
-3 年以上 business development / sales 經驗
-曾任職於：
-設計 agency",
-Business Transformation Supervisor (Location:Taipei),香港商捷比達有限公司台灣分公司,台北市中正區,面議,104,20260529,23.8,職稱部分匹配: business analyst; 地點符合: 台北市中正區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8zzo9," while overseeing the Data Control Center (DCC) to ensure data integrity and process consistency across the organization.
-
-Job",
-AML Due Diligence Lead Analyst,施羅德證券投資信託股份有限公司,台北市信義區,面議,104,20260603,23.8,職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/92ay4," requires rigorous attention to every stage of the due diligence lifecycle, from data collection through risk evaluation,",
-【軟體後端服務 產品程式支援工程師】全球美商金融軟體公司 Client Solutions Analyst,Open Access BPO_一路通有限公司,台北市信義區,面議,104,20260512,23.8,職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/7znf1, Eze is seeking a Client Solutions Analyst to join their Client Service team in Taipei through Open Access. We are looking,
-【AI Data Center】軟體模擬分析工程師,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260604,23.8,職稱部分匹配: data scientist; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8upy8,"1. 利用模擬軟體進行結構、流體或熱分析。
-2. 分析產品在各種載荷下的行為與表現。
-3. 撰寫模擬報告並提供設計改進建議。",
-Payments Analyst (Day/Night shift),祐嘉資訊服務有限公司,台北市松山區,面議,104,20260601,23.8,職稱部分匹配: business analyst; 地點符合: 台北市松山區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/91xwl,"Job Summary:
-
-We are seeking a highly skilled and experienced Payment Analyst. This role is based in Cyprus and plays a",
-★全遠端★ Google專案 |韓文內容審核韓文內容審核 Korean Content Analyst |歡迎英韓人才 |跨國團隊合作 |完整培訓_AMR_885,藝珂人事顧問股份有限公司,台北市信義區,面議,104,20260601,23.8,職稱部分匹配: business analyst; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/91xxy,"【職務介紹】
-想加入國際化團隊，累積全球科技平台專案經驗嗎？
-
-你將擔任 Korean Content Analyst，參與Google 相關專案，主要負責韓國市場內容的審核與分析，依據平台政策、內容規範及作業標準進行判定，協助維持平台內容品質與",
-Sales Assistant / Executive Assistant to VP of Business Development,英屬開曼群島商聯通科技國際股份有限公司,台北市內湖區,面議,104,20260602,23.8,職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/928na,"Taipei, Taiwan | Fixed-Term Contract | Hybrid (Office-first) | 
-Reports to: VP of Business Development
-
-About the",
-Business Program Manager (BPM),富智康國際股份有限公司,新北市土城區,面議,104,20260602,23.8,職稱部分匹配: business analyst; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8zz8s,"【工作內容】
-1.主導新產品報價與商務評估，包含 RFQ/RFI 回覆、Unit Cost、NRE 及 Business Case（P&L）分析，以提升專案競爭力。
-2.負責成本與定價策略管理，分析 BOM 結構與市場趨勢，持續推動成本優化與毛利",
-事業策略發展處_資深業務發展經理 Senior Business Development Manager,安華聯網科技股份有限公司,新北市新店區,面議,104,20260603,23.8,職稱部分匹配: business analyst; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8zpoc,"divisional positioning in new-logo pursuits, coordinating with counterpart business leaders across Safety, EMC, Wireless, and",
-Quality Engineer,美商泛技股份有限公司,新北市汐止區,面議,104,20260603,23.8,職稱部分匹配: analytics engineer; 地點符合: 新北市汐止區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8jl59," address and drive improvement of supplier quality issues in the power module business.
-5. Support sales and marketing teams in",
-Product Manager / Sr. Product Manager,REVLON & ElizabethArden_荷蘭商伊麗莎白雅頓有限公司台灣分公司,台北市信義區,面議,104,20260603,23.5,職稱部分匹配: product analyst; 地點符合: 台北市信義區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8y06l," implemented in DS’s promotion plan and execution.
-5. Data analysis
-",
-Data Research Engineer,Gogolook_走著瞧股份有限公司,台北市大安區,面議,104,20260602,23.5,職稱部分匹配: data scientist; 地點符合: 台北市大安區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/927y8,"
-As a Data Research Engineer, you will be a core part of the ISL Data Services competency. Your mission is to bring the data",
-Senior Business Development Director,嗨雲_新加坡商遠豪科技有限公司台灣分公司,台北市松山區,面議,104,20260526,23.5,職稱部分匹配: business analyst; 地點符合: 台北市松山區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8yp4q,"About the Role
-• We are seeking a highly strategic and results-driven Senior Business Development Director with solid",
-【內部職務】Assistant Business Development Manager,新加坡商謝菲爾德亞洲綠能私人有限公司台灣分公司,台北市中正區,面議,104,20260605,23.5,職稱部分匹配: business analyst; 地點符合: 台北市中正區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8rna0,*Conduct in-depth industry and market research within the renewable energy sector to identify and develop new business,
-"Business Development Manager, Sales","DSV Air & Sea Co.,Ltd._立天行通運股份有限公司",台北市內湖區,面議,104,20260602,23.5,職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/928co,The Field Sales Representative is responsible for driving sales and business growth by developing and maintaining,
-Business Development Manager,拓領環球運輸股份有限公司,台北市內湖區,面議,104,20260602,23.5,職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/6q50t,"服務。
-5. 業務活動進度更新並維護客戶近況於Global CRM系統
-
-1. Develop new relationships in an effort to grow business and help company expand
-2.",
-Business Development Manager (Taipei),愛瑪麗歐股份有限公司,台北市大安區,面議,104,20260602,23.5,職稱部分匹配: business analyst; 地點符合: 台北市大安區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8kuya," support this growth, we’re seeking professionals with a global mindset and strong business development skills to help expand our",
-【內部職缺】業務顧問 Sales Consultant - 海外事業單位 Overseas Business Unit,佰德管理顧問有限公司,台北市內湖區,面議,104,20260602,23.5,職稱部分匹配: business analyst; 地點符合: 台北市內湖區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8kigk," to leverage your experience and grow your career with us.
-
-
-We are looking for a Sales Consultant with strong business",
-<AI Agent>AI Specialist Engineer,伊雲谷數位科技股份有限公司,新北市三重區,面議,104,20260603,23.5,職稱部分匹配: analytics engineer; 地點符合: 新北市三重區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/92a96," understand business and technical requirements and propose suitable AI Agent solutions
-•Design, develop, implement, and",
-PR & Communications Lead 品牌公關組長,Lalamove,台北,面議,LinkedIn,2026-06-05,23.3,技能匹配(1): 跨部門溝通; 地點符合: 台北; [技能7+職稱0+關鍵字7+地點10],https://tw.linkedin.com/jobs/view/pr-communications-lead-%E5%93%81%E7%89%8C%E5%85%AC%E9%97%9C%E7%B5%84%E9%95%B7-at-lalamove-4415346067,【工作內容】 媒體關係經營：深耕並維護與媒體的良好關係，定期舉辦、參與媒體餐敘與交流活動。 品牌公關策略：制定並執行 Lalamove 品牌公關策略，規劃品牌公關形象、發言主軸與媒體專訪，以提升 Lalamove 的品牌知名度、企業整體專業度與正向影響力。 商業情報整合：活躍於各大媒體與品牌公關社群，具備商業敏銳度。能從日常交流中捕捉市場動態與他牌專案，主動發掘潛在的商業或戰略合作機會，並將第一手...,
-【PM】AI Product Manager (Server and Workstation),宏碁股份有限公司,新北市汐止區,面議,104,20260605,23.2,職稱部分匹配: product analyst; 地點符合: 新北市汐止區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/92dk4," AI workstation system products for enterprise, cloud and data center infrastructure. The ideal candidate will possess deep",
-Business Development Manager,愷瑞國際物流股份有限公司,台北市中山區,面議,104,20260601,23.2,職稱部分匹配: business analyst; 地點符合: 台北市中山區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/88rcq," overseas to activate more opportunities
-• Actively communicate with overseas sales to probe for any business opportunities and",
-AI 解決方案顧問 AI Solution Consultant / Business Development,易可思科技股份有限公司,台北市中山區,面議,104,20260602,23.2,職稱部分匹配: business analyst; 地點符合: 台北市中山區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/9298e,"案成交並拓展客戶合作機會。
-8. 蒐集市場需求與客戶回饋，協助產品優化。
-
-【 What We're Looking For 】
-必備條件
-1. 具 2 年以上 B2B、Business Development 或解決方案銷售經驗。
-2. 曾獨立開",
-Business Development / Account Manager (緯潤)_07538,緯創資通股份有限公司,新北市汐止區,面議,104,20260602,23.2,職稱部分匹配: business analyst; 地點符合: 新北市汐止區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8pc3o,"緯創集團旗下子公司「緯潤高新材料」招募 Business Development / Account Manager 職位。
-緯潤為緯創集團永續材料事業，專注於電子產業循環經濟與PCR再生材料應用，致力於協助全球電子品牌及供應鏈夥伴推動永續材料導",
-System Product Manager_TC29078,"Super Micro Computer, Inc._美超微電腦股份有限公司",新北市中和區,面議,104,20260601,23.2,職稱部分匹配: product analyst; 地點符合: 新北市中和區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/92741," positioning, working closely with marketing, engineering, and business development to deliver competitive server solutions.
-3.",
-(MKT) Gaming Product Marketing Specialist/電競產品行銷專員,嘉捷科技企業股份有限公司,新北市中和區,面議,104,20260602,23.2,職稱部分匹配: product analyst; 地點符合: 新北市中和區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8n3qa," partnership marketing efforts to enhance brand awareness.
-
-【Qualifications】
-• Bachelor’s degree in Marketing, Business,",
-Solution Product Manager — Software & AI Solution,技鋼科技股份有限公司_技嘉集團,新北市新店區,面議,104,20260602,23.2,職稱部分匹配: product analyst; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8y82o,"•Product Strategy & Innovation: Develop and execute a product strategy and business plan in line with company goals,",
-Part-time Business Subject Instructors (Native English Speakers),威能國際留學有限公司,台北市松山區,面議,104,20260602,22.8,職稱部分匹配: business analyst; 地點符合: 台北市松山區; [技能0+職稱12+關鍵字0+地點10],https://www.104.com.tw/job/7f7dr,"We are looking for professional, highly interactive Native English instructors with a background in Business to join our",
-國際業務開發專員（International Business Development Executive）,卓美企業股份有限公司,新北市新店區,面議,104,20260605,22.8,職稱部分匹配: business analyst; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字0+地點10],https://www.104.com.tw/job/82r26," Our products are distributed globally and can be found in leading retail channels around the world.
-
-As our business",
-初級業務分析師 Junior BA,加林軟體科技有限公司,台北市信義區,面議,104,20260521,22.7,技能匹配(1): 商業分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字6+地點10],https://www.104.com.tw/job/91u1v,"一、 工作職掌
-1. 新商品簡易需求分析
-2. 保單商品系統需求設定及測試作業
-3. 系統測試及測試報告
-4. 日常控管報表資料整理及文件製作
-5. 主管交辦工作相關事項
-
-二、職務所需經驗
-1. 至少 1 年保險公司相關工作經驗 或大學保險學系 或 大學資訊管理系
-2. 熟悉 MS Office ( Word:測試文件/操作手冊, Excel: 函數和樞紐分析報表的應用, Power 
-Poin...",
-【策略採購專員】Supply Chain Management Specialist,宇通科技股份有限公司,新北市樹林區,面議,104,20260605,22.7,技能匹配(1): 數據分析; 地點符合: 新北市樹林區; [技能7+職稱0+關鍵字6+地點10],https://www.104.com.tw/job/8v2c2,"【職務目標與定位】
-本職務隸屬於公司 「供應鏈資源部」 策略中樞，是部門 策略藍圖的核心執行者。您將負責將 Make-or-Buy 決策、供應網絡重整 等策略方案，轉化為具體的執行專案，並主導跨部門與供應商的協調與實施，確保策略目標有效達成。
-
-【主要職責】
-1.	策略專案執行與追蹤：
-．主導並推動 Make-or-Buy 決策的後續執行工作，進行 TCO (總體擁有成本) 分析，並將結果導入相關...",
-★外商跨境支付金融公司【B2B Payment Services｜Operational Analyst、資金帳務管理專員】薪資可議 / 首年即享特休14天 / 美式管理風格 / 組織扁平/需英文流利 BIS_201,藝珂人事顧問股份有限公司,新北市板橋區,面議,104,20260604,22.0,技能匹配(1): 數據分析; 地點符合: 新北市板橋區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/8ytr8,"✨全球前100強科技金融跨境支付公司
-✨福利優渥
-✨辦公風氣開放、愉快
-
-✘非業務性質，無業績壓力
-
-【Responsibilities】
-- 與全球支付合作夥伴合作，處理客戶交易數據（資料審核、輸入）
-- 協助解決與交易相關的問題，確保公司於全球的交易順利進行
-- 改進和執行支付流程
-- 協助金流對賬、金流結算查詢，並透過mail解決客戶問題
-- 與產品管理和工程師團隊合作，協助營運系統功能測試...",
-執行經紀｜Executive Talent Coordinator,AmazingTalker,台北,面議,LinkedIn,2026-05-06,22.0,技能匹配(1): 數據分析; 地點符合: 台北; [技能7+職稱0+關鍵字5+地點10],https://tw.linkedin.com/jobs/view/%E5%9F%B7%E8%A1%8C%E7%B6%93%E7%B4%80%EF%BD%9Cexecutive-talent-coordinator-at-amazingtalker-4421626959,"About Us AmazingTalker 成立於 2016 年，以持續讓優質線上教師提高收入為使命，成為台灣教育新創界「🦄獨角獸」為願景，持續深耕教育市場、優化學習體驗與推動教育革新。創立至今我們已經累積超過 150 種多元課程，吸引超過 10,000 名專業教師在線授課，並服務來自 200 多個地區的 3,500,000 名學生。 歷年來我們持續獲得業界與國際間的肯定。2020 年入選《親子...",
-資安技術經理,104人力銀行_一零四資訊科技股份有限公司,新北市新店區,面議,104,20260605,21.7,技能匹配(1): 跨部門溝通; 地點符合: 新北市新店區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/92elg,"我們正在尋找一位具備深厚資安背景與策略視野的「資安與終端維運經理」。此職位除日常維運外，首要任務為執行「零信任架構（Zero Trust Architecture）」轉型專案，期望您具備跨部門溝通與策略規劃的能力，能在重大技術挑戰發生時，具備親自參與技術實作（Hands-on）的硬實力。
-
-【主要職責】
-零信任架構轉型與策略規劃：執行公司內部的零信任架構轉型專案，規劃與建議中長期資安部署藍圖，將技...",
-計畫執行專員,青少年表演藝術聯盟,新北市淡水區,面議,104,20260605,21.7,技能匹配(1): 跨部門溝通; 地點符合: 新北市淡水區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/8leto,"【青藝盟】計畫組執行專員徵才
-青少年表演藝術聯盟是台灣唯一專職專業深耕青少年族群的非營利組織、演藝團體，我們期望集結對台灣藝文環境有熱情且願意提供一己之力的各專業領域夥伴一起為戲劇教育努力，不管您的背景為何，只要你對戲劇教育有熱情、對自我實踐有想望，歡迎您加入青藝盟，不只共同打拼，也一起陪伴彼此成長、前進。
-
-【工作內容】
-1、研究與分析：進行提案、結案相關之資料搜集、彙整與製作，包含文字、附件及...",
-〔總行〕資料與模型治理師 (台北),台新新光金控_台新國際商業銀行股份有限公司,台北市大安區,面議,104,20260603,21.3,技能匹配(1): 跨部門溝通; 地點符合: 台北市大安區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/90lzt,"【工作內容】
-1、Model I nventory建立、維護
-2、Model Monitoring持續監控機制、
-3、Model Audit稽核與驗證
-4、AI治理框架規劃與流程落地
-5、模型版本控管與跨部門協作
-
-資格條件
-1、孰悉模型建置與管理實務經驗、AI治理框架
-2、具銀行數據治理、AI 治理業務尤佳
-3、具專案管理與跨部門溝通能力
-",
-企劃人員,台灣產創知識庫顧問有限公司,新北市三重區,面議,104,20260519,21.3,技能匹配(1): 統計分析; 地點符合: 新北市三重區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/8gvzj,"【工作內容】
-1. 廠商需求諮詢並依其需求進行企劃。
-2. 客戶關係管理。
-3. 與內部團隊合作，溝通相關進度。
-4. 其他主管交辦事項，並配合單位主管工作調度與分配。
-
-【工作優勢】
-1. 提供教育訓練，學習專業知識。
-2. 鍛鍊邏輯、溝通與企劃能力。
-3. 辦公室交通便利，緊鄰捷運站及公車站。
-
-【需要條件】
-1. 大學以上、畢業科系不限，(碩士以上尤佳)。
-2. 基礎電腦文書企劃能力。
-3....",
-【外商】[FIN] Finance Digital Analyst／財務數位分析師,烽泰科技有限公司,台北市中正區,面議,104,20260604,21.0,技能匹配(1): 數據分析; 地點符合: 台北市中正區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/913yd,"資料與 AI 相關領域人才。
-
-【關於該職位】 
-作為 Finance Digital Analyst，將參與公司財務數位轉型的核心專案。此角色不僅負責財務報表與數據分析，更需深入理解業務場景，透過數據工具（如 Datawind）提升財務透明度，並",
-資深專案管理師 Senior Program Manager (Web/App/IoT 開發),學力創意科技股份有限公司,台北市大安區,面議,104,20260513,21.0,職稱部分匹配: senior data analyst; 地點符合: 台北市大安區; [技能0+職稱8+關鍵字3+地點10],https://www.104.com.tw/job/7314i,"主要執行 Web、App、IoT軟硬整合等資訊軟體開發專案管理工作，職務內容說明如下：
-
-一、規劃、組織與督導專案執行工作，並承擔專案績效
-在接獲公司主管指派或交辦專案工作後，有組織地調配優先順序，歸納相關需求後，具體地規劃出專案目標、時程、預算、人力安排及執行方案等工作，並確保產品可被成功地開發出來。
-
-二、企劃及編輯撰寫軟體專案文件
-針對所負責之專案，需能編撰產出相關專案應交付文件，當中包含但...",
-[上市櫃大廠結盟] Senior Project Manager｜醫療器材 / AI醫療產品,柏瑞醫股份有限公司,新北市新店區,面議,104,20260604,20.7,職稱部分匹配: senior data analyst; 地點符合: 新北市新店區; [技能0+職稱8+關鍵字2+地點10],https://www.104.com.tw/job/91a33,"
-
-5. 跨部門協作與營運推進（Cross-functional Collaboration）
-作為 Engineering／Clinical／Regulatory／Business／Operation 間之核心協調窗口
-協調內外部資源，推動專案與產品",
-QA測試工程師/資深工程師,菲律賓商加文創投有限公司台灣分公司,台北市內湖區,面議,104,20260602,20.7,技能匹配(1): 數據分析; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8wyqw,"
-
-3.具備良好的溝通能力和團隊合作精神。
-
-4.具備Android/iOS/Web測試經驗。
-
-5.清楚測試流程、測試方法(單元測試、整合測試、回歸測試等)。
-
-6.了解API協議，掌握基本抓包方法和數據分析。
-
-7.有使用過測試案例管理系統、問題",
-醫療行政/資料文書處理,弘一診所,新北市蘆洲區,面議,104,20260605,20.7,技能匹配(1): 數據分析; 地點符合: 新北市蘆洲區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/90iwq,"資料，並歸檔保存。
-7. 支援日常行政庶務工作。
-8. 維護、更新、管理各類文件檔案和資料庫系統。
-9. 完成主管交辦事項。
-
-本職位對於公司資料管理的精確性及準時性至關重要，擁有良好的工作表現將有發展成為資料分析師或資訊管理專業人員的機會。
-歡迎有",
-CRM 行銷專員,萊特威爾股份有限公司,台北市中山區,面議,104,20260331,20.7,技能匹配(1): 商業分析; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/89ozj,"-2年數據、商業分析以及CRM經驗，零售服務業經驗尤佳。
-2. 熟悉分析工具並能獨立作業，例如 Excel、Google Data Studio、Power BI 等。
-3. 具備常見網路行銷工具之數據解讀能力，例如GA、GTM、Google",
-Cost Accounting Manager,Gogoro,"桃園市, 台灣",面議,LinkedIn,2026-06-05,20.7,"技能匹配(2): 數據分析, 跨部門溝通; [技能13+職稱0+關鍵字7+地點0]",https://tw.linkedin.com/jobs/view/cost-accounting-manager-at-gogoro-4424562064,Position Impact / 職務影響力： 成本會計主管是連結「製造現場」與「財務數據」的關鍵橋樑。在重視原則與紀律的企業文化中，您將帶領團隊建立精準的成本核算體系，不僅確保帳務的真實性與準確度，更重要的是透過數據分析揭示生產效率。 您的影響力在於能將枯燥的數字轉化為有意義的管理資訊，協助公司優化資源配置，提升產品競爭力，扮演好企業營運價值守護者的角色。 Responsibility / 職...,
-【外商】Data Associate 營運數據專員,海科科技有限公司,台北市中山區,面議,104,20260605,20.3,職稱部分匹配: 數據科學家; 地點符合: 台北市中山區; [技能0+職稱8+關鍵字2+地點10],https://www.104.com.tw/job/8s2ev,"資券商充滿熱情，且細心專注的優秀人才！如果您具備中等以上的英文能力，且重視培養自己工作的專業度，也不排斥學習新的工作技能，誠摯邀請您加入我們的團隊，一同開創職涯新篇章！
-
-【身為團隊的一份子您將負責】
-1. 數據收集與清理 (Data",
-【N】AI工具開發軟體工程師,富智康國際股份有限公司,新北市土城區,面議,104,20260602,20.3,技能匹配(1): 自動化; 地點符合: 新北市土城區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8nhfn,"FIH作為全球移動通訊設備領導廠商，持續擴展多元商業機會，跨足通訊產品生產製造、自動化機器設備研發、車載軟硬體整合研發等類別。我們相信-創新源於開放的思維和無限的可能性。我們追求的不僅僅是技術的突破，更是一個共同創造的過程，園區智能生產線連接著各個環節，我們的產品，從零件到成品，都經過嚴格的品質控管，確保最優質的創新產物。
-
-1. 需求分析
-2. 資料分類
-3. 透過AI工具開發可用系統",
-(hoi!好好生活)商品內容企劃資深專員_內湖總部,特力集團_特力股份有限公司,台北市內湖區,面議,104,20260604,20.3,技能匹配(1): 數據分析; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8pak9,"
-• 管理商品素材庫(包含:商品圖庫、素材及輔銷物料)，進行統一整理與管理
-
-【數據分析與優化調整】
-• 分析消費者購買數據，提出線上與線下優化規劃及調整方案
-
-【專案支援與跨部門協作】
-• 與相關部門合作執行各項內容與營運任務
-• 協助主管執行短",
-「永禎」品牌電商運營專員,永禎企業有限公司,新北市汐止區,面議,104,20260603,20.3,技能匹配(1): 數據分析; 地點符合: 新北市汐止區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/92a3x,"官網營運所需的素材需求、商品資訊、活動支援與顧客回饋整理。
-
-【我們希望你具備】
-
-・具備 3–5 年電商營運、官網商城、D2C 品牌、CRM、數位廣告或相關工作經驗
-・熟悉官網商城營運流程，能獨立規劃活動並追蹤成效
-・具備基本數據分析能力，能看懂",
-【美商醫材】Operation Excellence Team Lead｜倉儲物流營運卓越專家！,新加坡商艾得克有限公司台灣分公司,新北市中和區,面議,104,20260529,20.3,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/9256a,"國與跨部門對接： 擔任與全球資訊團隊對接的在地聯絡人，處理系統配置與變更需求，並作為與第三方物流合作夥伴的主要聯絡窗口。
-4. 數據分析與流程改善： 生成有關進出貨活動、庫存狀態及訂單履行的每日報表，持續負責倉庫流程改善與可收費成本優化專案。
-5.",
-專案軟體經理【SaaS 產品事業群】,威許移動股份有限公司,台北市中山區,面議,104,20260529,20.3,技能匹配(1): 自動化; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8vn2w,"威許移動 ( WishMobile, Inc ) 致力成為私域流量經營專家，
-協助品牌建立與消費者的行動化互動渠道 ( APP、LINE 官方帳號 )。
-
-發展「 人流存量、深度互動、營收成長、虛實融合、智慧經營 」等行動化解決方案，
-從 0 到 1 運用 MarTech 協助品牌推動可循環變現的顧客經營模式！
-
-====================================
-專案軟...",
-【行政採購專員】Purchasing Specialist,宇通科技股份有限公司,新北市樹林區,面議,104,20260601,20.0,技能匹配(1): 數據分析; 地點符合: 新北市樹林區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8ivvg,"我們正在尋找一位具有高度責任感、細心且善於溝通協調的採購專員，能夠有效執行公司內部採購相關作業，並與供應商保持良好關係，確保物料供應的穩定與順暢。此職位需要熟悉採購流程，具備數據分析能力以協助優化採購策略，並能靈活應對突發狀況，獨立完成相關任務。理想的候選人應具備卓越的解決問題能力，並展現良好的團隊合作精神與溝通技巧。
-
-工作內容：
-1.	負責執行採購流程，包括ERP系統表單的填寫與管理、進度追蹤...",
-營運與風險分析師 (Operations & Risk Analyst),千研萬宇科技有限公司,台北市松山區,面議,104,20260604,20.0,技能匹配(1): sql; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92bm3,"【職務內容】
-• 於當班期間監控客戶即時交易流量、部位曝險及平台運作狀況
-• 辨識異常情形 —— 偏離市價的成交、延遲、曝險異常累積、限額突破、可疑型態 —— 並依各客戶既定門檻進行上報
-• 嚴格依照書面作業手冊（runbook），執行預先約定、由客戶指示的操作（如路由變更、LP 切換備援），不得逾越指示範圍自行裁量
-• 監控 LP 與場所的連線及報價狀況，並即時反映問題
-• 執行收盤對帳、辨識差...",
-LINE TV 會員成長行銷經理(User Growth Manager),LINE TV_巧克科技新媒體股份有限公司,台北市松山區,面議,104,20260603,20.0,技能匹配(1): 數據分析; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/929xm,我們正在尋找一位具備敏銳商業直覺、數據思維與成長策略能力的會員成長行銷經理，負責 LINE TV 會員成長策略的規劃與執行。您將帶領用戶增長團隊，並與內容、產品、數據及商業團隊密切合作，透過數據分析、會員經營、數位行銷、成長實驗及獲客策略，持續優,
-37320-品保工程師/資深工程師,瑞傳科技股份有限公司,新北市樹林區,面議,104,20260602,20.0,技能匹配(1): 數據分析; 地點符合: 新北市樹林區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8gt7p,"1. 執行重要客訴異常分析與問題解決至結案
-2. 重要客戶品質相關數據分析與統計及定期會議報告
-3. 追蹤各品質異常進度以確保如期完成
-4. 優化品質管理流程與產品品質提升
-5. 執行客戶退貨分析與問題解決至結案
-6. 執行客戶稽核安排及相關作業",
-社群經營美編,晨宏國際股份有限公司,新北市中和區,面議,104,20260511,20.0,技能匹配(1): 跨部門溝通; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/5w9sx,"*經營公司社群媒體(FB、IG、Line等)。 
-*熟悉社群、網路平台經營。
-*負責相關文宣資料的規劃與製作。
-*美編設計、文字編排。
-*具備獨立作業能力，能跨部門溝通協調，完成主管交辦事項及行政事務。
-*需會Photoshop及Illustrator等繪圖軟體。
-*熱愛美的事物，熱衷美髮，認同公司品牌。
-",
-【G】場域調校及驗證工程師,富智康國際股份有限公司,新北市土城區,面議,104,20260605,20.0,技能匹配(1): 數據分析; 地點符合: 新北市土城區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/924fb,"1.系統驗證策略與指標建立：
-規劃整體驗證架構與測試策略，定義關鍵績效指標（KPI），以量化系統在準確性、穩定性與整體表現上的品質。
-2.測試設計與執行管理：
-制定測試計畫與測試案例，並設計涵蓋一般情境與極端條件之測試場景，確保驗證結果具完整性與代表性。
-3.數據分析與問題診斷：
-透過系統數據與運行紀錄分析，進行問題定位與根因判斷，並提出具體改善建議以提升系統效能與可靠度。
-4.功能安全驗證與流程...",
-[行政]企劃處/ESG專員/永續發展專員,醫療財團法人徐元智先生醫藥基金會亞東紀念醫院,新北市板橋區,面議,104,20260522,20.0,技能匹配(1): 跨部門溝通; 地點符合: 新北市板橋區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8zagv,"本院積極推動永續發展與ESG治理，致力於結合醫療專業與永續理念，打造兼顧環境保護、社會責任與良好治理的醫療機構。本職務將參與院內ESG專案與永續報告書編製，適合對永續發展、ESG議題及醫療產業有興趣者加入，無相關經驗亦可培訓。
-
-1.	協助公司ESG（環境、社會、公司治理）相關專案之規劃與推動。
-2.	協助蒐集及整理ESG相關資料與指標數據。
-3.	協助永續報告書（如GRI、SASB、TCFD等）...",
-DS-【外商半導體供應鏈科技團隊-Financial Analyst財務分析(竹科園區)/管理部助理(新竹竹北)】,新加坡商立可人事顧問有限公司台灣分公司,台北市信義區,面議,104,20260603,19.7,技能匹配(1): forecasting; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/91hkg,"【Financial Analyst財務分析】
-OpEx Forecasting Responsibilities:
-• Support OpEx forecasting for Corporate Functions, Taiwan DFS,",
-電商營運執行專員,達步施企業股份有限公司,台北市士林區,面議,104,20260604,19.7,技能匹配(1): 數據分析; 地點符合: 台北市士林區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92bnf,"1.電商平台日常營運管理
-商品上架、下架及資訊維護，商品庫存管理與銷售狀況追蹤，訂單、出貨及退換貨流程管理。
-
-2電商活動執行
-協助規劃及執行檔期活動，各電商平台活動設定
-
-3營運數據分析
-銷售數據整理與分析，提供改善建議及執行方案
-
-4.跨部門",
-【擴編】ABV餐飲集團 總公司-行銷部  數位廣告優化師,ABV Bar & Kitchen_法西亞股份有限公司,新北市中和區,面議,104,20260605,19.7,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8mlcs,"價及版位）和預算應用，並且實際操作掌握成效。
-6、每日追蹤成效（ROAS、CPA、CPC），分析數據並監控優化。
-7、具備良好的數據分析能力，靈活監控和分析媒體成效。
-8、跨部門洽談與協調，完成公司目標。
-9、其他主管交辦事項。
-",
-經營管理師,紘通企業股份有限公司,新北市五股區,面議,104,20260528,19.7,技能匹配(1): 數據分析; 地點符合: 新北市五股區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8zq2m,"1. 經營數據分析與診斷
-2. 預算編列與成本控管
-3. 跨部門協調與專案管理
-4. 市場與競爭情報蒐集
-",
-React前端工程師,昇智科技有限公司,台北市松山區,面議,104,20260601,19.7,技能匹配(1): 自動化; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8s2zb,"1.依設計稿開發及維護 Web 前端畫面與功能（React.js 為主）
-2.與後端串接 API，完成資料處理及顯示
-3.前端元件設計與重構，推動程式碼品質與可維護性
-4.處理跨瀏覽器相容性、效能優化及 RWD 響應式設計
-5.協助自動化測試、CI/CD 流程導入
-6.配合產品、設計、後端團隊協作完成任務
-7.熟練 React.js、 JavaScript（ES6+）、TypeScript、 CS...",
-系統工程師-B500004189,台灣世曦工程顧問股份有限公司,台北市內湖區,面議,104,20260605,19.7,技能匹配(1): 數據分析; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92dah,從事資訊系統、數據資料應用、資料分析、雲平台、AI架構、資訊安全等設計工作,
-產業研究分析師,思多葛市場研究股份有限公司,台北市信義區,面議,104,20260521,19.7,技能匹配(1): 數據分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/3dw3y,"結合資料分析、AI 協作與策略思考能力。
-
-工作內容
-協助市場、產業與政策研究分析
-蒐集與整理國內外產業資訊與趨勢
-使用 AI 與數位工具進行研究輔助
-協助建立研究架構與分析邏輯
-製作研究分析簡報與策略建議
-參與專家訪談、論壇與產業交流
-協助政府與",
-【遠雄遊憩休閒事業總管理處】訂房業務專員（激勵獎金另計）,遠雄遊憩休閒事業總管理處_悅樂飯店事業股份有限公司,台北市信義區,面議,104,20260604,19.7,技能匹配(1): 跨部門溝通; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/7msai,"1.依飯店規定及顧客需求報價簽約、場勘處理 
-2.收集及分析市場及競業資訊 
-3.OTA及官網專案上架操作 
-4.熟悉飯店德安PMS /Siteminder系統 
-5.具飯店訂房相關經驗2-3年以上尤佳
-6.跨部門溝通以及一般庶務處理，協助處理主管業務交辦事務
-
-歡迎邏輯能力清晰，反應靈敏，耐心細心，創新，願意接受挑戰的夥伴，優先安排面試
-",
-資材營運分析資深專員,普安科技股份有限公司,新北市中和區,面議,104,20260602,19.7,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/928rb,"負責生產、庫存、採購、成本與財務相關資料分析
-進行工單成本、材料耗用、庫存庫齡、呆滯料、採購價格/成本差異分析
-建立相關管理報表，提供營運改善建議
-協助推動流程改善、追蹤改善執行成效，提供主管決策參考
-",
-供應商管理工程師－工作地點：汐止－全球供應鏈管理處,信邦電子股份有限公司,新北市汐止區,面議,104,20260602,19.7,技能匹配(1): 統計分析; 地點符合: 新北市汐止區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/772ou,"【工作說明】
-1.供應鏈 ESG 相關機制規劃、建置與優化： 
-(1)供應商永續評鑑機制 
-(2)供應商盡職調查(DD)執行 
-(3)安排永續供應鏈月會與 KPI 匯報 
-(4)統籌與執行關於供應商線上研討會與永續採購課程 
-(5) 供應商永續稽核機制統籌與管理 
-(6)供應鏈相關問卷執行與統計分析 
-(7)針對客戶 ESG 問卷相關供應鏈議題回覆 
-2.其他部門相關需配合事項。 
-
-【聯絡我們】...",
-急徵/[上市櫃大廠結盟]國際 AI 醫療科技-執行長特助,柏瑞醫股份有限公司,新北市新店區,面議,104,20260606,19.7,技能匹配(1): 數據分析; 地點符合: 新北市新店區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/80vs9,"協助各項專案、大型事件之企劃及規劃、專案資料分析、海內外市場需求調查、競爭趨勢分析以及後續執行追蹤。 
-
-2.依專案需求，跨部門合作以了解公司產品特色並提出產品行銷企劃書及製作簡報。
-
-3.處理與主管相關的行政業務，例如：對內或外之公共關係事務、跨",
-永續規劃專員,毅泰管理顧問股份有限公司,新北市板橋區,面議,104,20260606,19.7,技能匹配(1): 統計分析; 地點符合: 新北市板橋區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/6jws3,"1.工作內容:
-從事環境部及各政府機關國際交流、資源循環、淨零減碳及廢棄物管理政策研究相關工作，工作內容包含國際交流、各國文獻法規蒐集、資料統計分析及成果說明，並研提專業建議協助環境部及各政府機關推行國際合作、制訂法規及政策。
-2.工作範圍：
-☆專案投標、評選及執行(包含資料蒐集分析、報告寫作、簡報製作及成果展演等)。
-☆輔導、諮詢及聯繫等事務。
-3.其他條件 
-☆善於溝通、團隊合作 
-☆細心迅速...",
-研發結構設計工程師,群達企業有限公司,新北市三重區,面議,104,20260327,19.7,技能匹配(1): 數據分析; 地點符合: 新北市三重區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8av09,"
-3.	開模試模、優化改良，驗證、除錯與量產導入。
-4.	多樣化軟硬材質應用提案、資料分析，驗證報告。
-5.	負責專案產品相關技術檔的製作及跟進工作。
-6.	制訂製造程式與產品標準。",
-"部門行政秘書暨專案協調專員, Executive Assistant, Industry Solutions",ViewSonic Corporation_優派國際股份有限公司,新北市中和區,面議,104,20260605,19.7,技能匹配(1): 商業分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8uek2,"內外部合作夥伴進行溝通與協調 
-• 支援市場資訊蒐集、產業研究及商業分析工作
-• 協助主管進行重要專案之執行與追蹤 
-
-商務與行政支援
-• 安排主管行程、商務會議及重要客戶拜訪 
-• 協助接待國內外客戶及合作夥伴 
-• 支援商務簡報準備及會議執行",
-ACCG-資深專案管理師(土城)-E事業群,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260603,19.7,技能匹配(1): 商業分析; 地點符合: 新北市土城區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92a2l,"1.協助客戶經營與商業分析相關作業，包含市場與產業資訊整理、商業簡報製作、會議與專案重點彙整，並能以中英文進行內外部溝通協調。
-2.支援高階主管與客戶專案運作，具備基本 business sense 與業務概念，能獨立整合資訊、推動跨單位合作，並",
-"Senior Executive, Trade Marketing",香港商香港旅發局有限公司台灣分公司,台北市中正區,面議,104,20260602,19.3,職稱部分匹配: senior data analyst; 地點符合: 台北市中正區; [技能0+職稱8+關鍵字1+地點10],https://www.104.com.tw/job/83d6h," Divisions, e.g. Business Development, MICE, Event & Production Development
-
-External Relationships:
-•	Travel agent",
-北歐進口家具電商營運,星隅股份有限公司,新北市林口區,面議,104,20260602,19.3,技能匹配(1): 數據分析; 地點符合: 新北市林口區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8e67r,"專業。
-
-
-【在HAY Taiwan您需要負責…】
-1. 數據分析與投放優化：
-- 透過Meta、Google Ads等平台進行數據分析、參考內建AI投廣，並進行成效優化。
-
-2. 廣告用製圖及文案撰寫：
-- 使用美編軟體進行廣告素材製作與搭配用文",
-挪威森林旅館集團 - (總公司)行銷企劃專員(09:00~1800 週休二日),挪威森林旅館集團_挪葳森林實業股份有限公司,新北市板橋區,面議,104,20260602,19.3,技能匹配(1): 數據分析; 地點符合: 新北市板橋區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8o68a,"
-
-【團隊工作內容】
-1.學習與整合行銷企劃與執行：由團隊安排的集團活動、品牌推廣、節慶專案。
-
-2.社群平台經營：規劃貼文主題、撰寫文案、協助美編。
-
-3.學習蒐集數據分析與會員行為觀察，對GA、POS或CRM系統資料，會員輪廓、行為趨勢，為後續行",
-【創發中心】數位轉型專案經理(政府專案),社團法人中華民國全國中小企業總會,台北市大安區,面議,104,20260528,19.3,技能匹配(1): 數據分析; 地點符合: 台北市大安區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8sqnn,"助企業完成導入與應用落實。
-3.流程優化與組織效能提升
-•	盤點專案執行流程與內部協作機制，提出流程優化建議。
-•	應用數位工具支援專案管理、資料分析與跨單位溝通。
-
-【教育背景】
-•碩士學歷以上，宜主修管理、資訊科技、數據分析或相關專業領域。",
-資訊部-高級工程師,廣和科技股份有限公司,新北市五股區,面議,104,20260529,19.3,技能匹配(1): 數據分析; 地點符合: 新北市五股區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/9062y,"或優化方案 
-•	協助 ERP 與其他系統（BPM、報表、外部系統）之整合與資料串接 
-•	支援報表需求、資料分析及系統問題排除 
-•	視需求參與系統優化、流程改善及相關開發工作",
-《新北公會》會計行政人員-新莊,星華股份有限公司,新北市新莊區,面議,104,20260605,19.3,技能匹配(1): 數據分析; 地點符合: 新北市新莊區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8w1kp,"【工作內容 】
-1. 銀行往來處理調度 
--營業單位匯款作業管理
--公司各銀行支付.活存往來安排
--公司支付及電子匯款作業
-2.報表維護及資料分析
-3.現金帳戶管理
-4.網路銀行匯款作業
-5.配合財務需要, 備妥查帳資料
-6.行政事務處理 
-7.",
-【保障全薪14個月】技術助理（不限科系）,松恒股份有限公司,新北市中和區,面議,104,20260604,19.3,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/6ui7a,"1. 設備查修與維護
-2. 資料分析與文書處理
-3. 中英、英中翻譯技術文件
-4. 其他主管交辦事項
-
-畢業科系：
-不限，歡迎商管、社科、其他學科等，此職位重視主動性與學習力。
-有興趣意願者，可輔導考證照、職務升等、職務轉換等。
-
-【年終獎金】",
-家登集團-TAO_自動化設備業務專員,家登精密工業股份有限公司,新北市土城區,面議,104,20260603,19.3,技能匹配(1): 自動化; 地點符合: 新北市土城區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8h5bd,"1. 開發潛在客戶，拓展國內外市場，達成業績目標。
-2. 負責國內外業務接洽、報價及訂單處理，並處理帳款回收相關事宜。
-3. 協調各部門推動專案之執行、管理、問題追蹤及解決、檢討。
-4. 協助專案產品功能、規格、品質確認與仲裁。
-5. 執行開發階段各項會議策劃、召集、記錄及進度跟催等工作。
-6. 負責業務推展，傳達及說明公司各項業務重大訊息、活動及產品。
-7. 進行商品行銷，產品特色分析介紹，並提...",
-【保障全薪14個月】技術助理（理工相關科系）,松恒股份有限公司,新北市中和區,面議,104,20260604,19.3,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/4uub3,"職務內容：
-1. 協助設備查修與維護工作
-2. 處理資料分析與文書處理相關事宜
-3. 中英、英中翻譯技術文件
-4. 執行其他主管交辦事項
-
-【年終獎金】
-保障2個月(全薪)之年終獎金，並另外發放年終績效獎金
-
-【學習進修補助】
-鼓勵員工終身學習，",
-【上緯集團】策略投資部_投資儲備幹部 (台北),上緯國際投資控股股份有限公司,台北市內湖區,面議,104,20260601,19.3,技能匹配(1): 跨部門溝通; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/926hc,"一、投資標的尋找及效益評估
-　1. 配合集團策略目標尋找投資標的。
-　2. 進行投資評估及盡職審查，並與投審會提報。
-　3. 投後策略綜效管理。
-
-二、市場產業趨勢分析
-　1. 分析投資標的產業趨勢及產品市場。
-
-三、內部投資流程作業
-　1. 投資內部規範建置與修改。
-
-四、協助專案
-　1. 完成主管交辦專案任務，跨部門溝通協調。
-　2. 分析專案內容、提出建議與看法。
-　3. 製作專案簡報。
-",
-顧客體驗營運副理 （CX Operations Assistant Manager）,iSKI滑雪俱樂部_愛滑雪股份有限公司,台北市內湖區,面議,104,20260603,19.3,技能匹配(1): 商業分析; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92ay1,"麼這個職位值得你燃燒熱情？
-真正的舞台與彈性：在制度尚未完備的成長期，你可以大刀闊斧建立你理想中的客服 SOP 與 QA 架構，不等框架完整才行動。  
-複合型職涯鍍金：這份經歷將結合「數位轉型（AI）+ 跨國/多品牌複雜調度 + 商業分析（BI）",
-北區系統維運工程師/主管,德睿旭科技有限公司,新北市新店區,面議,104,20260601,19.0,技能匹配(1): 數據分析; 地點符合: 新北市新店區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8ic0x,"1.電廠日常巡檢、優化與維護。
-2.電廠系統異常排除與分析。
-3.電廠維運紀錄。
-4.電廠系統性能數據分析與監管。",
-【2ndSTREET日本最大二手店】客服人員,2ndSTREET_台灣極沃股份有限公司,台北市中正區,面議,104,20260605,19.0,技能匹配(1): 數據分析; 地點符合: 台北市中正區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/91upc,"內容分析與改善提案
-．顧客諮詢內容的記錄，並進行分類及分析。
-．製作數據分析報表並與相關部門共享，提出具體改善方案。
-．針對問題進行根因分析，規劃並推動預防與改善措施。
-
-➌事業內容掌握
-．熟悉門市商品、顧客內容及電商平台、線上服務之營運模式。
-．",
-業務副理 / 經理,三采文化股份有限公司,台北市內湖區,面議,104,20260604,19.0,技能匹配(1): 數據分析; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/90s0e,"【主要工作內容】
-
-1. 通路策略規劃與客戶經營。
-2. 開發團購、企業、校園..等多元銷售管道。
-3. 制定通路行銷方案及推廣計畫。
-4. 大型書展策劃與活動統籌。
-5. 銷售數據分析與績效管理。
-6. 市場情報蒐集與策略建議。
-7. 團隊管理",
-【作業板塊】營運作業規劃人員_I00011733,國泰世華商業銀行股份有限公司,台北市信義區,面議,104,20260311,19.0,技能匹配(1): 數據分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8cbqo,"1.透過數據分析等客觀工具或方法，提出具體方案，提升營運效能。
-2.存匯流程現況分析及優化改造，協調可得資源，進行跨單位溝通，以達成專案目標。
-3.存匯作業要點/規章辦法及相關表單之制訂與修訂。
-4.其他主管交辦事項。",
-電商數位行銷企劃專員(全職/兼職/約聘),倍勁企業有限公司,新北市板橋區,面議,104,20260602,19.0,技能匹配(1): 數據分析; 地點符合: 新北市板橋區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8zf5y,"此為公司官網：https：//bagrun.net/
-
-【工作內容】
-1.文案撰寫規劃
-2.協助、IG、LINE@、平台客服客訴協助處理
-3.行銷數據分析
-4.年度行銷計畫規劃與執行
-5.產品市場、消費者及競品資料收集及分析
-6.產品曝光與活動設",
-電商數位行銷企劃專員(全職/兼職/約聘),倍勁企業有限公司,新北市板橋區,面議,104,20260602,19.0,技能匹配(1): 數據分析; 地點符合: 新北市板橋區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/6t9kl,"此為公司官網：https：//bagrun.net/
-
-【工作內容】
-1.文案撰寫規劃
-2.協助、IG、LINE@、平台客服客訴協助處理
-3.行銷數據分析
-4.年度行銷計畫規劃與執行
-5.產品市場、消費者及競品資料收集及分析
-6.產品曝光與活動設",
-【林口三井Outlet】Calvin Klein / TOMMY HILFIGER 店經理「加入時尚品牌，挑戰高獎金！」,PVH (Calvin Klein & TOMMY HILFIGER)_香港商鵬衛齊服飾有限公司台灣分公司,新北市林口區,面議,104,20260607,19.0,技能匹配(1): 數據分析; 地點符合: 新北市林口區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8mfa6,"達成業績目標：以數據分析制定策略，確保KPI穩定成長
--提升顧客體驗：提供一致、專業、值得信賴的服務品質
--人力與排班管理：掌握人力配置、安排新人訓練，維持良好運作節奏
--營運與行政監督：彙整每日數據、進行庫存盤點，確保流程高效準確
--維護品牌陳列",
-智慧城市社群平台產品-營運專員(約聘),中偉科技股份有限公司,新北市中和區,面議,104,20260603,19.0,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/921vw,"運與用戶經營
-•　規劃提升使用者活躍度與留存的機制（任務、積分、活動）
-•　經營平台內社群互動（非單純社群媒體發文）
-•　規劃在地社群或合作資源導入（里長、社區、活動等）
-•　數據分析與優化
-•　追蹤平台使用數據（DAU、MAU、互動率等）
-•",
-【專業一處】專案行政助理,財團法人台灣綠色生產力基金會,新北市新店區,面議,104,20260601,19.0,技能匹配(1): 數據分析; 地點符合: 新北市新店區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8ydwd,"【工作內容】
-專案計畫資料整理、簡易數據分析、會議聯繫等
-聘期至115年12月31日
-
-",
-官網運營KA,DR.WU SKINCARE_達爾膚生醫科技股份有限公司,台北市中山區,面議,104,20260603,19.0,技能匹配(1): 數據分析; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8z8am,"【工作內容】
-1. 建置跨境官網並著手官網運營，並達成業績目標。
-2. 安排規劃運營年度/季度/月度各品牌檔期活動。
-3. 整理銷售報表與廣告成效，分析優化營運策略。
-4. 優化翻譯(英文)商品文案、圖片與頁面排版，提升轉換率。
-5. 調查市場趨勢與競品動態。
-6. 其他主管交辦事項。
-
-(依背景經歷核定職等)
-
-作為官網KA專業人才，是我們品牌在全球市場成長的關鍵推動者。我們希望你善用數據分析與...",
-臨床計畫專任研究助理,國立臺灣大學醫學院附設醫院,台北市中正區,面議,104,20260601,19.0,技能匹配(1): 數據分析; 地點符合: 台北市中正區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/926xm,"1. 協助腎臟臨床研究病患收案、追蹤、與檢體收集
-2. 臨床研究資料整理與REDCap研究資料登錄管理
-3. 協助研究進度追蹤與研究行政流程
-4. 視研究進度與個人意願，可參與研究討論、資料分析與論文撰寫
-(工作場域主要位於台大醫院腎臟科病房與腎",
-系統分析師*內湖區*,潤新資訊股份有限公司,台北市內湖區,面議,104,20260601,19.0,技能匹配(1): etl; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/91law,"1. 具備為客戶規劃過解決方案之經驗。
-2. 具備管理Linux之經驗。
-3. 熟悉Nginx、大數據、ETL。
-4. 具備使用過Apache NIFI之經驗。
-5. 使用語言：Java",
-專案行政專員,美科實業股份有限公司_ Aromase艾瑪絲_juliArt覺亞,新北市中和區,面議,104,20260604,19.0,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92bge,"動專案成果的成就感，歡迎加入我們！
-
-【發揮所長】-工作職責
-1.文件管理標準化建立、文件管理、SOP與表單等作業 
-2.協助推動數位化專案，資料統整、專案推進。 
-3.追蹤各項專案時程、會議記錄、待辦事項與執行。
-4.專案資料分析、成果彙整及報告",
-【擴編】保健品營養師 Dietitian,豐傑生醫股份有限公司,新北市三重區,面議,104,20260528,19.0,技能匹配(1): 數據分析; 地點符合: 新北市三重區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7buq9,"劃、設計、市場調查
-5.協助主辦營養師，健字號.ＳＮＱ.雙Ａ潔淨標章...等各項標章申請
-6. 協助主辦營養師商品市場資料分析與商品定位，發展產品行銷策略
-7. 另有激勵獎金，年薪最高可達84萬
-
-上班時段：
-週休二日、國定假日、0900-1800",
-行銷企劃(MarCom)-學生實習,安恩嘉股份有限公司,新北市三重區,面議,104,20260602,19.0,技能匹配(1): 數據分析; 地點符合: 新北市三重區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/42ry8,"1. 負責產品行銷文案的撰寫.
-2. 協助主管品牌商品化的流程.
-3. 網站及e-newsletter的維護及文案內容的更新
-4. 文書工作的校對及整理
-5. 需熟悉影像軟體及文書工具的編排.
-6. 勇於挑戰新事物,搜集及資料分析的能力.
-7.若",
-〘總經理室〙總經理國際事務特助,睿澤企業股份有限公司,新北市鶯歌區,面議,104,20260603,19.0,技能匹配(1): 數據分析; 地點符合: 新北市鶯歌區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/929lt,"件、合約內容彙整，並作為外部律師及顧問窗口。 
-7.AI與資訊分析應用
-善用AI工具進行市場研究、資料分析、簡報製作及商業資訊整理。",
-業務行政部-統計分析人員,安聯人壽保險股份有限公司(總公司),台北市信義區,面議,104,20260601,18.7,技能匹配(1): 統計分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/926jk,"1.	營運指標統計報表製作
-2.	協助業務競賽之統計報表發布與結果公告
-3.	數位報表平台規劃、系統測試及維護
-4.	業務績效統計及專案效益分析
-",
-軟體工程師(中和),Compuware_肯微科技股份有限公司,新北市中和區,面議,104,20260504,18.7,技能匹配(1): sql; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8tixa,"1. 負責軟體之分析、設計以及管理報表撰寫。
-2. 規劃執行軟體架構及模組之設計，並控管軟體設計進度。
-3. 進行軟體之測試與修改。
-4. 規劃、執行與維護量產的產品。
-5. 協助研發軟體新技術與新工具。
-6. 熟悉.net core
-7. 熟悉資料庫串接(Oracle, MSSQL)
-8. 熟悉版控工具
-
-",
-數位行銷經理 Digital Marketing Manager,孩享趣股份有限公司,台北市南港區,面議,104,20260604,18.7,技能匹配(1): 數據分析; 地點符合: 台北市南港區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8zi8n,"數據分析洞察會員行為。
-2. 規劃並執行提升會員留存率與黏著度之行銷活動，打造高價值會員生態圈。
-
-四、 跨界整合與專案管理：
-1. 驅動並執行跨品牌異業合作、大型品牌行銷活動等專案，擴大品牌市場影響力。
-
-【條件與特質】
-1. 具備 3 年以上",
-企劃人員 (Planning),世邦海運股份有限公司,台北市中山區,面議,104,20260529,18.7,技能匹配(1): 數據分析; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/923f1," omission, blank sailing, etc.)，並及時正確地發出內外部公告。
-3. 數據分析：瞭解並熟悉營運相關報表 (excel)；分析貨量數據，提供優化建議。
-4. 代理行管理：統籌內部意見提出調整建議，年度合約簽署。
-5. 其它企劃部相關庶",
-新媒體策略營運分析,宇宙動能新創股份有限公司,台北市大安區,面議,104,20260603,18.7,技能匹配(1): 數據分析; 地點符合: 台北市大安區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8w5mz,".依照客戶需求與面向，蒐集市場資料進行數據分析與內容趨勢判讀
-2.洞察市場與數據資料，提出策略與報告
-3.說明數據報告與市場走向，與團隊協作制定廣告策略與執行協作
-4.其他主管交辦事項
-
-【條件與加分】
-1.熟悉小紅書等各大平台社群
-2.思維靈活、",
-策略規劃企劃人員,凱基人壽保險股份有限公司(總公司),台北市松山區,面議,104,20260526,18.7,技能匹配(1): 數據分析; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8qz3l,"1.銷售通路營運分析與策略規劃。
-2.公司業務推動專案規劃與執行成效追蹤。
-3.協助保險服務數位專案推動與執行成效追蹤。
-4.壽險產業及公司營運相關數據分析與洞察。",
-美國寵物零食品牌 ECOM Operation Manager,英屬開曼群島商禾碩康股份有限公司台灣分公司,台北市士林區,面議,104,20260531,18.7,技能匹配(1): 數據分析; 地點符合: 台北市士林區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8p7po,"
-1.平台營運管理： 負責美國Amazon或Walmart 及其他主要電商平台的日常營運與維護，優化廣告投放，確保店鋪業績跟整體利潤。
-
-2. 策略制定： 制定並執行電商成長策略，提升銷售表現、流量與客戶互動。
-
-3. 數據分析： 監控並分析平台",
-海外EC電商業務助理 (E-Commerce Sales Assistant),十銓科技股份有限公司,新北市中和區,面議,104,20260602,18.7,技能匹配(1): e-commerce; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/62bxu,"1.協助管理Amazon電商平台商品銷售營運
-2.管理商品退貨異常，申訴求償及庫存盤點
-3.EC平台銷售後續服務等相關協助維護作業
-4.追蹤出口運輸進度
-5.處理訂單及退換貨
-6.行政庶務、文書資料彙整及報表製作
-7.主管交辦事項",
-H2000 客服維運主任,富邦媒體科技股份有限公司(富邦momo),新北市三重區,面議,104,20260604,18.7,技能匹配(1): 數據分析; 地點符合: 新北市三重區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7obyv,"1.提供客服營運數據分析，以及製作營運報告
-2.協助管理及輔導單位同仁
-3.完成主管單位指派之任務",
-人力資源高級管理師,華電聯網股份有限公司,新北市汐止區,面議,104,20260604,18.7,技能匹配(1): 數據分析; 地點符合: 新北市汐止區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92d0n,"1.組織規劃與發展
-2.人力配置與異動管理
-3.人力數據分析與決策支援
-4.HR ESG與永續發展推動
-5.HRBP與專案管理",
-[全職]品牌行銷與企劃,英霸聲學科技股份有限公司,新北市中和區,面議,104,20260420,18.7,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/6gkwx,"注度最高的國際群眾集資，社群媒體與大數據分析的方式精準找到潛在受眾。
-
-公司福利:
-週休二日 , 逢週六補班不用上班
-薪資 : 面議
-獎金：年終奬金、績效奬金 
-享勞保、健保、勞退 三節, 生日禮金
-員工聚餐
-",
-商品規劃專員,聯強國際集團_群環科技股份有限公司,台北市大同區,面議,104,20260603,18.7,技能匹配(1): 數據分析; 地點符合: 台北市大同區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/89cam,"
-6.公司相關資料分析及運用，供業務開發商機。
-7.完成主管交辦事項。
-
-**績效獎金另計",
-資訊長_新北市(848),"經緯智庫股份有限公司 (MGR Consulting Co., Ltd.)",新北市土城區,面議,104,20260603,18.7,技能匹配(1): 數據分析; 地點符合: 新北市土城區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92awo, 團隊，提升團隊在雲端、AI 與資料分析等前瞻領域的技術力。,
-品管專員-(新北滅菌廠),維康醫療用品 _美德耐股份有限公司,新北市林口區,面議,104,20260603,18.7,技能匹配(1): 數據分析; 地點符合: 新北市林口區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8prt9,"1.熟悉QMS及ISO文件發行管理與維護(協助文件更新、發行、審核與跟催作業)。
-2.協助執行內外部稽核活動及認證。 
-3.現場品管作業的規範、異常處理及改善、量測及儀器校正、確效作業報告及資料分析等。
-4.品質系統相關之教育訓練、不良事件、安全",
-資深產品經理,台灣智慧雲端服務股份有限公司,新北市淡水區,面議,104,20260605,18.7,地點符合: 新北市淡水區; [技能0+職稱5+關鍵字4+地點10],https://www.104.com.tw/job/8y854,"本職位負責公司雲平台產品之規劃、設計與推動，深入理解雲端技術與使用者需求，與研發、營運及商務團隊合作，推動產品落地與持續優化。
-
-工作內容：
-產品管理
-• 規劃與管理雲平台產品路線圖（Roadmap）。
-• 蒐集市場趨勢、客戶需求與競品資訊，產出產品需求文件（PRD）。
-• 追蹤產品成效指標（使用率、穩定性、滿意度）以支援決策。
-• 與工程、架構及維運團隊合作，推動產品開發與上線。
-• 規劃雲平台...",
-MIS資訊專員/資深專員,國祥貿易股份有限公司,台北市松山區,面議,104,20260602,18.7,技能匹配(1): 自動化; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/928yd,"1.資訊系統維運與使用者支援： 
-   A)維護公司內部資訊系統（正航ERP、HR系統、M365、內部簽核系統等）日常運作穩定。
-   B)提供使用者技術支援與教育訓練，協助解決日常系統操作問題 
-   C)管理帳號權限、定期執行系統備份與安全檢查 
-
-2.IT基礎設施管理 
-   A)協助管理公司網路設備（Router、Switch、防火牆、NAS、VM）、伺服器與印表機等硬體資源。
-    B...",
-【Summer Intern】商品管銷部-實習生,台灣屈臣氏個人用品商店股份有限公司,台北市松山區,面議,104,20260605,18.7,技能匹配(1): 商業分析; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92dw2,"你的第一份零售商業實戰經驗，從這裡開始
-如果你對零售產業、商品策略、市場趨勢與商業分析充滿好奇，
-想了解一項商品從選品、採購、促銷到上架銷售的完整流程，
-這個實習機會將帶你深入體驗零售採購團隊的日常運作。
-
-在實習期間，你將與採購、行銷、供應鏈等",
-Procurement Manager 採購經理,Deutsche Windtechnik,台北,面議,LinkedIn,2026-06-04,18.7,地點符合: 台北; [技能0+職稱0+關鍵字9+地點10],https://tw.linkedin.com/jobs/view/procurement-manager-%E6%8E%A1%E8%B3%BC%E7%B6%93%E7%90%86-at-deutsche-windtechnik-4423353307,"About This Position 關於職缺 Deutsche Windtechnik is the world’s No. 1 independent operations and maintenance service provider for on- & offshore wind farms, executing maintenance, repairs, and inspection...",
-"Officer, Securities & Derivatives Analyst, Custody Operations",花旗集團,台北,面議,LinkedIn,2026-06-03,18.0,地點符合: 台北; [技能0+職稱0+關鍵字8+地點10],https://tw.linkedin.com/jobs/view/officer-securities-derivatives-analyst-custody-operations-at-citi-4424227156,"At Citi, we get to connect millions of people across hundreds of cities and countries every day. And we've been doing it for more than 200 years. We do this through our unparalleled global network. We...",
-Database Administrator,貿聯國際股份有限公司,新北市中和區,面議,104,20260602,17.7,技能匹配(1): data analytics; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/928wc, immediately get involved in data analytics projects and receive formal training to expand your skillset into a Data Engineer.,
-(總部)S8600-Digital Marketing & Demand Generation Specialist,友通資訊股份有限公司,新北市汐止區,面議,104,20260605,17.7,技能匹配(1): data analytics; 地點符合: 新北市汐止區; [技能7+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8ywjs,"--Job Summary--
-【核心重點：Website Growth｜Digital Campaign｜Demand Generation｜Data Analytics】
-1.負責 DFI 數位行銷與流量成長策略，透過網站優化、數位廣告與行銷",
-資深會計專員(汐止-iFG遠雄廣場),iFG遠雄廣場_遠雄流通事業股份有限公司,新北市汐止區,面議,104,20260605,17.0,地點符合: 新北市汐止區; [技能0+職稱5+關鍵字2+地點10],https://www.104.com.tw/job/92ei2,"【工作內容】
-1.例行會計帳務紀錄及管理。
-2.請款作業審核立帳。
-3.營業稅申報作業。
-4.各類所得扣繳作業。
-5.營業數據資料彚整分析。
-6.主管交辦事項。
-",
-【數金】業務分析師BusinessAnalyst,中租迪和股份有限公司,"內湖區, 台北市, 台灣",面議,CakeResume,,15.0,"地點符合: 內湖區, 台北市, 台灣; [技能0+職稱0+關鍵字5+地點10]",https://www.cake.me/companies/86e/jobs/6ee322a8-431e-47ed-a55b-6e84007e78f0-digital-finance-business-analy-7dd8278852018a52b6420f0a15f4d0,"中租控股誠徵對於梳理金融產業商業邏輯，打造跨國企業等級資訊系統有熱誠的夥伴加入。
-***
-【工作內容】
-1.參與海內外消費金融系統開發專案，進行商業邏輯之業務需求訪談、分析，並設計流程、功能及撰寫業務規格書。
-2.成為業管單位關鍵溝通橋梁，與資訊同仁共同商議並提出資訊解決方案。
-3.進行使用者測試(UAT)，含測試案例設計、測試時程安排、測試進度追蹤。
-4.系統操作教育訓練及教育手冊編訂。
-5.負...","學歷：大學以上
-1. 熟悉銀行或租賃業務作業流程佳
-2. 邏輯思考能力佳並同時有良好的溝通能力
-立即應徵
-優化履歷
-查看所有職缺
-立即應徵
-優化履歷
-查看所有職缺"
-(Sr.) Financial Analyst_TC28327,"Super Micro Computer, Inc._美超微電腦股份有限公司",新北市中和區,面議,104,20260603,14.7,地點符合: 新北市中和區; [技能0+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/8yavl,"<Essential Duties and Responsibilities>:
-The responsibilities will include, but not limited to:
-1. Lead Finance & Accounting project assignments, for instance new overseas entity setup, new reporting ...",
-銷售營運資深專員 Sr. Sales Operation Associate,智星網路科技有限公司,台北市信義區,面議,104,20260604,14.7,地點符合: 台北市信義區; [技能0+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/8zoqw,"【關於本職缺｜About the Role】
-•  Sr. Sales Operation Associate（銷售營運資深專員）是銷售團隊與 RevOps 之間的重要支援角色，負責支撐 Deal Desk 日常運作、優化銷售流程，並透過系統、流程與操作機制的改善，協助第一線業務降低行政與系統操作負擔，提升整體銷售效率與推進速度。
-此角色需要同時具備 流程優化、系統操作、跨部門協作與專案推進能力。...",
-【Business Development / Technical Sales】車用技術業務,申川馬股份有限公司,新北市中和區,面議,104,20260528,14.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/923go,"【公司介紹】
-SCH Mobility 是一間立足台灣、主力市場為海外的電動車開發公司，專注於電動車與關鍵零組件的整合與開發，深耕歐美與新興市場。我們結合三十年以上造車與系統開發經驗，將工程、供應鏈與商業策略整合，打造可落地的產品與解決方案。
-
-【職務說明】
-負責海外客戶與合作夥伴開發，整合技術需求、商務條件與內部資源，推動車用專案導入與量產。需具備 solution selling 能力，能獨立...",
-客戶成長專員 - 香港市場 (Customer Success Specialist - Hong Kong Market) (Based in Taipei),博弘雲端科技股份有限公司,台北市中山區,面議,104,20260601,14.0,地點符合: 台北市中山區; [技能0+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8pej9,我們正在尋找一位以客戶為中心、善於解決問題、樂於溝通協作的 Customer Success Specialist，加入我們的客戶成長團隊。在這個角色中，你將負責香港市場企業客戶的經營與成長，成為客戶與我們雲端解決方案之間的重要橋樑。你將深入理解客戶需求，協助客戶發揮雲端產品價值，推動客戶成功、續約與業務成長，並與台灣及區域團隊密切合作，共同拓展香港市場。你不只是解決問題，更是推動客戶「持續成功、...,
-【資訊】系統分析師 (SA),中租迪和股份有限公司,"內湖區, 台北市, 台灣",面議,CakeResume,,14.0,"地點符合: 內湖區, 台北市, 台灣; [技能0+職稱0+關鍵字4+地點10]",https://www.cake.me/companies/86e/jobs/52cfc9c3-a5fc-47b4-9622-61f5bda7121e-information-systems-analyst-s-c9da6ed53a5d8cec242d12036c7cf5,"【工作內容】
-- 進行需求訪談，蒐集並釐清專案需求、進行系統分析設計及提供解決方案
-- 梳理使用者需求內容，進行系統或線上問題分析與討論，或初步問題排解
-- 產製系統分析設計、規格書及測試規劃等相關文件
-- 分配協調與規劃專案中其他程式開發人員的工作
-【職位需求】
-- 具備基礎程式開發經驗(ASP.Net相關尤佳)
-- 熟悉資料庫語法
-- 良好的溝通、團隊合作、獨立作業及解決問題的能力","學歷：專科、大學、碩士
-立即應徵
-優化履歷
-查看所有職缺
-立即應徵
-優化履歷
-查看所有職缺"
-業務專員Sales Specialist(儲備業務主管) (工作地點：新北汐止),耐特科技材料股份有限公司,新北市汐止區,面議,104,20260603,13.7,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/929kd,"•建立並維繫良好的客戶關係：與電子電機（E/E）及半導體產業的主要客戶（Key Accounts）保持緊密連結。
-•管理與支援通路夥伴及經銷商：確保其營運方向與公司的發展策略保持一致。
-•發掘並追蹤新商機：主動開發潛在客戶、評估商機可行性，並拓展新的市場應用。
-•產品簡報與培訓：向客戶及合作夥伴進行產品簡報、示範說明與教育訓練。
-•市場情報搜集與分析：洞察市場趨勢、分析客戶需求以及追蹤競爭對手動態...",
-品牌行銷人員 Marketing Specialist ,君主科技_德隆股份有限公司,新北市林口區,面議,104,20260521,13.7,地點符合: 新北市林口區; [技能0+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/7wbxr,"工作內容
-1. 撰寫、編輯及優化新聞稿、行銷文案，提升品牌曝光與形象。
-2. 規劃與執行各類行銷活動，並協助活動流程統籌與現場執行。
-3. 負責 KOL、KOC 合作洽談與維護，規劃並執行產品體驗專案。
-4. 擬定產品推廣策略，規劃並落實行銷專案以提升市場佔有率。
-5. 進行市場調查與新品分析，提出定位與行銷建議。
-6. 與媒體建立良好合作關係，拓展品牌影響力並強化宣傳效益。
-7. ...",
-招商開發經理 Category Manager,Yahoo_香港商雅虎資訊股份有限公司,台北市內湖區,面議,104,20260604,13.3,地點符合: 台北市內湖區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/91iuo,"
-4. Data Analysis & Strategy Optimization
-・Track and analyze key vendor KPIs (e.g., new seller count, activation rate, GMV",
-TRANZEND 品牌視覺與內容創作,神采時尚事業股份有限公司,新北市新莊區,面議,104,20260607,13.3,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/81jzu,"▋TRANZEND品牌介紹：
-
-TRANZEND 是個科技機能服飾品牌，我們有三大核心 極簡美學 x 科技機能 x 環境永續 
-TRANZEND 透過科學與設計讓衣服變得更舒適，提供更多機能，讓使用者可以在更多情境下使用，我們要提倡的是永續的慢時尚生活態度，我們不走汰舊換新的潮流之路，讓每件衣服擁有一件抵多件的可能性，我們讓每件服飾單品變得更有價值、提供更多使用情境、擁有更長的生命週期。
-
-TRA...",
-電商行銷企劃專員（熟生成式 AI）(全職/兼職/約聘/專案),倍勁企業有限公司,新北市板橋區,面議,104,20260602,13.3,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8zf70,"職務名稱
-電商行銷企劃專員（熟生成式 AI）
-職類
-產品行銷企劃、行銷企劃、網站行銷企劃、電商營運企劃
-
-職務說明
-公司官網：https://bagrun.net/
-
-我們正在尋找一位能跟上 AI 時代節奏的電商行銷夥伴。
-這份工作不只是傳統行銷企劃，更需要你能善用 ChatGPT、Claude、Gemini、Canva 等工具，把想法快速轉化成文案、活動、素材提案、數據洞察與實際業績成果。
+【PM】產品經理/實習生 Junior Product Manager  (Remote),對的人股份有限公司,台北市大安區,面議,104,20260607,51.2,"技能匹配(3): sql, python, 數據分析; 職稱部分匹配: product analyst; 地點符合: 台北市大安區; [技能20+職稱12+關鍵字9+地點10]",https://www.104.com.tw/job/8ytte,"【你將參與】
+1. 產品功能規劃與開發進度追蹤
+2. 用戶訪談與需求研究
+3. A/B Test 設計與成效分析
+4. 產品流程與體驗優化
+5. 功能企劃發想與需求文件撰寫
+6. 問題拆解與跨部門協作
+7. 與工程、行銷團隊共同推進產品
+
+【為什麼加入 Right One】
+1. 真正參與產品決策：不是執行雜務，而是一起思考產品該往哪裡走。
+2. 100% 遠端協作：採數位游牧工作模式，不受地點限...",
+數據分析師,希梅格傑西有限公司,台北市中山區,面議,104,20260607,50.7,技能匹配(1): 數據分析; 職稱完全匹配: 資深數據分析師; 地點符合: 台北市中山區; [技能7+職稱30+關鍵字4+地點10],https://www.104.com.tw/job/8n4az,"目：
+0. 具備創業與對遊戲產業的熱忱
+1.  完整跑過一個專案的開發流程
+2. 理解遊戲廣告投放的策略，能夠透過數據分析 創意素材表現（影片、圖片、標題），協助優化投放效果。
+3. 熟練或願意學習遊戲分析相關，例如留存率（Retention）、",
+【捷運松江南京站】跨國SI集團_Banking Business Analyst-D80,精英人力資源股份有限公司,台北市中山區,面議,104,20260608,42.3,職稱完全匹配: business analyst; 地點符合: 台北市中山區; [技能0+職稱30+關鍵字2+地點10],https://www.104.com.tw/job/91ec7,"歡迎透過104網站投遞履歷，或將履歷mail至：herbert.chen@imc.com.tw（信件標題請複製職務名稱）
+
+《需求條件》
+大學以上學歷畢業，具金融產業系統分析經驗2年以上，熟悉至少1個金融業務項目，了解API、Database技術，熟Office、UML、AI工具使用，英文中等，自備英文履歷表
+
+《合作方式》
+企業正職
+
+《工作地點》
+台北市中山區松江路（近捷運松江南京站）
+
+《工...",
+Data Engineer 資料工程師,德義資訊股份有限公司,台北市萬華區,面議,104,20260603,40.5,"技能匹配(2): data pipeline, etl; 職稱部分匹配: 資料分析師; 地點符合: 台北市萬華區; [技能13+職稱12+關鍵字5+地點10]",https://www.104.com.tw/job/91q0a,"【職務需求】
+1. 以 Data Engineering 為主，包含 hands-on data pipeline、ETL、data modeling、以及上游系統整合經驗。
+2. 需具備資料整合、資料品質與資料模型設計能力。
+3. 熟悉",
+[瑞士商] (Senior) Machine Learning Engineer,Proton_質子科技有限公司,台北市大同區,面議,104,20260604,39.8,"技能匹配(2): machine learning, 機器學習; 職稱部分匹配: analytics engineer; 地點符合: 台北市大同區; [技能13+職稱12+關鍵字4+地點10]",https://www.104.com.tw/job/92bsg,"Optimize ML workflows for distributed environments to handle large-scale data processing.
+-Collaborate cross-functionally with",
+【資訊中心】數據平台儲備主管（Data Lead / Data Manager）,裕隆集團_新鑫股份有限公司,台北市大安區,面議,104,20260604,36.8,技能匹配(1): 跨部門溝通; 職稱部分匹配: 資料分析師; 地點符合: 台北市大安區; [技能7+職稱12+關鍵字8+地點10],https://www.104.com.tw/job/90mw3,"【工作內容】
+我們正在招募一位數據儲備主管，未來將負責公司數據平台與數據治理體系的整體規劃與推動，角色將結合 策略規劃、跨部門協調及小型數據團隊管理，協助公司落實數據標準化、提升數據可用性，並支持各單位之數據需求。配合公司未來 AI 與進階分析應用發展，從數據平台、數據治理與數據品質角度，協助建立可支援 AI 應用的數據基礎。
+
+1. 數據平台與數據架構管理
+•	規劃並管理公司雲端數據平台與資料整...",
+[R52] Backend Engineer (Java),Yahoo_香港商雅虎資訊股份有限公司,台北市內湖區,面議,104,20260601,33.8,技能匹配(1): sql; 職稱部分匹配: analytics engineer; 地點符合: 台北市內湖區; [技能7+職稱12+關鍵字5+地點10],https://www.104.com.tw/job/8yb9q,"【Responsibilities】
+
+・Responsible for the design and development of end-to-end features in current and future products within domain of expertise
+・Plan, design, develop, code and test software systems ...",
+產品經理 Product Manager,訊動數據科技有限公司,台北市大同區,面議,104,20260607,31.5,技能匹配(1): 數據分析; 職稱部分匹配: product analyst; 地點符合: 台北市大同區; [技能7+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/924vd,"職務說明
+如果您對體育賽事、數據分析與網路產品充滿熱情，喜歡透過資料分析、產品規劃與策略思考解決問題，歡迎加入我們的產品團隊，一起打造新世代全球賽事數據整合平台。
+_________________________________________",
+"Contractor, Data Pipeline Engineer , Data Chapter",星展(台灣)商業銀行股份有限公司,台北市內湖區,面議,104,20260605,30.5,技能匹配(1): data pipeline; 職稱部分匹配: data scientist; 地點符合: 台北市內湖區; [技能7+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8wnro,"data marts) that users can directly consume.
+3. Provide support and troubleshoot issues related to the data pipeline.
+4.",
+【台北】Key Account Manager通路客戶經理,一本飲品_全久榮企業股份有限公司,台北市信義區,面議,104,20260605,29.7,"技能匹配(2): 數據分析, 跨部門溝通; 地點符合: 台北市信義區; [技能13+職稱0+關鍵字6+地點10]",https://www.104.com.tw/job/8sgav,"
+【負責的工作內容 】 
+1. 維繫與經營大型零售通路（如美式賣場、量販、便利商店等）的合作關係，並定期拜訪通路窗口，建立良好信任。 
+2. 與營運、產品及銷售團隊協作，規劃並執行年度合作、通路促銷方案與新品上市專案。 
+3. 定期追蹤與分析各通路業績目標，提出成長策略與調整建議，並確保策略落地執行。 
+4. 調查市場動態與競品表現。 
+5. 發掘潛力通路、洽談上架機會，拓展品牌通路佈局。 
 
 【...",
-Client Due Diligence Officer (長期約聘人員),安聯證券投資信託股份有限公司,台北市中山區,面議,104,20260605,13.0,地點符合: 台北市中山區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8zf1f,"1. Perform Customer Due Diligence (CDD) and Know Your Customer (KYC) processes for new client onboarding, periodic reviews, trigger events, and offboarding, ensuring full adherence to global AML/CTF p...",
-教育訓練資深管理師/專案主任_汐止_08838,緯創資通股份有限公司,新北市汐止區,面議,104,20260605,13.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92daj,"負責事業群（BG）人才發展專案規劃與執行（含需求分析、課程設計與成效追蹤）
-規劃並優化公司新進人員訓練（Onboarding）體系與學習旅程（0–90天）
-設計與執行各階層主管之領導力培訓專案
-搜尋、評估與導入外部培訓資源及數位學習解決方案
-規劃與製作培訓教材（簡報、課程內容、案例與數位教材等）
-擔任內部講師，授課溝通、協作、職場效能等通識課程
-參與企業技能模型（Skill Framework）建...",
-電商通路業務主管,怡眾國際股份有限公司,新北市淡水區,面議,104,20260602,13.0,地點符合: 新北市淡水區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8530q,"一、電商營運管理
+Garena - Marketing Associate 行銷專員 (決勝時刻®: Mobile - Garena),Garena,Taipei–Keelung Metropolitan area,面議,LinkedIn,2026-05-25,29.0,"技能匹配(3): 自動化, 數據分析, 用戶分群; [技能20+職稱0+關鍵字9+地點0]",https://tw.linkedin.com/jobs/view/garena-marketing-associate-%E8%A1%8C%E9%8A%B7%E5%B0%88%E5%93%A1-%E6%B1%BA%E5%8B%9D%E6%99%82%E5%88%BB%C2%AE-mobile-garena-at-garena-4417843533,《決勝時刻®: Mobile - Garena》是一款以知名《決勝時刻®》 IP系列改編的經典第一人稱槍戰手遊。擁有超豐富的「槍戰模式」、「角色英雄」與「武器類型」，並具備獨特「連殺技能」，融入無人偵查機、導彈系統以及自由槍枝改造的功能，搭配絕佳的真實畫面與操作爽感，讓你宛如置身戰場上般移動自如。立刻拿起手機，號召戰友，扣下板機，享受經典射擊神作！ ✨在這裡，你將負責... 1. 行銷策略規劃：獨...,
+Ecommerce Manager - Individual Contributor,Addiction Pet Foods,"臺北市, 台灣",面議,LinkedIn,2026-05-12,29.0,"技能匹配(2): 數據分析, e-commerce; [技能13+職稱0+關鍵字16+地點0]",https://tw.linkedin.com/jobs/view/ecommerce-manager-individual-contributor-at-addiction-pet-foods-4413178814,E-Commerce Manager – Taiwan 電商客戶經理（台灣市場） Location: Taiwan 工作地點： 台灣 Department: E-Commerce / Sales & Marketing 部門： 電商 / 業務與行銷部 Employment Type: Full-time 聘僱類型： 全職 About the Role 關於此職位 We are looking fo...,
+資料工程師,聯樂數位行銷股份有限公司,台北市大安區,面議,104,20260608,28.0,技能匹配(1): python; 職稱部分匹配: 數據科學家; 地點符合: 台北市大安區; [技能7+職稱8+關鍵字3+地點10],https://www.104.com.tw/job/92g11,"【職務內容】
+1. 負責資料的雲端基礎架構設計與演進，涵蓋資料流、整合處理、監控狀態等。
+2. 開發和串接API，提供穩定、可重複使用的資料服務。。
+3. 兼顧業務成長與工程實作需求，將資料相關能力平台化，提供穩定、可重複使用的基礎服務。
+4. AI LLM架構維護。
+
+【基本條件】
+
+1. 具備完整的系統思考與實作能力，並能以清楚、可長期維護的方式開發高品質程式，支撐系統穩定演進。
+2. 具備雲...",
+(台北)國外業務人員,競陽清潔科技股份有限公司,台北市中山區,面議,104,20260608,27.7,"技能匹配(2): 數據分析, 跨部門溝通; 地點符合: 台北市中山區; [技能13+職稱0+關鍵字4+地點10]",https://www.104.com.tw/job/850vw,"提案資料，處理樣品寄送及客戶詢問，並協調解決問題、促成成交。
+5.跨部門溝通與專案管理，整合內部資源，確保客戶需求準時落地。
+6.主動開發商機/提出客製化建議方案，協助提升客戶滿意度與回購率。
+7.執行主管交辦事項，例如行銷簡報彙整、數據分析、提案",
+商品部數據分析工讀生,DAISO_台灣大創百貨股份有限公司,台北市中正區,面議,104,20260608,27.3,技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市中正區; [技能7+職稱8+關鍵字2+地點10],https://www.104.com.tw/job/8qb3i,"【工作內容】
+1.定期報表整理：日週月報表資料整理、報表數字調整與校對、資料整理
+2.數據資料處理工作、彙整文件表單資料(須熟悉OFFICE作業軟體)
+3.做事細心、態度積極
+4.主管交辦事宜處理
 
 
-協助規劃與執行各電商平台（如momo、PChome、蝦皮、Yahoo等）的銷售策略與活動檔期。
+【工作時間】
+周一~周五09:00-16:00(休息1小時)
 
+※此職缺為長期工讀，短期工讀勿試※",
+AI圖像標記工程師,兆徠科技股份有限公司,台北市內湖區,面議,104,20260604,27.0,"技能匹配(2): machine learning, 機器學習; 地點符合: 台北市內湖區; [技能13+職稱0+關鍵字4+地點10]",https://www.104.com.tw/job/8efnn,"- 影像資料整理
+- 影像標記
 
-監控產品銷售表現、庫存週轉率及毛利表現，定期製作銷售分析報告。
+在當今資訊科技發展的浪潮下，人工智慧領域成為了未來的發展趨勢。作為人工智慧工程師，您將有機會參與開發最新的機器學習/深度學習技術，應用在產品開發中，並為公司的發展貢獻自己的智慧和能力。
+如果您符合以上要求，請立即提交您的履歷，我們期待您的加入！",
+兼任研究助理（工作地點：台北市大安區）,國立東華大學_環境學院,台北市大安區,面議,104,20260604,26.7,"技能匹配(2): 自動化, 數據分析; 地點符合: 台北市大安區; [技能13+職稱0+關鍵字3+地點10]",https://www.104.com.tw/job/8xlqs,"理與簡報製作，具備資料分析或視覺化能力，擅長AI工具應用與自動化編程尤佳。
+4.	細心負責，能配合團隊工作節奏。
 
+【工作內容】：
+1.	協助蒐集彙整國內外淨零研究與政策資訊。
+2.	協助資料歸檔、資料庫建置與維護。
+3.	支援計畫會議行政與紀錄。",
+資深數位廣告優化師,摩米士台灣股份有限公司,台北市松山區,面議,104,20260603,26.3,技能匹配(1): 數據分析; 地點符合: 台北市松山區; [技能7+職稱5+關鍵字5+地點10],https://www.104.com.tw/job/8nelq,"工作內容
+1. 負責Facebook／Google／Instagram 等數位廣告投放、成效優化
+2. 規劃廣告素材、文案撰寫，視廣告成效狀況調整設計與文案
+3. 協助網站 SEO、商品頁內容優化及行銷活動執行
+4. 彙整廣告數據、成效追蹤，並提出優化建議
+5. 協助經營社群媒體，包含 Facebook、Instagram、Threads、TikTok 等平台
+6. 協助主管交辦事項
 
-協助制定價格策略、促銷方案與商品頁優化。
+必備條件
+...",
+Database Administration,台灣富士軟片資訊股份有限公司,台北市松山區,面議,104,20260608,25.7,"技能匹配(2): sql, 自動化; 地點符合: 台北市松山區; [技能13+職稱0+關鍵字2+地點10]",https://www.104.com.tw/job/92g47,"與自動化
+6. 數位轉型專案（加值）
 
-
-與平台小編/採購窗口保持良好溝通，爭取行銷資源及曝光版位。
-
-
-二、品牌與行銷合作
-
-
-配合品牌年度行銷計劃，執行線上促銷、廣告投放與社群合作。
-
-
-分析消費者行為...",
-主辦會計-總公司(土城),至得應用材料股份有限公司,新北市樹林區,面議,104,20260602,13.0,地點符合: 新北市樹林區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/9280l,"工作內容
-1. 公司全盤會計帳務作業。(熟內外帳及整帳)
-2. 全程導入ERP系統。(熟鼎新尤佳)
-3. 審核各項費用支出、收入憑證及付款文件。
-4. 編製月結報表、財務報表及管理報表。
-5. 營業稅、營所稅、扣繳申報等各項稅務作業。
-6. 配合會計師查帳、年度財務簽證作業以及股務作業。
-7. 協助預算編列、財務分析及經營數據整理。
-8. 配合主管機關查核及政府相關申報事項。
-9. 協助建立及優化...",
-行銷專員,中銨股份有限公司,新北市三重區,面議,104,20260605,13.0,地點符合: 新北市三重區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/9254f,"ICY DOCK 成立於 1994 年，是中銨股份有限公司旗下專精於儲存與硬體規格設計製造的專業電腦硬體品牌，專注於強固型工業電腦儲存解決方案。產品廣泛應用於 Server、Workstation、IPC、Embedded System 等專業領域，合作客戶包括 HP、Dell、Airbus、NASA 等國際品牌。
-
-本職務適合具備 B2B 經驗、並渴望參與海外市場策略的行銷人才，邀請您加入 IC...",
-Sr. Sales Operation Specialist (Asia and Taiwan)_ (ID: 26005A),四零四科技股份有限公司,新北市新莊區,面議,104,20260603,12.7,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92a1u,"書），並負責商機進度彙整與資料更新，確保作業順利進行。
-Execute daily sales operations and customer service processes, including CRM data maintenance,",
-營運行政(主管職),安欣科技服務股份有限公司,新北市新莊區,面議,104,20260603,12.7,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/929wo,"1. 營運報表與數據管理
--負責各項營運績效報表製作與分析（KPI、件數統計、取消件統計等）。
--維護營運資料及系統資訊，協助成本資料上傳與管理。
--彙整會議及相關營運分析資料。
-
-2. 損益分析與經營管理
--編製部門損益報表及營運預估分析。
--協助月結關帳作業、費用預提及成本控管。
--追蹤年度計畫執行成果及營運績效指標。
-
-3. 其他行政與專案事項
--支援主管交辦事項及跨部門專案執行。
-
-4.其...",
-品牌行銷公關經理｜高底薪｜績效獎金無上限｜可遠端,美麗動力股份有限公司,新北市汐止區,面議,104,20260607,12.7,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8zsbe,"我們是一間快速成長的電商公司，主要透過 KOL 團購、社群行銷與口碑推廣創造銷售，目前已累數萬名會員、穩定團購通路與多位知名長期合作KOL。
-
-這個職位的核心任務很明確：
-
-找到有影響力、能帶動銷售的 KOL 與團購主，建立長期合作關係，並持續為公司創造穩定且成長的營收。
-
-您將負責開發潛力 KOL、洽談合作方案、規劃開團檔期、追蹤銷售成效，以及建立長期合作名單。我們希望您不只是執行者，更能透過敏...",
-財務規劃暨投資資深管理師/主任管理師,台橡股份有限公司,台北市大安區,面議,104,20260605,12.7,地點符合: 台北市大安區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92dlc,"1.財務績效分析及差異分析報告 。
-2.與業務及財務單位密切合作，支援預測與預算編製流程 。
-3.提供支援業務決策之財務分析 。
-4.協助資本支出（CapEx）評估與監控 。
-5.檢視投資公司的財務績效。
-6.執行主管交辦之臨時專案或任務。
-",
-稽核員 Auditor (環境工程、生命科學背景) ｜挑戰跨國供應鏈驗證 × 永續標準的實踐者,台灣愛達福樂檢驗技術有限公司,新北市新莊區,面議,104,20260602,12.3,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8d6xm,"想進入全球永續供應鏈領域？熱愛出差、喜歡接觸不同產業、不同文化的人與現場？
- 我們正在尋找具環境科學、生命科學背景的您，透過完整的培訓計畫，成為國際驗證標準的專業稽核員！
-
-＊公司提供完善的稽核員培訓計畫＊
-
-《您將負責的工作內容》
-• 供應鏈審核（RDS, GRS, RCS, GOTS, Higg FEM等管理系統）
-• 瞭解客戶要求，和供應商溝通協調，完成專案審核
-• 審核中通過圖片記錄生產加...",
-Sales Operation / 業務營運專員,常珵科技股份有限公司,新北市樹林區,面議,104,20260602,12.3,地點符合: 新北市樹林區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8vj1u,"蹤，確保跨部門作業的準確性與交期達成。
-
-2.Prepare and analyze sales performance reports to support business planning and management decisions.",
-Service 業務專案管理師(土城)-E事業群,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260604,12.3,地點符合: 新北市土城區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92cru,"1.售後服務, 客戶與工廠及RD之間的溝通橋樑
-2.協同定義 service parts, 及 service life management, 包含 NPI, sustaining and EOL. 
-3.Service SCM 管理
-4.Service warranty/parts 報價/調價, 及預算/風險管控
-5.跨部門合作協調",
-FAE工程師【人力擴編】,佳宸科技股份有限公司,新北市三峽區,面議,104,20260604,12.3,地點符合: 新北市三峽區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7fu6s,"【工作內容】
-1.機台規格制訂與客戶技術洽談
-2.實驗操作與測試驗證
-3製程問題分析與改善
-4.規劃與執行機台驗收，確保符合客戶與公司標準
-5.作為客戶與內部研發、製造單位之技術溝通窗口
-6.協助機台交機、技術說明與相關文件整理
-
-【職務條件】
-具設備、製程或相關工程經驗者佳（無經驗可培訓）
-能配合出差或至客戶端支援
-具良好溝通能力，能將技術內容清楚說明
-對現場問題分析與解決具高度興趣",
-(Global) Program Manager (海外)計畫經理,財團法人浩然基金會,台北市松山區,面議,104,20260528,12.3,地點符合: 台北市松山區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/923aj,"# Main Duties and Responsibilities:
-1) Grantmaking and Programs（資助計畫與專案管理）
-     • Assist in preparing the foundations' annual budgets.
-     • Attend relevant conferences and webinars.     
-2) Case Man...",
-金融業務_數位行銷企劃【2026新鮮人職缺】,O-Bank_王道商業銀行股份有限公司,台北市內湖區,面議,104,20260528,12.3,地點符合: 台北市內湖區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/90hwg,"1.數位行銷策略規劃與活動執行：
-i.含活動主題企劃、投廣宣傳策略、廣宣撰寫與素材運用、成效追蹤等。
-ii.異業合作洽談、商業模式合作等。
-2.數位廣告規劃與投放：
-i.制定媒體預算與投放策略（Meta／Google／LINE 等） 
-ii.廣告後台操作與效益優化 
-iii.ROAS、CTR、轉換率追蹤與優化
-3.SEO 與內容行銷：
-i.監測網站流量與關鍵字排名 
-ii.與團隊合作，進行 SEO...",
-資安事業群 - 資安驗測工程師,三竹資訊股份有限公司,台北市中山區,面議,104,20260604,12.3,地點符合: 台北市中山區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8yngt,"我們正在尋找專注於攻擊模擬與弱點驗證的資安工程師。
-此角色目標是透過實際攻擊情境驗證防禦機制是否有效，並提供具體可執行的修補建議。
-
-工作內容
-執行內部滲透測試與紅隊演練
-模擬橫向移動、權限提升與資料外洩情境
-驗證安全控制機制是否可被繞過
-分析弱點成因並提供修補建議
-撰寫技術報告與改善建議
-建立與維護攻擊工具庫與測試流程
-
-條件需求
-2 年以上滲透測試或紅隊經驗
-熟悉 Web、API、網路與系統層...",
-A-數位平台運營規劃師,鼎新數智股份有限公司,新北市新店區,面議,104,20260605,12.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8a44c,"1.擬定並執行平臺營運策略與階段規劃(具 B2B 平台經營經驗尤佳)。
-2.透過TA分析（情境和輪廓）逐步提出優化建議，以達到部門設定指標。
-3.管控跨部門專案開發進度，協調內部資源並進行跨單位溝通，達成各階段上線與推廣目標。
-4.平臺量化與質化成效分析，並追蹤後續使用數字持續優化。
-5.根據使用者行為分析，優化產品流程、功能開發建議與規劃。
-6.平臺運營商業模式規劃，依據使用者行為分析，協助頻道...",
-新北市不動產業務助理,新風尚開發股份有限公司,新北市蘆洲區,面議,104,20260607,12.3,地點符合: 新北市蘆洲區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8dptv,"新風尚開發 New Trends of Property Services 
-_精緻房產代理  創意趨勢行銷
-
-優選徵求不動產代銷業務助理: 
-1. 對不動產銷售相關工作有興趣
-2. 無工作經驗可, 願意接受培養訓練 
-3. 具有服務熱誠與親和力!
-",
-✿口才變現，哈哈入帳不是夢✿報名6/9&6/11線上說明會一探電話銷售_L (台北-西門站),安達國際人壽保險股份有限公司,台北市中正區,面議,104,20260604,12.0,地點符合: 台北市中正區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/6ztoc,"◆工作介紹◆
-你是不是：
-√很會聊天
-√很會說服朋友吃消夜
-√很會讓人答應你
-
-那恭喜，你天生自帶業績體質✿
-在這裡，不用搬重物、不用風吹日曬雨淋
-別再把你的口才浪費在群組聊天，
-來這裡，把「哈哈」變成「入帳通知」✧✧✧✧✧
-
-◆薪資福利◆
-1、保障每月固定底薪NT$29,500起(不倒扣) + 每月高額獎金
-2、新人達標獎金每月5000(前6個月)
-3、年終獎金(保底2個月) + 三節獎金
-4、...",
-遊戲系統企劃,勝皇電子股份有限公司,新北市三重區,面議,104,20260604,12.0,地點符合: 新北市三重區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7ocgk,"1. 專案文件撰寫、彙整及維護。
-2. 遊戲產品驗收與功能確認。
-3. 協助遊戲海內外版本測試與更新之規劃。
-4. 博奕遊戲APP之提案與研發設計，包括平台內容發想與架構設計、分析與優化設計、提案簡報、功能規格制定。
-5. 規劃與執行遊戲研發營運計畫與相關工作。依據遊戲營運數據與玩家回饋，調整營運活動內容，提升遊戲品質與營收。
-6. 協助遊戲客服作業（如：活動相關問題回覆與處理、活動bug與錯誤排...",
-商品企劃專員｜市場調查與提案簡報,東爵企業有限公司,新北市樹林區,面議,104,20260604,12.0,地點符合: 新北市樹林區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7zkkg,"負責新品開發的市場調查與競品分析（包含消費者趨勢、通路觀察）
-撰寫商品企劃書，整理市場資料，提出可行性建議
-製作專業商品提案簡報（PPT/Keynote）
-與設計、行銷、業務部門協作，完成商品提案與專案推進
-需有獨立作業能力,具相關經驗尤佳
-需懂基本AI、PS操作
-",
-內湖總部-資深電子工程師,安捷科技股份有限公司,台北市內湖區,面議,104,20260606,12.0,地點符合: 台北市內湖區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8lsut,"1.電子電路設計與開發
-   執行硬體架構設計與規劃
-   電路設計、PCB layout、零件選用
-2.技術問題分析與解決
-   產品開發過程中的技術難題分析與解決，提升產品效能與穩定性
-   協助解決生產和客戶反饋的技術問題
-3.產品測試與驗證
-   制定測試計畫並執行產品測試，包括產品功能測試、可靠性測試等
-   分析測試結果並提出改進建議，追蹤問題並解決問題
-4.專案管理與開發流程控制
- ...",
-產險-數位平台規劃人員(總公司),富邦產物保險股份有限公司,台北市中山區,面議,104,20260602,12.0,地點符合: 台北市中山區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8xoey,"重要職責/工作內容：
-一、數位專案規劃與平台維運。
-二、跨部門協調與需求溝通。
-三、專案成效追踨。
-四、其他主管交辦事項。
-【如具備特定經驗或條件者，薪資不限刊登範圍】",
-會計,顯榮企業有限公司,新北市新莊區,面議,104,20260603,12.0,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92a4g,"1. 辦理財務報告之查核及簽證。
-2. 承辦所得稅結算申報之查核及簽證。
-3. 充任稅務案件之代理人，包括所得稅、遺贈稅之代理申報，行政救濟、司法救濟及其他各種稅務業務之代理。
-4. 辦理關於會計之設計、管理、稽查、調查、整理、清算、鑑定、財務分析或資產評價等事項。
-5. 擔任檢查人、清算人、破產管理人、遺囑執行人或其他信託人。
-6. 擔任工商登記或商標註冊及其他有關事件之代理人。
-7. 提供稅務...",
-[產品管理部]-產品專案管理,金泰噴碼科技股份有限公司,新北市汐止區,面議,104,20260605,12.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92d9q,"1. 產品生命週期管理
-2. 專案及產品執行及管理
-3. 專案風險評估及ROI分析
-4. 領導高效率專案團隊
-5. 內外部資源協調及管理
-6. 產品問題處理及決策
-7. 執行內外部教育訓練",
-61170-資安軟體產品經理,QNAP_威聯通科技股份有限公司,新北市汐止區,面議,104,20260605,12.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8va5e,"工作內容 & 範疇 :
-1. 負責資安防護軟體產品的市場研究、競品分析與整體產品藍圖規劃。 
-2. 追蹤國際資安趨勢與相關防護標準（如 ISO 27001、CIS Controls、NIST CSF），並將其應用於產品策略與偵測能力設計中，以確保產品符合企業客戶的安全治理需求。 
-3. 擬定並撰寫產品規格，規劃開發時程與版本發佈計畫，協調跨部門合作以確保順利執行。 
-4. 統籌專案資源與執行進度，...",
-經管資深專員 (APAC),樺漢科技股份有限公司_鴻海集團,新北市中和區,面議,104,20260601,12.0,地點符合: 新北市中和區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/91l7y,"1.區域制度建立： 統一亞太區域各子公司的營收及成本合理性，確保跨國財務數據的一致性。
-2.跨國差異分析： 監控亞太區域各廠區的料工費，並分析匯率與區域通膨對生產成本的影響。
-3.轉讓定價管理： 制定並執行關聯企業間的跨國交易價格策略，確保符合各國稅務局的合規要求。
-4.合規風險審核： 稽核亞太區域內成本數據的正確性，預防潛在的稅務風險與財報誤導。
-5.區域策略報價： 結合關稅、物流與稅務優惠，為...",
-證券分析師的研究與行政助理,大華國際證券投資顧問股份有限公司,台北市中正區,面議,104,20260603,11.7,地點符合: 台北市中正區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92an5,"一年以上證券商或投顧經驗
-專業的財經知識，對於股票研究有熱情。
-熟悉Word、Excel、PowerPoint，並擅長撰寫報告及報表製作之能力。
-主管交代事項辦理。
-需細心、負責、抗高壓、有耐心，具良好溝通能力及情緒管理能力。",
-Cloud Platform-Data Engineer(國際知名科技集團）,台灣利優資訊科技有限公司,台北市信義區,面議,104,20260605,11.7,地點符合: 台北市信義區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/911pp,"This role provides highest-tier technical support for complex issues across Google Cloud data platforms, including data",
-HR Generalist 人資管理師,香港商永道無線射頻標籤有限公司台灣分公司,新北市土城區,面議,104,20260602,11.7,地點符合: 新北市土城區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/9285q,"作業。
-3. Prepare HR reports, employee data, and compliance-related documentation.
-準備人力資源相關報表、統計資料及文件。
-4. Support ESG reporting",
-"(Taipei) Associate Director, Global Logistics Project Management",國巨股份有限公司,新北市新店區,面議,104,20260605,11.7,地點符合: 新北市新店區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92emn," analytical skills using statistical and data mining tools
-•Familiar with project management and process engineering tools 
-•",
-【電氣集團】Finance Manager 財務經理,伊頓飛瑞慕品股份有限公司,新北市汐止區,面議,104,20260518,11.7,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8vpol," forecasts across teams and leadership.
-
-4. Data Quality & Process Improvement : Lead initiatives to enhance data quality in",
-【S】通訊協定軟體工程師,富智康國際股份有限公司,新北市土城區,面議,104,20260602,11.7,地點符合: 新北市土城區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/91gaq," GCF / PTCRB 認證問題分析，以及 UAV / GCS Data Link / Mesh 無線通訊軟體開發**。
-
-實際工作內容將依專案需求與個人專長進行分工，並不要求候選人同時具備所有領域經驗。若您具備 3GPP Protocol、",
-人力發展企劃人員_I00012812,國泰世紀產物保險股份有限公司,台北市大安區,面議,104,20260603,11.7,地點符合: 台北市大安區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8rr7z,"熱血招募中！打造企業人才成長藍圖，就等你來發光
-你熱愛規劃與創新嗎？擅長用企劃讓想法落地成真？
-我們正在尋找一位充滿熱情的人才發展企劃高手，一起從0到1設計訓練制度、推動學習文化，打造讓員工與公司共同成長的舞台！
-如果你對人才培育有理想，對企劃有熱情，那你，就是我們要找的人！
-
-1. 擬定人才發展策略：從組織目標出發，規劃員工成長途徑，讓每一步發展更有方向
-2. 規劃教育訓練：從課程設計、教材編製...",
-信用分析專員(Credit Analyst)_台北,CRIF TAIWAN_中華徵信所企業股份有限公司,台北市松山區,面議,104,20260601,11.7,地點符合: 台北市松山區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/4ihj8,"1.企業信用營運調查與產業分析調查，信用報告、產業報告撰寫。
-2.有風險控管及信用調查經驗者尤佳。",
-業務助理 (約聘),台灣通用磨坊股份有限公司 _ General Mills Taiwan,新北市板橋區,面議,104,20260604,11.7,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8iejt,"你將成為前線營運團隊的關鍵夥伴，協助維持日常業務作業順暢並參與專案推進，包括：
-1.負責每日 SAP 系統銷售訂單處理（Order to Cash 流程）
-2.統一發票、折讓單之開立與作業管理
-3.定期製作銷售分析報表，支援業務決策
-4.與客戶配送中心（DC）聯繫，協調出貨與庫存事務
-5.支援主管交辦事項，並參與跨部門專案推進",
-客服專員,香港商安費諾（東亞）有限公司台灣分公司,新北市林口區,面議,104,20260602,11.7,地點符合: 新北市林口區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/86unu,"1. To service customer requirement and support sales to get more business opportunity.
-2. To follow up daily order",
-CTTI FPM 跨團隊整合專員(土城)-E事業群,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260605,11.7,地點符合: 新北市土城區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92dlu,"1. 專責協作 CTTI FPM（Cross-Team Technology Integration & FPM）
-2. 統籌跨部門整合專案規劃、進度追蹤與風險管理
-3. 協調 WW GFO 與 CTTI 技術團隊間的需求對接與溝通
-4. 推動跨功能流程改善，建立標準化作業程序（SOP）
-5. 定期向高階主管彙報專案進度與里程碑達成狀況",
-生管助理（儲備生管專員）歡迎應屆畢業生,擎雷防偽科技股份有限公司,新北市中和區,面議,104,20260603,11.7,地點符合: 新北市中和區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8zq5l,"
-一、 核心職責
-
-本職位旨在協助生管團隊達成生產效能最大化，主要負責以下任務：
-
-1.    整合訂單與技術資訊，建立並維護生產製令，確保現場作業資訊正確。
-2.    即時掌握生產進度與物料情報，擔任部門間溝通橋樑，確保排程計畫能夠落實。
-3.    熟練操作公司系統進行資料維護，確保生產帳務與物料資訊的正確性。
-4.    負責生產相關文件維護、管理，並支援新產品導入階段的物料準備。
-
-二、...",
-專案儲備幹部,上洋產業股份有限公司,新北市五股區,面議,104,20260604,11.7,地點符合: 新北市五股區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7tb43,"1.蒐集、分析與整理國內外各產業資料。
-2.撰寫產業分析報告。 
-3.分析圖表製作。
-4.產品規劃、行銷策略建議。
-5.其他主管交辦事項
-",
-產品經理/PM/Product Manager,翊棨股份有限公司,新北市汐止區,面議,104,20260505,11.7,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/6zo6z,"1.具產品開發經驗2~4年、能獨立開發新商品，掌控品牌營銷方向，完成年度目標。
-2.對市場有敏銳洞察能力、熟悉產品開發流程、產品專案期程控管與跨部門協調 。
-2.分析市場競品，規劃年度新品方向與產品訴求擬定 。
-3.能獨立提案規劃、議價，將商品優勢最大化及價格策略制定。
-4.有能力尋找代工廠、並負責商品相關包材、瓶器開發。
-5.具生活、3C用品、食品開發經驗為佳。
-6.達成公司月度目標即可領取獎金...",
-專案副理,正啟科技股份有限公司,新北市林口區,面議,104,20260516,11.7,地點符合: 新北市林口區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8ijjl,"1. 協調並管理專案團隊，確保專案進度和成果符合公司要求。
-2. 與內外部利益相關者協調項目要求和期望，以確保專案成功。
-3. 溝通協調，以解決問題並促進專案進展。
-4. 跟蹤專案進度並定期報告給管理層。
-5. 確保團隊成員之間的有效溝通和協作。
-6. 根據公司要求，完成其他與專案相關的工作。
-
-本職位的重要性在於協調專案團隊，確保專案進度和成果符合公司要求。這是一個發展前景良好的職位，能提供豐富...",
-派遣至LINE PT_Creator Economy & Marketing_Data Processing & Management(至少可配合半年到一年，一周可配合3天以上)  [115-PT1489],萬寶華企業管理顧問股份有限公司,台北市內湖區,面議,104,20260605,11.3,地點符合: 台北市內湖區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8ofv2,"[Job Description]
-1. Data Processing & Management
-    * Collect, organize, and input various business data
-    * Ensure",
-三重廠夜班生產主任 (待遇優),Molex Taiwan Ltd._台灣莫仕股份有限公司,新北市三重區,面議,104,20260603,11.3,地點符合: 新北市三重區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8wrdu," system
-o	Review standard man/machine hour periodically, identify gaps and propose improvement actions
-o	Production data",
-"Program Manager, Global Supply Demand Management",Google_美商科高國際有限公司,新北市板橋區,面議,104,20260603,11.3,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92a3p," Strong analytical and quantitative skills, with a demonstrated ability to use data-driven insights to tell a story and",
-國外業務客戶經理(USA/EMEA),海華科技股份有限公司,新北市新店區,面議,104,20260601,11.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8lfsn,"1. To handle and promote AzureWave products in assigned market.
-2. To achieve monthly & yearly sales target.
-3. To manage sales related routine works such forecast planning, order processing, inventor...",
-【文管人員】無相關經驗 願意學習歡迎加入,朗雲國際有限公司,新北市新店區,面議,104,20260605,11.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8x1k3," fasteners and Surface Mounted Solutions hardware components for industries including AI, semiconductors, robotics, data",
-<Remote>Market Research Consultant (German)-Contractor,台灣德瑞克商務有限公司,新北市新店區,面議,104,20260602,11.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/6bjxm," countries and languages
-- Provide excellent customer support to market researchers 
-- Quality management, data analysis, and",
-酷澎Coupang｜營運分析專員Business Associate✦ #台北101 #有轉正機會,瑞星管理顧問股份有限公司,台北市信義區,面議,104,20260604,11.3,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92bj0,"案管理能力
-✔與品牌管理、品類管理及營運團隊密切合作
-✔適合作為未來發展 Business Analyst、Category Manager、Brand Manager 或電商營運管理職涯的重要起點。
--
-【快速應徵】+Sandy Line：@",
-『Hahow for Business』業務經理 Sales Manager,思哈股份有限公司,台北市松山區,面議,104,20260602,11.3,地點符合: 台北市松山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7lwb9,"【職位說明】
-Hahow 是台灣最大的線上學習平台，Hahow for Business 則專注協助企業解決人才發展的困難與挑戰；我們相信 Hahow for Business 能幫助企業員工學習成長、而員工的學習成長，可以幫助企業提升營運績效！",
-74091_Planning Supervisor,康寧光通訊事業群_逢源科技股份有限公司,新北市土城區,面議,104,20260604,11.3,地點符合: 新北市土城區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8zuh7," Supply Chain Management, Business, or a related field.
-• Proven experience in production planning, material planning, or",
-Sales Manager (France),普安科技股份有限公司,新北市中和區,面議,104,20260604,11.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/89zk1,"Responsible for sales, marketing, and business management to exceed the targets.
-Develop new customers and grow the",
-(Taipei) SAP Project Management Manager (SD Domain Lead),國巨股份有限公司,新北市新店區,面議,104,20260604,11.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92biq," planning, business alignment, and process optimization. The role requires consulting skills, project management skills, change",
-網路平台專員 (社群小編) Online Platforms Specialist,ICRT_財團法人台北國際社區文化基金會,新北市新莊區,面議,104,20260604,11.3,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/6ky5q," a big plus
-16.	Meta Business Suite experience.
-
-台灣唯一的英語廣播電台ICRT，正在尋找富有創意的社群小編，來維繫並且拓展我們的網路社群媒體聲量。
-應徵者必須具備創作社群媒體內容的經驗。
-ICRT的工",
-Construction Project Manager,歐商_喜利得股份有限公司,新北市板橋區,面議,104,20260508,11.3,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/91cyy," stakeholders and maximize project business opportunities and sales results.
- 
-作為大型營造專案經理，你將負責指定專案從推廣策略制定、早期設計規範置入到後期施工現場追蹤執行的整體流程管理。透",
-【總公司】營運專員/高專,嘉里醫藥物流股份有限公司,台北市中正區,面議,104,20260602,11.3,地點符合: 台北市中正區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/90gjt,"1. 檢核、彙整及分析各站所營運指標數據，如留庫率、管制藥品簽收報表
-2. 分析大B專案客戶KPI，釐清缺失原因，供主管作為改善配送品質參考依據
-3. 調查大B專案客戶貨況延遲原因，彙整提供權責主管
-4. 分析彙整各站所正物流、逆物流貨況報表，追蹤貨件歷程及配達率
-5. 整理站所藥品供應鏈溫控紀錄與矯正預防措施相關文件
-6. 依品保室要求產出GDP/GMP合規需求文件，與追蹤站所文件繳回進度
-7....",
-電商營運專員,洽富實業股份有限公司,新北市五股區,面議,104,20260604,11.3,地點符合: 新北市五股區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/922ky,"1.電商通路日常營運：負責各大電商平台（如：momo、蝦皮、Yahoo、東森等）的商品資訊上下架、價格變動維護、促銷模組設定及庫存控管。
-2.視覺與素材製作：具備基礎製圖能力，能獨立完成電商促銷 Banner、商品圖文修改及社群貼文視覺素材（需熟悉 Photoshop、Illustrator 或 Canva 等工具）。
-3.行銷活動企劃與執行：規劃並執行電商通路的品牌檔期、促銷活動與廣告投放，以達...",
-總部人資助理、專員,天鷹保全股份有限公司,新北市汐止區,面議,104,20260601,11.3,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/6u4bu,"日常事務:
-1.員工任用/離職等相關作業。 
-2.薪酬計算作業(熟鼎新系統尤佳)。 
-3.勞健保加退作業。
-4.團險、勞保給付申請作業。
-5.保全人員進用安全查核及勞基法84 -1條約定書報備。
-6.職工福利委員及勞資會議。
-7.其他行政交辦事項。
-8.主管臨時交辦事務。
-技能條件:
-1.熟悉勞動基準法相關法令，有保全業從業經驗者尤佳。
-2.熟悉excel、office、Outlook及電腦操作。...",
-【總公司】總經理室－通路開發業務,頂呱呱國際股份有限公司,新北市五股區,面議,104,20260529,11.3,地點符合: 新北市五股區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8zaoa,"▍工作內容說明
-
-主要負責拓展品牌多元銷售通路，將經典商品透過產品型態轉換，如復熱包、料理包或冷凍即食產品等形式，導入量販通路、便利商店及電商平台等零售通路，開發品牌第二成長曲線。
-
-此職位需主動開發量販店、超商、電商平台及企業通路合作機會，負責合作條件談判、產品上架規劃與銷售策略制定，同時與產品研發、供應鏈及行銷團隊協作，確保商品規格、包裝與市場需求相符，並持續追蹤通路銷售表現與優化策略，以擴大...",
-AI營運應用助理,數博整合股份有限公司,台北市信義區,面議,104,20260602,11.0,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/9288t,"1. 使用 AI 協助整理資料、文件與報表 。
-2. 使用 AI 優化日常行政與營運流程。
-3. 將人工流程逐步轉換為 AI 協作流程 。
-4. 使用 ChatGPT、Claude、Gemini 等 AI 工具提升效率 。
-5. 測試 AI 工具並回饋實際使用問題 。
-6. 協助推動 AI 導入與流程優化。
-7. 主管交辦事項。
-",
-《新北市-視訊面試》小米之家 中和環球專賣店-銷售專員【前六個月保障薪獎3萬6千元】,德誼數位科技股份有限公司,新北市中和區,面議,104,20260602,11.0,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8a2y4,"我們的願景：成為最受客戶信賴的3C精品品牌
+【必備條件】
+-3 年以上相關經驗（System Analyst / BA / SI / PM）
+-有系統導入或專案管理經驗
+-熟悉 SQL / Database 基礎
+-具 BI 工具經驗（Power BI",
+資深遊戲企劃,希梅格傑西有限公司,台北市中山區,面議,104,20260607,25.3,技能匹配(1): 數據分析; 地點符合: 台北市中山區; [技能7+職稱5+關鍵字4+地點10],https://www.104.com.tw/job/8qegp,"新創公司，團隊規模 9人，製作輕度手遊
+2026上線三款，一款表現較好，D1隔留40%，實現自研自發
+每日，提供一樓cafe，贊助飲料咖啡，上限200元
+每周三，提供uber下午茶，上限300元
+每周五，提供uber午餐，上限300元
+上班時間自由，年終保底一個月
 
 工作內容：
-1. 門市日常營運，銷售小米 全系列產品、副廠產品及公司主推產品，以利業績達成。
+協助製作人研發遊戲
+
+要求：
+1. 擁有完整商業手遊開發經驗
+2. 邏輯清晰
+
+加分：
+1. 了解基礎數據分析指標跟概念...",
+公關SAE/ 資深專案企劃/ 專案副理【媒體溝通部】,純粹創意整合行銷有限公司,新北市板橋區,面議,104,20260602,25.0,技能匹配(1): 數據分析; 地點符合: 新北市板橋區; [技能7+職稱5+關鍵字3+地點10],https://www.104.com.tw/job/9083p,"。
+
+【我們希望你具備】
+1. 3年以上公關、行銷、品牌、媒體傳播、活動企劃或專案管理相關經驗
+2. 提案、簡報、資料分析與企劃整合能力，能獨立或與團隊協作完成提案內容
+3. 專案管理能力，能掌握時程、分工、品質與執行節奏
+4. 客戶溝通與協調能力",
+Power Diagnostics Service Engineer,Siemens Energy_西門子能源股份有限公司,台北市南港區,面議,104,20260601,24.2,職稱部分匹配: analytics engineer; 地點符合: 台北市南港區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/8u959," issues.
+
+【How You'll Make an Impact】
+Monitoring power plant operating data to detect and address operational and hardware",
+Semiconductor Product Engineering Manager,美商科點半導體有限公司台灣分公司,新北市新店區,面議,104,20260501,24.2,職稱部分匹配: product analyst; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字2+地點10],https://www.104.com.tw/job/90jt4," products.
+- Device qualification/reliability for new products (AEC-Q100/Q006).
+- Production data monitoring and analysis.
+-",
+助理工程師 Assistant Engineer,美商CellMo Materials Innovation Inc. _ 東泰榮行股份有限公司,新北市五股區,面議,104,20260603,23.8,職稱部分匹配: analytics engineer; 地點符合: 新北市五股區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8n8mh," summarization of experimental and research data.
+Aid in debugging production equipment and analyzing process issues.
+Assist in",
+JR-16409 Sr. Product Engineering,凌耀科技股份有限公司,新北市新店區,面議,104,20260605,23.5,職稱部分匹配: product analyst; 地點符合: 新北市新店區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/90xpx," yield analysis)
+
+3. Mass Production lot and RMA lot, CP/FT data crunch and distribution analysis based on manager’s assignment",
+Camera and Sensors Engineer for Drones,蜘蛛視覺感測有限公司,新北市新莊區,面議,104,20260603,23.5,職稱部分匹配: analytics engineer; 地點符合: 新北市新莊區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8oc9p," data acquisition and analysis (e.g., LiDAR, thermal sensors, infrared cameras, etc.).
+Integrate camera and sensor",
+Supplier Quality Engineer,Siemens Energy_西門子能源股份有限公司,台北市南港區,面議,104,20260601,23.5,職稱部分匹配: analytics engineer; 地點符合: 台北市南港區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8zzte," colleagues, and business partners.
+
+【How You'll Make an Impact】
+• Supplier Qualification – support on-boarding of new suppliers by",
+Business Development Manager  -台灣市場,數邁科技股份有限公司,台北市松山區,面議,104,20260607,23.5,職稱部分匹配: business analyst; 地點符合: 台北市松山區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/91i0v,"【關於這個職缺 About the Role】
+
+- 我們正在快速擴張台灣市場，尋找一位能夠獨立作戰的 Business Development / Enterprise Sales（Hunter 型角色）。
+
+- 你將負責完整銷售週期——從",
+Data Governance Specialist (Location:Taipei),香港商捷比達有限公司台灣分公司,台北市中正區,面議,104,20260608,23.2,職稱部分匹配: data scientist; 地點符合: 台北市中正區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8sm56,"Job Overview:
+This role is pivotal in overseeing and maintaining the accuracy, consistency, and completeness of master data",
+International Business Development Manager（Brand & Distributor Development）,益福生醫股份有限公司,台北市南港區,面議,104,20260608,23.2,職稱部分匹配: business analyst; 地點符合: 台北市南港區; [技能0+職稱12+關鍵字1+地點10],https://www.104.com.tw/job/8x2py,We are seeking a seasoned International Business Development Manager to lead global distributor development for our,
+【不動產開發專案專員】,正大纖維工業股份有限公司,台北市中山區,面議,104,20260608,22.0,技能匹配(1): 數據分析; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/8wxdu,"【不動產開發專案專員】
+
+【工作內容】
+
+協助自有資產活化專案之策略研擬與執行。
+執行不動產開發可行性評估、市場調查、財務分析及稅務評估。
+協助不動產開發相關專案推進與資料整合。
+擬定、審閱合約及公文書製作，並協助都市更新相關作業流程。
+蒐集並分析市場資訊、法規及產業趨勢。
+其他主管交辦事項及跨部門協作。
+
+【工作基本要求】
+
+• 具不動產、都市計畫、建築等相關法規基本認知
+• 熟悉不動產估價、登...",
+行銷企劃主管,Mahoya_騰思香氛文化有限公司,台北市松山區,面議,104,20260602,21.7,技能匹配(1): 數據分析; 地點符合: 台北市松山區; [技能7+職稱0+關鍵字5+地點10],https://www.104.com.tw/job/70g58,"# Mahoya｜行銷企劃主管 招募中
+
+領航品牌策略，策劃 Mahoya 的下一段成長旅程
+
+Mahoya 正站在品牌持續擴張的重要階段。
+我們正在尋找一位兼具策略思維、品牌敏銳度與執行統籌力的行銷企劃主管，
+帶領團隊整合品牌、內容、活動、會員與數位行銷資源，
+讓更多人認識靈氣精油，也讓 Mahoya 的品牌影響力走得更深、更遠。
+
+這不只是一份行銷管理職，
+更是一個能參與品牌方向、推動市場成長...",
+【ISO/品管品保專員】想在舒適的辦公環境中工作嗎?我們提供多元化的工作內容和成長機會！品管 #食品原料基礎認識#ISO文件維護#成長機會,遠景股份有限公司,台北市南港區,面議,104,20260603,20.7,技能匹配(1): 統計分析; 地點符合: 台北市南港區; [技能7+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8jd5b,"1.法規知識奥文件管理能力:
+熟悉台灣食品安全相關法規,能處進口原料規格文件審查,確保進口原料的中文標示、COA、營養成分等相關文件符合法規規定。
+
+2.供應商管理與稽核能力:
+須制訂與審查進口原料供應商資格審核程序,包含書面審查(如工廠認證文件、第三方檢
+驗報告審閱)及定期書面稽核能針對 ODM/ODM代工廠進行製程符合性稽查,確認代工廠具備 HACCP、ISO、GMP等認證,保障原料加工後的品...",
+【長期｜兼職】實習助理（校園招募）,JIKA_伊創克雲端科技股份有限公司,台北市南港區,面議,104,20260603,20.0,技能匹配(1): 數據分析; 地點符合: 台北市南港區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8xqtu,"經驗
+適合喜歡寫作、設計、觀察市場與學習 MarTech 工具的你。
+
+營運規劃實習生｜體驗創業與營運決策第一線
+加入我們，你將：
+•	協助商業策略規劃、流程優化與基礎數據分析
+•	透過 CRM（HubSpot）觀察客戶行為與營運指標
+•	第一線接",
+經營(商業)分析主管,拓美諮詢有限公司,台北市內湖區,面議,104,20260606,20.0,技能匹配(1): 商業分析; 地點符合: 台北市內湖區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/92ex3,"議與行動方案。
+
+二、 商業分析與營運洞察 (Business Intelligence & Operational Insights)
+全方位指標監控： 建立並追蹤核心營運指標（包括營收、毛利、門市產值、人力效益、商品結構、產銷數據及市場趨勢），",
+【台北｜團隊擴編】行銷企劃專員,OVOTOILET_京典衛浴股份有限公司,新北市五股區,面議,104,20260604,19.7,技能匹配(1): 數據分析; 地點符合: 新北市五股區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/7k465,"要你】
+＊以下為此部門涵蓋的項目，實際的工作安排、配比依照主管另行分配
+1. 撰寫社群及官方網站相關文案
+2. 社群經營、議題操作與活動發想
+3. 協助 Google、Facebook 、LAP 廣告投放，並進行數據分析及優化，操作成效回報
+＊部分",
+自動化高階主管,英屬開曼群島商威宏控股股份有限公司,新北市新莊區,面議,104,20260602,19.3,技能匹配(1): 自動化; 地點符合: 新北市新莊區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8vhdm,"1. 自動化戰略規劃
+•	擬定集團，包括但不限於運動與精品包袋事業體，設備事業體，織品染色事業體，
+2. 自動化與智慧製造短中長期藍圖，與總部營運策略對齊。
+•	評估製程瓶頸，規劃自動化導入優先順序。
+•	主導自動化設備與數位化，作業系統ＡＩ化導入專案。
+•	建立自動化標準規範與 SOP，確保各廠一致性。
+3. 跨部門協調
+•	與效率中心協作，依據專案特性領導ＩＴ與製造團隊，推動新製程與新技術落地...",
+【MisterDonut】商品開發專員,Mister Donut_統一多拿滋股份有限公司,台北市信義區,面議,104,20260608,19.3,技能匹配(1): 數據分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8tazf,"工作內容：
+1.	甜甜圈/烘焙/飲品研發及成本控管/管理表單建置
+2.	制定製作流程標準，兼顧品質及生產效率
+3.	檔期原物料採購及品質管理
+4.	銷售數據分析，掌握市場與顧客消費趨勢，持續精進創新
+5.	檔期主題規劃，包含跨品牌合作聯名洽談及開發
+6.     主管交辦事項
+
+※具相關經驗者，可另外敘薪。",
+【擴編】AI整合行銷企劃(新事業部)— 年薪保障 14 個月,| 達摩本草 | 毛孩時代     TSA _騰勢股份有限公司,新北市新莊區,面議,104,20260607,19.3,技能匹配(1): 數據分析; 地點符合: 新北市新莊區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8rvbq,"能指揮並查核 AI 產出。
+4、具數據分析能力，能從數據判斷問題與機會，重視實際成效而非表面數字。
+5、能熟練運用 ChatGPT、Gemini、Claude 等 AI 工具，設計提示詞（Prompt）或工作流程，協助內容產製、資料分析與行銷執行。",
+"部門行政管理實習人員 - 商業分析 (數數發中心, DDT)_I00017710",國泰金控_國泰金融控股股份有限公司,台北市信義區,面議,104,20251231,19.3,技能匹配(1): 商業分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8fflz,"1. 文件文本資料整理為 json 資料格式（json）
+2. 定期與文件資料負責同仁會議：1. 確認整理進度 2. 彙整整理過程之討論結果
+3. 文件資料等部門行政庶務協助",
+【需具備日文能力】LINE貼圖 培訓主管,網訊電通股份有限公司,台北市信義區,面議,104,20260603,19.0,技能匹配(1): 數據分析; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8s7ly,"訓練計劃，與營運順暢。
+4、具日文流利溝通能力，需與日本業主/客戶進行會議溝通及書信往來，並負責會議記錄整理與彙整。
+5、中日文書信溝通
+6、熟悉 Excel 操作，能運用 Excel 進行資料整理、數據分析及報表製作。",
+《Sales》Inside Sales內勤業務(DNT-3),佳必琪國際股份有限公司,新北市中和區,面議,104,20260529,19.0,技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/84ysn,"1. 支援銷售團隊：管理訂單處理以及出貨安排
+2. 數據分析：訂單業績分析以及日常報表分析
+3. 客戶關係管理：維護客戶資料庫，跟進客戶需求
+4. 行政庶務：協調會議安排、紀錄
+5. 協助主管管理：協助項目進度跟蹤，確保各項任務按時完成
+6. 其",
+品保主管（新店廠）,Neogence霓淨思_德典生技股份有限公司,新北市新店區,面議,104,20260607,19.0,技能匹配(1): 數據分析; 地點符合: 新北市新店區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92cxq,"進行例行工作對接、進度追蹤與異常事件協助。
+
+客訴與品質異常危機處理（CAPA）： 主導重大客訴（如內外包材適配性、微生物超標、物理性裂管等）之深度原因調查、實體排查與數據分析，撰寫正式品質說明說帖與改善報告，並向高階決策層匯報。
+
+品質數位化系統",
+人力資源專員-招聘/訓練專員,聯誠寵物有限公司,新北市八里區,面議,104,20260607,19.0,技能匹配(1): 數據分析; 地點符合: 新北市八里區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/926om,"選：進行初步面試，評估專業與特質。
+＊核薪與提任用：進行背景調查、討論薪資、發 Offer
+＊招募數據分析：統計到職率、留任率、分析招募管道
+2.教育訓練
+＊調查培訓需求：發放問卷、訪談主管，找出學用落差。
+＊擬定年度計畫：規劃全年的訓練課程與預算",
+信用卡業務行銷專員,彰化商業銀行股份有限公司,台北市大同區,面議,104,20260602,18.7,技能匹配(1): 數據分析; 地點符合: 台北市大同區; [技能7+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8sxkl," Teradata 。
+4.具備良好邏輯思維、數據分析、創新能力與高度執行能力。
+5.能實體活動規劃與執行、預算編製與成本控管、市場調查資料分析與報告撰寫、提案與簡報技巧 。
+
+
+
+僅受理下列路徑填寫履歷之報名資料，請〝務必〝複製此路徑填寫應徵資訊，並請",
+Sustainability-LCA Specialist(1 year contractor),瑞健醫療,桃園區,面議,LinkedIn,2026-05-20,18.0,技能匹配(1): 生命週期分析; [技能7+職稱0+關鍵字11+地點0],https://tw.linkedin.com/jobs/view/sustainability-lca-specialist-1-year-contractor-at-shl-medical-4417078883,"About SHL Medical SHL Medical is a world-leading provider in the design, development, and manufacturing of advanced self-injection devices. With a global team of 6,000 employees, we partner with leadi...",
+資訊助理,擎雷防偽科技股份有限公司,新北市中和區,面議,104,20260608,17.7,技能匹配(1): sql; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/832l8,"熟悉公司內部ERP系統 Microsoft Dynamics，進行系統配置、操作及故障排除。
+教導同事使用ERP系統，清楚地進行操作示範及提供解答。
+利用相容的程式語言，進行系統操作及設定。
+MS SQL Server 資料庫系統查詢操作。
+公司內部系統維護。",
+"VP, Operational Risk and Resilience Manager — Taiwan / 某外商投信",Neuberger,台北,面議,LinkedIn,2026-06-02,16.7,地點符合: 台北; [技能0+職稱0+關鍵字7+地點10],https://tw.linkedin.com/jobs/view/vp-operational-risk-and-resilience-manager-%E2%80%94-taiwan-%E6%9F%90%E5%A4%96%E5%95%86%E6%8A%95%E4%BF%A1-at-neuberger-4423401377,"About The Role Neuberger's Operational Risk and Resilience team is seeking a qualified VP, Operational Risk Manager to oversee local Risk Management practices in the Taipei office relating to Neuberge...",
+業務主管,麗正國際科技股份有限公司,新北市土城區,面議,104,20260521,14.0,地點符合: 新北市土城區; [技能0+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/8z9dl,"負責帶領業務開發，制定市場拓展策略、開發新客戶、打造合作管道，並推動公司業務成長與營收目標達成。作為公司與市場的重要橋樑，推動新市場、新產品與關鍵專案落地。
+
+主要工作內容（Key Responsibilities）
+
+1. 市場開發與業務拓展
+• 依公司策略積極開發新客戶
+• 掌握產業趨勢、競品資訊、價格策略
+• 規劃並執行新市場進入策略
+
+2. 客戶關係管理
+• 建立並維持長期合作關係
+• 了...",
+[擴編徵才]美妝品牌業務經理-統籌實體、經銷通路，扛起品牌業績的關鍵戰將,牧友實業有限公司,新北市新店區,面議,104,20260608,13.7,地點符合: 新北市新店區; [技能0+職稱0+關鍵字4+地點10],https://www.104.com.tw/job/91mls,"業務經理｜實體KA × 經銷雙線整合
+有些人做業務，做著做著，開始想要的不只是一條線，而是能看見整個市場怎麼運作、自己怎麼把它做起來。
+如果你在通路端有幾年實戰，習慣用數字說話，也有帶人的經驗，我們想跟你談談這個位置。
+
+關於PSK
+PSK深海美肌專家是一個在台灣耕耘近50年的美妝品牌，專注敏感肌與物理防曬。目前在寶雅等實體連鎖通路穩定佈局，台灣官網、Momo、蝦皮等主要電商平台皆有完整經營。
+
+...",
+CSR Team_Customer Service Representative_客戶服務專員 (台北),MPS_芯源系統有限公司,新北市汐止區,面議,104,20260528,13.3,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/6fu0v,"Job Summary:
+
+•	Daily order process 
+•	Daily Sample order process
+•	Backlog review
+•	Shipment schedule monitor to make on time delivery
+•	Shipment tracking 
+•	Communicate / Working with factory and di...",
+Sales Director/Manager – EMS/ODM Manufacturing (Focus: Power Tools & Consumer Electronics Brands),新加坡商啟益國際科技股份有限公司,新北市汐止區,面議,104,20260605,13.3,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字3+地點10],https://www.104.com.tw/job/8zds1,"A Snapshot of Your Day
+You are a player-coach and a strategic deal-maker. Your day splits between personally leading the charge to close transformative deals with global brands and coaching your team ...",
+商務開發助理（無業績壓力）AI × 政府專案 × 數位轉型 × 創新科技,茁思科技股份有限公司,新北市板橋區,面議,104,20260602,12.3,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/927h3,"我們正在尋找一位積極主動、喜歡與人互動的夥伴，協助公司開拓新客戶與合作機會。
+
+本職位將直接協助商務主管進行市場開發、客戶關係經營與商機追蹤，是公司商務團隊的重要夥伴。
+
+除了開發與約訪外，也將參與報價整理、客戶需求紀錄、會議安排、商務簡報準備及合作機會追蹤等工作，逐步學習企業開發、政府專案與商務談判流程。
+
+如果你喜歡與人接觸、樂於學習新事物，並希望未來朝商務開發、業務管理或專案管理方向發展，這...",
+總公司 市場研究與業務分析副理_台北,康達盛通生活事業股份有限公司,台北市北投區,面議,104,20260602,12.3,地點符合: 台北市北投區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/7q2fq,"【資料收集與分析】
+- 外部資訊：收集並分析市場趨勢、競爭對手動態及行業環境變化，為公司提供市場洞察。
+- 內部資訊：整理財務數據、關鍵績效指標（KPIs）及顧客反饋，評估公司運營狀況與客戶滿意度。
+【資料總結與建議】
+- 將複雜數據轉化為易於理解的報告，包含圖表與文字說明，並基於研究結果提出可行建議。
+- 確保報告內容清晰、準確，並能支持管理層決策。
+【報告與簡報】
+- 向管理層提交研究報告，並...",
+招募選才管理師,社團法人新北市中華兒童品格教育協會,新北市板橋區,面議,104,20260608,12.3,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8zs3n,"工作內容
+因應協會營運成長與組織擴編，誠徵【人資招募管理師】。
+此職務將負責協會多元職缺之招募作業，與用人主管密切合作，在招募需求增加的情況下，確保招募品質與時程。
+
+【工作內容】
+1.能負責全流程招募作業：
+(1)用人需求訪談與職務條件釐清
+(2)職缺撰寫、104 及其他多元刊登與曝光優化
+(3)履歷篩選、電話/線上初談、收斂及回饋用人單位初談結果
+(4)面試安排與進行初階面談，協助用人主管完成...",
+【外商】家用商品部業務經理 National Retail Sales Manager,德商_凱馳清潔設備股份有限公司,台北市內湖區,面議,104,20260601,11.7,地點符合: 台北市內湖區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/8cm8u," opportunities and adjust sales strategies accordingly.
+- Analyze sales data and metrics to evaluate performance, identify areas for",
+『Hahow for Business』企業學習方案設計經理 Learning Solution Design Manager,思哈股份有限公司,台北市松山區,面議,104,20260608,11.7,地點符合: 台北市松山區; [技能0+職稱0+關鍵字2+地點10],https://www.104.com.tw/job/92g44,"Hahow for Business 正在尋找一位能夠將「企業需求、講師資源與學習內容」整合為具體培訓方案的關鍵夥伴。
+
+在這個角色中，你不只是設計課程，而是需要從企業的實際問題出發，打造可落地、可複製、可銷售的學習解決方案。你將負責經營講師生態",
+遊戲測試,希梅格傑西有限公司,台北市中山區,面議,104,20260607,11.3,地點符合: 台北市中山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92fei,"新創公司，團隊規模 9人，製作輕度手遊
+2026上線三款，一款表現較好，D1隔留40%，實現自研自發
+每日，提供一樓cafe，贊助飲料咖啡，上限200元
+每周三，提供uber下午茶，上限300元
+每周五，提供uber午餐，上限300元
+上班時間自由，年終保底一個月
+
+工作內容：
+1. 遊戲測試和除錯
+2. 遊戲資料編輯與維護
+3. 協助遊戲行銷團隊
+4. 其他主管交辦事項
+
+要求：
+1. 細心，耐...",
+遊戲企劃,希梅格傑西有限公司,台北市中山區,面議,104,20260607,11.3,地點符合: 台北市中山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8n493,"新創公司，團隊規模 9人，製作輕度手遊
+2026上線三款，一款表現較好，D1隔留40%，實現自研自發
+每日，提供一樓cafe，贊助飲料咖啡，上限200元
+每周三，提供uber下午茶，上限300元
+每周五，提供uber午餐，上限300元
+上班時間自由，年終保底一個月
+
+工作內容：
+1. 遊戲測試和除錯
+2. 遊戲資料編輯與維護
+3. 協助遊戲行銷團隊
+4. 其他主管交辦事項
+
+要求：
+1. 細心，耐...",
+"Specialist, Engineering Administrative (工程文件管理師) (186020)",Molex Taiwan Ltd._台灣莫仕股份有限公司,新北市三重區,面議,104,20260601,11.3,地點符合: 新北市三重區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/90l1q," system operations, master data management, and cross‑functional coordination. This role serves as a key link between",
+【美編助理】無相關經驗 願意學習歡迎加入,朗雲國際有限公司,新北市新店區,面議,104,20260605,11.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8x1kq," Solutions hardware components for industries including AI, semiconductors, robotics, data centers, electronics, cloud computing,",
+推廣部-台灣區經理Business Development & Strategic Partnerships Manager(Taiwan),台灣本立社會事業股份有限公司,台北市松山區,面議,104,20260607,11.3,地點符合: 台北市松山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7f358," partnerships to drive sustainable growth of certification business
+*Lead commercial negotiations and contract closure, ensuring",
+SL[WFH] 外商科技巨頭-Supply Planning Specialist (年薪1~1.4M，5年以上供應鏈經驗),新加坡商立可人事顧問有限公司台灣分公司,新北市板橋區,面議,104,20260604,11.3,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/85sd3," operations for Google’s hardware business. 
+
+Responsibilities: 
+· Develop short and long range supply and demand models",
+【國外部】食品原料企劃助理,台灣荃新股份有限公司,新北市中和區,面議,104,20260601,11.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8t3fq,"1. 市場研究與分析
+    蒐集食品原料市場趨勢、競爭者動態與消費者需求, 定期製作市場與產品趨勢報告
+2. 行銷企劃與內容製作
+    製作原料產品單張、簡報與其他行銷素材, 撰寫電子報 (EDM)、官網內容與相關宣傳文案
+3. 跨部門協作
+    與業務、採購及行銷部門合作，確保新原料開發與推廣順利進行",
+《新北市-視訊面試》DJI新店裕隆城體驗店-銷售專員【前六個月保障薪獎3萬6千元】,德誼數位科技股份有限公司,新北市新店區,面議,104,20260604,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92bqg,"我們的願景：成為最受客戶信賴的3C精品品牌。
+
+工作內容：
+1. 門市日常營運，銷售品牌全系列產品、副廠產品及公司主推產品，以利業績達成。
 2. 產品諮詢及專業建議、售後服務與產品保固、裝置保險等…介紹。
 3. 確保門市賣場的產品安全性與環境清潔度，符合原廠稽核規範。
 4. 商品上架、陳列、盤點、收銀、換貨、改裝、開幕。
 5. 秉持卓越的服務精神，用心款待每一位顧客。
 6. 配合公司商圈規劃進行分...",
-Strategic Account_Project Coordinator,美商達爾國際有限公司台灣分公司,新北市新店區,面議,104,20260605,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92dxd," attention to detail and data accuracy.
-•	Positive attitude, detail-minded, service oriented and willing to learn.
- 
-Requirements",
-環工方法流程與設備工程師,雅威環保股份有限公司,新北市三重區,面議,104,20260511,11.0,地點符合: 新北市三重區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/812t6,". 設備及儀表規格篩選，及相關data sheet製作
-5. 工程細部設計與統整
-6. 設備及儀表請購
-",
-嵌入式韌體工程師,香港商崇貿科技股份有限公司台灣分公司,新北市新店區,面議,104,20260331,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/6dzyv," Peripheral device driver develop. 
-3. MCU boot code development.
-4. IC programmer adapter design(Simple Hardware design).
-5. Data",
-【倉管人員】經驗不拘/歡迎應屆畢業生,朗雲國際有限公司,新北市新店區,面議,104,20260605,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8x1ne," fasteners and Surface Mounted Solutions hardware components for industries including AI, semiconductors, robotics, data centers,",
-【採購專員】經驗不拘,朗雲國際有限公司,新北市新店區,面議,104,20260605,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8x1ml," fasteners and Surface Mounted Solutions hardware components for industries including AI, semiconductors, robotics, data",
-Field Sales (Business Development Manager 業務發展經理),香港商速客物流有限公司台灣分公司,台北市內湖區,面議,104,20260601,11.0,地點符合: 台北市內湖區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8qw6j," activities, and market developments to identify new business opportunities and maintain a competitive edge.
-•	Perform other",
-M【松山區】知名外商:Key Account Manager/Facility Manager,ABV 物業管理_安橋公寓大廈管理維護股份有限公司,台北市南港區,面議,104,20260602,11.0,地點符合: 台北市南港區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92811," primary point of contact for major clients, aligning facility operations 
-    with the client’s business objectives to ensure",
-商務發展經理｜Business Development Manager,杰倫智能科技股份有限公司,台北市信義區,面議,104,20260605,11.0,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8r4p5," clients.
-     與公司既有客戶維持穩定且互信的合作關係。
+[美國上市公司] Executive Assistant (特助),台灣倍亮生技股份有限公司,台北市信義區,面議,104,20260604,11.0,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8ybij," clear communication and alignment on corporate goals.
 
-► Expand and maintain partnerships to create new business opportunities and models.
-    拓展並",
-業務副理 (Business Associate Manager),精睿醫藥科技股份有限公司,台北市南港區,面議,104,20260525,11.0,地點符合: 台北市南港區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/6uj0h,"1. Visit existing clients and conduct business negotiations and management to enhance client loyalty. 
-2. Expand new",
-"JR-17633 Supervisor, HR 人資主任",(美商)台灣通用器材股份有限公司,新北市新店區,面議,104,20260603,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8ua0z,"What you will be doing:
-•	Be responsible for Business HR function, supporting HR management team in the execution of HR",
-(Creative Labs-Integrated Design Team)Sr. UX Designer-J01394,宏達電 HTC Corporation_宏達國際電子股份有限公司,新北市新店區,面議,104,20260605,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/5pc3r,"# Responsibilities
+Productivity & Business Administration
+- Comprehensive Logistics:",
+業務專員,德商_兆鎂新有限公司,新北市汐止區,面議,104,20260605,11.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7xh12,"Responsibilities
+- Setting goals and developing plans for business and revenue growth in Southeast Asia.
+- Collaborate with",
+Account Manager,寶德熱能系統股份有限公司,新北市汐止區,面議,104,20260601,11.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/89i38,"•  Work closely with internal business development & marketing team to 
+       commercialize the new business.
+•  New",
+【財金交易】.NET系統開發人員,玉山銀行_玉山商業銀行股份有限公司,台北市松山區,面議,104,20260528,11.0,地點符合: 台北市松山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8k4sw,"1. 執行財金資訊需求開發及測試。
+2. 負責衍生性/結構型金融商品/債券系統開發與維護。
+3. 需求分析、系統設計及系統文件撰寫。
 
-- Identifying the intersection of business needs, user needs, design trends, technology trends, and",
-People Operations Specialist,Tern_香港商盟倍力股份有限公司台灣分公司,新北市新莊區,面議,104,20260602,11.0,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8uhts," manage recruiting pipelines and hiring progress for assigned positions based on business and hiring needs.
-。Coordinate",
-商務發展經理 (BDM),博鉅資訊股份有限公司,新北市汐止區,面議,104,20260527,11.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/5w8hb,"Business Development | Product Sales | Sales Specialist
-
-博鉅資訊致力於提供企業網路架構、資安防護到資訊系統的整合服務，專注於推廣全球最具前瞻性的資訊產品。現徵對資訊系統及資訊安全議題有興趣",
-【BM】Business Management Specialist_Desktop,宏碁股份有限公司,新北市汐止區,面議,104,20260604,11.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8msu3,We are looking for a detail-oriented and proactive Business Manager to join our team at Acer Headquarters. This role,
-Bug Triage Engineer/Analyst (Android / Bluetooth),雲景科技股份有限公司,新北市新店區,面議,104,20260520,11.0,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8xal5,"客戶專案支援
-
-Duties:
-Review incoming bugs relating to Bluetooth audio devices and determine the root cause of the failure.  You will need to dig into multiple log sources, review documentation, consult wit...",
-國內業務專員,億光電子工業股份有限公司,新北市樹林區,面議,104,20260602,11.0,地點符合: 新北市樹林區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/72f8a," original customer and develop new market territories (Local).
-2. Establish, develop and maintain positive business and",
-Territory Sales Manager_Chomerics,台灣派克漢尼汾股份有限公司,新北市五股區,面議,104,20260601,11.0,地點符合: 新北市五股區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8yixu," project erosion and lost.
-•	Continue to evaluate & make required changes on the Distributor Channel to support the business growth",
-專案計畫工程師(科技廠)- 環境(新北),SGS _ 台灣檢驗科技股份有限公司,新北市五股區,面議,104,20260605,11.0,地點符合: 新北市五股區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8mrfu,"主要工作: 
-負責工廠的環境檢測專案及零星專案執行(含客戶需求確認、案件執行進度控管及後續客服工作)
-1. 協助並安排實驗室採樣監測人員工作之執行
-2. 現勘專案計畫現場狀況之工作
-3. 撰寫採樣計畫書與專案計畫報告
-4. 協助技術研發與方法文件建立
-5. 聯絡、協調實驗室對外事宜
-6. 其他主管交辦事務
-
-更多關於SGS: https://youtu.be/BVGQd9pqVCo",
-【研發處】醫療器材研發-電極組,可力生醫股份有限公司,新北市汐止區,面議,104,20260528,11.0,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8maer,"導線設計與模擬：
-負責電極導線（Pacing Leads）的結構設計，包含導體（Conductors）、絕緣體（Insulators）與電極頭（Electrode Tips）。
-
-材料研發與選用：
-篩選並測試具高生物相容性的材料（如矽膠、聚氨酯絕緣層），確保導線能耐受體內長期腐蝕環境。
-
-
-製程開發與優化：
-開發精密製程，如微型雷射焊接（Laser Welding）、精密組裝及表面塗層處理。
-建立...",
-總經理/副總經理,台北新板希爾頓酒店_凱裕商旅股份有限公司新板分公司,新北市板橋區,面議,104,20260606,11.0,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/91a1o,"1.經營策略與營運管理
-2.跨部門整合與組織管理
-3.服務品質與品牌管理
-4.營運品質與服務管理
-5.專案推動與經營改善
-6.對外關係與品牌經營",
-（健康台灣深耕計畫）淡水院區　淡水社區醫學中心 護理師,台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院,新北市淡水區,面議,104,20260508,11.0,地點符合: 新北市淡水區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8yabz,"工作內容
-1.	管理社區診所及衛生所醫師開立之健康處方簽。
-2.	依個案健康需求提供專業諮詢及媒合社區課程/據點資源。
-3.	電訪追蹤健康處方簽完成率及品質管理。
-4.	彙整健康生理量測數據與改善指標。
-5.	協助建置並維護健康處方簽平台及資料庫。
-6.	規劃社區健康促進活動與講座並完成相關紀錄。
-7.	建置並管理「健康處方簽兌換地圖」及相關制度。
-8.	其他：完成主管交辦事項。",
-演算法工程師,新加坡商泓宇雲有限公司台灣分公司,新北市板橋區,面議,104,20260505,11.0,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8vndl,"1.	開發 Touchscreen 與新穎輸入裝置等相關產品之演算法 ；
-2.	開發並優化電容式觸控相關演算法；
-3.	設計並識別觸控手勢與操作行為；
-4.	以創新的系統整合方法提升使用者體驗；
-5.	以演算法解決實際應用中的多樣化需求，並提升系統效能；
-6.	與硬體和軟體團隊合作，開發新型態 AI 硬體訊號模型。
-",
-工務內業/資深工務內業,鉅薈營造開發有限公司,新北市新莊區,面議,104,20260605,11.0,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/80el1,"1.公文簽辦、文件收發及檔案管理。
-2.工程進度填寫、追蹤。
-3.招標相關文件報表製作。
-4.協助採購追蹤廠商報價。
-5.彙整文件並申辦使用執照。
-6.主管交辦事項。",
-(總部)品牌營運專員,新夢想系統櫥櫃股份有限公司,新北市板橋區,面議,104,20260606,11.0,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/6r26c,"1.官方LINE管理經營(行銷訊息及短影音)
-2.公司品牌官網整合經營
-3.公司後台系統管理維護
-4.總部專案推動、行政流程處理
-5.跨部門業務行銷支援、課程與活動安排
-6.主管交辦事項",
-外商約聘兼職訪員/時薪制(專案職）,安石國際商務顧問股份有限公司,台北市松山區,面議,104,20260604,11.0,地點符合: 台北市松山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8o60b,"安石國際提供B2B電訪商機開發服務，撥打對象為一般中小企業企業單位，
-協助陌生開發、產品＆服務介紹、研討會及活動邀約
-
-＊＊很重要＊＊
-此工作需要長時間電話溝通
-此工作需要長時間電話溝通
-此工作需要長時間電話溝通
-
-
-不需自行找名單，不需關(鎖)手機、沒有每日電訪通數限制
-
-
-【工作時間】：週一至週五：
-上午9:30~下午5:30(準時上下班，無需額外加班)
-午休11:50~13:30(午休時間可...",
-出納,加橙系統櫥櫃企業有限公司,新北市新莊區,面議,104,20260605,11.0,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92emb,"- 執行日常現金與銀行收付、入帳與記錄維護
-- 管理零用金撥補與核銷，定期盤點並製作報表
-- 票據收付、存取與到期管理，確保紀錄一致
-- 每日/每月與帳務系統、銀行往來對帳
-- 建立並維護金流與資金作業SOP，落實內控
-- 協助月結相關資料彙整與異常追蹤
-
-專注企業資金流與票據管理，確保金流正確與安全，穩健職涯可延伸至資金管理與財務控管。
-守護資金流的你，就是財務營運的第一道防線。歡迎即刻應徵，展...",
-區域產業規劃專案經理,大將之森有限公司,新北市新莊區,面議,104,20260604,11.0,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/74522,"本職缺是擔任區域產業的引導陪伴以及區域村落訪談的統合者角色
-
-1. 擔任區域計畫專案管理PM，針對各環境或鄉鎮區域政府補助案進行追蹤管理。
-2. 分析基地的人文（如：交通、農村、商圈、歷史文化、週遭環境）與自然環境，以進行初步鄉村落發展設計建議。
-3. 具備規劃產業顧問能力或興趣（如：區域產業規劃、鄉村景觀、田野調查以上任一），並定期與社區與政府單位窗口溝通，協助政府單位進行意見討論，做政府單位的...",
-行銷法規專員,天誠醫療器材有限公司,新北市三重區,面議,104,20260604,11.0,地點符合: 新北市三重區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/90v5x,"1.進行網路、實體市場分析，收集競爭商品或廠商資訊，供產品做開發方向參考
-2.原廠關係維繫與合作洽談
-3.引進國外產品及完成國內衛福部QSD,及產品查驗登記作業.
-5.上市後產品培訓資料統整.",
-Route to Consumer (RTC) Specialist,海尼根台灣股份有限公司,台北市大安區,面議,104,20260604,10.7,地點符合: 台北市大安區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/91036,"PURPOSE OF JOB:
-
-This role acts as the execution and data engine of the Route to Consumer/Market team. You will bridge",
-HR Program Manager_TC28779,"Super Micro Computer, Inc._美超微電腦股份有限公司",新北市中和區,面議,104,20260604,10.7,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92cr1," working toward deliverable goals and objectives.
-*Resolve complex data and table structure issues which involves completing",
-日本客美多咖啡(珈琲所 コメダ珈琲店/ KOMEDA)-新莊幸福店-晚班計時人員（長期6個月以上）(新莊佳瑪商圈),融(亞洲)事業集團_融利股份有限公司,新北市新莊區,面議,104,20260606,10.7,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7udeb,"
-晚班時間：16：00~22：00 或17：00~22：00。假日也能排班者優先。
-
-(排班制，兼職每月以能排班60小時以上者優先)
-
-【全體員工工作內容說明】 (能接受者再投履歷)
-1.佈置及清理餐桌，並為顧客安排座位、帶位與結帳
-2.記錄顧客所點餐點，通知內場做餐、送餐
-3.工作環境、洗手間和各項設備的清潔維護以及保養
-4.提供顧客諮詢、推薦或者推銷各種飲品、餐點及商品。
-5.內場餐點簡易製作...",
-產品經理（Product Manager）,衛利生物科技股份有限公司,新北市新店區,面議,104,20260602,10.7,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/90gc6," enterprises, and partners).
-2. Integrate products, algorithms, data, and application scenarios into commercially viable solution",
-【商人銀行】Cross-border M&A Analyst/ Associate,台新綜合證券股份有限公司,台北市中山區,面議,104,20260521,10.7,地點符合: 台北市中山區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8jald," industry information including market trend, supply chain, business opportunities, etc;
-(2)   Prepare pitch book – make an",
-"HR Project Intern, Talent & Organization Development",台灣歐陸檢驗科技股份有限公司,新北市五股區,面議,104,20260605,10.7,地點符合: 新北市五股區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92dv6," interested in building a career in Human Resources, Talent Management, Organizational Development or HR Business Partnership.",
-39300-日本事業開發經理 (Business Development Manager),瑞傳科技股份有限公司,新北市樹林區,面議,104,20260602,10.7,地點符合: 新北市樹林區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7zeex,"Position: Business Development Manager (Japan)
-
-1. 市場開發並與公司部門合作以取得專案
-2. 協助負責區域內之客戶開發
-3. 參與規劃與執行各區域推廣方向與產品策略
-4. 區域資源整合與夥伴關係",
-國際業務專員,高譽科技股份有限公司,新北市五股區,面議,104,20260601,10.7,地點符合: 新北市五股區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/80wi8," training with new and current customers
-5. Business trip arrangement and attaend exibition
-6. Annual business plan  
-",
-Sales Specialist,光紅建聖股份有限公司,新北市淡水區,面議,104,20260601,10.7,地點符合: 新北市淡水區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/926xb," & Business Development: Analyze industry trends, formulate annual sales plans, identify potential clients, and proactively",
-招募專員/助理BARecruiter_國際外商舞台_多元發展機會,黛安芬國際股份有限公司,新北市中和區,面議,104,20260601,10.7,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8brsw,"歷篩選、面談、錄用流程協調與到職追蹤
-5. 配合人資專案或零售組織發展相關事項
-
-【你將獲得的機會】：
-1. 加入 國際外商品牌，理解跨文化與矩陣式的人資運作
-2. 深度參與零售前線&深度Business參與，培養商業導向的 HR 視角
-3. 與資",
-Global Technical Sales Representative_North America&EMEA&DACH&JP&TW,安費諾亮泰企業股份有限公司,新北市土城區,面議,104,20260605,10.7,地點符合: 新北市土城區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/9161e," Business & Strategy / 國際業務與戰略 
-
-Consultative Sales: Provide ""Total Technical Solutions,"" leading complex tendering and",
-會計專員Accounting Specialist (Global Exposure Opportunity),Patriot Memory Inc_博帝科技股份有限公司,新北市中和區,面議,104,20260603,10.7,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8z5hy," Navision (Business Central) 使用經驗者優先。
-
-Looking to grow your career in international accounting? 
-What You’ll Do:
-•	Handle",
-電商營運專員,碩達豐貿易有限公司,新北市汐止區,面議,104,20260604,10.7,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92bu0,"-各電商平台運營，合作活動洽談，業績目標達成
--熟悉各數位行銷生態及效益
--高配合度與執行力
--誠摯邀請具有高度學習意願、喜好創新的行銷黑馬! 
--工作環境佳
-",
-某商業銀行_有經驗櫃檯行員_中和區光復,某商業銀行,新北市中和區,面議,104,20260604,10.7,地點符合: 新北市中和區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/92bym,"1. 台外幣存匯作業（須有一年以上經驗者，現職為櫃員者尤佳）
-2. 櫃檯收付 開戶業務
-
-薪資結構：年終保底兩個月，另有績效獎金同年終發放，具外匯資歷及金融證照者優先錄取
-",
-記帳/審計人員,永盛聯合會計師事務所,新北市三重區,面議,104,20260603,10.7,地點符合: 新北市三重區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/4fdl4,"1.營業稅、營所稅、各類所得扣繳等各項申報作業。 
-2.帳務審計與查核。 
-3.編製工作底稿。 
-4.查帳及編制稅務報表及財務報表。 
-5.查帳底稿編製，報告撰寫。  
-6.配合國稅局等主管機關來函處理。 
-7.客戶帳務及稅務問題回覆與處理。 
-8.報稅季需配合加班，加班費依勞基法規定。
-
-提供完整在職訓練及進修管道，對於績效良好及取得專技考試合格的同仁有特別奬勵，歡迎所有求職者與應屆畢業生等。",
-(GA)程式設計高級工程師(土城),正崴精密工業股份有限公司,新北市土城區,面議,104,20260604,10.7,地點符合: 新北市土城區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/91bmy,"1.集團電子簽核管理流程開發維護
-2.BPM 電子簽核流程開發(Agentflow,X-page)
-3.Java 進階軟體開發
-4.AI相關專案技術應用開發
-5.主機監控及各項備援執行",
-風險_個金風險建模人員,中國信託商業銀行股份有限公司,台北市南港區,面議,104,20260605,10.7,地點符合: 台北市南港區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/3pcj5,"1.個金信用風險模型監控與維護
-2.個金信用風險模型研發與建置各類模型驗證標準
-3.主管交辦事項
-
-
-
-※請至中信官方招募網站投遞履歷：
-https://ctbcholding.wd3.myworkdayjobs.com/zh-TW/External/job/-_JR7978",
-【N】車用產品-品質管理(QPM),富智康國際股份有限公司,新北市土城區,面議,104,20260602,10.7,地點符合: 新北市土城區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7zkgk,"FIH富智康作為全球移動通訊設備領導廠商, 並持續擴展多元商業機會，
-產品專案項目多元發展，包含：手機、聯網通訊產品，目前正積極發展車用業務，您有機會可參與ODM/OEM大型國際客戶專案，若您有車用產業經驗，歡迎您加入FIH 車用團隊。
-
-【職務內容】
-1.協助工廠建立符合車用電子品質體系
-2.在產品開發中, 駐廠追蹤問題,並監控產品穩定性與合理性
-3.協助工廠滿足客戶品質需求
-4.與客戶提報相關...",
-General Affairs / Administrative 總務／,蜘蛛視覺感測有限公司,新北市新莊區,面議,104,20260603,10.3,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/91hhf," and document collection
-• Support internal announcements, training, and employee activities
-• Assist with attendance data",
-【組織擴編】【人資部】人力資源專員Human Resources Coordinator,新北北海溫泉洲際酒店(InterContinental New Taipei Hot Spring)_元盛國際興業股份有限公司金山分公司,新北市金山區,面議,104,20260605,10.3,地點符合: 新北市金山區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8zq2o," issuance of employee ID badges and basic induction training.
-
-HRIS & Data Integrity
-Assists in maintaining the Human",
-39444 Client Manager 環球貿易方案部 經理,滙豐(台灣)商業銀行股份有限公司_HSBC香港上海滙豐,台北市信義區,面議,104,20260605,10.3,地點符合: 台北市信義區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/9251f,"<Functional Description>
-
-HSBC Corporate and Institutional Banking is a markets-led, financing-focused business that",
-機車物流司機 (中和，時薪),DHL_洋基通運股份有限公司,新北市中和區,面議,104,20260605,10.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8wrc5,"1. 負責整理並騎機車收送客戶的文件或包裹
-2. 成為客戶的最佳夥伴，與客戶保持良好的聯繫與關係維護
-3. 出席正常，不會與工作時段衝突
-4. 需具備機車駕照，若有職業小客車以上駕照加分
-
-• 工作時間：周一至周五 09:00 - 18:00(視需求配合加班)
-• 休假：周六及周日/見紅休",
-【RD】AI Software RD Manager,宏碁股份有限公司,新北市汐止區,面議,104,20260605,10.3,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/92elr," application in Gen AI markets.
-The ideal candidate will collaborate closely with business and marketing teams to promote products,",
-AP Accountant,台灣恩傑科技股份有限公司,新北市土城區,面議,104,20260604,10.3,地點符合: 新北市土城區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/92cj9," closely with internal departments and business partners to resolve accounting-related issues. 
-•	Accomplish accounting and",
-汐止總公司-專案管理處-專案副理/專案經理,台康生技股份有限公司,新北市汐止區,面議,104,20260603,10.3,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/889vk," tasks assigned by the department manager based on business and organizational needs.
-
+104僅供職缺參考，若你對此職缺有興趣，請至本行「玉山菁英甄選網站」投遞履歷，如經書審通過，將邀請你參加面談。【投遞網址：https://recruit.esunbank.com.tw/Recruit/StaffAcquisition 】 
 
 ",
-Greenkeeper(Entry-level)-Visa Support Provided,美麗華高爾夫球鄉村俱樂部_美麗華開發股份有限公司,新北市林口區,面議,104,20260601,10.3,地點符合: 新北市林口區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8zr4x," the overall business objectives.
+產品開發PM(食品),日亞特選名物股份有限公司,台北市大安區,面議,104,20260607,11.0,地點符合: 台北市大安區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/84eiw,"1.快消食品市場流行與情報掌握。
+2.自有品牌商品開發。
+3.聯名品牌合作提案與商品企劃開發。
+4.產品生產排程掌握，與跨部門協調合作(研發、通路業務)。
+5.基礎食品安全法規了解與應用
+6.商品成本計算及生產量估算。",
+"Associate Manager, Optimization",dentsu,信義區,面議,LinkedIn,2026-05-29,11.0,技能匹配(1): 數據分析; [技能7+職稱0+關鍵字4+地點0],https://tw.linkedin.com/jobs/view/associate-manager-optimization-at-dentsu-4421781042,Job Description: 《職務內容》 廣告操作：操作台灣市場上主流媒體為基本(Google/Meta/LINE)，有更多機會學習新興媒體 數據分析：從數據迷霧中建立Finding，幫助自己與整個團隊 目標導向：達成KPI/策略優化是基本動作，跟著團隊持續聚焦修正方向是我們的期待 團體活動：集團內跨品牌活動/Team bulding/公司活動 《需求條件》 基礎紮實：2年以上媒體投放經驗 ...,
+【核心功能服務】風險管理部 - 副理,安永聯合會計師事務所,台北市信義區,面議,104,20260601,10.7,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/91ky4,"1. 負責獨立性遵循相關工作 
+2. 協助風險管理相關政策及其他內部管理制度之內、外部檢查及法遵情形
+3. 就前述工作項目相關事宜，提供同仁諮詢及舉辦教育訓練
+4. 執行風險管理部門各項日常管理作業 
+5. 其他主管交辦事項",
+Occupier Services(企業顧問服務部) – Intern,香港商戴德梁行不動產投資顧問有限公司台灣分公司,台北市信義區,面議,104,20260603,10.7,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/71soc,We offer a broad range of specialized real estate solutions to cater our client’s business strategies. Our full-service,
+電子商務企劃人員 E-business Planner(駐點L'OREAL),香港商台灣智威有限公司台灣分公司,台北市信義區,面議,104,20260521,10.7,地點符合: 台北市信義區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/7pckr,"檔期等活動網頁設置
+- 網路口碑觀測、電子商務相關合作供應商、廠商專案、KOL網紅專案合作執行
+- 相關素材需求整理、確認、更新
+- 庫存確認、產品上架設定、系統設定
+- 實際參與美妝品牌E- business 銷售計劃及企劃執行、官網新品上市執行",
+【德商DHL】HQ - 卓越營運部專案經(副)理 Operation Excellent Project (Assist.) Manager,DHL_台灣敦豪供應鏈股份有限公司,新北市三重區,面議,104,20260608,10.7,地點符合: 新北市三重區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8303g,"	Understand business processes, identify opportunities/ solutions, and prioritize 
+        projects according to relevant",
+【台灣家電品牌】KOL/KOC團購行銷業務專員(網紅合作｜績效獎金),凱創實業股份有限公司,新北市新店區,面議,104,20260605,10.7,地點符合: 新北市新店區; [技能0+職稱0+關鍵字1+地點10],https://www.104.com.tw/job/8nsip,"1. 開發並洽談KOL合作、媒合品牌商品進行團購行銷，推動修受並達成績效目標。
+2. 規劃與執行團購活動，包括商品上架、後台維護、客訴處理、活動流程規劃及素材協調，確保活動順利進行。
+3. 維護並拓展KOL合作關係，提升合作深度與廣度。
+4. 整理並分析團購成效與業績報表，進行績效追蹤與帳務結算。
+5. 協助社區團購專案拓展與經營，持續開發多元合作機會。
+6. 其他主管交辦事項。
 
-Responsibilities
-1.Perform early morning course maintenance tasks in alignment with",
-Quality Manager 品管經理,勤鋒科技股份有限公司,新北市新店區,面議,104,20260411,10.3,地點符合: 新北市新店區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8zjp3," functional English (able to communicate effectively in a business environment)
-•	Proficient in Excel, PowerPoint, and Word
-•	Able",
-行政會計助理,雄品國際股份有限公司,新北市中和區,面議,104,20260601,10.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8v0g8,"行政事務
-1.文件檔案的建立、掃描、歸檔和管理 
-2.協助會議、活動的籌備 
-3.辦理信件、電話的接聽與轉達 
-4.辦公室環境及設備的維護 
-5.採購辦公室物資 
+*請提供過往操...",
+*研修合格36K起*日本客美多咖啡(珈琲所 コメダ珈琲店/KOMEDA)-新莊幸福店-正職人員(新莊佳瑪商圈),融(亞洲)事業集團_融利股份有限公司,新北市新莊區,面議,104,20260606,10.3,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/7x56o,"【工作時間說明】
+1、排班制，輪早/中/晚班
+      早班：07：00-16：00(休息1小時)
+      中班：10：00-19：00(休息1小時)
+              或11：00-20：00(休息1小時)
+      晚班：13：00-22：00(休息1小時)
 
-財務事務
-1.核對費用憑證，進行帳務處理並登錄會計系統 
-2.整理與存檔會計文件及票據 
-3.協助處理應收、應付帳款相關事宜 
-4.辦理銀行存款、提款、匯款等外勤事務 
-5.協助編製報表、報告及簡報 
-6.處理其他主管交辦的行政財務相...",
-RD研發人員,艾瑞生醫股份有限公司,新北市新莊區,面議,104,20260603,10.3,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/80219,"1. 基礎實驗室作業。
-2. 品管測驗作業。 
-3. 各類計畫書撰寫與專案推動執行。
-4.研發專案執行。
-5. 執行產品產程製造。
-6. 其他主管交辦事項。",
-會計助理,永盛聯合會計師事務所,新北市三重區,面議,104,20260603,10.3,地點符合: 新北市三重區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/6tu3a,"1. 整理客戶各項發票、單據及憑證之登載、核算
-2. 處理其他一般會計帳務
-3. 使用文中系統製作傳票及產出報表
-4. 營業稅、營所稅、各類扣繳等各項申報作業
-5. 主管交辦事項及協助其他行政工作
-6. 報稅季需配合加班，加班費依勞基法規定
+2、每月排休10天（含每月例休及調移後之國定假日）
 
-提供完整在職訓練及進修管道，對於績效良好及取得專技考試合格的同仁有特別奬勵，歡迎所有求職者與應屆畢業生等。",
-全球交付管理專員(土城)-E事業群,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260604,10.3,地點符合: 新北市土城區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/92crc,"1. 統籌全球專案管理，確保如期、按範圍、按預算交付
-2. 主導客戶溝通與定期審核機制
-3. 統籌物料計劃與多式聯運協調
-4. 應對緊急需求並支援品質改善
-5. 推動成本控制與庫存優化
-6. 參與客戶高階策略會議，深化夥伴關係",
-人資ESG(永續)管理師,鴻海精密工業股份有限公司,新北市土城區,面議,104,20260602,10.3,地點符合: 新北市土城區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/90cba,"1.驅動集團級人資策略規劃案
-參與集團關鍵人資專案，直接影響全球組織運作模式，從制度設計到跨區落地執行，打造具競爭力的人才管理體系。
-2.主導ESG-S策略與國際評比接軌
-負責推動人權、員工議題等Social面向核心專案，與國際評比機構（MSCI、DJSI等）對標，確保集團於國際的永續品牌績效與定位。
-3.推動ESG-S趨勢導入與創新專案
-追蹤國際永續發展趨勢與法規動態（如CSDDD、TISFD等...",
-經營管理幹部-副總經理,圜達實業股份有限公司,新北市五股區,面議,104,20260604,10.3,地點符合: 新北市五股區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8ln3b,"1.協助制定並推動公司經營策略，進行整合規劃，並落實公司長期發展目標。
-2.參與企業營運分析，提供決策層具體的建議，評估推動新事業規劃與發展。
-3.集團各廠區協調與績效管理
-4.帶領團隊提出具體改善方法，整合相關資源，生產效率的持續提升與改善。
-5.執行規劃公司決議事項及各項專案目標的達成。",
-品牌電商品類經營助理 Account Executive Assistant,銘侯股份有限公司,新北市中和區,面議,104,20260601,10.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/888nr,"1. 負責北美電商市場平台運營（包含但不限於官網、Amazon.com、ebay等通路）
-2. 商品上下架、商品頁面維護
-3. 檔期活動規劃與執行
-4. 商品頁面圖片、文案企劃與優化
-5. 社群媒體企劃發想
-6. 協助並完成主管交辦事項",
-程式交易員 / Algo Trader / Programme Trader,小金斧有限公司,新北市林口區,面議,104,20260604,10.0,地點符合: 新北市林口區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/92b3t,"1. 徵自有資本prop trader
-2. 必須有程式交易能力，面試會給技術實作相關題目詢問
-3. 找alpha、找答案過程很重要，個性必須主動積極且好奇
-",
-營運行政人員,安欣科技服務股份有限公司,新北市新莊區,面議,104,20260603,10.0,地點符合: 新北市新莊區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/90nc7,"1.每日、週、月營運報表製作
-2.審核廠商報價單、費用
-3.開立廠商請款發票
-4.協力商評核管理
-5.服務品質、滿意度管理
-6.其他主管交辦事項",
-【總行單位】法務催理人員,玉山銀行_玉山商業銀行股份有限公司,台北市中正區,面議,104,20260607,10.0,地點符合: 台北市中正區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8nkcc,"1.辦理法務訴追行為以確保本行債權。
-2.與顧客聯繫協商，協助顧客處理債務，收回本行債權。
-3.提供銀行各項業務法律相關諮詢。
-
-104僅供職缺參考，若您對此職缺有興趣，請至本行「玉山菁英甄選網站」投遞履歷，如書審通過，後續將邀請您參加面談。謝謝！
-【網址：https://recruit.esunbank.com.tw/Recruit/StaffAcquisition 】 ",
-業務專員/國內業務「北部」,國際精工股份有限公司,新北市土城區,面議,104,20260601,10.0,地點符合: 新北市土城區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/87jib,"1. 北區市場訂閱服務推廣
-2. 開發台灣北區經銷商與客戶
-3. 介紹產品及實地場堪、規劃、報價、簽約
-4. 顧客售後服務與滿意度維持
-★底薪+高獎金，獎金無上限！
-
-AMA TECH 沒有小團體
-只有大家一起往前的心!!
-歡迎志同道合的你一起來當同事
+【工作內容說明】 
+1.佈置及清理餐桌，並為顧客安排座位、帶位...",
+【2026 Summer Internship】System Optical Interconnect Engineering Intern,緯穎科技服務股份有限公司,新北市汐止區,面議,104,20260529,10.3,地點符合: 新北市汐止區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8z53k,level solutions for leading data centers. The System Optical Interconnect Engineering Intern will support next-generation data,
+【稅務服務】全球貿易及供應鏈稅務諮詢服務 - 副理/組長/副組長,安永聯合會計師事務所,台北市信義區,面議,104,20260601,10.3,地點符合: 台北市信義區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/79n75,"1. 協助提供國內外跨國企業供應鏈租稅建議
+2. 協助提供國內外跨國企業營業稅、關稅、貨物稅及扣繳稅之風險評估及諮詢服務
+3. 提供跨國租稅優惠運用諮詢服務；包括策略分析、租稅優惠申請、退稅申請等
+4. 協助境外電商營業稅登記及申報 
+5. 協助申請營業稅退稅",
+企業客戶市場開發經理Business Development,木人艸股份有限公司,台北市士林區,面議,104,20260608,10.3,地點符合: 台北市士林區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/850c7,"企業客戶市場開發經理】 Business Development（B2B × 餐飲跨界合作）
+如果你喜歡從 0 到 1 開拓市場、享受陌生開發成交的成就感，
+也期待讓餐飲不只是餐飲，而能走進企業、創造新的合作模式，
+我們正在尋找有企圖心的",
+AI事業 國內外業務人員,英濟股份有限公司,新北市中和區,面議,104,20260605,10.3,地點符合: 新北市中和區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/86t0z,"1.負責並推動公司銷售策略，確保與業務目標和收入目標保持一致。
+2.既有客戶及陌生市場業務拓展。
+3.制定清晰的短期和長期目標。
+4.建立可衡量的關鍵績效指標 (KPI)。
+5.與開發和營運團隊合作，確保專案順利執行。
+6.監控市場趨勢、競爭對手動態和客戶回饋。",
+《板橋新站》電子行銷人員,遠東百貨股份有限公司,新北市板橋區,面議,104,20260605,10.0,地點符合: 新北市板橋區; [技能0+職稱0+關鍵字0+地點10],https://www.104.com.tw/job/8z43n,"1. 電子商務平台維護。(含產品上下架、訂單管理、平台客服窗口、出貨等事宜) 
+2. 網路行銷活動策劃及執行、確認執行度、追蹤後續效果。
+3. 產出社群內容及與粉絲互動-創意文案發想、影片拍攝編輯、文案撰寫、直播相關流程掌控與執行Facebook與LINE發文。
+4. 具備基本美編能力，製作網路平台用圖與其他網路相關宣傳用圖。 
 ",
