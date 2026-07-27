@@ -6,7 +6,7 @@
     <title>職缺搜尋結果 Dashboard</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #0f172a;
@@ -34,7 +34,7 @@
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 16px;
             padding: 24px 32px;
         }
@@ -80,6 +80,16 @@
             gap: 12px;
             margin-bottom: 16px;
             flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            padding: 4px;
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 10px;
         }
 
         .filter-btn {
@@ -106,13 +116,16 @@
             padding: 10px 16px;
             border-radius: 8px;
             font-size: 14px;
-            width: 250px;
+            width: 220px;
         }
 
         .search-input:focus {
             outline: none;
             border-color: #3b82f6;
         }
+
+        .count-label { color: #94a3b8; font-size: 13px; }
+        .count-label b { color: #e2e8f0; }
 
         .job-table {
             width: 100%;
@@ -181,6 +194,23 @@
         .source-cake { background: #3b1e5f; color: #c084fc; }
         .source-linkedin { background: #1e4d3a; color: #4ade80; }
 
+        .apply-btn {
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: #94a3b8;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            white-space: nowrap;
+            transition: all 0.15s;
+        }
+
+        .apply-btn:hover { border-color: #3b82f6; color: #e2e8f0; }
+        .apply-btn.applied { background: #064e3b; border-color: #065f46; color: #4ade80; }
+
+        tr.row-applied { opacity: 0.5; }
+
         a { color: #60a5fa; text-decoration: none; }
         a:hover { text-decoration: underline; }
 
@@ -248,25 +278,29 @@
 <body>
     <div class="header">
         <h1>🔍 職缺搜尋結果</h1>
-        <div class="subtitle">產生時間: 2026-07-27 10:27:57 · 共 109 筆職缺</div>
+        <div class="subtitle">更新時間: 2026-07-27 13:29:37 · 累積清單共 14 筆(未投遞的會持續保留)</div>
     </div>
 
     <div class="stats-grid">
         <div class="stat-card">
-            <div class="label">總職缺數</div>
-            <div class="value blue">109</div>
+            <div class="label">未投遞</div>
+            <div class="value green" id="todoCount">—</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">清單總數</div>
+            <div class="value blue">14</div>
         </div>
         <div class="stat-card">
             <div class="label">平均適合度</div>
-            <div class="value purple">33.9</div>
+            <div class="value purple">40.1</div>
         </div>
         <div class="stat-card">
             <div class="label">高度適合 (≥60)</div>
-            <div class="value green">13</div>
+            <div class="value green">4</div>
         </div>
         <div class="stat-card">
             <div class="label">中度適合 (30-59)</div>
-            <div class="value yellow">37</div>
+            <div class="value yellow">2</div>
         </div>
     </div>
 
@@ -277,21 +311,15 @@
                 <div class="bar-chart">
                     
                     <div class="bar-item">
-                        <div class="bar-value">65</div>
-                        <div class="bar" style="height: 59.63302752293578%; background: #c084fc;"></div>
-                        <div class="bar-label">CakeResume</div>
-                    </div>
-                    
-                    <div class="bar-item">
-                        <div class="bar-value">31</div>
-                        <div class="bar" style="height: 28.440366972477065%; background: #60a5fa;"></div>
-                        <div class="bar-label">104</div>
-                    </div>
-                    
-                    <div class="bar-item">
-                        <div class="bar-value">13</div>
-                        <div class="bar" style="height: 11.926605504587156%; background: #4ade80;"></div>
+                        <div class="bar-value">9</div>
+                        <div class="bar" style="height: 64.28571428571429%; background: #4ade80;"></div>
                         <div class="bar-label">LinkedIn</div>
+                    </div>
+                    
+                    <div class="bar-item">
+                        <div class="bar-value">5</div>
+                        <div class="bar" style="height: 35.714285714285715%; background: #60a5fa;"></div>
+                        <div class="bar-label">104</div>
                     </div>
                     
                 </div>
@@ -300,18 +328,18 @@
                 <div class="section-title">📈 適合度分佈</div>
                 <div class="bar-chart">
                     <div class="bar-item">
-                        <div class="bar-value">13</div>
-                        <div class="bar" style="height: 11.926605504587156%; background: #4ade80;"></div>
+                        <div class="bar-value">4</div>
+                        <div class="bar" style="height: 28.57142857142857%; background: #4ade80;"></div>
                         <div class="bar-label">高 (≥60)</div>
                     </div>
                     <div class="bar-item">
-                        <div class="bar-value">37</div>
-                        <div class="bar" style="height: 33.94495412844037%; background: #facc15;"></div>
+                        <div class="bar-value">2</div>
+                        <div class="bar" style="height: 14.285714285714285%; background: #facc15;"></div>
                         <div class="bar-label">中 (30-59)</div>
                     </div>
                     <div class="bar-item">
-                        <div class="bar-value">59</div>
-                        <div class="bar" style="height: 54.12844036697248%; background: #f87171;"></div>
+                        <div class="bar-value">8</div>
+                        <div class="bar" style="height: 57.14285714285714%; background: #f87171;"></div>
                         <div class="bar-label">低 (<30)</div>
                     </div>
                 </div>
@@ -321,291 +349,49 @@
         <div class="section-title">🏢 職缺列表</div>
 
         <div class="filters">
-            <button class="filter-btn active" onclick="filterSource('all')">全部</button>
-            
-            <button class="filter-btn" onclick="filterSource('CakeResume')">CakeResume</button>
-            
-            <button class="filter-btn" onclick="filterSource('104')">104</button>
-            
-            <button class="filter-btn" onclick="filterSource('LinkedIn')">LinkedIn</button>
-            
-            <input class="search-input" type="text" placeholder="搜尋職缺..." oninput="searchJobs(this.value)">
+            <div class="filter-group" id="statusFilters">
+                <button class="filter-btn active" data-status="todo" onclick="setStatus('todo', this)">未投遞</button>
+                <button class="filter-btn" data-status="done" onclick="setStatus('done', this)">已投遞</button>
+                <button class="filter-btn" data-status="all" onclick="setStatus('all', this)">全部</button>
+            </div>
+            <div class="filter-group" id="sourceFilters">
+                <button class="filter-btn active" data-source="all" onclick="setSource('all', this)">全部來源</button>
+                
+                <button class="filter-btn" data-source="LinkedIn" onclick="setSource('LinkedIn', this)">LinkedIn</button>
+                
+                <button class="filter-btn" data-source="104" onclick="setSource('104', this)">104</button>
+                
+            </div>
+            <input class="search-input" type="text" placeholder="搜尋職缺..." oninput="setSearch(this.value)">
+            <span class="count-label">顯示 <b id="visibleCount">0</b> 筆</span>
         </div>
 
         <table class="job-table" id="jobTable">
             <thead>
                 <tr>
-                    <th onclick="sortTable(0)">適合度 ↕</th>
-                    <th onclick="sortTable(1)">職缺名稱 ↕</th>
-                    <th onclick="sortTable(2)">公司 ↕</th>
-                    <th onclick="sortTable(3)">地點</th>
-                    <th onclick="sortTable(4)">薪資</th>
-                    <th onclick="sortTable(5)">來源</th>
+                    <th>投遞</th>
+                    <th onclick="sortTable(1)">適合度 ↕</th>
+                    <th onclick="sortTable(2)">職缺名稱 ↕</th>
+                    <th onclick="sortTable(3)">公司 ↕</th>
+                    <th onclick="sortTable(4)">地點</th>
+                    <th onclick="sortTable(5)">薪資</th>
+                    <th onclick="sortTable(6)">來源</th>
                     <th>評分原因</th>
                 </tr>
             </thead>
             <tbody>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/web3-security-data-analyst-remote-at-remotefront-4444879466">
+                    <td>
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/web3-security-data-analyst-remote-at-remotefront-4444879466" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge score-high">
-                            98.3
+                            96.0
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/nexretail/jobs/senior-data-scientist-machine-learning-engineer-data-analyst" target="_blank">Senior Data Scientist / Machine Learning Engineer ( 資深數據分析師）</a></td>
-                    <td>深智科技股份有限公司</td>
-                    <td>新北市, 台灣</td>
-                    <td>TWD 70,000-120,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(12): sql, bigquery, python, pandas, scikit-learn, xgboost; 職稱完全匹配: 資深數據分析師; 地點符合: 新北市, 台灣; [技能40+職稱30+關鍵字18+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            93.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/shopline/jobs/tpd0803data-analyst" target="_blank">【SGMO0801】Data Analyst</a></td>
-                    <td>SHOPLINE 商線科技</td>
-                    <td>松山區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(6): sql, python, dashboard, tableau, 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 松山區, 台北市, 台灣; [技能40+職稱30+關鍵字13+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            91.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/meitu-740e16/jobs/data-analyst-88a" target="_blank">Data Analyst 數據分析師</a></td>
-                    <td>玩美行動股份有限公司</td>
-                    <td>內湖區, 台北市, 台灣</td>
-                    <td>TWD 50,000-65,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(7): sql, a/b testing, 數據分析, 資料分析, 實驗設計, pandas; 職稱完全匹配: data analyst; 地點符合: 內湖區, 台北市, 台灣; [技能40+職稱30+關鍵字12+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            88.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/nexretail/jobs/marketing-data-analyst-f57" target="_blank">行銷數據分析師 / Marketing Data Analyst</a></td>
-                    <td>深智科技股份有限公司</td>
-                    <td>新北市, 台灣</td>
-                    <td>TWD 700-1,000 /時</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(7): sql, python, a/b 測試, dashboard, tableau, 數據分析; 職稱完全匹配: data analyst; 地點符合: 新北市, 台灣; [技能40+職稱30+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            74.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/shepherdtech/jobs/ca6cb429-14d7-439d-9a42-2982e78a8809-hsinchu-expanding-recruitmento-e78e664f1b9086f8824bab80ab0b4a" target="_blank">【新竹｜擴大徵才】數據分析師</a></td>
-                    <td>牧羊人集團暨汪喵星球</td>
-                    <td>新竹市, 台灣</td>
-                    <td>TWD 40,000-45,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(5): sql, python, tableau, 數據分析, 商業分析; 職稱完全匹配: 數據分析師; [技能33+職稱30+關鍵字11+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            73.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/swag/jobs/senior-data-scientist-7f978b" target="_blank">Data Scientist / 資料科學家</a></td>
-                    <td>SWAG</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(3): machine learning, 機器學習, statistical analysis; 職稱完全匹配: data scientist; 地點符合: 台北市, 台灣; [技能20+職稱30+關鍵字14+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-high">
-                            70.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/8m368" target="_blank">數據專案經理</a></td>
-                    <td>美賣科技股份有限公司</td>
-                    <td>台北市中山區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(5): sql, bigquery, looker studio, 數據分析, 跨部門溝通; 職稱部分匹配: 數據科學家; 地點符合: 台北市中山區; [技能33+職稱17+關鍵字10+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            67.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/conbizconsulting/jobs/centennial-pharmaceutical-company-remote-management-mechanism-commercial-operations-support-specia" target="_blank">【百年藥廠/有遠端機制】商業營運支援專員_業務流程與資料管理分析專員_Commercial Operations and Data Analyst_信義區_#FL</a></td>
-                    <td>康彼斯顧問股份有限公司 | ConBiz Consulting</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>TWD 50,000-60,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(3): 數據分析, 資料分析, 商業分析; 職稱完全匹配: data analyst; 地點符合: 信義區, 台北市, 台灣; [技能20+職稱30+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            64.8
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/mile.cloud/jobs/2b5c2fb1-5ad2-44db-95c5-3b490ca8e23a-data-engineer-4cda9116f7233ebacf11121cece01e" target="_blank">資料工程師 Data Engineer</a></td>
-                    <td>CloudMile 萬里雲</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(5): sql, bigquery, python, etl, tableau; 職稱部分匹配: 資料分析師; 地點符合: 信義區, 台北市, 台灣; [技能33+職稱12+關鍵字9+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            64.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/cake-recruitment-consulting/jobs/digital-data-analysis-and-planning-personnel-one-of-the-top-three-domestic-financial-holding-compan" target="_blank">【本土前大三金控】Business Analyst（科技金融）</a></td>
-                    <td>Cake Recruitment Consulting</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(3): sql, python, 數據分析; 職稱完全匹配: business analyst; 地點符合: 台北市, 台灣; [技能20+職稱30+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            62.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/1111headhunt/jobs/senior-data-scientist-manager-data-science-senior-manager-3010360" target="_blank">資深資料科學家(經理) / Data Science Senior Manager (3010360)</a></td>
-                    <td>Accurate愛客獵-1111高階獵才中心</td>
-                    <td>新北市, 台灣</td>
-                    <td>TWD 1,000,000-1,300,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(4): a/b 測試, 機器學習, 資料分析, 數據分析; 職稱部分匹配: 資深資料分析師; 地點符合: 新北市, 台灣; [技能27+職稱15+關鍵字11+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            62.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/WorldQuant/jobs/data-scientist-958e01" target="_blank">Data Scientist</a></td>
-                    <td>WorldQuant</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): machine learning, 機器學習; 職稱完全匹配: data scientist; 地點符合: 台北市, 台灣; [技能13+職稱30+關鍵字9+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-high">
-                            61.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/cake-recruitment-consulting/jobs/software-systems-engineer-sh-from-a-well-known-japanese-restaurant-chain-262" target="_blank">🎰 國際遊戲平台 - 數據分析經理 (Data Analytics Leader) - SH</a></td>
-                    <td>Cake Recruitment Consulting</td>
-                    <td>松山區, 台北市, 台灣</td>
-                    <td>TWD 2,300,000-3,000,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(4): a/b testing, 數據分析, data analytics, 實驗設計; 職稱部分匹配: 數據科學家; 地點符合: 松山區, 台北市, 台灣; [技能27+職稱17+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            59.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/cake-recruitment-consulting/jobs/renowned-financial-brand-business-analyst-insurance-system-analyst-songshan-district-taipei" target="_blank">知名金融品牌_Business Analyst / Insurance System Analyst (台北中山區)</a></td>
-                    <td>Cake Recruitment Consulting</td>
-                    <td>中山區, 台北市, 台灣</td>
-                    <td>TWD 600,000-960,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): business analysis, stakeholder management; 職稱完全匹配: business analyst; 地點符合: 中山區, 台北市, 台灣; [技能13+職稱30+關鍵字6+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-mid">
-                            59.7
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/manager%EF%BC%8Ddeloitte-forensic-financial-crime%EF%BC%8Dconsulting-businesses-at-deloitte-4336041216" target="_blank">Manager－Deloitte Forensic & Financial Crime－Consulting Businesses</a></td>
-                    <td>德勤</td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/web3-security-data-analyst-remote-at-remotefront-4444879466" target="_blank">Web3 Security Data Analyst (Remote)</a></td>
+                    <td>RemoteFront</td>
                     <td>台北</td>
                     <td>面議</td>
                     <td>
@@ -613,286 +399,19 @@
                             LinkedIn
                         </span>
                     </td>
-                    <td>技能匹配(6): python, tableau, machine learning, 機器學習, 數據分析, 統計分析; 地點符合: 台北; [技能40+職稱0+關鍵字10+地點10]</td>
+                    <td>技能匹配(6): sql, python, machine learning, 機器學習, 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 台北; [技能40+職稱30+關鍵字16+地點10]</td>
                 </tr>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/associate-data-analyst-new-graduate-thai-speaking-marketing-analytics-bangkok-based-at-agoda-4299776209">
                     <td>
-                        <span class="score-badge score-mid">
-                            59.2
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/associate-data-analyst-new-graduate-thai-speaking-marketing-analytics-bangkok-based-at-agoda-4299776209" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
+                    <td>
+                        <span class="score-badge score-high">
+                            93.7
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/richwell/jobs/data-analysis-leader" target="_blank">Data Analysis Leader</a></td>
-                    <td>裕順資訊有限公司</td>
-                    <td>松山區, 台北市, 台灣</td>
-                    <td>TWD 2,500,000-3,000,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(4): forecasting, a/b testing, dashboard, experimentation; 職稱部分匹配: data scientist; 地點符合: 松山區, 台北市, 台灣; [技能27+職稱12+關鍵字10+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            58.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/9462j" target="_blank">#210769364 Payments - Product Analyst (Taiwan coverage)</a></td>
-                    <td>美商摩根大通銀行股份有限公司台北分公司</td>
-                    <td>台北市信義區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): forecasting; 職稱完全匹配: product analyst; 地點符合: 台北市信義區; [技能7+職稱30+關鍵字12+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            58.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/chubb/jobs/direct-marketing-department-marketing-data-analyst" target="_blank">【直效行銷處】Marketing Data Analyst</a></td>
-                    <td>安達國際人壽保險股份有限公司</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 信義區, 台北市, 台灣; [技能13+職稱30+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            57.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/KPMG/jobs/377c7eb4-0c94-4b44-9432-ad3eda67cf63-consultant-department-consulta-0a678e2ed636458d5a8eed1cf89acc" target="_blank">【顧問部】顧問師/高級顧問師 (AI數據分析師)-317317</a></td>
-                    <td>KPMG安侯建業聯合會計師事務所</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): python, 數據分析; 職稱完全匹配: 數據分析師; 地點符合: 信義區, 台北市, 台灣; [技能13+職稱30+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            56.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/synpulse-taiwan/jobs/business-analyst-testing-management-analyst-management-consultant" target="_blank">Business Analyst / Testing Management Analyst, Management Consultant</a></td>
-                    <td>Synpulse Taiwan Ltd. | 星普思管理諮詢有限公司</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 60,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): business analysis; 職稱完全匹配: business analyst; 地點符合: 台北市, 台灣; [技能7+職稱30+關鍵字9+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-mid">
-                            53.7
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/%E5%87%B1%E5%9F%BA%E9%87%91%E6%8E%A7-%E5%95%86%E6%A5%AD%E5%88%86%E6%9E%90%E5%B8%AB-at-%E5%87%B1%E5%9F%BA%E9%87%91%E6%8E%A7-kgi-financial-4442381295" target="_blank">[凱基金控] 商業分析師</a></td>
-                    <td>凱基金控 KGI Financial</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 商業分析; 職稱完全匹配: 商業分析師; 地點符合: 台北; [技能7+職稱30+關鍵字7+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            50.5
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/omnichat.ai/jobs/senior-front-end-engineer-senior-front-end-software-engineer" target="_blank">資深前端工程師｜Senior Frontend Engineer</a></td>
-                    <td>Omnichat</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(3): 自動化, 數據分析, machine learning; 職稱部分匹配: analytics engineer; 地點符合: 台北市, 台灣; [技能20+職稱12+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            48.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/7b9/jobs/data-engineer-db2" target="_blank">資料工程師</a></td>
-                    <td>艾捷科技</td>
-                    <td>臺中市, 台灣</td>
-                    <td>TWD 45,000-60,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(5): sql, python, data pipeline, etl, bigquery; 職稱部分匹配: 數據科學家; [技能33+職稱8+關鍵字7+地點0]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            46.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946a1" target="_blank">策略支援專員</a></td>
-                    <td>Starbucks _悠旅生活事業股份有限公司</td>
-                    <td>台北市信義區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(4): tableau, 數據分析, 商業分析, 跨部門溝通; 地點符合: 台北市信義區; [技能27+職稱0+關鍵字10+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            45.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/86e/jobs/6ee322a8-431e-47ed-a55b-6e84007e78f0-digital-finance-business-analy-7dd8278852018a52b6420f0a15f4d0" target="_blank">【數金】業務分析師 Business Analyst</a></td>
-                    <td>中租控股_中租迪和股份有限公司</td>
-                    <td>內湖區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>職稱完全匹配: business analyst; 地點符合: 內湖區, 台北市, 台灣; [技能0+職稱30+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            43.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946d5" target="_blank">Senior Marketing Specialist</a></td>
-                    <td>融程電訊股份有限公司</td>
-                    <td>新北市三重區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(2): data analytics, stakeholder management; 職稱部分匹配: senior data analyst; 地點符合: 新北市三重區; [技能13+職稱8+關鍵字12+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            43.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/spilglobal/jobs/fb6101bb-17ff-499a-841f-f851eef92fac-senior-data-application-engineer-53afb6aa79aa5519d4a6db9c0641e6" target="_blank">【中科大雅】數據應用資深工程師</a></td>
-                    <td>矽品精密工業股份有限公司 SPIL</td>
-                    <td>大雅區, 臺中市, 台灣</td>
-                    <td>TWD 55,200-95,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(4): machine learning, 機器學習, etl, 數據分析; 職稱部分匹配: 數據科學家; [技能27+職稱8+關鍵字8+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            41.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/932dd3" target="_blank">英文電商營運專案管理師 Amazon Project Assistant</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 45,000-60,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(5): 自動化, 數據分析, tableau, python, looker studio; [技能33+職稱0+關鍵字8+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            41.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/amazon-amazon-project-manager" target="_blank">【亞馬遜Amazon】電商專案管理師 Amazon Project Manager</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 45,000-50,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(5): 自動化, 數據分析, tableau, python, looker studio; [技能33+職稱0+關鍵字8+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            41.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/e-commerce-business-development-specialist" target="_blank">電商通路開發專員 E-commerce Business Development Specialist</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 45,000-50,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(3): 自動化, 數據分析, e-commerce; 職稱部分匹配: business analyst; [技能20+職稱12+關鍵字9+地點0]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-mid">
-                            41.0
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/analyst-senior-analyst-associate-manager-corporate-strategy-bangkok-based-at-agoda-4299764822" target="_blank">Analyst/Senior Analyst/Associate Manager, Corporate Strategy (Bangkok Based)</a></td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/associate-data-analyst-new-graduate-thai-speaking-marketing-analytics-bangkok-based-at-agoda-4299776209" target="_blank">Associate Data Analyst (New Graduate, Thai Speaking) (Marketing Analytics, Bangkok Based)</a></td>
                     <td>Agoda</td>
                     <td>台北</td>
                     <td>面議</td>
@@ -901,53 +420,104 @@
                             LinkedIn
                         </span>
                     </td>
-                    <td>技能匹配(2): sql, dashboard; 職稱部分匹配: senior data analyst; 地點符合: 台北; [技能13+職稱8+關鍵字9+地點10]</td>
+                    <td>技能匹配(7): sql, python, a/b testing, dashboard, tableau, 數據分析; 職稱完全匹配: data analyst; 地點符合: 台北; [技能40+職稱30+關鍵字14+地點10]</td>
                 </tr>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/cost-analyst-financial-data-analyst-at-ampstek-4444059186">
                     <td>
-                        <span class="score-badge score-mid">
-                            40.7
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/cost-analyst-financial-data-analyst-at-ampstek-4444059186" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
+                    <td>
+                        <span class="score-badge score-high">
+                            86.7
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/nshr-nanshanlife/jobs/data-scientist-innovation-and-development-division-expanded-9b7" target="_blank">AI開發資料科學家</a></td>
-                    <td>南山人壽保險股份有限公司</td>
-                    <td>信義區, 台北市, 台灣</td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/cost-analyst-financial-data-analyst-at-ampstek-4444059186" target="_blank">Cost Analyst / Financial Data Analyst</a></td>
+                    <td>Ampstek</td>
+                    <td>台北</td>
                     <td>面議</td>
                     <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
+                        <span class="source-tag source-linkedin">
+                            LinkedIn
                         </span>
                     </td>
-                    <td>技能匹配(2): 數據分析, machine learning; 職稱部分匹配: 數據科學家; 地點符合: 信義區, 台北市, 台灣; [技能13+職稱8+關鍵字9+地點10]</td>
+                    <td>技能匹配(5): sql, dashboard, google sheets, 數據分析, 資料分析; 職稱完全匹配: data analyst; 地點符合: 台北; [技能33+職稱30+關鍵字13+地點10]</td>
                 </tr>
                 
-                <tr data-source="104">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/sr-data-scientist-smai-oi-at-micron-technology-4410839383">
                     <td>
-                        <span class="score-badge score-mid">
-                            38.0
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/sr-data-scientist-smai-oi-at-micron-technology-4410839383" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
+                    <td>
+                        <span class="score-badge score-high">
+                            79.3
                         </span>
                     </td>
-                    <td><a href="https://www.104.com.tw/job/8b5az" target="_blank">自動化設備處-軟體設計工程師</a></td>
-                    <td>碩頂精密工業股份有限公司</td>
-                    <td>新北市土城區</td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/sr-data-scientist-smai-oi-at-micron-technology-4410839383" target="_blank">SR DATA SCIENTIST, SMAI OI</a></td>
+                    <td>美光科技</td>
+                    <td>桃園區</td>
                     <td>面議</td>
                     <td>
-                        <span class="source-tag source-104">
-                            104
+                        <span class="source-tag source-linkedin">
+                            LinkedIn
                         </span>
                     </td>
-                    <td>技能匹配(3): 自動化, 數據分析, 跨部門溝通; 地點符合: 新北市土城區; [技能20+職稱0+關鍵字8+地點10]</td>
+                    <td>技能匹配(6): sql, python, tableau, machine learning, 機器學習, data analytics; 職稱完全匹配: data scientist; [技能40+職稱30+關鍵字9+地點0]</td>
                 </tr>
                 
-                <tr data-source="104">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/binance-accelerator-program-research-data-scientist-at-binance-4403905302">
+                    <td>
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/binance-accelerator-program-research-data-scientist-at-binance-4403905302" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge score-mid">
-                            38.0
+                            48.0
                         </span>
                     </td>
-                    <td><a href="https://www.104.com.tw/job/915gt" target="_blank">【2026下半年｜外商MA計畫】電商業務儲備幹部 - 台北市</a></td>
-                    <td>飛輪電商有限公司</td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/binance-accelerator-program-research-data-scientist-at-binance-4403905302" target="_blank">Binance Accelerator Program - Research Data Scientist</a></td>
+                    <td>Binance</td>
+                    <td>台北</td>
+                    <td>面議</td>
+                    <td>
+                        <span class="source-tag source-linkedin">
+                            LinkedIn
+                        </span>
+                    </td>
+                    <td>職稱完全匹配: data scientist; 地點符合: 台北; [技能0+職稱30+關鍵字8+地點10]</td>
+                </tr>
+                
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/business-development-assistant-manager-manager-%E4%BA%A4%E9%80%9A%E7%A5%A8%E5%88%B8%E8%88%87%E6%99%AF%E5%8D%80%E6%A8%82%E5%9C%92-ti-at-kkday-4363195375">
+                    <td>
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/business-development-assistant-manager-manager-%E4%BA%A4%E9%80%9A%E7%A5%A8%E5%88%B8%E8%88%87%E6%99%AF%E5%8D%80%E6%A8%82%E5%9C%92-ti-at-kkday-4363195375" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
+                    <td>
+                        <span class="score-badge score-mid">
+                            33.8
+                        </span>
+                    </td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/business-development-assistant-manager-manager-%E4%BA%A4%E9%80%9A%E7%A5%A8%E5%88%B8%E8%88%87%E6%99%AF%E5%8D%80%E6%A8%82%E5%9C%92-ti-at-kkday-4363195375" target="_blank">Business Development, Assistant Manager/Manager -交通票券與景區樂園[TI]</a></td>
+                    <td>KKday</td>
+                    <td>台北</td>
+                    <td>面議</td>
+                    <td>
+                        <span class="source-tag source-linkedin">
+                            LinkedIn
+                        </span>
+                    </td>
+                    <td>技能匹配(1): 數據分析; 職稱部分匹配: business analyst; 地點符合: 台北; [技能7+職稱12+關鍵字5+地點10]</td>
+                </tr>
+                
+                <tr data-source="104" data-url="https://www.104.com.tw/job/939e1">
+                    <td>
+                        <button class="apply-btn" data-url="https://www.104.com.tw/job/939e1" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
+                    <td>
+                        <span class="score-badge score-low">
+                            24.3
+                        </span>
+                    </td>
+                    <td><a href="https://www.104.com.tw/job/939e1" target="_blank">Aspire Retail Management Program_ Cartier</a></td>
+                    <td>Richemont Asia Pacific Ltd., Taiwan Branch_香港商歷峯亞太有限公司台灣分公司</td>
                     <td>台北市信義區</td>
                     <td>面議</td>
                     <td>
@@ -955,989 +525,41 @@
                             104
                         </span>
                     </td>
-                    <td>技能匹配(3): tableau, looker studio, 數據分析; 地點符合: 台北市信義區; [技能20+職稱0+關鍵字8+地點10]</td>
+                    <td>技能匹配(1): e-commerce; 地點符合: 台北市信義區; [技能7+職稱0+關鍵字8+地點10]</td>
                 </tr>
                 
-                <tr data-source="104">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/%E8%87%AA%E5%8B%95%E6%8E%A7%E5%88%B6-%E9%9B%BB%E6%8E%A7%E7%B3%BB%E7%B5%B1%E5%B7%A5%E7%A8%8B%E5%B8%AB-3010385-at-accurate%E6%84%9B%E5%AE%A2%E7%8D%B5-1111headhunt-4443319283">
                     <td>
-                        <span class="score-badge score-mid">
-                            37.7
-                        </span>
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/%E8%87%AA%E5%8B%95%E6%8E%A7%E5%88%B6-%E9%9B%BB%E6%8E%A7%E7%B3%BB%E7%B5%B1%E5%B7%A5%E7%A8%8B%E5%B8%AB-3010385-at-accurate%E6%84%9B%E5%AE%A2%E7%8D%B5-1111headhunt-4443319283" onclick="toggleApplied(this)">標記投遞</button>
                     </td>
-                    <td><a href="https://www.104.com.tw/job/94645" target="_blank">【社群行銷專員】社群經營 × 數據分析 × 內容優化｜正職｜近捷運站</a></td>
-                    <td>夸克創意股份有限公司</td>
-                    <td>新北市三重區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 新北市三重區; [技能7+職稱17+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            37.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/_Pegatron/jobs/dc7198ac-2caf-40fc-9bdd-fd0aa221310c-big-data-analyst-backend-softwar-cc50b409e4605fe29e489267f06a7c" target="_blank">大數據分析/後端軟體工程師_15228</a></td>
-                    <td>和碩集團_和碩聯合科技股份有限公司</td>
-                    <td>北投區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 自動化, 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 北投區, 台北市, 台灣; [技能13+職稱8+關鍵字6+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            37.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/cathayins/jobs/ca5f2e" target="_blank">【國泰集團】數據專案管理師 Data Project Manage - 數據科技 - (數數發中心, DDT)</a></td>
-                    <td>國泰世紀產物保險股份有限公司</td>
-                    <td>大安區, 台北市, 台灣</td>
-                    <td>TWD 44,000+ /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 大安區, 台北市, 台灣; [技能7+職稱17+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            37.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/8x3np" target="_blank">SA12006 CRM Platform Business Product Manager</a></td>
-                    <td>華碩電腦股份有限公司</td>
-                    <td>台北市北投區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): stakeholder management; 職稱部分匹配: business analyst; 地點符合: 台北市北投區; [技能7+職稱12+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            37.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/micron-technology/jobs/regional-customer-demand-analyst-manager" target="_blank">Regional Customer Demand Analyst Manager</a></td>
-                    <td>Micron Technology</td>
-                    <td>南港區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): forecasting; 職稱部分匹配: business analyst; 地點符合: 南港區, 台北市, 台灣; [技能7+職稱12+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            37.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/nexretail/jobs/product-manager-ai-smart-retail-technology-driven-pm" target="_blank">Product Manager 產品經理｜AI 智慧零售 / 技術型 PM｜</a></td>
-                    <td>深智科技股份有限公司</td>
-                    <td>中和區, 新北市, 台灣</td>
-                    <td>TWD 60,000-100,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 跨部門溝通; 職稱部分匹配: product analyst; 地點符合: 中和區, 新北市, 台灣; [技能7+職稱12+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            36.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/945zt" target="_blank">自動化設備處-經理(上班地點：新北市土城區)</a></td>
-                    <td>碩頂精密工業股份有限公司</td>
-                    <td>新北市土城區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(3): 自動化, 數據分析, 跨部門溝通; 地點符合: 新北市土城區; [技能20+職稱0+關鍵字6+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            36.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/nshr-nanshanlife/jobs/business-data-analyst-24c41b" target="_blank">業務數據分析人員</a></td>
-                    <td>南山人壽保險股份有限公司</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 數據分析, 跨部門溝通; 職稱部分匹配: 數據科學家; 地點符合: 台北市, 台灣; [技能13+職稱8+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            34.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/nshr-nanshanlife/jobs/data-engineer-430" target="_blank">[資深]AI開發資料科學家</a></td>
-                    <td>南山人壽保險股份有限公司</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 信義區, 台北市, 台灣; [技能7+職稱8+關鍵字9+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            33.8
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946o1" target="_blank">【上市科技服務公司】Legal Business Partner 企業法務顧問 #汐止總部 #彈性上下班 #每週1天WFH_ITS_842</a></td>
-                    <td>藝珂人事顧問股份有限公司</td>
-                    <td>新北市汐止區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 跨部門溝通; 職稱部分匹配: business analyst; 地點符合: 新北市汐止區; [技能7+職稱12+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            33.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/tsmc/jobs/ai-data-analysis-engineer-dept-aqsd-div-imc" target="_blank">AI & Data Analysis Engineer (Dept: AQSD, Div: IMC)</a></td>
-                    <td>TSMC 台積電</td>
-                    <td>龍潭區, 桃園市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): machine learning, 機器學習; 職稱部分匹配: data scientist; [技能13+職稱12+關鍵字7+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            32.5
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/omnichat.ai/jobs/senior-product-manager-9be" target="_blank">資深產品經理 | Senior Product Manager</a></td>
-                    <td>Omnichat</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 1,000,000-1,500,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: product analyst; 地點符合: 台北市, 台灣; [技能7+職稱12+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-mid">
-                            32.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/bank-sinopac/jobs/7de15a" target="_blank">2026 Turing Plan 儲備AI科學家 - 百萬年薪 熱烈開放申請中！</a></td>
-                    <td>永豐商業銀行股份有限公司</td>
-                    <td>中山區, 台北市, 台灣</td>
-                    <td>TWD 1,000,000-1,000,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 數據分析, 實驗設計; 地點符合: 中山區, 台北市, 台灣; [技能13+職稱0+關鍵字9+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-mid">
-                            31.0
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/channel-sales-executive-at-uber-4442744957" target="_blank">Channel Sales Executive</a></td>
-                    <td>Uber</td>
-                    <td>臺北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>技能匹配(3): 數據分析, data analytics, marketplace; [技能20+職稱0+關鍵字11+地點0]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-mid">
-                            30.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/93h2k" target="_blank">數位廣告專案執行</a></td>
-                    <td>必加廣告行銷股份有限公司</td>
-                    <td>台北市大安區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(2): looker studio, 數據分析; 地點符合: 台北市大安區; [技能13+職稱0+關鍵字7+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-mid">
-                            30.3
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/%E3%80%90tpmo0301%E3%80%91product-operation-manager-at-shopline-4436075548" target="_blank">【TPMO0301】Product Operation Manager</a></td>
-                    <td>SHOPLINE</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>技能匹配(2): looker studio, google sheets; 地點符合: 台北; [技能13+職稱0+關鍵字7+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            29.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/90noy" target="_blank">資深採購專員 (內湖)</a></td>
-                    <td>鴻軒科技股份有限公司</td>
-                    <td>台北市內湖區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 跨部門溝通; 地點符合: 台北市內湖區; [技能7+職稱5+關鍵字8+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            29.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/945x1" target="_blank">商務合作營運專員</a></td>
-                    <td>木棉花國際股份有限公司</td>
-                    <td>新北市新莊區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 數據分析, 跨部門溝通; 地點符合: 新北市新莊區; [技能13+職稱0+關鍵字6+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            29.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hotaimotor/jobs/lexus-service-operations-strategy-data-analysis-specialist" target="_blank">LEXUS服務營運策略/數據分析專員</a></td>
-                    <td>和泰汽車股份有限公司</td>
-                    <td>中山區, 台北市, 台灣</td>
-                    <td>TWD 44,000-76,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 中山區, 台北市, 台灣; [技能7+職稱8+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            29.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/KPMG/jobs/2488ef66-1404-497c-b356-177499cde804-consultant-department-senior-c-c2250bb435b9c75af9a7a81ae8dc82" target="_blank">【顧問部】高級顧問師/副理 (AI應用與數據分析)-317317</a></td>
-                    <td>KPMG安侯建業聯合會計師事務所</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 信義區, 台北市, 台灣; [技能7+職稱8+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            28.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/inline/jobs/salesforce-systems-and-data-operations-specialist-contractual-position-available-for-3-to-6-months" target="_blank">Salesforce 系統與資料營運專員（約聘 3 至 6 個月）</a></td>
-                    <td>inline 樂排股份有限公司</td>
-                    <td>新北市, 台灣</td>
-                    <td>TWD 35,000-50,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): dashboard, 數據分析; 地點符合: 新北市, 台灣; [技能13+職稱0+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            28.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/9469g" target="_blank">數據架構主管</a></td>
-                    <td>拓美諮詢有限公司</td>
-                    <td>台北市松山區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: 數據科學家; 地點符合: 台北市松山區; [技能0+職稱17+關鍵字1+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            28.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/taiwan-mobile/jobs/d834d741-de06-44d4-9604-2c881fa374dd-taiwan-mobile-internship-progra-c0076511d742f6a080f402d5f768df" target="_blank">【Taiwan Mobile 實習計畫】Intern-大哥付你分期數據分析實習生</a></td>
-                    <td>台灣大哥大</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 196-250 /時</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市, 台灣; [技能7+職稱8+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            28.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/mynavi/jobs/Jcard" target="_blank">【知名金融服務業】數據應用分析師</a></td>
-                    <td>Mynavi 台灣邁那比股份有限公司</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 55,000-75,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; 地點符合: 台北市, 台灣; [技能7+職稱8+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            27.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/9460u" target="_blank">RPA、BPM流程自動化工程師</a></td>
-                    <td>閎暉實業股份有限公司</td>
-                    <td>新北市淡水區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 自動化, 跨部門溝通; 地點符合: 新北市淡水區; [技能13+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            27.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/gtstw/jobs/data-professional" target="_blank">(數據及自動化分析)【風控營運管理師】Risk Operations Specialist</a></td>
-                    <td>智鈦星平台服務有限公司</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 40,000-60,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 自動化; 職稱部分匹配: 數據科學家; 地點符合: 台北市, 台灣; [技能7+職稱8+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            27.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/inaddition-consultants/jobs/dba-oracle" target="_blank">資料庫管理師 (Database Administrator, Oracle/MySQL/ClickHouse)</a></td>
-                    <td>InAddition Consultants Ltd.</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 800,000-1,000,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): sql; 職稱部分匹配: 數據科學家; 地點符合: 台北市, 台灣; [技能7+職稱8+關鍵字2+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            27.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/KPMG/jobs/390ab41a-41e9-4b3b-86dc-31647d4ef896-consulting-department-digital-5ee91c93d32962834165c1b8cf1fd6" target="_blank">【顧問部】數位分析應用顧問-317317</a></td>
-                    <td>KPMG安侯建業聯合會計師事務所</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(2): 自動化, 數據分析; 地點符合: 信義區, 台北市, 台灣; [技能13+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            26.5
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946tk" target="_blank">CESBG-Data Center 資料中心設計與部署資深工程師 (Leader) Senior Data Center Design & Deployment Engineer(土城)</a></td>
-                    <td>鴻海精密工業股份有限公司</td>
-                    <td>新北市土城區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: senior data analyst; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            26.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946cb" target="_blank">【法人金融】法金資深資本效益管理企劃人員</a></td>
-                    <td>玉山銀行_玉山商業銀行股份有限公司</td>
-                    <td>台北市松山區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(2): tableau, 數據分析; 地點符合: 台北市松山區; [技能13+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            26.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946c4" target="_blank">【法人金融】法金資本效益管理企劃人員</a></td>
-                    <td>玉山銀行_玉山商業銀行股份有限公司</td>
-                    <td>台北市松山區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(2): tableau, 數據分析; 地點符合: 台北市松山區; [技能13+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            25.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946tv" target="_blank">CESBG- Data Center 資料中心設計與部署工程師 (土城)~ 歡迎新鮮人~</a></td>
-                    <td>鴻海精密工業股份有限公司</td>
-                    <td>新北市土城區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: 資料分析師; 地點符合: 新北市土城區; [技能0+職稱12+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            25.2
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/8ptos" target="_blank">業務專員 Business Development（遠端）</a></td>
-                    <td>WeWinCloud_宇雲有限公司</td>
-                    <td>新北市泰山區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: business analyst; 地點符合: 新北市泰山區; [技能0+職稱12+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            24.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/f19e15" target="_blank">【亞馬遜Amazon】電商實習生 (兼職、轉正機會) Amazon Project Assistant Intern（Part-time）</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 200-200 /時</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(3): tableau, python, looker studio; [技能20+職稱0+關鍵字4+地點0]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            23.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946rj" target="_blank">行銷企劃</a></td>
-                    <td>華碩雲端股份有限公司</td>
-                    <td>新北市淡水區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 新北市淡水區; [技能7+職稱0+關鍵字7+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            23.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/93y1s" target="_blank">(總公司)財務部主管</a></td>
-                    <td>總公司_長頸鹿文化事業股份有限公司</td>
-                    <td>台北市中正區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 跨部門溝通; 地點符合: 台北市中正區; [技能7+職稱0+關鍵字6+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            22.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/omnivision-aaf/jobs/0193f8be-1b69-467a-ba3d-2c4c067ed7d6-data-integration-and-analysis-5f0089ac6016dbfacd3d0bbca84f09" target="_blank">數據整合分析 / (Staff/Sr.) Test Integration Engineer</a></td>
-                    <td>OmniVision 台灣豪威科技有限公司</td>
-                    <td>新竹市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: 數據科學家; [技能0+職稱17+關鍵字6+地點0]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            22.7
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/%E9%A1%A7%E5%95%8F%E9%A1%9E-%E8%B3%87%E6%B7%B1%E9%A1%A7%E5%95%8F-%E7%B6%93%E5%8D%94%E7%90%86-business-strategy-consultant-at-pwc-4386913004" target="_blank">顧問類-資深顧問/經協理(Business Strategy Consultant)</a></td>
-                    <td>羅兵咸永道</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北; [技能7+職稱0+關鍵字6+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            22.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/31kx1" target="_blank">助理</a></td>
-                    <td>唯聖電子有限公司</td>
-                    <td>新北市新店區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 新北市新店區; [技能7+職稱0+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            22.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/cake-recruitment-consulting/jobs/finance-manager-leading-food-technology-startup" target="_blank">財務經理 Finance Manager | 知名餐飲科技新創</a></td>
-                    <td>Cake Recruitment Consulting</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>TWD 1,000,000-1,200,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 商業分析; 地點符合: 信義區, 台北市, 台灣; [技能7+職稱0+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            21.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/i-true/jobs/website-engineer-4a6231" target="_blank">網站工程師(Website Enginner)</a></td>
-                    <td>i-TRUE 艾思網絡股份有限公司︱@cosme</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北市, 台灣; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/89vi4" target="_blank">融媒資料管理師</a></td>
-                    <td>財團法人慈濟傳播人文志業基金會</td>
-                    <td>台北市北投區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北市北投區; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/8l93l" target="_blank">網路廣告優化師</a></td>
-                    <td>博英科技有限公司</td>
-                    <td>台北市中山區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北市中山區; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/9465c" target="_blank">產品副理</a></td>
-                    <td>聯兆科技股份有限公司</td>
-                    <td>新北市中和區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 新北市中和區; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/nshr-nanshanlife/jobs/channel-planning-analyst" target="_blank">通路企劃分析人員</a></td>
-                    <td>南山人壽保險股份有限公司</td>
-                    <td>信義區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 信義區, 台北市, 台灣; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/bnext-f5f335/jobs/1f66a5" target="_blank">【新商業學校】企業學習顧問</a></td>
-                    <td>巨思媒體集團（數位時代、經理人、Shopping Design）</td>
-                    <td>大安區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 大安區, 台北市, 台灣; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/bnext-f5f335/jobs/new-business-school-corporate-learning-consultant" target="_blank">【新商業學校】企業學習顧問</a></td>
-                    <td>巨思媒體集團（數位時代、經理人、Shopping Design）</td>
-                    <td>106台灣台北市大安區</td>
-                    <td>TWD 30,000-45,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 106台灣台北市大安區; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.3
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/%E3%80%90%E8%AB%AE%E8%A9%A2%E6%9C%8D%E5%8B%99%E3%80%91%E4%BE%9B%E6%87%89%E9%8F%88%E7%AE%A1%E7%90%86-%E9%A1%A7%E5%95%8F-%E8%B3%87%E6%B7%B1%E9%A1%A7%E5%95%8F-at-ey-4377902508" target="_blank">【諮詢服務】供應鏈管理- 顧問/資深顧問</a></td>
-                    <td>安永</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北; [技能7+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/inaddition-consultants/jobs/full-stack-software-engineer-java-engineer" target="_blank">全端軟體工程師 / Java 工程師</a></td>
-                    <td>InAddition Consultants Ltd.</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 900,000-1,200,000 /年</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 自動化; 地點符合: 台北市, 台灣; [技能7+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/gigabyte/jobs/ai_work-study-student" target="_blank">【研究發展】AI_工讀生</a></td>
-                    <td>技嘉科技股份有限公司 GIGABYTE</td>
-                    <td>新店區, 新北市, 台灣</td>
-                    <td>TWD 200-250 /時</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 新店區, 新北市, 台灣; [技能7+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.0
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/seo%E5%B0%88%E5%93%A1-at-beame-4443790630" target="_blank">SEO專員</a></td>
-                    <td>Beame</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北; [技能7+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            20.0
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/%E3%80%90%E5%AF%A9%E8%A8%88%E6%9C%8D%E5%8B%99%E3%80%91%E7%A7%91%E6%8A%80%E9%A2%A8%E9%9A%AA%E6%9A%A8%E9%9B%BB%E8%85%A6%E5%AF%A9%E8%A8%88%E6%9C%8D%E5%8B%99-%E9%A1%A7%E5%95%8F-%E8%B3%87%E6%B7%B1%E9%A1%A7%E5%95%8F-at-ey-4377942301" target="_blank">【審計服務】科技風險暨電腦審計服務 - 顧問/ 資深顧問</a></td>
-                    <td>安永</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>地點符合: 台北; [技能0+職稱5+關鍵字5+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
                     <td>
                         <span class="score-badge score-low">
                             19.3
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/17fit/jobs/business-assistant-investment-assistant" target="_blank">業務助理/招商助理</a></td>
-                    <td>17FIT</td>
-                    <td>台北市, 台灣</td>
-                    <td>TWD 30,000-45,000 /月</td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/%E8%87%AA%E5%8B%95%E6%8E%A7%E5%88%B6-%E9%9B%BB%E6%8E%A7%E7%B3%BB%E7%B5%B1%E5%B7%A5%E7%A8%8B%E5%B8%AB-3010385-at-accurate%E6%84%9B%E5%AE%A2%E7%8D%B5-1111headhunt-4443319283" target="_blank">自動控制/電控系統工程師 (3010385)</a></td>
+                    <td>Accurate愛客獵 - 1111高階獵才中心</td>
+                    <td>新北市</td>
+                    <td>面議</td>
                     <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
+                        <span class="source-tag source-linkedin">
+                            LinkedIn
                         </span>
                     </td>
-                    <td>技能匹配(1): 數據分析; 地點符合: 台北市, 台灣; [技能7+職稱0+關鍵字3+地點10]</td>
+                    <td>技能匹配(1): 自動化; 地點符合: 新北市; [技能7+職稱0+關鍵字3+地點10]</td>
                 </tr>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/ai-application-section-supervisor-at-sercomm-4444047416">
+                    <td>
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/ai-application-section-supervisor-at-sercomm-4444047416" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge score-low">
-                            18.2
+                            16.7
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/amazon-business-manager-management-associate-e-commerce-business-trainee" target="_blank">【亞馬遜Amazon】電商業務儲備幹部 Business Manager Management Associate</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>高雄市, 台灣</td>
-                    <td>TWD 60,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: business analyst; [技能0+職稱12+關鍵字6+地點0]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            18.0
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/securities-derivatives-intermediate-analyst-custody-operations-at-citi-4430570834" target="_blank">Securities & Derivatives Intermediate Analyst, Custody Operations</a></td>
-                    <td>花旗集團</td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/ai-application-section-supervisor-at-sercomm-4444047416" target="_blank">AI Application Section Supervisor</a></td>
+                    <td>中磊電子</td>
                     <td>台北</td>
                     <td>面議</td>
                     <td>
@@ -1945,106 +567,61 @@
                             LinkedIn
                         </span>
                     </td>
-                    <td>地點符合: 台北; [技能0+職稱0+關鍵字8+地點10]</td>
+                    <td>地點符合: 台北; [技能0+職稱0+關鍵字7+地點10]</td>
                 </tr>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="104" data-url="https://www.104.com.tw/job/9476w">
                     <td>
-                        <span class="score-badge score-low">
-                            17.5
-                        </span>
+                        <button class="apply-btn" data-url="https://www.104.com.tw/job/9476w" onclick="toggleApplied(this)">標記投遞</button>
                     </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/d883ad" target="_blank">跨境電商業務經理 Amazon Business Manager</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 60,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>職稱部分匹配: business analyst; [技能0+職稱12+關鍵字5+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            16.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/nshr-nanshanlife/jobs/information-security-monitoring-analyst" target="_blank">資深資安監控分析師(理級)</a></td>
-                    <td>南山人壽保險股份有限公司</td>
-                    <td>台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>地點符合: 台北市, 台灣; [技能0+職稱5+關鍵字2+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
                     <td>
                         <span class="score-badge score-low">
                             14.3
                         </span>
                     </td>
-                    <td><a href="https://www.104.com.tw/job/94684" target="_blank">資安技術顧問 / Cybersecurity Engineer（Data Security & Microsoft M365 Security）</a></td>
-                    <td>奧登資訊股份有限公司</td>
-                    <td>新北市板橋區</td>
+                    <td><a href="https://www.104.com.tw/job/9476w" target="_blank">平台營運專員</a></td>
+                    <td>勤禾科技服務股份有限公司</td>
+                    <td>新北市淡水區</td>
                     <td>面議</td>
                     <td>
                         <span class="source-tag source-104">
                             104
                         </span>
                     </td>
-                    <td>地點符合: 新北市板橋區; [技能0+職稱0+關鍵字4+地點10]</td>
+                    <td>地點符合: 新北市淡水區; [技能0+職稱0+關鍵字4+地點10]</td>
                 </tr>
                 
-                <tr data-source="LinkedIn">
+                <tr data-source="104" data-url="https://www.104.com.tw/job/8uch2">
+                    <td>
+                        <button class="apply-btn" data-url="https://www.104.com.tw/job/8uch2" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge score-low">
-                            14.0
+                            12.7
                         </span>
                     </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/garena-marketing-associate-%E8%A1%8C%E9%8A%B7%E6%8A%95%E5%BB%A3%E5%B0%88%E5%93%A1-%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA-at-garena-4444051639" target="_blank">Garena - Marketing Associate 行銷投廣專員 (傳說對決)</a></td>
-                    <td>Garena</td>
-                    <td>Taipei–Keelung Metropolitan area</td>
+                    <td><a href="https://www.104.com.tw/job/8uch2" target="_blank">美洲區BDM (Business Development Manager)</a></td>
+                    <td>廣積科技股份有限公司</td>
+                    <td>台北市南港區</td>
                     <td>面議</td>
                     <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
+                        <span class="source-tag source-104">
+                            104
                         </span>
                     </td>
-                    <td>技能匹配(1): 數據分析; [技能7+職稱0+關鍵字7+地點0]</td>
+                    <td>地點符合: 台北市南港區; [技能0+職稱0+關鍵字3+地點10]</td>
                 </tr>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="LinkedIn" data-url="https://tw.linkedin.com/jobs/view/%E6%A5%AD%E5%8B%99%E9%A1%9E-%E7%B6%93%E7%90%86-%E5%8D%94%E7%90%86-%E4%B8%8D%E5%8B%95%E7%94%A2%E5%95%86%E4%BB%B2-at-pwc-4280164000">
+                    <td>
+                        <button class="apply-btn" data-url="https://tw.linkedin.com/jobs/view/%E6%A5%AD%E5%8B%99%E9%A1%9E-%E7%B6%93%E7%90%86-%E5%8D%94%E7%90%86-%E4%B8%8D%E5%8B%95%E7%94%A2%E5%95%86%E4%BB%B2-at-pwc-4280164000" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge score-low">
-                            13.7
+                            12.7
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/86e/jobs/52cfc9c3-a5fc-47b4-9622-61f5bda7121e-information-systems-analyst-s-c9da6ed53a5d8cec242d12036c7cf5" target="_blank">【資訊】系統分析師 (SA)</a></td>
-                    <td>中租控股_中租迪和股份有限公司</td>
-                    <td>內湖區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>地點符合: 內湖區, 台北市, 台灣; [技能0+職稱0+關鍵字4+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            13.7
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/%E9%A1%A7%E5%95%8F%E9%A1%9E-%E9%A1%A7%E5%95%8F-%E8%B3%87%E6%B7%B1%E9%A1%A7%E5%95%8F-%E6%95%B8%E4%BD%8D%E8%BD%89%E5%9E%8B-at-pwc-4303001840" target="_blank">顧問類-顧問/資深顧問(數位轉型)</a></td>
+                    <td><a href="https://tw.linkedin.com/jobs/view/%E6%A5%AD%E5%8B%99%E9%A1%9E-%E7%B6%93%E7%90%86-%E5%8D%94%E7%90%86-%E4%B8%8D%E5%8B%95%E7%94%A2%E5%95%86%E4%BB%B2-at-pwc-4280164000" target="_blank">業務類-(經理/協理)不動產商仲</a></td>
                     <td>羅兵咸永道</td>
                     <td>台北</td>
                     <td>面議</td>
@@ -2053,259 +630,49 @@
                             LinkedIn
                         </span>
                     </td>
-                    <td>地點符合: 台北; [技能0+職稱0+關鍵字4+地點10]</td>
+                    <td>地點符合: 台北; [技能0+職稱0+關鍵字3+地點10]</td>
                 </tr>
                 
-                <tr data-source="CakeResume">
+                <tr data-source="104" data-url="https://www.104.com.tw/job/8jtyy">
                     <td>
-                        <span class="score-badge score-low">
-                            13.0
-                        </span>
+                        <button class="apply-btn" data-url="https://www.104.com.tw/job/8jtyy" onclick="toggleApplied(this)">標記投遞</button>
                     </td>
-                    <td><a href="https://www.cake.me/companies/cathayins/jobs/core-sa-system-analyst" target="_blank">【核心】SA系統分析師</a></td>
-                    <td>國泰世紀產物保險股份有限公司</td>
-                    <td>內湖區, 台北市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>地點符合: 內湖區, 台北市, 台灣; [技能0+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            12.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/946ps" target="_blank">【人才計畫推廣人員】周休二日｜派駐工研院 (台北大安區辦公室)</a></td>
-                    <td>宏碁創達股份有限公司</td>
-                    <td>台北市大安區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>地點符合: 台北市大安區; [技能0+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            12.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/8q08a" target="_blank">鄉林15年改造台北計劃-【業務銷售儲備幹部-專案/副專/專員】　★底薪+高獎金★</a></td>
-                    <td>鄉林建設事業股份有限公司</td>
-                    <td>台北市士林區</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-104">
-                            104
-                        </span>
-                    </td>
-                    <td>地點符合: 台北市士林區; [技能0+職稱0+關鍵字3+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
                     <td>
                         <span class="score-badge score-low">
                             12.3
                         </span>
                     </td>
-                    <td><a href="https://www.cake.me/companies/bnext-f5f335/jobs/new-business-school-marketing-planning" target="_blank">【新商業學校】數位時代/經理人 課程行銷企劃</a></td>
-                    <td>巨思媒體集團（數位時代、經理人、Shopping Design）</td>
-                    <td>106台灣台北市大安區</td>
-                    <td>TWD 33,000-42,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>地點符合: 106台灣台北市大安區; [技能0+職稱0+關鍵字2+地點10]</td>
-                </tr>
-                
-                <tr data-source="LinkedIn">
-                    <td>
-                        <span class="score-badge score-low">
-                            12.3
-                        </span>
-                    </td>
-                    <td><a href="https://tw.linkedin.com/jobs/view/ai-aoi%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E5%85%A7%E6%B9%96-twpr01348-at-compal-4407603673" target="_blank">AI/AOI軟體開發工程師(內湖) - TWPR01348</a></td>
-                    <td>仁寶</td>
-                    <td>台北</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-linkedin">
-                            LinkedIn
-                        </span>
-                    </td>
-                    <td>地點符合: 台北; [技能0+職稱0+關鍵字2+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            11.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/da6/jobs/regional-sales-representative-overseas-business-specialist-kaohsiung-or-taipei" target="_blank">國外業務專員(高雄或台北)</a></td>
-                    <td>精圓科技股份有限公司</td>
-                    <td>仁武區, 高雄市, 台灣</td>
-                    <td>TWD 45,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; [技能7+職稱0+關鍵字5+地點0]</td>
-                </tr>
-                
-                <tr data-source="104">
-                    <td>
-                        <span class="score-badge score-low">
-                            10.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.104.com.tw/job/8r86j" target="_blank">Royal Enfield-銷售副理/主任(台北內湖)</a></td>
-                    <td>太古汽車集團_英屬維京群島商太古國際汽車股份有限公司台灣分公司</td>
-                    <td>台北市內湖區</td>
+                    <td><a href="https://www.104.com.tw/job/8jtyy" target="_blank">【UberEats 餐廳開發業務(台北)】月薪40K~55K起、前三個月享額外津貼8K起｜工時彈性自由｜滿3個月即享10天年假</a></td>
+                    <td>新加坡商立福人事顧問有限公司台灣分公司</td>
+                    <td>台北市信義區</td>
                     <td>面議</td>
                     <td>
                         <span class="source-tag source-104">
                             104
                         </span>
                     </td>
-                    <td>地點符合: 台北市內湖區; [技能0+職稱0+關鍵字1+地點10]</td>
+                    <td>地點符合: 台北市信義區; [技能0+職稱0+關鍵字2+地點10]</td>
                 </tr>
                 
-                <tr data-source="104">
+                <tr data-source="104" data-url="https://www.104.com.tw/job/3cr50">
+                    <td>
+                        <button class="apply-btn" data-url="https://www.104.com.tw/job/3cr50" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge score-low">
-                            10.0
+                            11.0
                         </span>
                     </td>
-                    <td><a href="https://www.104.com.tw/job/8pa1z" target="_blank">電商包裝人員</a></td>
-                    <td>膠原生醫股份有限公司</td>
-                    <td>台北市大安區</td>
+                    <td><a href="https://www.104.com.tw/job/3cr50" target="_blank">【個人金融】理財專員</a></td>
+                    <td>玉山銀行_玉山商業銀行股份有限公司</td>
+                    <td>台北市松山區</td>
                     <td>面議</td>
                     <td>
                         <span class="source-tag source-104">
                             104
                         </span>
                     </td>
-                    <td>地點符合: 台北市大安區; [技能0+職稱0+關鍵字0+地點10]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            9.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/spilglobal/jobs/69426de1-41a2-4985-9a52-77b4070e504d-ustc-ya-assistant-engineer-for-15f96c8730162dd3872bccc9c476b8" target="_blank">【中科大雅】測試工程助理工程師</a></td>
-                    <td>矽品精密工業股份有限公司 SPIL</td>
-                    <td>大雅區, 臺中市, 台灣</td>
-                    <td>TWD 40,700-55,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; [技能7+職稱0+關鍵字3+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            9.3
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/e7e/jobs/b376e65a-a33d-4183-bbc6-d7c3bf0feff2-algorithm-development-engineer-t-2b210cab4d3bbe0109e8832f78c9e4" target="_blank">演算法開發工程師/技術副理/技術經理-(台北、新竹、台中、高雄)-研三</a></td>
-                    <td>倍利科技股份有限公司</td>
-                    <td>新竹市, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; [技能7+職稱0+關鍵字3+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            9.0
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/20f/jobs/89e813fe-d37c-42cc-b414-e45f689e0611-industrial-engineering-productiv-5df080a77c648f4af706a7446c62dd" target="_blank">IE工業工程/生產力分析工程師_竹南</a></td>
-                    <td>環球晶圓股份有限公司</td>
-                    <td>竹南鎮, 苗栗縣, 台灣</td>
-                    <td>面議</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>技能匹配(1): 數據分析; [技能7+職稱0+關鍵字2+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            4.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/e-commerce-overseas-procurement-business" target="_blank">電商國外採購業務</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 60,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>[技能0+職稱0+關鍵字5+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            4.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/hour-loop/jobs/foreign-business-assistant-135d71" target="_blank">國外業務助理</a></td>
-                    <td>Hour Loop 飛輪電商</td>
-                    <td>710台灣台南市永康區</td>
-                    <td>TWD 60,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>[技能0+職稱0+關鍵字5+地點0]</td>
-                </tr>
-                
-                <tr data-source="CakeResume">
-                    <td>
-                        <span class="score-badge score-low">
-                            2.7
-                        </span>
-                    </td>
-                    <td><a href="https://www.cake.me/companies/systex/jobs/full-terminal-programmer-analyst-v35c" target="_blank">全端程式設計師/分析師-V35C</a></td>
-                    <td>SYSTEX 精誠資訊</td>
-                    <td>西屯里, 臺中市, 台灣</td>
-                    <td>TWD 40,000-80,000 /月</td>
-                    <td>
-                        <span class="source-tag source-cake">
-                            CakeResume
-                        </span>
-                    </td>
-                    <td>[技能0+職稱0+關鍵字3+地點0]</td>
+                    <td>地點符合: 台北市松山區; [技能0+職稱0+關鍵字1+地點10]</td>
                 </tr>
                 
             </tbody>
@@ -2313,47 +680,91 @@
     </div>
 
     <div class="footer">
-        Job Auto Search · 自動產生於 2026-07-27 10:27:57
+        Job Auto Search · 更新於 2026-07-27 13:29:37 · 「已投遞」標記存在此瀏覽器
     </div>
 
     <script>
-        function filterSource(source) {
-            const btns = document.querySelectorAll('.filter-btn');
-            btns.forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
+        // "Applied" state lives in this browser (localStorage), keyed by job URL.
+        const STORE_KEY = 'appliedJobs_v1';
+        let fSource = 'all', fStatus = 'todo', fSearch = '';
 
-            const rows = document.querySelectorAll('#jobTable tbody tr');
-            rows.forEach(row => {
-                if (source === 'all' || row.dataset.source === source) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
+        function getApplied() {
+            try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+            catch (e) { return {}; }
+        }
+        function saveApplied(map) { localStorage.setItem(STORE_KEY, JSON.stringify(map)); }
+
+        function setSource(s, btn) { fSource = s; setActive('sourceFilters', btn); applyFilters(); }
+        function setStatus(s, btn) { fStatus = s; setActive('statusFilters', btn); applyFilters(); }
+        function setSearch(q) { fSearch = q.toLowerCase(); applyFilters(); }
+
+        function setActive(groupId, btn) {
+            document.getElementById(groupId)
+                .querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
         }
 
-        function searchJobs(query) {
-            const rows = document.querySelectorAll('#jobTable tbody tr');
-            const q = query.toLowerCase();
-            rows.forEach(row => {
-                const text = row.textContent.toLowerCase();
-                row.style.display = text.includes(q) ? '' : 'none';
+        function applyFilters() {
+            const applied = getApplied();
+            let visible = 0;
+            document.querySelectorAll('#jobTable tbody tr').forEach(row => {
+                const isApp = !!applied[row.dataset.url];
+                const okSource = fSource === 'all' || row.dataset.source === fSource;
+                const okStatus = fStatus === 'all' || (fStatus === 'done' ? isApp : !isApp);
+                const okSearch = !fSearch || row.textContent.toLowerCase().includes(fSearch);
+                const show = okSource && okStatus && okSearch;
+                row.style.display = show ? '' : 'none';
+                if (show) visible++;
             });
+            const vc = document.getElementById('visibleCount');
+            if (vc) vc.textContent = visible;
+            updateTodoCount();
+        }
+
+        function updateTodoCount() {
+            const applied = getApplied();
+            let todo = 0;
+            document.querySelectorAll('#jobTable tbody tr').forEach(row => {
+                if (!applied[row.dataset.url]) todo++;
+            });
+            const el = document.getElementById('todoCount');
+            if (el) el.textContent = todo;
+        }
+
+        function toggleApplied(btn) {
+            const url = btn.dataset.url;
+            const map = getApplied();
+            if (map[url]) delete map[url];
+            else map[url] = new Date().toISOString().slice(0, 10);
+            saveApplied(map);
+            reflectBtn(btn, !!map[url]);
+            applyFilters();
+        }
+
+        function reflectBtn(btn, applied) {
+            btn.textContent = applied ? '✅ 已投遞' : '標記投遞';
+            btn.classList.toggle('applied', applied);
+            const tr = btn.closest('tr');
+            if (tr) tr.classList.toggle('row-applied', applied);
+        }
+
+        function initApplied() {
+            const applied = getApplied();
+            document.querySelectorAll('.apply-btn').forEach(btn => {
+                reflectBtn(btn, !!applied[btn.dataset.url]);
+            });
+            applyFilters();
         }
 
         let sortDir = {};
         function sortTable(col) {
-            const table = document.getElementById('jobTable');
-            const tbody = table.querySelector('tbody');
+            const tbody = document.getElementById('jobTable').querySelector('tbody');
             const rows = Array.from(tbody.querySelectorAll('tr'));
-
             sortDir[col] = !sortDir[col];
-
             rows.sort((a, b) => {
                 let aVal = a.cells[col].textContent.trim();
                 let bVal = b.cells[col].textContent.trim();
-
-                if (col === 0) {
+                if (col === 1) {
                     aVal = parseFloat(aVal) || 0;
                     bVal = parseFloat(bVal) || 0;
                     return sortDir[col] ? aVal - bVal : bVal - aVal;
@@ -2362,9 +773,10 @@
                     ? aVal.localeCompare(bVal, 'zh-TW')
                     : bVal.localeCompare(aVal, 'zh-TW');
             });
-
             rows.forEach(row => tbody.appendChild(row));
         }
+
+        document.addEventListener('DOMContentLoaded', initApplied);
     </script>
 </body>
 </html>
