@@ -122,6 +122,15 @@ def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None
         console.print("[yellow]本週無新職缺，下週再來！[/yellow]")
         return
 
+    # Enrich 104 jobs: the search API returns only a short snippet, so pull the
+    # full description + requirements for new jobs before scoring.
+    scraper_104 = next((s for s in scrapers if isinstance(s, Scraper104)), None)
+    to_enrich = [j for j in new_jobs if j.source == "104"] if scraper_104 else []
+    if to_enrich:
+        console.print(f"🔎 補抓 {len(to_enrich)} 筆 104 職缺詳細內容...")
+        for job in to_enrich:
+            scraper_104.get_job_detail(job)
+
     # Score jobs
     console.print("📊 正在評分...")
     resume_data = parse_resume("resume.md")
