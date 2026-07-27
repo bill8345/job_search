@@ -23,6 +23,7 @@ from scoring.resume_parser import parse_resume
 from scoring.scorer import KeywordScorer
 from output.exporter import Exporter
 from storage.dedup import load_seen, save_seen, filter_new, mark_seen
+from storage.pool import update_pool
 
 
 console = Console()
@@ -137,10 +138,15 @@ def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None
     scorer = KeywordScorer(resume_data, search_config)
     scored_jobs = scorer.score_jobs(new_jobs)
 
+    # Merge into the rolling dashboard pool so un-applied jobs keep showing
+    # across weeks (applied jobs are hidden client-side in the dashboard).
+    pool_jobs = update_pool(scored_jobs)
+    console.print(f"   🗂️  dashboard 清單累積 {len(pool_jobs)} 筆(含往週未投遞)")
+
     # Export results
     console.print("📤 正在輸出結果...")
     exporter = Exporter(scored_jobs, output_config)
-    csv_path, html_path = exporter.export_all()
+    csv_path, html_path = exporter.export_all(dashboard_jobs=pool_jobs)
 
     # Step 3: persist seen URLs so next run knows about them
     if not no_dedup:

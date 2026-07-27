@@ -6,7 +6,7 @@
     <title>職缺搜尋結果 Dashboard</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #0f172a;
@@ -34,7 +34,7 @@
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 16px;
             padding: 24px 32px;
         }
@@ -80,6 +80,16 @@
             gap: 12px;
             margin-bottom: 16px;
             flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            padding: 4px;
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 10px;
         }
 
         .filter-btn {
@@ -106,13 +116,16 @@
             padding: 10px 16px;
             border-radius: 8px;
             font-size: 14px;
-            width: 250px;
+            width: 220px;
         }
 
         .search-input:focus {
             outline: none;
             border-color: #3b82f6;
         }
+
+        .count-label { color: #94a3b8; font-size: 13px; }
+        .count-label b { color: #e2e8f0; }
 
         .job-table {
             width: 100%;
@@ -181,6 +194,23 @@
         .source-cake { background: #3b1e5f; color: #c084fc; }
         .source-linkedin { background: #1e4d3a; color: #4ade80; }
 
+        .apply-btn {
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: #94a3b8;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            white-space: nowrap;
+            transition: all 0.15s;
+        }
+
+        .apply-btn:hover { border-color: #3b82f6; color: #e2e8f0; }
+        .apply-btn.applied { background: #064e3b; border-color: #065f46; color: #4ade80; }
+
+        tr.row-applied { opacity: 0.5; }
+
         a { color: #60a5fa; text-decoration: none; }
         a:hover { text-decoration: underline; }
 
@@ -248,12 +278,16 @@
 <body>
     <div class="header">
         <h1>🔍 職缺搜尋結果</h1>
-        <div class="subtitle">產生時間: {{ generated_at }} · 共 {{ total }} 筆職缺</div>
+        <div class="subtitle">更新時間: {{ generated_at }} · 累積清單共 {{ total }} 筆(未投遞的會持續保留)</div>
     </div>
 
     <div class="stats-grid">
         <div class="stat-card">
-            <div class="label">總職缺數</div>
+            <div class="label">未投遞</div>
+            <div class="value green" id="todoCount">—</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">清單總數</div>
             <div class="value blue">{{ total }}</div>
         </div>
         <div class="stat-card">
@@ -309,28 +343,40 @@
         <div class="section-title">🏢 職缺列表</div>
 
         <div class="filters">
-            <button class="filter-btn active" onclick="filterSource('all')">全部</button>
-            {% for src in sources.keys() %}
-            <button class="filter-btn" onclick="filterSource('{{ src }}')">{{ src }}</button>
-            {% endfor %}
-            <input class="search-input" type="text" placeholder="搜尋職缺..." oninput="searchJobs(this.value)">
+            <div class="filter-group" id="statusFilters">
+                <button class="filter-btn active" data-status="todo" onclick="setStatus('todo', this)">未投遞</button>
+                <button class="filter-btn" data-status="done" onclick="setStatus('done', this)">已投遞</button>
+                <button class="filter-btn" data-status="all" onclick="setStatus('all', this)">全部</button>
+            </div>
+            <div class="filter-group" id="sourceFilters">
+                <button class="filter-btn active" data-source="all" onclick="setSource('all', this)">全部來源</button>
+                {% for src in sources.keys() %}
+                <button class="filter-btn" data-source="{{ src }}" onclick="setSource('{{ src }}', this)">{{ src }}</button>
+                {% endfor %}
+            </div>
+            <input class="search-input" type="text" placeholder="搜尋職缺..." oninput="setSearch(this.value)">
+            <span class="count-label">顯示 <b id="visibleCount">0</b> 筆</span>
         </div>
 
         <table class="job-table" id="jobTable">
             <thead>
                 <tr>
-                    <th onclick="sortTable(0)">適合度 ↕</th>
-                    <th onclick="sortTable(1)">職缺名稱 ↕</th>
-                    <th onclick="sortTable(2)">公司 ↕</th>
-                    <th onclick="sortTable(3)">地點</th>
-                    <th onclick="sortTable(4)">薪資</th>
-                    <th onclick="sortTable(5)">來源</th>
+                    <th>投遞</th>
+                    <th onclick="sortTable(1)">適合度 ↕</th>
+                    <th onclick="sortTable(2)">職缺名稱 ↕</th>
+                    <th onclick="sortTable(3)">公司 ↕</th>
+                    <th onclick="sortTable(4)">地點</th>
+                    <th onclick="sortTable(5)">薪資</th>
+                    <th onclick="sortTable(6)">來源</th>
                     <th>評分原因</th>
                 </tr>
             </thead>
             <tbody>
                 {% for job in jobs %}
-                <tr data-source="{{ job.source }}">
+                <tr data-source="{{ job.source }}" data-url="{{ job.url }}">
+                    <td>
+                        <button class="apply-btn" data-url="{{ job.url }}" onclick="toggleApplied(this)">標記投遞</button>
+                    </td>
                     <td>
                         <span class="score-badge {% if job.score >= 60 %}score-high{% elif job.score >= 30 %}score-mid{% else %}score-low{% endif %}">
                             {{ job.score }}
@@ -353,47 +399,91 @@
     </div>
 
     <div class="footer">
-        Job Auto Search · 自動產生於 {{ generated_at }}
+        Job Auto Search · 更新於 {{ generated_at }} · 「已投遞」標記存在此瀏覽器
     </div>
 
     <script>
-        function filterSource(source) {
-            const btns = document.querySelectorAll('.filter-btn');
-            btns.forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
+        // "Applied" state lives in this browser (localStorage), keyed by job URL.
+        const STORE_KEY = 'appliedJobs_v1';
+        let fSource = 'all', fStatus = 'todo', fSearch = '';
 
-            const rows = document.querySelectorAll('#jobTable tbody tr');
-            rows.forEach(row => {
-                if (source === 'all' || row.dataset.source === source) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
+        function getApplied() {
+            try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+            catch (e) { return {}; }
+        }
+        function saveApplied(map) { localStorage.setItem(STORE_KEY, JSON.stringify(map)); }
+
+        function setSource(s, btn) { fSource = s; setActive('sourceFilters', btn); applyFilters(); }
+        function setStatus(s, btn) { fStatus = s; setActive('statusFilters', btn); applyFilters(); }
+        function setSearch(q) { fSearch = q.toLowerCase(); applyFilters(); }
+
+        function setActive(groupId, btn) {
+            document.getElementById(groupId)
+                .querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
         }
 
-        function searchJobs(query) {
-            const rows = document.querySelectorAll('#jobTable tbody tr');
-            const q = query.toLowerCase();
-            rows.forEach(row => {
-                const text = row.textContent.toLowerCase();
-                row.style.display = text.includes(q) ? '' : 'none';
+        function applyFilters() {
+            const applied = getApplied();
+            let visible = 0;
+            document.querySelectorAll('#jobTable tbody tr').forEach(row => {
+                const isApp = !!applied[row.dataset.url];
+                const okSource = fSource === 'all' || row.dataset.source === fSource;
+                const okStatus = fStatus === 'all' || (fStatus === 'done' ? isApp : !isApp);
+                const okSearch = !fSearch || row.textContent.toLowerCase().includes(fSearch);
+                const show = okSource && okStatus && okSearch;
+                row.style.display = show ? '' : 'none';
+                if (show) visible++;
             });
+            const vc = document.getElementById('visibleCount');
+            if (vc) vc.textContent = visible;
+            updateTodoCount();
+        }
+
+        function updateTodoCount() {
+            const applied = getApplied();
+            let todo = 0;
+            document.querySelectorAll('#jobTable tbody tr').forEach(row => {
+                if (!applied[row.dataset.url]) todo++;
+            });
+            const el = document.getElementById('todoCount');
+            if (el) el.textContent = todo;
+        }
+
+        function toggleApplied(btn) {
+            const url = btn.dataset.url;
+            const map = getApplied();
+            if (map[url]) delete map[url];
+            else map[url] = new Date().toISOString().slice(0, 10);
+            saveApplied(map);
+            reflectBtn(btn, !!map[url]);
+            applyFilters();
+        }
+
+        function reflectBtn(btn, applied) {
+            btn.textContent = applied ? '✅ 已投遞' : '標記投遞';
+            btn.classList.toggle('applied', applied);
+            const tr = btn.closest('tr');
+            if (tr) tr.classList.toggle('row-applied', applied);
+        }
+
+        function initApplied() {
+            const applied = getApplied();
+            document.querySelectorAll('.apply-btn').forEach(btn => {
+                reflectBtn(btn, !!applied[btn.dataset.url]);
+            });
+            applyFilters();
         }
 
         let sortDir = {};
         function sortTable(col) {
-            const table = document.getElementById('jobTable');
-            const tbody = table.querySelector('tbody');
+            const tbody = document.getElementById('jobTable').querySelector('tbody');
             const rows = Array.from(tbody.querySelectorAll('tr'));
-
             sortDir[col] = !sortDir[col];
-
             rows.sort((a, b) => {
                 let aVal = a.cells[col].textContent.trim();
                 let bVal = b.cells[col].textContent.trim();
-
-                if (col === 0) {
+                if (col === 1) {
                     aVal = parseFloat(aVal) || 0;
                     bVal = parseFloat(bVal) || 0;
                     return sortDir[col] ? aVal - bVal : bVal - aVal;
@@ -402,9 +492,10 @@
                     ? aVal.localeCompare(bVal, 'zh-TW')
                     : bVal.localeCompare(aVal, 'zh-TW');
             });
-
             rows.forEach(row => tbody.appendChild(row));
         }
+
+        document.addEventListener('DOMContentLoaded', initApplied);
     </script>
 </body>
 </html>

@@ -25,11 +25,15 @@ class Exporter:
         self.jobs = jobs
         self.config = output_config
 
-    def export_all(self):
-        """Run all export methods."""
+    def export_all(self, dashboard_jobs=None):
+        """Run all export methods.
+
+        CSV and terminal report this run's jobs; the dashboard renders
+        ``dashboard_jobs`` (the accumulated pool) when provided.
+        """
         self.export_terminal()
         csv_path = self.export_csv()
-        html_path = self.export_dashboard()
+        html_path = self.export_dashboard(dashboard_jobs)
         return csv_path, html_path
 
     def export_csv(self) -> str:
@@ -92,8 +96,10 @@ class Exporter:
             avg = sum(j.score for j in self.jobs) / len(self.jobs)
             console.print(f"📈 平均適合度: [bold]{avg:.1f}[/bold] 分")
 
-    def export_dashboard(self) -> str:
-        """Export as HTML dashboard."""
+    def export_dashboard(self, dashboard_jobs=None) -> str:
+        """Export as HTML dashboard, rendering ``dashboard_jobs`` (the
+        accumulated pool) when given, else this run's jobs."""
+        jobs = dashboard_jobs if dashboard_jobs is not None else self.jobs
         html_path = self.config.get("dashboard_path", "results/dashboard.html")
         Path(html_path).parent.mkdir(parents=True, exist_ok=True)
 
@@ -107,13 +113,13 @@ class Exporter:
         template = Template(template_str)
 
         # Prepare data
-        jobs_data = [j.to_dict() for j in self.jobs]
+        jobs_data = [j.to_dict() for j in jobs]
         sources = {}
-        for j in self.jobs:
+        for j in jobs:
             sources[j.source] = sources.get(j.source, 0) + 1
 
         score_dist = {"high": 0, "medium": 0, "low": 0}
-        for j in self.jobs:
+        for j in jobs:
             if j.score >= 60:
                 score_dist["high"] += 1
             elif j.score >= 30:
@@ -122,12 +128,12 @@ class Exporter:
                 score_dist["low"] += 1
 
         html = template.render(
-            jobs=self.jobs,
+            jobs=jobs,
             jobs_data=jobs_data,
-            total=len(self.jobs),
+            total=len(jobs),
             sources=sources,
             score_dist=score_dist,
-            avg_score=sum(j.score for j in self.jobs) / len(self.jobs) if self.jobs else 0,
+            avg_score=sum(j.score for j in jobs) / len(jobs) if jobs else 0,
             generated_at=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         )
 
