@@ -153,7 +153,7 @@ def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None
     # Score jobs
     console.print("📊 正在評分...")
     resume_data = parse_resume("resume.md")
-    scorer = KeywordScorer(resume_data, search_config)
+    scorer = KeywordScorer(resume_data)
     scored_jobs = scorer.score_jobs(new_jobs)
 
     # Merge into the rolling dashboard pool so un-applied jobs keep showing

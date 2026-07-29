@@ -55,15 +55,18 @@ class KeywordScorer:
         1. Skill match    (40 pts): resume skills found in JD text or job tags
         2. Title match    (30 pts): job title vs desired titles
         3. Keyword overlap(20 pts): Chinese bigram + English word overlap
-        4. Location match (10 pts): location vs preferred areas
+        4. Seniority      (±):      senior bonus / junior penalty
+
+    Location is deliberately not scored: the scrapers already filter by area, so
+    97% of results matched and it acted as a flat +10 that pushed scores into the
+    100-point ceiling (22 jobs tied at 100). It also mis-scored 臺北市 vs 台北市.
     """
 
-    def __init__(self, resume_data: dict, search_config: dict):
+    def __init__(self, resume_data: dict):
         raw_skills = [s.strip() for s in resume_data.get("skills", []) if s.strip()]
         self.skills = [s.lower() for s in raw_skills]
         self.desired_titles = [t.lower() for t in resume_data.get("desired_titles", [])]
         self.raw_text = resume_data.get("raw_text", "").lower()
-        self.preferred_areas = [a.lower() for a in search_config.get("areas", [])]
 
         self.resume_keywords = self._extract_keywords(_normalize(self.raw_text))
 
@@ -89,26 +92,18 @@ class KeywordScorer:
         # 3. Keyword overlap (20 pts)
         keyword_score = self._score_keywords(job_text)
 
-        # 4. Location match (10 pts)
-        location_score = self._score_location(job.location.lower())
-        if location_score > 0:
-            reasons.append(f"地點符合: {job.location[:30]}")
-
-        # 5. Seniority adjustment (±)
+        # 4. Seniority adjustment (±)
         seniority_score, seniority_reason = self._score_seniority(job.title)
         if seniority_reason:
             reasons.append(seniority_reason)
 
-        total = (
-            skill_score + title_score + keyword_score
-            + location_score + seniority_score
-        )
+        total = skill_score + title_score + keyword_score + seniority_score
         total = min(100, max(0, total))
 
         # Add score breakdown to reason
         breakdown = (
             f"[技能{skill_score:.0f}+職稱{title_score:.0f}"
-            f"+關鍵字{keyword_score:.0f}+地點{location_score:.0f}"
+            f"+關鍵字{keyword_score:.0f}"
             f", 資歷{seniority_score:+.0f}]"
         )
         reasons.append(breakdown)
@@ -200,15 +195,6 @@ class KeywordScorer:
         # Denominator capped at 60 to prevent tiny ratios when resume is large
         ratio = len(overlap) / min(len(self.resume_keywords), 60)
         return min(20, ratio * 20)
-
-    def _score_location(self, location: str) -> float:
-        """Location preference — max 10 pts."""
-        if not self.preferred_areas:
-            return 5
-        for area in self.preferred_areas:
-            if area in location or location in area:
-                return 10
-        return 0
 
     # ------------------------------------------------------------------
     # Keyword extraction
