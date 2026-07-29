@@ -65,8 +65,11 @@ Senior Data Analyst with 4+ years of experience in e-commerce and financial serv
 - Business Analyst
 - 商業分析師
 - Product Analyst
+- 產品分析師
 - Data Scientist
 - 數據科學家
+- 資料科學家
 - Product Intelligence
 - BI Analyst
+- BI 分析師
 - Analytics Engineer
