@@ -4,9 +4,27 @@ from __future__ import annotations
 
 import re
 from scrapers.base import Job
+from scoring.filters import strip_cjk_gaps
 
 # Threshold: matching this many skills = full skill score
 SKILL_FULL_SCORE_AT = 6
+
+# Seniority adjustment applied on top of the four dimensions. Bill is a senior
+# analyst with 4+ years, so an intern-adjacent title is a mismatch no matter how
+# well its JD text overlaps the resume.
+SENIOR_BONUS = 8
+JUNIOR_PENALTY = -25
+
+_SENIOR_TITLE = re.compile(
+    r"senior|\bsr\.?\b|資深|\blead\b|principal|\bstaff\b|manager|director"
+    r"|head\s*of|經理|副理|協理|主管|主任",
+    re.I,
+)
+_JUNIOR_TITLE = re.compile(
+    r"junior|\bjr\.?\b|初階|entry[\s-]*level|associate|new\s*grad"
+    r"|graduate\s*(program|trainee)|應屆|新鮮人|儲備",
+    re.I,
+)
 
 # Pairs that should be treated as equivalent when scoring
 _ALIASES: list[tuple[str, str]] = [
@@ -76,13 +94,22 @@ class KeywordScorer:
         if location_score > 0:
             reasons.append(f"地點符合: {job.location[:30]}")
 
-        total = skill_score + title_score + keyword_score + location_score
+        # 5. Seniority adjustment (±)
+        seniority_score, seniority_reason = self._score_seniority(job.title)
+        if seniority_reason:
+            reasons.append(seniority_reason)
+
+        total = (
+            skill_score + title_score + keyword_score
+            + location_score + seniority_score
+        )
         total = min(100, max(0, total))
 
         # Add score breakdown to reason
         breakdown = (
             f"[技能{skill_score:.0f}+職稱{title_score:.0f}"
-            f"+關鍵字{keyword_score:.0f}+地點{location_score:.0f}]"
+            f"+關鍵字{keyword_score:.0f}+地點{location_score:.0f}"
+            f", 資歷{seniority_score:+.0f}]"
         )
         reasons.append(breakdown)
 
@@ -151,6 +178,16 @@ class KeywordScorer:
 
         reason = f"職稱部分匹配: {best_label}" if best_score >= 8 else ""
         return best_score, reason
+
+    def _score_seniority(self, job_title: str) -> tuple[float, str]:
+        """Seniority fit — ±. Senior wins ties over junior in hybrid titles
+        like "Associate Director"."""
+        job_title = strip_cjk_gaps(job_title)
+        if _SENIOR_TITLE.search(job_title):
+            return SENIOR_BONUS, f"資深職缺 {SENIOR_BONUS:+d}"
+        if _JUNIOR_TITLE.search(job_title):
+            return JUNIOR_PENALTY, f"初階/新鮮人職缺 {JUNIOR_PENALTY:+d}"
+        return 0.0, ""
 
     def _score_keywords(self, job_text: str) -> float:
         """Keyword overlap (Chinese bigrams + English words) — max 20 pts."""

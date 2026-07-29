@@ -19,6 +19,7 @@ from rich.console import Console
 from scrapers.scraper_104 import Scraper104
 from scrapers.scraper_cake import ScraperCake
 from scrapers.scraper_linkedin import ScraperLinkedIn
+from scoring.filters import is_target_role
 from scoring.resume_parser import parse_resume
 from scoring.scorer import KeywordScorer
 from output.exporter import Exporter
@@ -52,7 +53,8 @@ def load_config(config_path: str = "config.yaml") -> dict:
 
 
 def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None,
-               platform: str = None, no_dedup: bool = False):
+               platform: str = None, no_dedup: bool = False,
+               no_filter: bool = False):
     """Execute job search across all enabled platforms."""
     search_config = config.get("search", {})
     platform_config = config.get("platforms", {})
@@ -94,6 +96,22 @@ def run_search(config: dict, keywords: list[str] = None, areas: list[str] = None
     if not all_jobs:
         console.print("\n[yellow]未找到任何職缺，請嘗試調整搜尋條件[/yellow]")
         return
+
+    # Step 0: drop titles that aren't analytics roles. Platform keyword search
+    # matches JD body text, so unrelated jobs come back and score deceptively
+    # well off generic skill mentions.
+    if not no_filter:
+        kept = [j for j in all_jobs if is_target_role(j.title)]
+        gated = len(all_jobs) - len(kept)
+        if gated:
+            console.print(
+                f"🚫 職稱不符 / 實習職缺，過濾掉 [yellow]{gated} 筆[/yellow]"
+                f"（保留 {len(kept)} 筆）"
+            )
+        all_jobs = kept
+        if not all_jobs:
+            console.print("\n[yellow]過濾後無符合職稱的職缺[/yellow]")
+            return
 
     # Step 1: deduplicate within this run by URL
     seen_urls: set = set()
@@ -203,6 +221,11 @@ def main():
         action="store_true",
         help="略過跨週去重，顯示所有職缺（測試用）",
     )
+    parser.add_argument(
+        "--no-filter",
+        action="store_true",
+        help="略過職稱過濾，保留所有抓到的職缺（測試用）",
+    )
 
     args = parser.parse_args()
 
@@ -215,6 +238,7 @@ def main():
         areas=args.area,
         platform=args.platform,
         no_dedup=args.no_dedup,
+        no_filter=args.no_filter,
     )
 
 
