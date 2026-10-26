@@ -1,438 +1,284 @@
 ﻿職缺名稱,公司,地點,薪資,來源,發布日期,適合度分數,評分原因,連結,職缺描述,要求條件
-資料分析師 Data Analyst (Mid to Senior),極酷科技有限公司,台北市中正區,面議,104,20261007,98.0,"技能匹配(8): sql, bigquery, python, dashboard, 數據分析, 資料分析; 職稱完全匹配: data analyst; 資深職缺 +8; [技能40+職稱30+關鍵字20, 資歷+8]",https://www.104.com.tw/job/95pfg,"✨ 加入 KICKS CREW，與我們一起成長！CAN’T STOP WON’T STOP！ ✨
+B04T (資深)數據分析師,易遊網旅行社股份有限公司,台北市中山區,面議,104,20261019,98.0,"技能匹配(12): sql, bigquery, python, a/b testing, dashboard, 數據自動化; 職稱完全匹配: 數據分析師; 資深職缺 +8; [技能40+職稱30+關鍵字20, 資歷+8]",https://www.104.com.tw/job/960tm,"【工作內容 / 主要職責】
+1.	商品與營運數據分析（Product & Operations Analytics）
+⚬	深入分析機票、飯店、機加酒、團體行程、票券等商品銷售表現、用戶購買路徑與轉化率，分析使用者行爲、行銷活動成效，並透過數據挖掘潛在商機，提供優化方案與建議。
 
-- KICKS CREW 是一個快速成長的全球電商平台，專注於球鞋與潮流服飾。我們致力透過資料與技術，持續優化消費者的購物體驗與公司決策效率。
-KICKS CREW is a rapidly growing global e-commerce platform specializing in sne...","專長: PL/SQL, PostgreSQL, MS SQL, Python, Data Modeling
-其他: [加分條件 Nice to Have]
+2.	競品策略研究（Competitive Intelligence）
+⚬	監控市場波動與競品動態，協助商品團隊彈性調整...","專長: Google Analytics, Python, Google Data Studio, MS SQL
+技能: 數據分析, 產品策略, 競品分析, 專案溝通╱整合管理"
+SFE & Data Analyst (Manager),Fresenius Kabi Taiwan_台灣費森尤斯卡比股份有限公司,台北市中正區,面議,104,20261018,94.3,"技能匹配(7): dashboard, 數據分析, 資料分析, data analytics, business analytics, segmentation; 職稱完全匹配: data analyst; 資深職缺 +8; [技能40+職稱30+關鍵字16, 資歷+8]",https://www.104.com.tw/job/96u2z,"Key Responsibilities
 
--良好的英文書寫及口說能力。
-Strong written and spoken English communication skills.
+Sales Force Effectiveness: Contribute to the development of SFE strategies and lead the implementation of SFE frameworks, KPIs, customer segmentation and targeting initiatives, C...","專長: Excel, PowerPoint, Word
+其他: •	Bachelor's degree in Business, Marketing, Healthcare Administration, or related field. Master's degree is a plus.
+•	5-8 years of relevant experience in Commercial Exc..."
+可遠距辦公｜Business Analyst,泰樂科技軟體有限公司,台北市松山區,面議,104,20260917,90.0,"技能匹配(8): sql, bigquery, forecasting, tableau, looker studio, google sheets; 職稱完全匹配: business analyst; [技能40+職稱30+關鍵字20, 資歷+0]",https://www.104.com.tw/job/95va5,"[About us]
 
--具備 dbt、語意層或指標層工具的使用經驗。
-Experience with dbt, sema..."
-Senior Data Analyst - Logistics Middle Mile,酷澎股份有限公司,台北市信義區,面議,104,20261014,98.0,"技能匹配(15): sql, python, forecasting, dashboard, tableau, machine learning; 職稱完全匹配: senior data analyst; 資深職缺 +8; [技能40+職稱30+關鍵字20, 資歷+8]",https://www.104.com.tw/job/96qet,"Coupang is reimagining the shopping experience with the goal of wowing each customer from the instant they open the Coupang app to the moment an order is delivered to their door.
+At Taroko, we’re a fast-moving global venture studio building and scaling transformative digital products across industries. We are now incubating a new legal-tech SaaS platform designed t...","專長: PL/SQL, Power BI, MS SQL, Tableau, Looker studio
+技能: 調查樣本統計分析, 預測分析, 資料庫軟體應用, 資料庫程式設計, 報表開發
+其他: 1. Flexible and adaptable 
+2. An excellent written and verbal communicator, with great interpersonal..."
+Data Scientist,昂鋐科創股份有限公司,台北市松山區,面議,104,20261005,84.0,"技能匹配(7): python, scikit-learn, xgboost, machine learning, 機器學習, 自動化; 職稱完全匹配: data scientist; [技能40+職稱30+關鍵字14, 資歷+0]",https://www.104.com.tw/job/8vyza,"我們正在尋找一位在傳統機器學習和生成式人工智慧方面擁有深厚專業知識的高級資料科學家，以推動流程工業（包括能源、化學、製造和工業自動化）的數位轉型。您將致力於預測性維護、流程優化、供應鏈預測和智慧自動化等高影響力應用案例，並充分利用海量工業資料集、領域特定知識和前沿的人工智慧/機器學習技術。
 
-Our services in Taiw...","專長: MySQL, Tableau, Power BI
-其他: Essential Qualifications:
-
-Bachelor's degree in Engineering, Data Science, Statistics, Mathematics, Computer Science, Operations Research, Economics, or a related quan..."
-Senior Data Analyst - Logistics Middle Mile,Coupang,"桃園市, 台灣",面議,LinkedIn,2026-10-05,98.0,"技能匹配(6): forecasting, dashboard, 數據分析, 資料分析, business analytics, experimentation; 職稱完全匹配: senior data analyst; 資深職缺 +8; [技能40+職稱30+關鍵字20, 資歷+8]",https://tw.linkedin.com/jobs/view/senior-data-analyst-logistics-middle-mile-at-coupang-4465712568,Coupang is reimagining the shopping experience with the goal of wowing each customer from the instant they open the Coupang app to the moment an order is delivered to their door. Our services in Taiwa...,
-資深數據分析師 Senior Data Analyst,瞬聯科技股份有限公司,台北市大安區,面議,104,20261013,92.3,"技能匹配(8): sql, dashboard, tableau, 數據分析, 資料分析, business analytics; 職稱完全匹配: senior data analyst; 資深職缺 +8; [技能40+職稱30+關鍵字14, 資歷+8]",https://www.104.com.tw/job/95owx,"Join a global leading e-commerce platform and be part of its international cross-border trade business, leveraging data to uncover market opportunities and drive business growth. As a key member of th...","專長: MySQL, Tableau
-其他: Proficiency in solving Medium-to-Hard level SQL problems on platforms such as DataLemur, StrataScratch, or LeetCode.
-"
-Senior Data Scientist (Hybrid),必揚極限股份有限公司,台北市松山區,面議,104,20261016,91.3,"技能匹配(5): sql, python, forecasting, machine learning, 機器學習; 職稱完全匹配: data scientist; 資深職缺 +8; [技能33+職稱30+關鍵字20, 資歷+8]",https://www.104.com.tw/job/8qywm,"Job Description
-
-BeyondAI is hiring a Senior Data Scientist to deliver production LLM, RAG, and agentic AI solutions for enterprise clients across APAC. This is a hands-on, client-facing role covering...","專長: Python, MLOPs, Cloud, LLM, AWS
-技能: 機器學習, 人工智慧, Machine Learning, 深度學習, 語言模型, AI, 機器學習演算法
-其他: Required Experience
-•	3+ years of experience in data science, ML engineering, or applied AI
-•	2+ years ..."
-Data Analyst,OpenNet Limited,台北,面議,LinkedIn,2026-07-13,85.0,"技能匹配(7): sql, python, dashboard, data pipeline, etl, 數據分析; 職稱完全匹配: senior data analyst; [技能40+職稱30+關鍵字15, 資歷+0]",https://tw.linkedin.com/jobs/view/data-analyst-at-opennet-limited-4450098058,"About OpenNet OpenNet is a fast-growing technology company with products reaching 20+ countries worldwide. We bring together talented people who enjoy solving challenges, moving fast, and learning fro...",
-【總管理處】DIN_Data Scientist/ Senior Data Scientist,(台泥)臺灣水泥股份有限公司,台北市中山區,面議,104,20261015,80.7,"技能匹配(4): python, scikit-learn, machine learning, 機器學習; 職稱完全匹配: data scientist; 資深職缺 +8; [技能27+職稱30+關鍵字16, 資歷+8]",https://www.104.com.tw/job/8ykv1,"【Company Introduction】
-We are a Taiwan-headquartered cement and building materials group with a global footprint. Our business covers the R&D and manufacturing of cement, ready-mix concrete, and relat...","專長: Python
-技能: AI, 機器學習, 演算法設計, Machine Learning, 深度學習, 資料庫軟體應用
-其他: 【Education】
--	Master’s degree or above in Computer Science, Statistics, Mathematics, Engineering, Physics, or related fields.
-【Exper..."
-資料科學家,關貿網路股份有限公司,台北市南港區,面議,104,20261014,80.7,"技能匹配(6): sql, python, machine learning, 機器學習, 數據分析, 統計分析; 職稱完全匹配: 數據科學家; [技能40+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/5cdpt,"1. 核心分析實戰 (55%)
-(1)​多源資料整合： 負責公/私部門異質資料的整理、清洗與邏輯串接（主要使用 SQL / Python）。
-(2)​架構思考： 具備資料倉儲、資料市集概念，能有效規劃分析用的資料結構。
-(3)​建模與視覺化： 運用統計分析與機器學習、深度學習建立模型（如分類、迴歸），並設計視覺化儀表板，將數據轉化為決策洞察。
-
-​2. 客戶溝通與專案管理 (35%)
-(1)​需求...","專長: Python, R, MS SQL, PostgreSQL
-技能: 數據分析, 系統整合分析, AI
-其他: 1.具 Python/R 等相關統計程式語言使用經驗
-2.具(數值統計/分析模擬/ Machine Learning/ 自然語言處理) 相關研究或程式開發經驗
-3.具大量資料處理與相關資訊系統建置經驗佳
-4.對新技術新事物充滿學習熱情，具團隊合作精神"
-【台北】原醫集團總管理處 - 商業數據分析師 Business Intelligence Analyst,原醫管理顧問股份有限公司,台北市信義區,面議,104,20261013,80.0,"技能匹配(6): sql, python, pandas, tableau, 自動化, 數據分析; 職稱完全匹配: 數據分析師; [技能40+職稱30+關鍵字10, 資歷+0]",https://www.104.com.tw/job/95ltn,"【職務簡介】
-我們正在尋找一位對「數據 × 商業 × 顧客經營」有興趣的商業數據分析師，一起讓數據成為成長的決策力量。
-
-這個職位不是單純製作報表，也不是只負責整理 Excel。
-
-我們希望你能將診所營運系統中大量的客戶、預約、療程、銷售、消費、回診、會員及服務資料，透過 Excel、Python、SQL、AI 或其他資料分析工具進行整理與分析，進一步回答：
-
-* 哪些客戶是我們最重要的客戶？
-*...",
-數據分析師 (國際金融處)_I00026929,國泰綜合證券股份有限公司,台北市大安區,面議,104,20261015,79.3,"技能匹配(7): sql, python, dashboard, tableau, 自動化, 數據分析; 職稱完全匹配: 數據分析師; [技能40+職稱30+關鍵字9, 資歷+0]",https://www.104.com.tw/job/96s5l,"職務定位
-透過經營數據分析與重點專案追蹤，協助管理階層掌握通路營運現況、辨識異常，並推進重要工作落實。
-
-工作內容
-1.	整合通路業績、客群、活動量及服務品質等資料，維護管理指標定義與報表口徑。
-2.	建置及維護經營Dashboard與定期報告，分析績效差異、趨勢及異常，提出後續追蹤重點。
-3.	配合經營議題進行專題分析，協助評估制度、活動或改善措施的執行成效。
-4.	維護重點專案清單、里程碑與追...","技能: 業績與管理報表撰寫
-其他: •	具SQL、Power BI、Tableau或Python應用經驗。
-•	具金融業通路、業務企劃或管理報表建置經驗。
-•	曾擔任PMO或協助追蹤多項跨部門專案。
-•	具資料品質管理、指標定義或報表自動化經驗。"
-Business Analyst,美商達爾國際有限公司台灣分公司,新北市新店區,面議,104,20261016,76.0,"技能匹配(5): sql, forecasting, dashboard, data analytics, business analysis; 職稱完全匹配: business analyst; [技能33+職稱30+關鍵字13, 資歷+0]",https://www.104.com.tw/job/94glc,"The Business Analyst will support Sales Operations and business teams by analyzing data, improving processes, developing reporting solutions, and providing actionable insights to drive business perfor...","專長: Excel, MySQL"
-"Associate Manager, Business Analytics & Planning (Customer Experience)",Klook,"臺北市, 台灣",面議,LinkedIn,2026-09-29,73.8,"技能匹配(10): sql, bigquery, python, a/b testing, dashboard, tableau; 職稱部分匹配: business analyst; 資深職缺 +8; [技能40+職稱12+關鍵字13, 資歷+8]",https://tw.linkedin.com/jobs/view/associate-manager-business-analytics-planning-customer-experience-at-klook-4328536987,About The Role We are seeking a highly motivated and hands-on Associate Manager to join our CX Analytics team and act as a key analytical partner within our Customer Experience (CX) team. This role is...,
-[馬修嚴選] 全通路會員數據分析師,馬修嚴選_彩宸生活事業股份有限公司,台北市大安區,面議,104,20261015,67.7,"技能匹配(4): sql, a/b 測試, 自動化, 數據分析; 職稱完全匹配: 數據分析師; [技能27+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/94bjo,"1.  數據洞見挖掘與「行銷策略提案」
-
-・全面爬梳CDP的全通路行為數據，主動發掘消費者隱性需求、回購週期異常與高價值會員流失斷點。
-
-・依據數據觀察，主動向行銷與實體門市團隊提出精準活動建議（如：針對特定流失風險 VIP 群組，策劃跨通路自動化召回方案及自動化旅程設計）。
-
-・定期產出全通路 CRM 核心健康指標報告（新客留存、LTV 終身價值、回購週期、跨通路轉化率），將枯燥的數字轉化為「可...","專長: Excel, PowerPoint, Word, VBA, EDM
-技能: 資料庫程式設計, 統計軟體操作, 顧客關係管理, 數位媒體行銷, 廣告投放, 廣告效益評估
-其他: 【經歷背景】
-・具備 2 至 4 年品牌零售、連鎖餐飲或電商 In-house CRM 數據分析、增長行銷（Growth Marketing）或 MarTech 顧問公司實戰經驗。
-
-【專業能力與技術硬實力】
-・資料..."
-資深商業分析師（Business Analyst）,飛雁有限公司,台北市內湖區,面議,104,20261013,67.0,"技能匹配(3): sql, 商業分析, 跨部門溝通; 職稱完全匹配: business analyst; 資深職缺 +8; [技能20+職稱30+關鍵字9, 資歷+8]",https://www.104.com.tw/job/96ow0,"【資訊團隊介紹】
-資訊處負責支撐公司系統穩定運作與技術架構的持續優化。團隊下轄系統架構、系統開發、硬體維護及Infra等團隊緊密協作，全面支撐公司日常營運與跨國據點的系統需求。
-加入資訊處團隊，能透過跨國系統整合的實務歷練，累積更宏觀的技術視野，是IT人才發展職涯深度與廣度的理想舞台。
-
-我們正在尋找熱愛技術、勇於創新且需要舞台的你，和我們一起擁抱創新、推動數位轉型！
-在這裡，您主要負責釐清使用者...","專長: Git, Visual Studio, MS SQL
-技能: 系統架構規劃, 系統整合分析, 模組化系統設計, 系統導入
-其他: 【技能要求】
-．熟悉工廠端實際作業流程，曾參與製造業相關系統的需求分析、建置、導入或優化
-．能獨立進行需求訪談、流程分析及需求規格文件撰寫
-．了解生產計畫、產能管理、生產進度及工廠現場管理
-．具備基礎英文口說與文書溝通能力
-
-【職務條件】
-．具備 5 年以上 B..."
-派遣至LINE DL_Portal & Content_LINE OPENCHAT_Business Intelligence Analyst(1 year) [115-2284],萬寶華企業管理顧問股份有限公司,台北市內湖區,面議,104,20261013,64.8,"技能匹配(7): sql, python, dashboard, tableau, data analytics, business analysis; 職稱部分匹配: product intelligence; [技能40+職稱12+關鍵字12, 資歷+0]",https://www.104.com.tw/job/96o4f,"[Team/Position Description]
-This position is responsible for business performance and intelligence analysis for LINE OpenChat Taiwan, covering both service and monetization performance. The analyst wi...","專長: Python, Word, PowerPoint, Excel, Tableau
-其他: * 3+ years of experience in business intelligence or data analytics, with the ability to independently conduct analyses and provide actionable recommen..."
-Digital Product Analyst 數位產品分析,美商亞洲美樂家有限公司台灣分公司,台北市松山區,面議,104,20261014,63.3,"技能匹配(2): 跨部門溝通, stakeholder management; 職稱完全匹配: product analyst; [技能13+職稱30+關鍵字20, 資歷+0]",https://www.104.com.tw/job/94gyv,"數位產品分析 Digital Product Analyst
-
-將與資訊經理及總公司資訊產品管理團隊密切合作，協助推動數位產品開發、功能優化及日常營運維護，並將業務與使用者需求轉化為具體可執行的產品需求。此職位需與 UX/UI、業務、行銷、顧客服務、資訊分析師及技術開發團隊跨部門合作，持續提升美樂家網站與數位產品的效能及使用者體驗。
-
-主要職責
-•	與總公司資訊產品管理團隊合作，執行產品策略與全球...","專長: Word, Excel, PowerPoint, Visio
-其他: 1.具 3–7 年產品管理、數位產品或軟體開發相關經驗；具產品生命週期管理經驗者佳。
-2.具產品管理實務經驗；有 電商、網站或線上行銷 相關經驗者優先。
-3.具良好的需求分析與邏輯思考能力，能將利害關係人需求轉化為可執行的產品規劃。
-4.具良好的 英文聽說讀寫及溝通能力。
-5.能分析使用者／顧客需求及相關數據，並轉化為產..."
-大哥付你分期數據分析人員,台灣大哥大股份有限公司,台北市信義區,面議,104,20261013,62.8,"技能匹配(7): sql, python, tableau, machine learning, 機器學習, data pipeline; 職稱部分匹配: 資料科學家; [技能40+職稱12+關鍵字10, 資歷+0]",https://www.104.com.tw/job/8yx2c,"「大哥付你分期」為先買後付(BNPL)服務，致力於為數百萬用戶提供靈活、安全且創新的支付體驗。我們正尋找一位專業的數據分析人員，專注於信用風險模型的開發與維運，並透過數據驅動的洞察，協助提升授信效率與準確性。
-在本角色，您將與信用風險團隊、產品、行銷及跨部門夥伴緊密合作，提供高價值決策支持，推動「大哥付你分期」營運優化與市場擴張。
-
-開發與優化信用風險模型 
-• 負責「大哥付你分期」的額度模型維護...","其他: 1.兩年以上數據分析或模型開發相關經驗，具備扎實的數據分析基礎與實務操作能力。
-2.熟悉 Python、R 或其他數據分析工具，具備 SQL 查詢及數據處理能力。
-3.具備建模經驗，包括回歸分析、決策樹、隨機森林等機器學習技術應用。
-4.有良好的邏輯思維與問題解決能力，能將數據轉化為可行的業務建議。
-5.曾參與過金融、支付或電信相關行業的數據分析或風險模型開發項目尤佳。
-6.熟悉信用風險管..."
-【個人金融】數據分析師,玉山銀行_玉山商業銀行股份有限公司,新北市三重區,面議,104,20261014,62.3,"技能匹配(4): sql, python, 自動化, 數據分析; 職稱完全匹配: 數據分析師; [技能27+職稱30+關鍵字6, 資歷+0]",https://www.104.com.tw/job/8zk62,"1.資料清理、篩選比對、彙總分析營運作業數據
-2.設計與建置自動化報表及儀表板
-
-★本平台僅供職缺內容參考。若您對此職缺有興趣，請至本行「玉山金控菁英甄選網站」投遞正式履歷。【投遞連結：https://esnhr.pse.is/394b2n】
-★書審通過者，我們將主動與您聯繫，並邀請參與面談。玉山銀行期待您的加入！
-","專長: Python, Word, Excel
-其他: 1.大學(含)以上畢業，統計或資管相關科系尤佳
-2.熟悉Python基礎，並具備撰寫SQL語法的能力，能進行資料查詢與處理，支援分析與報表製作
-3.精通Word、Excel文書處理，能製作結構清晰、版面美觀的文件與報表，確保專業呈現
-"
-金融犯罪風險資料分析與AI運用顧問(經理~資深經理)-SRT-台北,DELOITTE CONSULTING BUSINESSES_勤業眾信管理顧問股份有限公司,台北市信義區,面議,104,20261014,61.0,"技能匹配(8): sql, python, tableau, machine learning, 機器學習, 自動化; 資深職缺 +8; [技能40+職稱0+關鍵字13, 資歷+8]",https://www.104.com.tw/job/8k4lg,"1. 協助金融業者利用新興科技偵測金融犯罪活動。
-2. 提供機器學習或人工智慧或生成式AI運用特定金融犯罪風險管理場景諮詢。
-3. 使用python撰寫自動化腳本、進行資料探勘和數據分析。
-4. 執行數位轉型規劃和資料科學教育訓練。
-5. 可持續累積之知識範圍將包含資料分析、金融犯罪風險管理、機器學習、顧問溝通技巧等。
-6. 接觸國內大型金融產業，快速掌握金融產業知識。
-7. 持續研究與運用新興技...","專長: Java, Python, VBA, Excel, PowerPoint, Word
-其他: 1. 大學以上商業管理、統計、資訊管理或工程相關科系所畢業。
-2. 熟悉大數據分析(python, Java, Pyspark 等統計語言等)、VBA或SQL軟體、數據圖像化分析工具(如POWER BI、TABLEAU)，具備統計分析能力尤佳。
-3. 至少5年以上金融科技、數據分析、機器學習和人工..."
-【南港知名美商電腦原廠-Procurement Operations Analyst 採購營運數據分析師】KA_816,藝珂人事顧問股份有限公司,台北市南港區,面議,104,20261013,60.7,"技能匹配(3): python, dashboard, 數據分析; 職稱完全匹配: 數據分析師; [技能20+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/8r02z,"⭐歡迎供應鏈經驗佳的採購營運分析師 UiPath & Power & Python⭐
-
+您將借鑒 AspenTech、Aveva、西門子、C3.ai 和 Palantir 等公司的工作經驗，領導...","專長: PyTorch, LLM, MLOPs
+技能: 生成式AI, 深度學習, 機器學習, 人工智慧
+其他: ● 資料科學經驗，並擁有交付實際機器學習/人工智慧解決方案的卓越績效。
+● 深入理解監督/非監督學習、時間序列分析和生成模型（例如 Transformer 模型、擴散模型）。
+● 擁有使用工業資料集和流程工業平台（例如 Aveva、AspenTech、Honeywell 或 Siemen..."
+Senior Business Analyst,酷澎股份有限公司,台北市信義區,面議,104,20261019,83.0,"技能匹配(5): sql, dashboard, tableau, data analytics, business analysis; 職稱完全匹配: business analyst; 資深職缺 +8; [技能33+職稱30+關鍵字12, 資歷+8]",https://www.104.com.tw/job/95dr7,"
 Job Description
+Team Overview
 
-We are seeking a Procurement Operations Analyst  with strong analytical thinking and automation development skills to support and enhance p...","專長: Excel, Python, Power BI
-技能: 供應商資料管理維護, 採購談判與議價技巧, 供應商尋找及評選執行, 年度採購計劃制定, 專案採購管理, 供應商評鑑與開發"
-Data Analyst,Hytech,台北,面議,LinkedIn,2026-10-16,58.0,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: senior data analyst; [技能13+職稱30+關鍵字15, 資歷+0]",https://tw.linkedin.com/jobs/view/data-analyst-at-hytech-4480380726,"About Hytech Hytech is a leading management consulting firm headquartered in Australia and Singapore, specialising in digital transformation for fintech and financial services organisations. We delive...",
-數據分析人員 (租車部),iRent_和雲行動服務股份有限公司,台北市中山區,面議,104,20261015,57.0,"技能匹配(5): sql, python, tableau, 數據分析, 統計分析; 職稱部分匹配: 數據科學家; [技能33+職稱17+關鍵字7, 資歷+0]",https://www.104.com.tw/job/8e3qh,"【工作內容】
-1.運用資料進行視覺化報表/儀表板設計、開發、維護。
-2.與需求單位(如：資訊/業務/行政…等)使用者進行訪談，協助釐清並理解需求，設計出合適的可視化解決方案。
-3.利用Power BI或其他視覺化工具製作分析報表，幫助進行業務決策。
-4.協助執行相關專案及主管交辦任務。
+Taiwan Finance team is a finance business partner for Coupang Taiwan’s business teams. We own financial results by working with stakeholders to define & track business ...",其他:  
+Sr Business Analyst ION APAC,Intuitive,台北,面議,LinkedIn,2026-10-22,82.7,"技能匹配(5): sql, dashboard, tableau, segmentation, customer segmentation; 職稱完全匹配: business analyst; 資深職缺 +8; [技能33+職稱30+關鍵字11, 資歷+8]",https://tw.linkedin.com/jobs/view/sr-business-analyst-ion-apac-at-intuitive-4482450072,"Company Description At Intuitive, we are united behind our mission: we believe that minimally invasive care is life-enhancing care. Through ingenuity and intelligent technology, we expand the potentia...",
+Data Analyst ,八達有限公司,台北市大安區,面議,104,20260915,82.3,"技能匹配(6): sql, dashboard, google sheets, 數據分析, 資料分析, stakeholder management; 職稱完全匹配: data analyst; [技能40+職稱30+關鍵字12, 資歷+0]",https://www.104.com.tw/job/95vlm,"成本數據分析 / Cost Data Analyst
 
-【其他條件】
-1.具備數據分析相關工作經驗；熟悉Excel繪圖工具與基本函式運用。
-2.熟悉SQL等數據庫操作...","專長: Excel, Outlook, PowerPoint, Word
-技能: 系統架構規劃, 資料庫系統管理維護
-其他: 根據個人資料保護法第8條之規定告知如下： 
-• (一)非公務機關名稱：和雲行動服務股份有限公司。 
-• (二)蒐集之目的：人事管理。 
-• (三)個人資料之類別：識別類、特徵類、社會情況、教育、技術或其他專業、受僱情形。
-• (四)個人資料利用之期間：自本人提供之日起至本人..."
-外商社群媒體網路服務公司｜Video Creative Data Analyst｜派遣職｜105IW,萬寶華企業管理顧問股份有限公司,台北市信義區,面議,104,20261019,54.7,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; [技能13+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/96nai,"Overview 
-We are looking for an experienced video practitioner to act as a senior labeller on AI-generated video content. You will watch generated videos and judge them against a structured quality fr...","其他: What Would Make You A Great Fit 
-● Experience: 3–7 years in video production, post-production, or visual effects, with substantial hands-on time on finished video deliverables. A degree or industr..."
-"Sr. Spclst, Business Insights & Analytics - TW/HK",MSD Taiwan,台北,面議,LinkedIn,2026-10-16,52.2,"技能匹配(3): forecasting, dashboard, segmentation; 職稱部分匹配: business analyst; 資深職缺 +8; [技能20+職稱12+關鍵字12, 資歷+8]",https://tw.linkedin.com/jobs/view/sr-spclst-business-insights-analytics-tw-hk-at-msd-taiwan-4480335848,"Job Description THE OPPORTUNITY The Senior Specialist, Business Insights & Analytics (BIA) is a strategic analytics partner supporting commercial, marketing, and omnichannel decision-making across pri...",
-商業分析師 Business Analyst｜金融保險流程／數位轉型專案_BN,瞬聯科技股份有限公司,台北市信義區,面議,104,20261019,51.0,"技能匹配(2): 商業分析, business analysis; 職稱完全匹配: business analyst; [技能13+職稱30+關鍵字8, 資歷+0]",https://www.104.com.tw/job/96uk9,"本職位隸屬於具國際視野與穩健制度的外商保險企業，主要參與金融保險領域的重要轉型專案，深入業務流程與系統需求分析，從 As-Is／To-Be 流程梳理、需求訪談，到 BRD／FRD 規格定義與 IT 落地，協助推動財務會計相關 initiative，並參與今年 MVP 版本的建置。
-
-如果你具備金融／保險產業經驗，並希望從既有業務流程進一步累積 Business Analysis、Business ...","技能: 商業智慧
-其他: 
-"
-【凱基人壽】數據暨AI解決方案分析師(JR106319),凱基人壽保險股份有限公司(總公司),台北市松山區,面議,104,20261015,49.5,"技能匹配(4): machine learning, 機器學習, data analytics, business analysis; 職稱部分匹配: 資料科學家; [技能27+職稱12+關鍵字10, 資歷+0]",https://www.104.com.tw/job/95s61,"1.與各業務單位進行需求訪談與流程盤點，理解 Business Problem、Pain Point 與實際使用情境。
-2.將 Business Problem 轉化為 Data / AI Use Case，協助定義Problem Statement、Scope、User Scenario 與 Success Metrics。
-3.與 Data Scientist、AI Engineer 合作進行...","其他: 1.2 年以上 Business Analysis、Data Analysis、Digital Project、Product、IT Solution 或相關工作經驗。
-2.具需求訪談、流程分析與問題拆解能力。
-3.能將模糊的 Business Requirement 轉化為結構化 Problem Statement 與 Use Case。
-4.對 Data Analytics、AI、Ge..."
-AI/BI 工程師,競泰股份有限公司,新北市中和區,面議,104,20261014,48.7,"技能匹配(6): sql, python, tableau, etl, 自動化, 數據分析; [技能40+職稱0+關鍵字9, 資歷+0]",https://www.104.com.tw/job/8xhfm,"【工作內容】 
-一、AI與自動化流程開發
-	1. 使用 n8n、Power Automate、EMILY等平台，規劃、建置及維護企業自動化流程。
-	2. 整合 AI Agent 與LLM，建立企業知識查詢、文件處理、客服、行政及營運流程自動化。
-	3. 串接 ERP、BPM、郵件系統及 KM，提升作業效率與流程一致性。
-
-二、BI與數據分析
-	1. 建立企業 BI 報表與管理儀表板，提供即時營運資...","其他: 【專業技能】
-        1. BI：熟悉 Power BI、Tableau 或其他企業級 BI 工具。　
-        2. AI 與自動化：熟悉 n8n、Power Automate、EMILY 等至少一種自動化平台。
-        3. 程式能力：熟悉 Python、JavaScript 或 TypeScript 任一程式語言／熟悉 Git、Docker 或容器化部署者佳。"
-電商直播｜企劃專員 維運專員 數據分析師,完美國際行銷股份有限公司,台北市松山區,面議,104,20260918,48.3,"技能匹配(2): google sheets, 數據分析; 職稱完全匹配: 數據分析師; [技能13+職稱30+關鍵字5, 資歷+0]",https://www.104.com.tw/job/933bg,"* 負責直播前的樣品準備、腳本與排程 
-* 協助主播規劃直播內容與活動
-* 分析直播數據並提出優化建議
-* 協助提升主播直播成效與收益
-* 維護主播關係與日常溝通
-* 傳達平台活動及相關資訊
-* 樣品管理及寄送","專長: Excel, PowerPoint
-其他: ＊我們希望你具備
-✔ 良好的溝通協調能力
-✔ 對直播產業有興趣
-✔ 細心負責，具執行力
-✔ 願意學習直播運營相關知識
-✔ 熟悉 Excel 或 Google Sheets 基本操作
-✔ 危機應變與問題解決能力，擁有高度情緒韌性
-✔ 清晰的溝通與理解，確保與團隊及主管的目標一致
-
-《熟悉蝦皮平台操作佳》
-
-＊適合這樣的你
-
-不需要有直播產業經驗，但..."
-【法人金融】海外系統商業分析師Business Analyst_會計,玉山銀行_玉山商業銀行股份有限公司,台北市松山區,面議,104,20261019,48.0,"技能匹配(2): 自動化, 商業分析; 職稱完全匹配: business analyst; [技能13+職稱30+關鍵字5, 資歷+0]",https://www.104.com.tw/job/8ril9,"1.負責銀行外匯系統功能建置與流程精進，提升交易自動化與數位化。
-2.擔任海外分行與資訊處間溝通橋樑。進行系統需求訪談、分析、規格撰寫、測試驗證。
-3.參與海外資訊專案，配合銀行布局策略，建立跨國共用且因地制宜系統平台。
-
-104僅供職缺參考，若您對此職缺有興趣，請至本行「玉山菁英甄選網站」投遞履歷，如書審通過，後續將邀請您參加面談。謝謝！
-【網址：https://recruit.esunbank...","其他: 1.主動積極、具強烈企圖心，個性獨立、適應力強，溝通能力佳，願意接受挑戰者。
-"
-資訊_商業分析師(測試BA),中信金控_台灣人壽保險股份有限公司,台北市內湖區,面議,104,20261002,48.0,"技能匹配(2): 自動化, 商業分析; 職稱完全匹配: 商業分析師; [技能13+職稱30+關鍵字5, 資歷+0]",https://www.104.com.tw/job/93zps,"1.依據系統重要功能流程與系統錯誤熱區，與IT進行自動化測試需求訪談(含測試管理)，確立測試目標與測試範圍。
-2.依據需求訪談結果，產出自動化測試需求規格書以及自動化測試腳本文件。
-3.依內部資源規劃自動化測試開發時程，並監控開發進度/測試執行進度。","其他: 1.曾有新契約/保全/理賠/業務銷售等人壽保險系統開發需求訪談/規劃經驗（IT或BU單位的BA經驗皆可）。
-2.曾有新契約/保全/理賠/業務銷售等人壽保險系統測試規劃經驗，曾經有自動化測試或機器人(RPA)經驗者尤佳。
-3.具ISTQB軟體測試工程師(基礎)證照者尤佳"
-商業分析師 BA (國際金融處)_I00026931,國泰綜合證券股份有限公司,台北市大安區,面議,104,20261015,47.7,"技能匹配(2): sql, 商業分析; 職稱完全匹配: 商業分析師; [技能13+職稱30+關鍵字4, 資歷+0]",https://www.104.com.tw/job/96s5g,"職務定位
-承接通路業務及流程改善需求，將使用者需求轉化為清楚的作業流程與系統需求，從需求釐清、測試到上線持續參與，協助提升業務效率與使用體驗。
+工作地點： 台北市
+工作性質： 全職
+職務方向： 數據分析 / 成本管理 / 營運分析 / 系統資料管理
 
 工作內容
-1.	蒐集及釐清通路使用者需求，整理作業問題、使用情境與預期改善目標。
-2.	梳理業務流程及操作步驟，撰寫需求文件、流程圖、業務規則與驗收條件。
-3.	與資訊、營運及相關單位確認需求細節，追蹤待確認事項、需求異動及處理進度。
-4.	設計及執行U...","其他: •	具證券、財富管理或分公司作業經驗。
-•	曾參與需求訪談、UAT或系統上線。
-•	熟悉流程圖、原型工具、SQL或API基本概念。
-•	具操作文件、教育訓練教材或測試案例撰寫經驗。"
-原料數據分析師,華新麗華股份有限公司,台北市信義區,面議,104,20261017,47.3,"技能匹配(2): python, 數據分析; 職稱完全匹配: 數據分析師; [技能13+職稱30+關鍵字4, 資歷+0]",https://www.104.com.tw/job/96tt0,"1.冶金原料相關資料計量分析:	撰寫Python程式對於冶金原料相關資料進行系統性計量分析
-2.煉鋼BOM表原料相關參數正確性管理:透過管理機制保持煉鋼BOM表原料相關參數的正確性
-3.煉鋼BOM表原料相關參數調整平台:透過BI建立平台呈現計量分析結果作為煉鋼BOM表原料相關參數的調整依據",其他:  
-Data Scientist | 資料科學家,聯齊科技股份有限公司,台北市南港區,面議,104,20261014,44.7,"技能匹配(1): 預測模型; 職稱完全匹配: data scientist; [技能7+職稱30+關鍵字8, 資歷+0]",https://www.104.com.tw/job/8wrvg,"【關於 NextDrive 資料團隊】
 
-NextDrive 資料團隊專注於資料洞察與應用，更懂得挖掘客戶核心需求，為客戶發揮每一度電的最大價值。
+我們正在招募一位細心、具數據敏感度的 Technology Analyst－成本數據分析，主要負責成本資料管理、報表分析、數據維護及跨部門協作。
 
+此職位將協助維護成本相關 Dashboard 與內部系統資料，進行不同版本的...",
+【全球智慧製造】資料科學工程師 Data Scientist,GARMIN_台灣國際航電股份有限公司,新北市新店區,面議,104,20261026,81.3,"技能匹配(6): sql, python, machine learning, 機器學習, 自動化, 數據分析; 職稱完全匹配: data scientist; [技能40+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/70tf5,"【全球智慧製造】
+你知道Garmin的智慧工廠嗎? 你知道火星上出現過Garmin的產品嗎? 你知道飛行員總是配戴Garmin的手錶上天空嗎?
 
-【工作內容】
-- 提升太陽能發電預測模型能力與完整的驗證、監控與迭代機制。
-- 分析用電、發電、儲能等資料，以協助能源管理解決方案導入效益試算、洞察潛在機會，以及 BD 技術支援。
-- 協助建立提高內部工作效率的資料服務或工具。
+全球智慧製造服務計畫(GSMS)透過AI、機構、電控、資料科學、IoT、大數據等技術，將智慧製造系統，即時控制與調整全球生產系統，且在地化支援亞洲、美洲、歐洲多個國家
 
-【條件要求】
--...",
-Business Analyst (Insurance Sector),印孚瑟斯,台北,面議,LinkedIn,2026-10-13,44.7,"技能匹配(1): business analysis; 職稱完全匹配: business analyst; [技能7+職稱30+關鍵字8, 資歷+0]",https://tw.linkedin.com/jobs/view/business-analyst-insurance-sector-at-infosys-4476417393,About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56+ countries to navigate their digital transformation. With over four decades of expe...,
-【高額輪班津貼】風控數據分析專員 (CFD / Crypto),智鈦星平台服務有限公司,台北市信義區,面議,104,20261016,44.5,"技能匹配(4): sql, python, 自動化, 數據分析; 職稱部分匹配: 資料科學家; [技能27+職稱12+關鍵字5, 資歷+0]",https://www.104.com.tw/job/6wyuy,"【工作內容】
-
-1. 即時監控市場動態與用戶交易行為，辨識異常風險並制定相應處置策略。
-2. 建立、維護與優化風控報表，將複雜數據轉化為可行性決策建議。
-3. 參與產品風控參數的試算、調整與回測，並持續優化流程與機制。
-4. 與團隊協作，共同推進風控模型及自動化監控系統的開發與完善。
-5. 支援日常營運相關風控作業，確保整體交易安全與穩定。
-6. 審核分析異常交易行為。
-
-★高額輪班津貼：午班、大...","其他: 1. 必須具備海外交易 CFD、Forex、Crypto或其他金融市場相關經驗。
-2. 熟悉衍生品的運作機制及交易概念。
-3. 精通 Excel（含樞紐分析、VLOOKUP 及常用風控公式運算），能快速處理日常報表。
-4. 具備極佳的心理素質，能在市場大震盪、警報連響的緊急狀況下，保持冷靜並迅速做出判斷。
-5. 接受排班輪班機制
-
-
-
-【加分條件】
-1. 熟悉 MT4/MT5 Manage..."
-(Human Resources) HR Infra & Analytics Specialist,宏達電 HTC Corporation_宏達國際電子股份有限公司,新北市新店區,面議,104,20261015,43.5,"技能匹配(3): dashboard, data analytics, business analytics; 職稱部分匹配: analytics engineer; [技能20+職稱12+關鍵字11, 資歷+0]",https://www.104.com.tw/job/95l7i,"Job Summary
-This role focuses on the daily operation and quality maintenance of HR data, systems, and core processes, ensuring that HR data, systems, and workflows support HR services in a stable and ...","其他: What We Are Looking For
-Required Qualifications
-• 1–3 years of experience in HR, HRIS, data analytics, Business Analytics, Information Systems, or a related field.
-• Practical experience with HR d..."
-BA / RD Business Process（研發流程與商業分析師）_數位設計中心(台北),台達電子工業股份有限公司 _DELTA ELECTRONICS INC.,台北市內湖區,面議,104,20261016,43.3,"技能匹配(1): 商業分析; 職稱完全匹配: 商業分析師; [技能7+職稱30+關鍵字7, 資歷+0]",https://www.104.com.tw/job/94i6f,"【職務說明】
-配合集團智慧製造策略，建構數位設計平台與跨領域（EE/ME/Layout/Q/Simulation）規範，將工程知識結構化為「電腦可讀數據」。目標以數位程序取代 80% 成熟設計流程，實現閉環智慧研發。
-
-【職務亮點】
-1. 3-5+ 年系統分析與流程設計 / 熟研發痛點轉譯
-2. 具備 0→1 數位化創新流程驗證（PoC） 與 SRS 規格撰寫能力
-3. 橫跨 EE/ME/Layo...","其他: 【所需技能】
-1. 製造業 RD Domain Know-how：精通/熟悉 EE, ME, Layout, Q, Simulation 等實務，能與 RD 無縫對齊痛點。
-2. 需求工程與流程分析：3-5 年以上 SA/BA 經驗，精通 AS-IS/TO-BE 分析與 Visio/Draw.io/EA 等建模工具。
-3. 數位化效益評估：具備將研發邏輯轉化為數位程序的能力，平衡技術可行性..."
-D429 產業研究分析師/數據分析師,台灣大哥大股份有限公司,台北市信義區,面議,104,20261013,43.3,"技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; [技能7+職稱30+關鍵字7, 資歷+0]",https://www.104.com.tw/job/8xx70,"1.根據內外部業務需求，提供數據分析與洞察
-2.以商業應用角度解讀分析結果，並提供對應策略建議
-3.熟悉內部數據平台，對內及對外進行使用推廣
-4.跨部門、跨集團，及外部數據合作洽談
-5.執行主管交辦事項與專案
-
-【薪資待遇】月薪依能力與經歷核敘；若績效達平均水準者，年薪約77~95萬，績效優者年薪將更高。","其他: 1.具4年以上數據分析相關工作經驗
-2.具有 intellectual curiosity、獨立思考能力，不墨守成規
-3.具良好整合、邏輯分析、簡報能力
-4.具良好商業敏銳度
-5.細心、有耐心，具良好溝通能力
-6.TOEIC 700分以上"
-運動科學數據分析師,全越運動事業股份有限公司,新北市三峽區,面議,104,20261013,43.0,"技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; [技能7+職稱30+關鍵字6, 資歷+0]",https://www.104.com.tw/job/95u2p,"1.運動科技設備操作與現場數據採集：
-(1)負責運科檢測設備之架設、校正、操作與日常維護（如：鷹眼系統/光學追蹤、TrackMan、Rapsodo、力板、高速攝影等）。
-(2)執行球隊訓練、賽事或場館客戶之專項運動數據量測，確保採集流程精準與數據品質穩定。
-
-2.數據分析、模型建立與報告產出：
-(1)進行運動生物力學、投打機制及專項運動表現數據之清洗、統計與深度分析。
-(2)產出可視化分析報表（如...","其他: 1.跨領域溝通與轉譯能力： 能將複雜的生物力學數據與科學指標，「轉譯」為教練、選手與管理層能輕易理解的白話分析與訓練建議。
-2.現場協調與專案執行力： 能配合球隊或訓練場館的訓練日程，具備良好的時間管理、突發狀況應變與團隊協作精神。
-3.持續學習與技術熱忱： 對國內外最新運動科學趨勢、科技設備與前沿研究保持高度敏銳度。
-
-【加分條件】
-1.具備運動數據分析相關發表、研究論文或大型運動科技競..."
-【台北】外商壽險Business Analysts,宏益科技服務股份有限公司,台北市信義區,面議,104,20261019,42.3,"技能匹配(1): business analysis; 職稱完全匹配: business analyst; [技能7+職稱30+關鍵字6, 資歷+0]",https://www.104.com.tw/job/96up5,"1. 大學(含)以上畢業，資管相關科系尤佳
-2. 具金融保險產業相關工作經驗。 
-3. 熟悉財務會計相關業務流程尤佳。 
-4. 具業務分析（Business Analysis）、業務架構（Business Architecture）或流程設計經驗。 
-5. 能獨立執行需求訪談、流程分析及規格文件撰寫。 
-6. 具良好的邏輯分析、問題解決及溝通協調能力。 
-7. 具備跨部門合作經驗，能與業務單位及資...","專長: Excel, PowerPoint, Word, Visio, Project
-技能: 系統整合分析, 文書處理╱排版能力, 報表彙整與管理, 行政事務處理
-其他: 1. 大學(含)以上畢業，資管相關科系尤佳。
-2. 熟悉財務會計相關業務流程尤佳。
-3.  具金融保險核心系統導入專案或大型轉型專案經驗尤佳。
+如果你想體驗不同的文化，綻放自己的光芒！
+現在就投遞履歷，讓我們見識你的獨特潛力！
+...","專長: Git, Python, MS SQL, PL/SQL
+技能: Machine Learning
+其他: 1. 產業經驗： 具備實際製造業專案經驗
+2. 技術棧擴充：
+熟練使用 Docker 與 Kubernetes (K8s) 進行容器化部署
+熟悉 MQTT 通訊協定
+具備 Redis 快取與資料處理經驗
+具備 Dremio 資料獲取與應用經驗
 "
-商業分析專業人員_I00026654,國泰金控_國泰金融控股股份有限公司,台北市信義區,面議,104,20261012,42.3,"技能匹配(5): sql, python, tableau, 數據分析, 商業分析; [技能33+職稱0+關鍵字9, 資歷+0]",https://www.104.com.tw/job/94nbs,"1. 執行集團會員平台日常運營所需之數據分析，包含行銷客群辨識、經營指標定義／追蹤、定期報表／中繼表／儀表板建置與維護等
-2. 以集團會員經營視角，提供集團會員平台及集團點數發展規劃與行銷策略之數據分析觀點（提出洞察、建議改善與發展方向），並與相關團隊共同制定個別業務發展戰略目標
-3. 與跨子公司或跨單位數據分析師、資料工程師、業務單位等協作，探索並規劃集團會員數據應用價值，提升會員經營綜效
-","專長: Google Analytics, PostgreSQL, R, Python, Power BI, Tableau
-技能: 專案規劃執行╱範圍管理, 專案時間╱進度控管
-其他: 1. 大學、研究所商學管理或資訊/統計/社會及行為科學相關系所畢
-2. 三年以上會員經營或電商平台相關商業分析經驗，與點數生態圈相關尤佳
-3. 具系統性思考、策略規劃之能力，能有效拆解模糊議題並提出具體解決方案框..."
-商業分析師,關網資訊股份有限公司,台北市松山區,面議,104,20261017,41.7,"技能匹配(1): 商業分析; 職稱完全匹配: 商業分析師; [技能7+職稱30+關鍵字5, 資歷+0]",https://www.104.com.tw/job/93kz9,"我們正在招募「商業分析師」，您將與我們的技術團隊共同合作。此職位聚焦於精準進行需求訪談、釐清核心業務流程，並將其轉化為清晰的系統需求文件與流程圖。您將作為業務端與工程師的關鍵橋梁，協助需求澄清與變更管理，確保系統開發符合商業目標與專案時程。
+商業數據分析師(大數據發展處),全球人壽保險股份有限公司_總公司,台北市信義區,面議,104,20261022,80.7,"技能匹配(7): sql, python, tableau, machine learning, 機器學習, 數據分析; 職稱完全匹配: 數據分析師; [技能40+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/8j8pd,"【商業數據分析】
+1.	建置/維運數據可視化儀表板，強化業務、管理者即時洞察，提供決策擬定，提升營運績效與營運略。
 
-【職務內容】
-1.  進行需求訪談，釐清業務流程與系統需求，並轉化為需求說明文件、繪製系統流程圖。
-2.  與工程師密切合作，協助需求澄清、規格確認。
-3....","其他: 1.  具備商業分析、系統分析或技術產品經理經驗。
-2.  具備已上線系統的維運、重構或需求變更管理經驗。
-3.  具備抽象思維轉化能力，能理性引導業務端收斂發散的想法。"
-【數據業務專員】想在舒適的辦公環境中工作嗎?我們提供多元化的工作內容和成長機會！開發潛在客戶、拓展市場#通路開發人員#數據分析師 #數據業務 #績效獎金 #專案獎金 #福利佳,遠景股份有限公司,台北市南港區,面議,104,20261013,41.0,"技能匹配(1): 數據分析; 職稱完全匹配: 數據分析師; [技能7+職稱30+關鍵字4, 資歷+0]",https://www.104.com.tw/job/8b54z,"1. 開發潛在客戶，拓展市場，以達成業績目標。
-2. 定期拜訪經銷客戶，維繫穩定客戶關係。
-3. 負責國內業務接洽及訂單處理。
-4. 負責產品報價及產品展示，並處理帳款回收相關事宜。
-5. 負責業務推展，傳達及說明公司各項業務重大訊息、活動及產品。
-6. 進行商品行銷，產品特色分析介紹，並提供產品購買的建議。
-7. 提供售後服務，處理客戶端之問題，給予完善的處理。
-8. 察覺客戶交易之異常狀況，並...","專長: Excel, Outlook, PowerPoint, Word
-技能: 工作任務╱業績項目分配, 業績目標達成, 客戶資料更新維護, 業務或通路開發, 業績目標分配與績效達成, 業績與管理報表撰寫, 客戶情報蒐集, 客訴案件處理, 產品介紹及解說銷售"
-(HQ) Business Analyst – Forwarding Operations,鴻霖航空貨運代理股份有限公司,台北市內湖區,面議,104,20261003,41.0,"職稱完全匹配: business analyst; [技能0+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/91khm,"This position, based at the Global Headquarters, is responsible for designing, optimizing, and implementing the company's system-based operational processes. The role ensures that all processes are st...","專長: PowerPoint, Word, Excel
-其他: Education/Technical Skills 
-－Bachelor's degree or above (all majors are welcome).
-－CargoWise One
-－Microsoft Office (PowerPoint, Excel, Word, Outlook)
-－Flowchart tools
-－..."
-數據分析／數據視覺化專員,世銳顧問有限公司,台北市中山區,面議,104,20260914,40.7,"技能匹配(2): 數據分析, 統計分析; 職稱部分匹配: 數據科學家; [技能13+職稱17+關鍵字11, 資歷+0]",https://www.104.com.tw/job/883jj,"公司簡介
-世銳顧問有限公司是一家為生物技術、新藥研發和醫療機構等客戶服務的策略和管理顧問公司。我們專注於為客戶最重要且具挑戰性的問題提供高附加價值。世銳致力於成為醫療策略和管理顧問的引領者，為創新產品取得卓越成功。我們透過吸引和培養優秀的高潛力團隊成員，為我們的醫療客戶帶來非凡的成果。
+【通路經營分析與跨單位溝通協作】
+1.	跨單位合作，協助找出業務痛點，藉由統計分析或機器學習等方法解決通路問題，並善用AI創新應用，協助公司人力組織/業務推展、找出潛在增員/銷售商機。
+2.	協助客群行銷與保戶行為分析，持續優化分析方法及工具
 
-在世銳，我們的團隊成員熱衷於幫助客戶應對最迫切的問題和挑戰。我們利用團隊和人脈資源的靈活性和專業知識，結合策略...","專長: Excel, PowerPoint, Word"
-★薪50-60K【幸福指標企業 | 品牌電商行銷】跨通路平台營運/數據分析/CRM_AMR_223,藝珂人事顧問股份有限公司,新北市新莊區,面議,104,20261019,39.5,"技能匹配(3): 自動化, 數據分析, 跨部門溝通; 職稱部分匹配: 資料科學家; [技能20+職稱12+關鍵字7, 資歷+0]",https://www.104.com.tw/job/94d62,"【你可能是我們想找的人才】
-✔ 具備 2 年以上電子商務經營、品牌行銷或通路活動企劃實務經驗
-✔ 掌握電商通路生態運作邏輯，具備解讀顧客消費數據之敏銳度
-✔ 具備專案排程控管與跨單位對接能力，能有效整合資源達成業績指標
-✔ 熟悉生鮮食品、快消商品或團購銷售模式，工作具備自主當責特質
+【報表與系統管理】
+1.	跨部門一次...","專長: Python, PL/SQL, Excel, Outlook, PowerPoint, SAS
+技能: 商業智慧
+其他: 【必要條件】
+1.	熟捻Tableau或Power BI報表開發工具。
+2.	熟悉數理分析統計、具機器學習、模型開發經驗者。
+3.	對數據與AI應用相關技術具高度興趣、研究或參與經驗。
+4.	具SAS程式技能者尤佳。"
+Business Intelligence Analyst,Gogoro,Taipei–Keelung Metropolitan area,面議,LinkedIn,2026-09-30,76.0,"技能匹配(9): sql, bigquery, python, dashboard, tableau, looker studio; 職稱部分匹配: business analyst; [技能40+職稱25+關鍵字11, 資歷+0]",https://tw.linkedin.com/jobs/view/business-intelligence-analyst-at-gogoro-4473733498,Position Impact We are seeking a Business Intelligence Analyst to act as a strategic partner within our agile data team in the EV and Energy Network sector. Your mission is to drive business decisions...,
+【凱基銀行/金融科技處.數據應用分析部.數據二科】商業分析師,凱基銀行 KGI Bank,Taipei–Keelung Metropolitan area,面議,LinkedIn,2026-09-15,71.7,"技能匹配(5): sql, python, tableau, 數據分析, 商業分析; 職稱完全匹配: 商業分析師; [技能33+職稱30+關鍵字8, 資歷+0]",https://tw.linkedin.com/jobs/view/%E3%80%90%E5%87%B1%E5%9F%BA%E9%8A%80%E8%A1%8C-%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E8%99%95-%E6%95%B8%E6%93%9A%E6%87%89%E7%94%A8%E5%88%86%E6%9E%90%E9%83%A8-%E6%95%B8%E6%93%9A%E4%BA%8C%E7%A7%91%E3%80%91%E5%95%86%E6%A5%AD%E5%88%86%E6%9E%90%E5%B8%AB-at-%E5%87%B1%E5%9F%BA%E9%8A%80%E8%A1%8C-kgi-bank-4467422949,Join us to build a leading financial company in Asia! Job Family 客戶體驗/Customer Experience、 數位創新/Digital and Innovation Job Description 參與數據分析專案、金融產品ad-hoc分析、數位足跡資料分析與應用等 精準行銷，依業務需求建置統計模型或運用客戶360度行為標籤，...,
+[凱基金控] 數據分析師,凱基金控 KGI Financial,台北,面議,LinkedIn,2026-10-12,71.0,"技能匹配(4): sql, python, a/b 測試, 數據分析; 職稱完全匹配: 數據分析師; [技能27+職稱30+關鍵字14, 資歷+0]",https://tw.linkedin.com/jobs/view/%E5%87%B1%E5%9F%BA%E9%87%91%E6%8E%A7-%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90%E5%B8%AB-at-%E5%87%B1%E5%9F%BA%E9%87%91%E6%8E%A7-kgi-financial-4469844091,Join us to build a leading financial company in Asia! Job Family 數據整合/Data & Analytics (Job Family) Job Description 本職位存在的目的 (Purpose of the role) 透過整合集團及子公司資料資源，運用數據分析、客戶洞察及模型建置，支援業務策略與經營決策制定；同時與跨功能團...,
+Data Analyst 數據分析師,丹麥商科拉蔚有限公司,台北市大安區,面議,104,20261022,68.3,"技能匹配(4): python, data pipeline, 數據分析, 資料分析; 職稱完全匹配: data analyst; [技能27+職稱30+關鍵字12, 資歷+0]",https://www.104.com.tw/job/8xdvr,"About us
+Claviate is a Danish software company that monitors the installations of wind turbines worldwide using cameras and artificial intelligence. We handle all aspects of the task from designing an...",專長: Python
+"[Coupang] Senior, Business Analysis (Logistics LOC)",Coupang,台北,面議,LinkedIn,2026-10-22,67.5,"技能匹配(5): sql, dashboard, google sheets, business analysis, stakeholder management; 職稱部分匹配: business analyst; 資深職缺 +8; [技能33+職稱12+關鍵字14, 資歷+8]",https://tw.linkedin.com/jobs/view/coupang-senior-business-analysis-logistics-loc-at-coupang-4481303794,*Resume needs to be submitted by english Company Introduction Coupang is reimagining the shopping experience with the goal of wowing each customer from the instant they open the Coupang app to the mom...,
+【凱基證券/電子商務事業部】客群數據分析師,凱基證券 KGI SECURITIES,"臺北市, 台灣",面議,LinkedIn,2026-09-18,66.0,"技能匹配(4): sql, python, 自動化, 數據分析; 職稱完全匹配: 數據分析師; [技能27+職稱30+關鍵字9, 資歷+0]",https://tw.linkedin.com/jobs/view/%E3%80%90%E5%87%B1%E5%9F%BA%E8%AD%89%E5%88%B8-%E9%9B%BB%E5%AD%90%E5%95%86%E5%8B%99%E4%BA%8B%E6%A5%AD%E9%83%A8%E3%80%91%E5%AE%A2%E7%BE%A4%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90%E5%B8%AB-at-%E5%87%B1%E5%9F%BA%E8%AD%89%E5%88%B8-kgi-securities-4467835687,Join us to build a leading financial company in Asia! Job Family 共用系統/Enterprise Services Job Description 績效報表開發與自動化串接，並予以視覺化呈現 結合社群資料與客戶行為，建立客戶樣貌分析、分群貼標及行為模型。 資料庫客戶精準行銷名單模型開發設計，與行銷活動成效追蹤 參與跨部門專案，運用內外...,
+Portfolio Analytics Lead,Genentech,台北,面議,LinkedIn,2026-10-15,65.5,"技能匹配(5): forecasting, machine learning, 機器學習, predictive modeling, data analytics; 職稱部分匹配: analytics engineer; 資深職缺 +8; [技能33+職稱12+關鍵字12, 資歷+8]",https://tw.linkedin.com/jobs/view/portfolio-analytics-lead-at-genentech-4416095291,The Position APO Individual Contributor ROLE: Portfolio Analytics Lead LEVEL: SE7 Description The Individual Contributor in Product Development Global Clinical Operations (PDG) Analytics & Portfolio O...,
+Business Analyst,Clear Edge International Search & Selection Ltd,台北,面議,LinkedIn,2026-10-21,62.3,"技能匹配(3): sql, dashboard, tableau; 職稱完全匹配: business analyst; [技能20+職稱30+關鍵字12, 資歷+0]",https://tw.linkedin.com/jobs/view/business-analyst-at-clear-edge-international-search-selection-ltd-4480785694,"Senior Business Intelligence Analyst - B2B iGaming Location: Taipei, Taiwan A leading, global, B2B iGaming business is looking to appoint a Senior Business Intelligence Analyst to turn complex data in...",
+【資深商業分析師】優渥薪資面議｜依經驗與專業能力核薪(Till 2027/12/31),優捷勝股份有限公司,台北市信義區,面議,104,20261019,59.3,"技能匹配(2): 商業分析, business analysis; 職稱完全匹配: 商業分析師; 資深職缺 +8; [技能13+職稱30+關鍵字8, 資歷+8]",https://www.104.com.tw/job/96v8p,"工作內容
+1. 協助業務單位進行相關需求訪談與分析，梳理現行（As-Is）及目標（To-Be）作業流程。
+2. 蒐集、分析及定義業務需求，並轉換為可執行之系統規格與解決方案。
+3. 參與保險業數位轉型、流程改善及系統導入專案。
+4. 擔任業務單位與資訊技術團隊間之溝通橋樑，確保需求理解一致並順利落地執行。
+5. 規劃業務架構（Business Architecture）及優化營運流程，提升作業效率...","其他: 經驗要求
+1. 大學(含)以上畢業，資管相關科系尤佳
+2. 具金融保險產業相關工作經驗。
+3. 熟悉財務會計相關業務流程尤佳。
+4. 具業務分析（Business Analysis）、業務架構（Business Architecture）或流程設計經驗。
+5. 能獨立執行需求訪談、流程分析及規格文件撰寫。
+6. 具良好的邏輯分析、問題解決及溝通協調能力。
+7. 具備跨部門合作經驗，能與業務..."
+【洗錢防制】商業分析師Business Analyst(經驗行員),玉山銀行_玉山商業銀行股份有限公司,台北市松山區,面議,104,20261021,58.0,"技能匹配(3): 數據分析, 商業分析, 跨部門溝通; 職稱完全匹配: business analyst; [技能20+職稱30+關鍵字8, 資歷+0]",https://www.104.com.tw/job/8xmnw,"1. 洗錢防制相關系統建置、功能導入及專案規劃執行，確保如期如質上線。
+2. 進行跨部門溝通協調、業務需求訪談與梳理流程，分析需求合理性，洞察潛在優化機會。
+3. 撰寫系統需求規格文件，將需求轉化為清晰且具體可行的系統解決方案，整合與優化AML控管流程。
+4. 與 IT 單位研議技術可行性，協助開發人員精確執行功能規劃、介面與流程設計。
+5. 訂定測試計劃及撰寫測試案例，執行系統測試與功能驗收，編...","其他: 1. 具備銀行資訊系統或軟體業之SA、BA、PM經驗3年以上。
+2. 善於溝通，熟習各項需求探詢技巧，例如需求訪談、觀察、問卷、文件分析等各種方式。
+3. 具備洗錢防制系統的知識或實務經驗者優先考慮。
+4. 具金融業(個金、法金)經驗者佳。
+5. 具備PMP證照或熟悉敏捷方法(Scrum) 者佳。
+6. TOEIC藍色證書或同等英語能力以上。
+7. 熟稔Office文書軟體(Word、Ex..."
+數據分析師/初階數據分析師,大研生醫國際股份有限公司,台北市大安區,面議,104,20261022,57.7,"技能匹配(11): sql, bigquery, python, pandas, tableau, google sheets; 職稱完全匹配: 數據分析師; 初階/新鮮人職缺 -25; [技能40+職稱30+關鍵字13, 資歷-25]",https://www.104.com.tw/job/96zwh,"我們正在尋找一位對資料充滿好奇、做事細心且喜歡追查問題的夥伴，協助維護銷售與行銷資料流程，讓團隊能使用可靠的數據做決策。
 
-【公司介紹】
-台灣指標農創企業，專注優質乳品開發。
-深耕市場建立口碑，品牌形象鮮明專業。
-內部倡導友善共融，團隊氣...",
-SR. Field Operations Analyst,美光科技,"臺北市, 台灣",面議,LinkedIn,2026-10-09,39.2,"技能匹配(1): forecasting; 職稱部分匹配: business analyst; 資深職缺 +8; [技能7+職稱12+關鍵字12, 資歷+8]",https://tw.linkedin.com/jobs/view/sr-field-operations-analyst-at-micron-technology-4458605948,Our vision is to transform how the world uses information to enrich life for all . Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of ...,
-兼職講師(英檢、AI人工智慧、iPAS 證照、數位行銷、華語文、大數據分析、ESG、TOEIC、Canva、社群行銷、專案管理、人力資源、程式語言、Office),晴仁數位文化有限公司,台北市大安區,面議,104,20261015,38.2,"技能匹配(3): sql, python, 數據分析; 職稱部分匹配: 資料科學家; [技能20+職稱12+關鍵字6, 資歷+0]",https://www.104.com.tw/job/7c7z6,"長期徵求各類有經驗講師，需求如下
-【AI人工智慧／生成式AI】
-歡迎具AI應用經驗、熟悉ChatGPT、Midjourney、Gemini、Copilot、Grok、Notebook LM、Nano Banana、Gamma、Perplexity、Canva...等工具之專業人士，能以案例導向協助學員掌握工具與實戰應用，具iPAS AI應用規劃師證照佳。
+此職位將由資深數據分析師帶領，適合具備 SQL、Python 基礎，希望進一步累積數據分析、BI 與資料流程實務經驗的人才。
 
-【大數據分析】
-熟悉Python、Pow...","專長: ChatGPT, Google Analytics
-技能: 規劃與執行教學活動, 設計規劃教材及教具, 擬訂教學計畫, 人工智慧, AI, 生成式AI, 數據分析, 社群媒體經營管理, 廣告企劃案╱文案撰寫, 網路活動規劃與執行"
-【研發替代役】工研院綠能所_淨零數據分析研究員(N200),工研院 _財團法人工業技術研究院,台北市中正區,面議,104,20261013,37.2,"技能匹配(3): python, 自動化, 數據分析; 職稱部分匹配: 資料科學家; [技能20+職稱12+關鍵字5, 資歷+0]",https://www.104.com.tw/job/94zsn,國家溫室氣體清冊及碳匯調查數位化管理機制之需求分析、資料架構與介接規劃，協助建立跨部會統計作業及資料共享平台,"專長: Python, R, Excel, GIS
-技能: 溫室氣體盤查
-其他: 1.碩士，環境工程、統計與統計、資訊工程、資訊工程、地理資訊與遙測等相關系所
-2.具溫室氣體排放量及環境統計能力、熟悉進階Excel操作，具Python或R等資料處理與自動化能力，並具GIS基礎尤佳。
-3.請檢附相當於TOEIC 650分之英語測驗成績證明，如無法提供，將安排參加本院英文檢測"
-EDI Business Analyst,亞德諾半導體,台北,面議,LinkedIn,2026-10-13,36.0,"職稱完全匹配: business analyst; [技能0+職稱30+關鍵字6, 資歷+0]",https://tw.linkedin.com/jobs/view/edi-business-analyst-at-analog-devices-4476412820,"About Analog Devices Analog Devices, Inc. (NASDAQ: ADI) is a global semiconductor leader that bridges the physical and digital worlds to enable breakthroughs at the Intelligent Edge. ADI combines anal...",
-國立臺灣大學 校務研究辦公室 誠徵資料分析專員(碩士級),國立臺灣大學_校務研究辦公室,台北市大安區,面議,104,20261019,34.3,"技能匹配(4): python, tableau, 數據分析, 統計分析; [技能27+職稱0+關鍵字8, 資歷+0]",https://www.104.com.tw/job/95pa3,"《工作項目》
-1.進行校務資料整合，包括資料清理、串接以及視覺化呈現等。
-2.執行校務研究數據統計分析、圖表製作及相關報告撰寫。
-3.協助校務資料議題分析模組設計。
-4.辦公室運作相關行政庶務。
-5.其他主管交辦事項。
+你會接觸資料整理、ETL、資料品質檢核與 Tableau 報表維護，並逐步參與各商品的銷量預測。初期與團隊夥伴共同討論問題及修正方式，熟悉流程後，逐...","專長: Python, ANSI SQL, Excel"
+全遠端！【社群龍頭美商-Video Creative Data Analyst】歡迎影片剪輯師、多媒體動畫設計師！ KA_840,藝珂人事顧問股份有限公司,台北市信義區,面議,104,20261020,54.7,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; [技能13+職稱30+關鍵字11, 資歷+0]",https://www.104.com.tw/job/8pht2,"
+【Overview】
+We are looking for an experienced video practitioner to act as a senior labeller on AI-generated video
+content. You will watch generated videos and judge them against a structured quality ...",
+Business Analyst (CDBA),新加坡商安富利股份有限公司台灣分公司,台北市南港區,面議,104,20261019,51.3,"技能匹配(2): sql, python; 職稱完全匹配: business analyst; [技能13+職稱30+關鍵字8, 資歷+0]",https://www.104.com.tw/job/96vnk,"1. Support business-facing AI, LLM/GenAI, analytics and automation initiatives, including requirement gathering, use-case analysis, solution evaluation, UAT and implementation.
+2. Apply LLMs and AI to...","專長: Excel, Python, MS SQL, LLM
+技能: AI
+其他: 1. With hands-on experience in AI/GenAI projects.
+2. Proficient in Python, with good data analysis and problem-solving skills.
+3. Practical knowledge of LLMs/..."
+Business Intelligence Manager TW/HK (New Headcount),Zuellig Pharma,台北,面議,LinkedIn,2026-10-20,50.8,"技能匹配(3): forecasting, dashboard, etl; 職稱部分匹配: business analyst; 資深職缺 +8; [技能20+職稱12+關鍵字10, 資歷+8]",https://tw.linkedin.com/jobs/view/business-intelligence-manager-tw-hk-new-headcount-at-zuellig-pharma-4480449708,"Zuellig Pharma is a leading healthcare solutions company in Asia, and our purpose is to make healthcare more accessible to the communities we serve. We provide world-class distribution, digital, and c...",
+【Senior Business Analyst｜外商壽險品牌】依經驗核薪｜BIS_205,藝珂人事顧問股份有限公司,台北市信義區,面議,104,20261023,50.7,"技能匹配(1): business analysis; 職稱完全匹配: business analyst; 資深職缺 +8; [技能7+職稱30+關鍵字6, 資歷+8]",https://www.104.com.tw/job/970bx,"【工作內容】
+1. 協助業務單位進行相關需求訪談與分析，梳理現行（As-Is）及目標（To-Be）作業流程。
+2. 蒐集、分析及定義業務需求，並轉換為可執行之系統規格與解決方案。
+3. 參與保險業數位轉型、流程改善及系統導入專案。
+4. 擔任業務單位與資訊技術團隊間之溝通橋樑，確保需求理解一致並順利落地執行。
+5. 規劃業務架構（Business Architecture）及優化營運流程，提升作業...",
+Sales Support & Data Analyst,勝利工業股份有限公司,新北市汐止區,面議,104,20261022,50.0,"技能匹配(2): 數據分析, 資料分析; 職稱完全匹配: data analyst; [技能13+職稱30+關鍵字7, 資歷+0]",https://www.104.com.tw/job/96zgu,"•	Build cross-reference tables between OE, competitor and industry part numbers from catalogs, PDFs and customer data
+•	Prepare application data in the formats customers require — ACES/PIES, TecDoc an...","專長: Excel, Outlook, Word, PowerPoint, 鼎新
+其他: •	Automotive parts experience helpful; aftermarket cataloging a plus
+•	Fluent with AI tools or willing to become so quickly
+"
+洗錢防制_AML/CFT政策管理暨數據分析人員,中國信託商業銀行股份有限公司,台北市南港區,面議,104,20261016,46.8,"技能匹配(4): sql, python, 數據分析, 跨部門溝通; 職稱部分匹配: 資料科學家; [技能27+職稱12+關鍵字8, 資歷+0]",https://www.104.com.tw/job/96t53,"1. AML/CFT政策、管理辦法及作業規範之制定、檢視與維護
+2. AML/CFT日常管理、跨單位諮詢、需求分析及溝通協調
+3. 運用SQL、Python等程式語言進行資料處理、分析、風險辨識及管理指標建置
+4. 參與AML/CFT相關AI／模型之需求設計、測試驗證、成效分析及優化
+5. 運用資料及量化分析，辦理風險指標、篩檢邏輯、監控規則及門檻之分析與調校，持續優化AML/CFT管理效能
 
-《薪資待遇》
-1.第一年起薪約為41,500元(碩士級)，實際待遇薪資依據本校「計畫專任研究助理支給參考表」標準。若之前有工作經驗可供年資計算，予以敘薪；請一併提出證明，以便審查...","專長: Matlab, Python, Tableau, SPSS, Power BI
-技能: 市場調查資料分析與報告撰寫, 調查樣本統計分析, 統計軟體操作
-其他: 《所需條件》
-1.學歷：教育部認可國內外大學之研究所畢業：統計、資訊、教育、社會科學相關科系或其他具量化分析訓練之相關科系尤佳。
-2.專業能力：
-o熟諳電腦知識及軟體操作(Word、Excel、PowerPoint…等)，並能獨立製..."
-Business Analyst（保险专案）,台灣易思資訊科技股份有限公司,台北市士林區,面議,104,20261013,33.7,"職稱完全匹配: business analyst; [技能0+職稱30+關鍵字4, 資歷+0]",https://www.104.com.tw/job/96p2e,"Skills/Knowledge:		Ability to assist in the preparation of workshops.
-				
-Ability to write business specifications from a defined business requirement.
-			
-Basic ability to analyse business requireme...",
-Business Analyst（保险行业专案）,DXC Technology,台北,面議,LinkedIn,2026-10-13,33.7,"職稱完全匹配: business analyst; [技能0+職稱30+關鍵字4, 資歷+0]",https://tw.linkedin.com/jobs/view/business-analyst%EF%BC%88%E4%BF%9D%E9%99%A9%E8%A1%8C%E4%B8%9A%E4%B8%93%E6%A1%88%EF%BC%89-at-dxc-technology-4478779304,Ability to assist in the preparation of workshops. Ability to write business specifications from a defined business requirement. Basic ability to analyse business requirements and recommend appropriat...,
-"雲端數據架構師 -商業分析 (數數發中心, DDT)_I00014634",國泰金控_國泰金融控股股份有限公司,台北市信義區,面議,104,20260929,31.5,"技能匹配(2): sql, 商業分析; 職稱部分匹配: 資料科學家; [技能13+職稱12+關鍵字6, 資歷+0]",https://www.104.com.tw/job/87w0r,"[主要任務]
-1.設計、開發(IaC)和維護雲端數據架構，包括數據庫、存儲和計算資源等。
-2.與跨部門團隊合作，了解業務需求並提供有效的數據解決方案。
-3.研究和評估新技術，將其應用於數據架構的開發和維護中。
-4.在高度資安要求下, 設計可靠的雲地資料傳輸方案，確認架構符合資安規範並建立數據安全和隱私措施。
-5.數據管理治理架構規劃（Data catalog、Data quality、Data g...","技能: 專案規劃執行╱範圍管理, 專案人力資源管理, 專案管理架構及專案說明, 專案時間╱進度控管, 專案溝通╱整合管理, 專案成本╱品質╱風險管理, 規劃、組織、指導及協調組織內部行政作業, 專案採購管理, 工作任務╱業績項目分配, 督導人員工作績效, 培育人員職涯發展, 危機與議題管理, 預算編製與成本控管, 部門績效目標管理, 協商談判能力
-其他: [條件]
-1.至少5年以上的雲端數據架構設..."
-07_Business Controller（財務商業分析夥伴）,台灣歐陸檢驗科技股份有限公司,新北市五股區,面議,104,20261014,31.3,"技能匹配(3): tableau, 商業分析, 跨部門溝通; [技能20+職稱0+關鍵字11, 資歷+0]",https://www.104.com.tw/job/93mmn,"We are looking for a commercially driven Business Controller to bridge Finance and Operations and support business performance.
+※...","其他: 1.大學(含)以上畢，財經或法律相關科系尤佳
+2.熟悉銀行業務，具銀行相關經驗5年以上
+3.具銀行洗錢防制相關工作經驗
+4.具跨部門溝通、協調與解決問題能力
+5.具國際反洗錢師(CAMS)證照、「防制洗錢及打擊資恐人員職前研習班」結業證書或防制洗錢與打擊資恐專業人員測驗證照尤佳"
+Supply Chain Business Analyst / Project Manager,台積電,Hsinchu City,面議,LinkedIn,2026-10-08,46.0,"職稱完全匹配: business analyst; 資深職缺 +8; [技能0+職稱30+關鍵字8, 資歷+8]",https://tw.linkedin.com/jobs/view/supply-chain-business-analyst-project-manager-at-tsmc-4432072872,"Established in 1987 and headquartered in Taiwan, TSMC pioneered the pure-play foundry business model with an exclusive focus on manufacturing its customers’ products. As of 2024, TSMC serves more than...",
+Fées｜CRM會員經營專員／主管｜數位行銷 × 會員經營 × 數據分析,鉍富企業股份有限公司,台北市內湖區,面議,104,20261021,44.3,"技能匹配(2): 數據分析, 跨部門溝通; 職稱部分匹配: 數據科學家; 資深職缺 +8; [技能13+職稱17+關鍵字6, 資歷+8]",https://www.104.com.tw/job/8r57z,"如果你熟悉 CRM、CDP、LINE 官方帳號，也喜歡從會員數據中找出行銷機會，歡迎加入 F'ees！
 
-本職位為 Business Controller，角色性質偏向 FP&A（財務規劃與分析）與商業夥伴（Business Partnering）...","專長: Excel, PowerPoint, Power BI, Tableau
-技能: 分析管理會計資訊, 國內財稅規章, 編制財務報告, 編製帳務報表, 會計核算和帳務處理, 結帳作業與帳務處理, 財務報表製作, 規劃檢討會計作業流程, 審核年度預算"
-總公司｜US3C【營運通路】專員(內勤)★數據分析．流程優化★,US3C_優勢科技股份有限公司,台北市大安區,面議,104,20261013,30.8,"技能匹配(2): 數據分析, 跨部門溝通; 職稱部分匹配: 資料科學家; [技能13+職稱12+關鍵字5, 資歷+0]",https://www.104.com.tw/job/96iaj,"1.客服與問題處理：負責客服案件、門市及現場問題處理與後續追蹤。
+我們正在尋找對會員經營、數位行銷及數據分析有實務經驗的夥伴，負責品牌會員溝通、分眾經營及數位行銷專案。
 
-2.營運數據管理：彙整交易、服務及異常數據，建立與維護營運資料。
+這個角色不只是執行行銷活動，而是從**「會員資料 → 分眾洞察 → 行銷溝通 → 成效分析 → 持續優化」**參與完整的會員經營流程。
 
-3.問題分析與流程改善：分析常見問題，協助優化客服、回收及相關作業流程。
+【你將負責什麼？】
 
-4.跨部門溝通協調：協調門市、工程及合作廠商，追蹤問題處理進度。
+▸ 會員經營與數位行銷
 
-5.SOP 與營運支援：建立 SOP、營運報表及教育訓練等相關資料。
+運...","專長: Excel, Outlook, PowerPoint, Word
+技能: 數據分析, 網路活動規劃與執行, 廣告企劃案╱文案撰寫
+其他: 【我們希望你具備】
+必備條件
 
-6.其他主管交辦的與職務相關的事項。","專長: Excel, PowerPoint, Word, Xmind
-技能: 專案溝通╱整合管理, 提案與簡報技巧, 實體活動規劃與執行, 數據分析"
-資料分析人員,世雅育樂股份有限公司,台北市中山區,面議,104,20261015,30.2,"技能匹配(2): python, 數據分析; 職稱部分匹配: 資料科學家; [技能13+職稱12+關鍵字4, 資歷+0]",https://www.104.com.tw/job/7nazq,"．遊戲機台顧客消費資料收集及分析
-．遊戲機台數據相關報表製作
-．跨部門協調及主管交辦事項
-．各式問卷製作及分析","專長: Excel
-技能: 問卷設計, 數據分析
-其他: ．對EXCEL公式、報表製作為熟悉者
-．具分析實務經驗者
-．需要程式能力，python尤佳"
-(HQ) Master Data Management Analyst,Morrison Express,台北,面議,LinkedIn,2026-10-08,29.2,"技能匹配(1): business analysis; 職稱部分匹配: data analyst; [技能7+職稱12+關鍵字10, 資歷+0]",https://tw.linkedin.com/jobs/view/hq-master-data-management-analyst-at-morrison-express-4464862129,"We are seeking a proactive and detail-oriented professional to manage corporate master data, enhance data quality, and support system (CargoWise One) related business analysis. This role involves cros...",
-行銷 電商行銷 網拍運營 蝦皮運營 行銷 行銷企劃 行銷助理 數據分析,WATER CROSS_水越企業社,台北市中山區,面議,104,20261016,26.3,"技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; [技能7+職稱17+關鍵字3, 資歷+0]",https://www.104.com.tw/job/96tlu,"公司營運達標有績效獎金
+✔ 具 CRM／CDP／會員經營／數位行銷相關實務經驗
+✔ 熟悉 LINE 官方帳號、EDM、簡訊、APP 等會員溝通工具
+✔  熟悉 Google Analytics（GA）或其他網站／數據分析工具
+✔ 具 Excel ..."
+資訊部-商業分析師 Business Analyst,安聯人壽保險股份有限公司(總公司),台北市信義區,面議,104,20261015,42.7,"技能匹配(1): 商業分析; 職稱完全匹配: business analyst; [技能7+職稱30+關鍵字6, 資歷+0]",https://www.104.com.tw/job/94sj7,"•	收集、整理並記錄業務需求，確保技術團隊與業務單位之間的溝通清晰一致。
+•	分析現有業務流程，識別改善機會並提出優化建議。
+•	負責供應商溝通與管理，協調外部合作夥伴以確保專案或系統如期交付。
+•	協助規劃並執行系統測試，確保解決方案符合業務需求與品質標準。
+•	與開發工程師及專案經理合作，參與系統設計、實作與上線全流程。
+•	建立並維護專案文件，包括需求規格書、流程圖或使用者手冊。",其他: 具3年以上金融保險業、資訊科技業相關工作經驗
+【法人金融】法金商業分析師Business Analyst,玉山銀行_玉山商業銀行股份有限公司,台北市松山區,面議,104,20261021,41.0,"技能匹配(1): 商業分析; 職稱完全匹配: business analyst; [技能7+職稱30+關鍵字4, 資歷+0]",https://www.104.com.tw/job/8ri3m,"1.參與法金業務資訊專案，包括但不限於徵授信業務、數位通路發展、企業網路銀行、AI運用等，協助業務發展並提升顧客體驗。
+2.熟悉業務並洞察潛在需求，進行使用介面、功能、流程及系統規格設計，並能予以文件化、規格化。
+3. 參與相關系統測試、訂定測試計劃及測試案例，確認與驗收系統功能。
+
+
+104僅供職缺參考，若您對此職缺有興趣，請至本行「玉山菁英甄選網站」投遞履歷，如書審通過，後續將邀請您參加面談。...","其他: 1.具備良好溝通能力，可協助在業務單位及開發人員間溝通。
+2.商學、金融、保險、資訊管理、商業分析等相關系所尤佳
+3.具備銀行資訊系統或軟體業、科技業之經驗者佳。
+
+
+"
+品牌通路開發專員｜品牌營運・經銷通路・數據分析,GoFun Sports_高豐運動網有限公司,台北市中山區,面議,104,20261016,40.8,"技能匹配(3): google sheets, 數據分析, 統計分析; 職稱部分匹配: 資料科學家; [技能20+職稱12+關鍵字8, 資歷+0]",https://www.104.com.tw/job/95xrp,"品牌採購暨通路業務專員
+國內外品牌合作｜商品營運｜通路開發
+
+【關於這個職位】
+
+GoFun Sports 高豐運動網專注於滑雪與戶外運動，代理及經銷多個國內外專業品牌，整合裝備、課程、服務與戶外生活體驗
+
+我們正在尋找一位具備商務溝通能力、數字概念與執行力的夥伴，一起經營品牌在台灣市場的發展
+
+這個職位不只是採購商品或開發客戶，而是從品牌聯繫、商品進貨、物流協調、銷售分析，到經銷通路合作，完整參...","專長: Excel, PowerPoint, Word, 中文打字20~50
+技能: 產品介紹及解說銷售, 業務或通路開發, 業績目標分配與績效達成, 產品進銷存統計分析, 國際貿易基本概念, 熟悉進出口業務, 產品營運, 品牌行銷管理"
+零售金融處-零售財務商業分析人員,永豐商業銀行股份有限公司,台北市中山區,面議,104,20261014,40.7,"技能匹配(5): sql, python, 自動化, 數據分析, 商業分析; [技能33+職稱0+關鍵字7, 資歷+0]",https://www.104.com.tw/job/8znz8,"1.融合財務規劃與商業分析，負責建立信用卡行銷通路費用攤分邏輯與損益編製，量化各通路對信用卡損益貢獻
+2.深入分析信用卡相關數據，能將洞察轉化為具體業務建議，支援管理層決策 
+3.規劃並導入AI 工具，建立自動化分析流程，提升作業效率","其他: 1.3 年以上損益分析、數據分析、或了解信用卡業務邏輯或行銷通路費用攤分邏輯者佳 
+2.具 AI 工具實作應用經驗，能落地應用工作場景
+3.具財務模型建構能力 
+4.熟悉 SQL、Python 及 AI 工具，能應用於業務分析場景 
+5.具備跨單位溝通與簡報表達能力"
+(HQ) Business Analyst – Forwarding Operations,Morrison Express,台北,面議,LinkedIn,2026-10-12,40.7,"職稱完全匹配: business analyst; [技能0+職稱30+關鍵字11, 資歷+0]",https://tw.linkedin.com/jobs/view/hq-business-analyst-%E2%80%93-forwarding-operations-at-morrison-express-4428026646,"This position, based at the Global Headquarters, is responsible for designing, optimizing, and implementing the company’s system-based operational processes. The role ensures that all processes are st...",
+SR. Field Operations Analyst,台灣美光(台灣美光記憶體股份有限公司/美商美光亞太科技股份有限公司台灣分公司),台北市南港區,面議,104,20261020,40.5,"技能匹配(1): forecasting; 職稱部分匹配: business analyst; 資深職缺 +8; [技能7+職稱12+關鍵字13, 資歷+8]",https://www.104.com.tw/job/95ayc,"Apply here: https://micron.wd1.myworkdayjobs.com/zh-TW/External/job/Taipei---MTT-office-Taiwan/SR-Field-Operations-Analyst_JR109516-1
+
+This role serves as a critical connection point between Micron’s ...",其他:  
+〔個金〕客群-商業分析師 (AI 數位轉型),台新新光金控_台新國際商業銀行股份有限公司,台北市大安區,面議,104,20261012,39.7,"技能匹配(1): 商業分析; 職稱完全匹配: 商業分析師; [技能7+職稱30+關鍵字3, 資歷+0]",https://www.104.com.tw/job/95z7q,"職務內容
+1. 規劃銀行 AI 應用策略： 協助銀行各業務單位辨識業務痛點，評估將 AI 技術轉化為可行的商業應用場景與數位策略。
+2. 發掘流程優化機會： 深入分析業務流程，找出導入 AI 或數位工具的機會點，提升營運效率與客戶體驗。
+3. 設計並執行AI導入路徑： 參與規劃 AI 工具/應用的導入計畫，包含情境設計、效益分析與執行藍圖，推動專案落地。
+4. 研究前瞻應用案例：蒐集國內外最新 A...","專長: SAS
+其他: 1. 具備 3 年以上金融業數位轉型、流程改善相關經驗（已有AI實務導入經驗者佳）。
+2. 對 AI、生成式 AI 與金融科技具備探索熱情。
+3. 了解金融業務流程、風險管理或內部控制。
+4. 熟悉各式 AI 工具之運用與底層原理，且樂於動手嘗試。
+
+
+"
+商業分析師 BA｜銀行系統需求｜金融專案 (FV),德義資訊股份有限公司,台北市南港區,面議,104,20261022,39.7,"技能匹配(1): 商業分析; 職稱完全匹配: 商業分析師; [技能7+職稱30+關鍵字3, 資歷+0]",https://www.104.com.tw/job/93x3z,"【必備條件】
+．5年以上 BA、系統分析或需求分析相關經驗。
+．具銀行相關系統專案經驗。
+．熟悉需求訪談、流程分析及規格文件撰寫。
+．具備良好的溝通協調能力及邏輯分析能力。
+
+【專業領域需求（具備其中一項即可）】
+．放款業務（Loan）
+．存款業務（Deposit）
+．貿易融資（Trade Finance）
+．代收付業務（Collections & Payments）
+．國內外匯款業務（Remit...",
+(HQ) Master Data Management Analyst,鴻霖航空貨運代理股份有限公司,台北市內湖區,面議,104,20261019,38.2,"技能匹配(2): 數據分析, business analysis; 職稱部分匹配: data analyst; [技能13+職稱12+關鍵字12, 資歷+0]",https://www.104.com.tw/job/91kvz,"We are seeking a proactive and detail-oriented professional to manage corporate master data, enhance data quality, and support system (CargoWise One) related business analysis. This role involves cros...","專長: Excel, PowerPoint, Word
+技能: 數據分析
+其他: Education/Technical Skills
+－Bachelor's degree or above in any discipline
+－Fluent in English and Chinese
+－Proficiency in Microsoft Office, including Word, Excel..."
+Data Systems Analyst,NVIDIA,Hsinchu City,面議,LinkedIn,2026-10-14,37.2,"技能匹配(2): sql, data analytics; 職稱部分匹配: data analyst; [技能13+職稱12+關鍵字11, 資歷+0]",https://tw.linkedin.com/jobs/view/data-systems-analyst-at-nvidia-4451472921,"Are you passionate about bridging the gap between manufacturing operations and data analytics? At NVIDIA, we’re on the lookout for an ambitious and dedicated Data Systems Analyst to join our SCBT Oper...",
+Business Analyst,塔塔諮詢服務公司,台北,面議,LinkedIn,2026-10-21,33.0,"職稱完全匹配: business analyst; [技能0+職稱30+關鍵字3, 資歷+0]",https://tw.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4480746514,"At least 3 years of experience in banking, domain know-how in one or more different areas, such as deposit, loan, etc.; experience in administrative process planning is a plus, and the primary goal is...",
+搜尋成長與數據分析經理 (SEO & AI Search Growth),SNQ推廣中心_廣潞國際品質標準股份有限公司,台北市南港區,面議,104,20261023,32.5,"技能匹配(1): 數據分析; 職稱部分匹配: 資料科學家; 資深職缺 +8; [技能7+職稱12+關鍵字5, 資歷+8]",https://www.104.com.tw/job/96yjr,"SNQ數位平台數據經理（SEO & AI Search Growth）
+
+讓台灣醫療品質的內容，被全世界搜尋得到。
+SNQ國家品質標章由台灣醫界共同建立，歷經28年淬鍊，是亞太地區具高度公信力的醫療品質認證之一。
+
+SNQ數位平台已於2026年9月正式上線，目前正擴大營運規模。我們希望透過數據分析、SEO及AI搜尋優化，讓珍貴的醫療品質內容被真正需要的使用者找到，持續提升SNQ在自然搜尋及生成式A...","專長: Google關鍵字廣告, SEO, Google Analytics, ChatGPT, Gemini, Claude
+技能: 網站企劃能力, 內容行銷, 廣告投放, 網站流量成效追蹤, 廣告效益評估, 行銷宣傳預算編製與控管, 口碑操作, AI"
+零售金融處-零售企劃部-零售商業分析人員,永豐商業銀行股份有限公司,台北市中山區,面議,104,20261014,32.0,"技能匹配(4): sql, python, 數據分析, 商業分析; [技能27+職稱0+關鍵字5, 資歷+0]",https://www.104.com.tw/job/8ppgm,"1.分析零售存款與放款業務需求，產出數據洞察並支持經營決策 
+2.負責法定報表申報、資料維護等相關作業 
+3.開發與管理即時決策平台專案（含零售產品策略規則與行銷應用） 
+4.導入新興技術與數據工具，持續優化業務流程與分析效率","其他: 1.熟悉Office工具（Excel、PowerPoint） 
+2.具備SQL與Python程式能力（或SAS、R等相關經驗） 
+3.曾使用過Claude Code等GAI工具尤佳
+4.良好邏輯思考與數據分析能力"
+元大銀行-存匯業務部-商業數據分析專員,元大金融控股股份有限公司,台北市大安區,面議,104,20261005,30.8,"技能匹配(2): sql, 數據分析; 職稱部分匹配: 資料科學家; [技能13+職稱12+關鍵字5, 資歷+0]",https://www.104.com.tw/job/95izh,"1.負責數據蒐集、整理及分析，提供業務發展及經營決策參考。
+2.製作各項管理報表及經營分析資料，追蹤重要業務指標。
+3.協助客戶、產品及行銷活動成效分析，提出改善建議。
+4.與業務及相關單位合作，協助數據需求規劃與分析應用。
+5.辦理其他數據分析及主管交辦事項。","專長: MySQL, Excel, PowerPoint
+其他: 1.學歷要求：大學以上，科系不拘。
+2.工作經歷：不拘。
+3.證照需求：不拘。
+4.個人特質：
+①對數據分析及商業應用具高度興趣。
+②細心負責且樂於學習。
+5.其他條件：
+①熟悉 Excel、PowerPoint 等 Office 軟體操作。
+②具基本 SQL 查詢能力，可獨立完成資料查詢、資料整理及基礎分析。
+③具邏輯思考、問題解..."
+Corporate Venture Capital - Operations Analyst,(遠東集團)鼎鼎企業管理顧問股份有限公司,台北市大安區,面議,104,20261020,30.5,"技能匹配(1): forecasting; 職稱部分匹配: business analyst; [技能7+職稱12+關鍵字11, 資歷+0]",https://www.104.com.tw/job/96x7u,"Who We Are:
+At Drive Catalyst, we are a dynamic team driven by innovation and a commitment to making a positive impact in the world. As the venture capital arm of the Far Eastern Group, one of Taiwan’...","其他: Your Skills, Abilities, and Experience:
+•Master’s or Bachelor’s Degree in Accounting, Finance, or related fields.
+•Minimum two years of experience in a professional accounting firm environment, wi..."
+電商行銷／數據分析專員 (eCommerce Marketing),LG_台灣樂金電器股份有限公司,台北市內湖區,面議,104,20261021,30.5,"技能匹配(2): 自動化, 數據分析; 職稱部分匹配: 資料科學家; [技能13+職稱12+關鍵字5, 資歷+0]",https://www.104.com.tw/job/93n7y,"▪ 與業務、產品經理及行銷團隊合作，規劃並執行媒體投資策略，以提升電子商務平台上的轉換率及銷售業績。
+▪ 執行及管理線上媒體投放策略與素材，達成銷售目標。
+▪ 分析銷售及行銷數據，產出改善建議與執行報告，提供產品、業務及相關部門作為決策與規劃參考。
+▪ 積極尋求與電商平台的合作機會，透過精準行銷活動提升產品曝光度並帶動銷售成長。
+▪ 建立並更新電商平台銷售素材，包含橫幅廣告、商品頁和影音內容等。
+...","專長: Excel, PowerPoint, Word, Outlook
+技能: 品牌行銷管理, 網站企劃能力, 網路活動規劃與執行, 電商營運, 廣告投放, 網站流量成效追蹤
+其他: 1.熟悉進階 Excel 功能（如 XLOOKUP、SUMIFS、樞紐分析表等），具備資料清理、數據分析及報表／儀表板製作能力。
+2.具備媒體投放實務經驗，熟悉電子商務平台行銷活動協調及廣告素材管理。
+3.熟悉 A..."
+【南港】美商半導體 Business Intelligence Analyst - 22YY,汎亞人力資源管理顧問有限公司,台北市南港區,面議,104,20261016,29.0,"職稱部分匹配: business analyst; [技能0+職稱25+關鍵字4, 資歷+0]",https://www.104.com.tw/job/96tla,Analyzes complex business problems and issues using data from internal and external sources to provide insight to decision-makers. Identifies and interprets trends and patterns in datasets to locate i...,"專長: Excel, PowerPoint, Outlook, Word"
+行銷 電商行銷 網拍運營 蝦皮運營 行銷 行銷企劃 行銷助理 數據分析,WATER CROSS_水越企業社,台北市中山區,面議,104,20261021,26.3,"技能匹配(1): 數據分析; 職稱部分匹配: 數據科學家; [技能7+職稱17+關鍵字3, 資歷+0]",https://www.104.com.tw/job/96y0i,"公司營運達標有績效獎金
 另有全勤獎金
 【工作內容】
 
@@ -444,83 +290,59 @@ Business Analyst（保险行业专案）,DXC Technology,台北,面議,LinkedIn,2
 
 員工若滿三個月考核通過會依據需求全額補助進修   
 希望行銷這個職位員工未來可以具備以下能力:...",
-(竹北)營運分析管理師,華邦電子,Hsinchu City,面議,LinkedIn,2026-07-15,26.3,"技能匹配(3): 自動化, 數據分析, 商業分析; [技能20+職稱0+關鍵字6, 資歷+0]",https://tw.linkedin.com/jobs/view/%E7%AB%B9%E5%8C%97-%E7%87%9F%E9%81%8B%E5%88%86%E6%9E%90%E7%AE%A1%E7%90%86%E5%B8%AB-at-winbond-4439989706,【工作內容】 作為華邦的(竹北)營運分析管理師，你將於任務型的專案中，進行帳務、資產與稅務的規劃及執行。工作內容包含： 財務與營運數據分析： 深度解讀內部營運及外部（競業）財報，進行利潤拆解，透過數據分析找出營運優化關鍵。 2. 管理報表編制與自動化： 負責營運管理報表編制，並運用 Power BI 進行報表開發與數據視覺化。 3. 跨界數據整合與預算優化： 結合外部經濟指標、產業趨勢與內部營運數...,
-營運軟體工程師暨數據分析專員,宜安家具股份有限公司,新北市林口區,面議,104,20261014,25.5,"技能匹配(1): 數據分析; 職稱部分匹配: 資料科學家; [技能7+職稱12+關鍵字6, 資歷+0]",https://www.104.com.tw/job/95pnn,"是否想為一項商品、一個品牌、一家企業、甚至是一整個產業，打造最佳化效益的活動與宣傳整合企畫，從專案包裝到量身訂做、甚至是廣告文案創意發想，有想法+執行力+持續力，邀請你加入倍得先生，展現無比的創意與行銷力！若你具有～
+[數位企劃]商業分析人員(BA)(總公司),三井住友海上集團_明台產物保險股份有限公司_數位科技處,台北市松山區,面議,104,20261020,26.0,"技能匹配(3): 自動化, 數據分析, 商業分析; [技能20+職稱0+關鍵字6, 資歷+0]",https://www.104.com.tw/job/96wgp,"1.需求訪談與流程分析：與業務單位進行需求訪談，釐清實際問題與目標；識別流程斷點、人工作業與自動化機會
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.規格文件撰寫與變更管理：撰寫需求與功能規格文件，定義商業規則、例外情境與驗收標準；配合需求變更更新規格並評估影響範圍
 
-【工作內容】
->負責公司官方網站及電商平台日常營運、後台...","專長: Excel, PowerPoint, Word
-技能: 專案溝通╱整合管理, 行銷製作物規劃與執行, 異業合作規劃與執行, 提案與簡報技巧, 行銷策略擬定, 廣告企劃案╱文案撰寫
-其他: 證照不限
-"
-電商美編（含蝦皮上架＋廣告投放＋數據分析）,世泓股份有限公司,台北市士林區,面議,104,20261007,24.2,"技能匹配(1): 數據分析; 職稱部分匹配: 資料科學家; [技能7+職稱12+關鍵字5, 資歷+0]",https://www.104.com.tw/job/96jng,"工作內容
+3.跨單位溝通與設計把關：討論規格可行性與系統範疇，確保需求被正確理解與實作，並檢核系統設計產出與需求規格一致
 
-1.商品素材製作（Banner、商品頁、促銷視覺）
+4.數據分析與提案支援：搜集與分析內外部情報數據，支援提...","其他: 必備條件
+•	具備 BA或系統分析相關經驗。
 
-2.蝦皮商品上架、規格設定、內容排版
+加分條件（優先順序）
+1.	熟悉保險系統，或CRM、官網、通路平台之需求分析經驗
+2.	具AI或低代碼平台相關經驗
+3.　具產險、壽險或銀行數位化專案經驗
 
-3.蝦皮廣告投放（關鍵字廣告、加購、加價購設定）
-
-4.追蹤廣告成效並提出優化建議
-
-5.協助製作週／月銷售分析報告（GMV、CTR、CVR、ROI）
-
-6.與電商營運、行銷合作，完成檔期視覺與活動設定
-
-7.協助公司訂單出貨
-
-8.協助跨部門美編需求設計
-
-必要條件
-
-1.熟悉 Photos...","專長: Adobe Photoshop, Illustrator, After Effects
-技能: 多媒體影像處理, 多媒體企劃設計, 視覺設計相關知識, 電腦排版設計
-其他: 具備冷凍肉品電商平台上架相關等經驗者為佳
-"
-★品牌電商x數位行銷企劃【亞洲護膚品牌】自有官網運營/社群導流/成效數據分析_AMR227,藝珂人事顧問股份有限公司,台北市中山區,面議,104,20261019,23.2,"技能匹配(1): 數據分析; 職稱部分匹配: 資料科學家; [技能7+職稱12+關鍵字4, 資歷+0]",https://www.104.com.tw/job/96ujp,"【公司介紹】
-✔ 以美妝保養為核心，擅長將流行趨勢與產品特色轉化為吸引人的行銷內容，透過社群互動、創意企劃及多元合作，讓品牌持續創造話題。
-✔ 重視數位行銷與電商發展，結合社群經營、官網購物及會員互動，持續創造品牌與消費者的連結，將社群關注轉化為實際流量與銷售成長。
-
-【職務亮點】
-✔ 不只是經營社群，更要把流量帶進官網：透過社群內容與行銷活動，實際推動網站流量及銷售轉換。
-✔ 結合官網電商與 L...","技能: 社群媒體經營管理, 內容行銷, 數位媒體行銷"
-#210800459 CIB Cash Operations Analyst,美商摩根大通銀行股份有限公司台北分公司,台北市信義區,面議,104,20261019,22.5,"職稱部分匹配: business analyst; [技能0+職稱12+關鍵字10, 資歷+0]",https://www.104.com.tw/job/96ufk,"Run high-volume transactions with strong controls, reconciliation, and continuous process improvement.
-
-Help keep critical financial transactions moving smoothly, accurately, and on time. You will joi...","專長: Excel, Word
-其他: Required qualifications, capabilities, and skills
-•	College degree
-•	1 year of banking experience
-•	Initial Foreign Exchange Personnel License (or equivalent required license for t..."
-"Manager, Full-Stack Insights (AI & Analytics)",Johnson & Johnson Innovative Medicine,台北,面議,LinkedIn,2026-10-16,20.3,"技能匹配(1): data analytics; 資深職缺 +8; [技能7+職稱0+關鍵字6, 資歷+8]",https://tw.linkedin.com/jobs/view/manager-full-stack-insights-ai-analytics-at-johnson-johnson-innovative-medicine-4480350223,"At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are...",
-營運分析管理人員,裕隆集團移動服務事業_格上汽車租賃股份有限公司,新北市新店區,面議,104,20261016,19.7,"技能匹配(2): 自動化, 數據分析; [技能13+職稱0+關鍵字6, 資歷+0]",https://www.104.com.tw/job/94ixx,"我們正在尋找「營運決策幕僚」透過大數據與估值工具橫向串聯內外部數據，協助管理層做出資產獲利與處置決策。
-
-【主要工作內容】
-1.「數據分析 與 決策建議」：透過洞察數據，分析新車市場與中古車輛行情，導入 AI 工具建立並優化客觀車輛估值模型，提供決策建議。
-2.「流程優化 與 制度建立」：管理營運流程，並運用AI、自動化等工具優化既有流程，並參與新專案制度建立。
-3.「專案推動 與 跨部協作」：推...","其他: 1. 熟悉各大廠牌汽車產品或對汽車有興趣佳。
-2. 具營運企劃相關經驗2年以上佳。
-3. 若過去曾做過的「分析」類簡報，可附上相關資料藉此讓我們了解您的邏輯分析能力，主要想了解： 
-- 闡述要解決的問題 
-- 規劃分析方法(分析邏輯、分析工具)
-- 預估 / 實際執行分析時，遇到的主要挑戰
-- 結論或建議"
-數位發展人員(行銷相關系統專案管理PM/商業分析BA),玉山綜合證券股份有限公司,台北市松山區,面議,104,20261013,12.7,"技能匹配(1): 商業分析; [技能7+職稱0+關鍵字6, 資歷+0]",https://www.104.com.tw/job/8zklv,"玉山證券積極建構e化數位服務，以及創新多元的交易平台，除透過虛實通路的整合，提供顧客多樣化的服務與友善渠道，更運用數據與AI行銷客製化的產品與精進營運效率，打造以人為本的數位金融領導品牌，而近兩年也榮獲《今周刊》、《財訊》、《工商時報》、《數位時代》、《哈佛商業評論》等重要媒體機構頒發多項數位金融大獎的肯定。
-
-職位概述：
-我們正在尋找對運用科技改善行銷成效有熱情的夥伴，具備系統專案管理經驗，邏輯...","專長: Google Analytics, Google Tag Manager
-其他: 1.	具備資訊專案管理經驗，有軟體開發、規劃、導入經驗尤佳。
-2.	具備證券業相關經驗尤佳。
-"
-台北南港【美商半導體大廠】商業智慧分析師/保障14個月- 701VC,萬寶華企業管理顧問股份有限公司,台北市南港區,面議,104,20261015,11.3,"技能匹配(1): 數據分析; [技能7+職稱0+關鍵字5, 資歷+0]",https://www.104.com.tw/job/96rt6,"工作內容
-
-1.分析內外部數據，提供業務洞察與決策建議。
-2.分析數據趨勢，找出影響業務的關鍵因素。
-3.根據數據與市場資訊，制定預測及策略規劃。
-4.依據業務需求規劃報表與數據分析。
-5.協調跨部門合作，解決業務問題。
-6.使用系統工具產出分析報表與數據。
+人格特質
+•	邏輯清楚、善於溝通與協調。
+•	具備責任感、能獨立作業，也能團隊合作。
+•	對流程優化與系統改善有熱忱。"
+調查及資料分析員（中小學師資資料庫建置、維護及應用計畫）,國立臺灣師範大學_教育政策與行政研究所,台北市大安區,面議,104,20260917,25.7,"技能匹配(3): sql, 數據分析, 統計分析; [技能20+職稱0+關鍵字6, 資歷+0]",https://www.104.com.tw/job/7n0j0,"一、資料庫資料處理與分析：師資培育資料清理、統計分析、報告撰寫、簡報製作與說明。
+二、成果推廣：製作師資培育統計指標、數據資料更新、協助會議、工作坊及說明會等活動辦理等。
+三、資料庫建置與管理：資料蒐集、串接與檢核等。
+四、專案管理：包括個資保護、文書處理、業務聯繫、進度追蹤等。
+五、其他業務交辦事項。","專長: Excel, PowerPoint, Word, SPSS, MS SQL
+技能: 文書處理╱排版能力, 行政事務處理, 報表彙整與管理, 文件檔案資料處理、轉換及整合工作, 市場調查資料分析與報告撰寫, 統計軟體操作, 調查樣本統計分析, 撰寫研究報告與論文, 資料庫軟體應用
+其他: ◎能力條件：
+一、精熟社會科學統計相關套裝軟體（如SPSS或STATA），熟悉中高級統計方法。
+二、能獨..."
+Operations Analyst,香港商易安聯股份有限公司台灣分公司,新北市板橋區,面議,104,20261022,23.5,"職稱部分匹配: business analyst; [技能0+職稱12+關鍵字11, 資歷+0]",https://www.104.com.tw/job/96zlu,"The Opportunity
+We are looking for an Operations Analyst to join our operations team. You will support the team in ensuring our customers are able to make payments globally with optimal efficiency, an...","專長: Excel, Word
+技能: 文件檔案資料處理、轉換及整合工作, 初階外匯業務處理"
+品牌行銷企劃 | 內容企劃、廣告投放、數據分析 | AI電商團隊,旺德電通股份有限公司,新北市五股區,面議,104,20261021,22.2,"技能匹配(1): 數據分析; 職稱部分匹配: 資料科學家; [技能7+職稱12+關鍵字3, 資歷+0]",https://www.104.com.tw/job/96099,"負責品牌行銷企劃與廣告策略制定，管理社群、內容、廣告全渠道。
+深度參與從創意發想、內容製作、廣告投放到數據分析的完整流程。
+透過數據洞察優化廣告投放與轉換率，提升品牌影響力.。","專長: Google Analytics, ChatGPT
+技能: 廣告創意發想與提案, 網路活動規劃與執行, 行銷宣傳預算編製與控管
+其他: 行銷策略企劃 & 社群內容製作。
+廣告投放管理（Facebook、Instagram、Google Ads等）。
+行銷數據分析 & Campaign 效果優化。
+跨團隊協作 & 專案執行。"
+(Marketing) 全球前三大藥廠_Marketing Assistant _行銷助理_行銷分析_部門助理_EL,康彼斯顧問股份有限公司,台北市中山區,面議,104,20261022,10.0,"技能匹配(1): 數據分析; [技能7+職稱0+關鍵字3, 資歷+0]",https://www.104.com.tw/job/8li76,"1. 醫院合約管理(談判合約、簽訂合約、更新合約、管理合約、合約內容符合法規)
+2. 負責部門的付款事項(費用彙整、記錄、確認付款進度)
+3. 分析專案項目的數據(專案的付款項目、成本的交叉分析、預估分析)
+4. 報表製作、銷售預算支出分析
+5. Veeva系統操作
+6. 部門行政庶務支援
 
 
-＊本職缺為派遣工作，一年一簽
-＊保14個月，未滿1年依比例計算",其他: 此為派遣職，如能接受再請投遞，謝謝！
+Requirement: 
+1. 熟練 Microsoft Office (Excel 功能: 樞紐分析...","專長: Excel
+技能: 數據分析"
+商業分析人員(BA),台北富邦商業銀行股份有限公司,台北市大安區,面議,104,20261020,9.7,"技能匹配(1): 商業分析; [技能7+職稱0+關鍵字3, 資歷+0]",https://www.104.com.tw/job/8aou8,"重要! 應徵本職缺請至富邦金控人才招募官網投遞    https://careers.fubon.com/jobs/search/BUTTW20260223
+
+重要職責/工作內容：
+1.進行需求訪談，分析需求合理性與必要性並洞察潛在需求，梳理業務流程與編製需求規格書。
+2.與 IT 說明業務流程規劃與討論可行解決方案，完成系統功能導入或精進規劃。
+3.執行資訊系統需求與專案，負責流程梳理、需求...","其他: 1. 具銀行資訊系統或軟體之BA、SA、PM2年以上經驗者佳，具信用經驗者尤佳。
+2.具備PMP證照或熟悉敏捷方法(Scrum)者佳。"
